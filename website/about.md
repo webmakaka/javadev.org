@@ -13,7 +13,7 @@ If you want to share your experience with us, next technologies would be helpful
 <ul>
     <li>github</li>
     <li>markdown</li>
-    <li>linux or mac (For windows, i think you can use VirtualBox or VmWare to install linux as virtual mashine)</li>
+    <li>linux or mac (for windows users, i think you can use VirtualBox or VmWare to install linux as virtual mashine)</li>
     <li>jekyll</li>
     <li>docker</li>
 </ul>
@@ -37,4 +37,4 @@ docker: [PluralSight] Docker Deep Dive [ENG, 2015]
 5\. Commit changes and send pull request to us.  
 
 
-More detail i'll write later. 
+More detail i'll write later.
