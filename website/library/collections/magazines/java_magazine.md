@@ -4,9 +4,6 @@ title: Java Magazine
 permalink: /library/magazines/java_magazine/
 ---
 
-<h2>Java Magazine</h2>
-
-
 <br/>
 <br/>
 <strong>2015</strong>
