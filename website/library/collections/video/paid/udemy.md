@@ -36,7 +36,7 @@ permalink: /library/udemy/java/
 
 <ul>
 
-<li style="color:green"><strong>Servlets and JSPs: Creating Web Applications With Java</strong>(rutracker)</li>
+<li style="color:green"><strong>Servlets and JSPs: Creating Web Applications With Java</strong></li>
 <li style="color:green"><strong>The Java Spring Tutorial: Learn Java's Popular Web Framework (27+ hours)</strong></li>
 </ul>
 
