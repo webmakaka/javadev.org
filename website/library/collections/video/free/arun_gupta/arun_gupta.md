@@ -6,9 +6,6 @@ permalink: /library/arun_gupta/
 
 
 <h2>Java EE 6 Development with NetBeans and GlassFish</h2>
-<br/><br/>
-<br/><br/>
-
 
 <div align="center">
 
@@ -19,13 +16,9 @@ permalink: /library/arun_gupta/
 <br/><br/>
 <hr/>
 <br/><br/>
-<br/><br/>
-<br/><br/>
+
 
 <h2> Java EE 6 Development using GlassFish and Eclipse</h2>
-<br/><br/>
-<br/><br/>
-
 
 <div align="center">
 
