@@ -9,6 +9,9 @@ permalink: /library/infiniteskills/java/
 
 
 <ul>
+
+<li style="color:green"><strong>Hibernate and Java Persistence API (JPA) Fundamentals [ENG, 2015]</strong></li>
+
 	<li style="color:green"><strong>Java 8 - Beyond the Basics</strong></li>
 </ul>
 
