@@ -20,6 +20,7 @@ If you want to share your experience with us, next technologies would be helpful
 
 **Some videos about this technologies:**
 
+github: [Codeschool]  Mastering GitHub
 jekyll: [TutsPlus] Jekyll Essentials [ENG, 2014]  
 markdown: [PluralSight] Writing Content With Markdown [ENG, 2014]  
 docker: [PluralSight] Docker Deep Dive [ENG, 2015]
