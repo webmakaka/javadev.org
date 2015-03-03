@@ -54,6 +54,6 @@ permalink: /library/infiniteskills/java/
 <strong>2011</strong>
 
 <ul>
-	<li style="color:green"><strong>Learning To Program In Java </strong></li>
+	<li style="color:green"><strong>Beginners Java Programming Training Video: Learning To Program In Java </strong></li>
 
 </ul>

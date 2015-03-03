@@ -14,3 +14,4 @@ Let try to create list of all free courses for java developers from companies an
 <a href="/library/derek_banas/java/">Derek Banas</a><br/>
 <a href="/library/yakov_fain/java/">Yakov Fain</a><br/>
 <a href="/library/jiri_pinkas/java/">Jiri Pinkas</a><br/>
+<a href="/library/cave-of-programming/java/">Cave of Programming</a><br/>

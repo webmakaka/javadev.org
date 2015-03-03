@@ -1,12 +1,15 @@
 ---
 layout: page
-title: Hello
+title: Welcome
 permalink: /
 ---
 
 
-**Latest 5 added courses:**
+**Latest 7 added courses:**
 
+
+* [CBTNuggets] Google App Engine Qualified Developer [ENG, 2015]
+* [Udemy] Master Object Oriented Design in Java - Projects + Solutions [2014, ENG]
 * [InfiniteSkills] Hibernate and Java Persistence API (JPA) Fundamentals [ENG, 2015]
 * [lynda.com] Up and Running with Java [ENG, 2015]  
 * [Pluralsight] Introduction to Integration With Apache Camel [ENG, 2015]  
