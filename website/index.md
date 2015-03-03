@@ -5,9 +5,9 @@ permalink: /
 ---
 
 
-**Latest 7 added courses:**
+**Latest 8 added courses:**
 
-
+* [Udemy] Apache Tomcat 8 [ENG, 2015]
 * [CBTNuggets] Google App Engine Qualified Developer [ENG, 2015]
 * [Udemy] Master Object Oriented Design in Java - Projects + Solutions [2014, ENG]
 * [InfiniteSkills] Hibernate and Java Persistence API (JPA) Fundamentals [ENG, 2015]
