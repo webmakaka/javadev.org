@@ -9,7 +9,7 @@ permalink: /
 
 * [Udemy] Apache Tomcat 8 [ENG, 2015]
 * [CBTNuggets] Google App Engine Qualified Developer [ENG, 2015]
-* [Udemy] Master Object Oriented Design in Java - Projects + Solutions [2014, ENG]
+* [Udemy] Master Object Oriented Design in Java - Projects + Solutions [ENG, 2014]
 * [InfiniteSkills] Hibernate and Java Persistence API (JPA) Fundamentals [ENG, 2015]
 * [lynda.com] Up and Running with Java [ENG, 2015]  
 * [Pluralsight] Introduction to Integration With Apache Camel [ENG, 2015]  
