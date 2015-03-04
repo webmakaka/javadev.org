@@ -11,7 +11,7 @@ permalink: /
 * [CBTNuggets] Google App Engine Qualified Developer [ENG, 2015]
 * [Udemy] Master Object Oriented Design in Java - Projects + Solutions [ENG, 2014]
 * [InfiniteSkills] Hibernate and Java Persistence API (JPA) Fundamentals [ENG, 2015]
-* [lynda.com] Up and Running with Java [ENG, 2015]  
+* [Lynda] Up and Running with Java [ENG, 2015]  
 * [Pluralsight] Introduction to Integration With Apache Camel [ENG, 2015]  
 * [Pluralsight] Scala for Java Developers: Syntax Comparison [ENG, 3h 18m, 26 Feb 2015]  
 * [Udemy] Java Servlets - Java Servlets from Practicals and Projects [ENG, 2015]  
