@@ -52,7 +52,6 @@ permalink: /library/udemy/java/
 	<li>Programming Java for Beginners - The Ultimate Java Tutorial </li>
 	<li>Java - Java Programming for Beginners! </li>
 	<li>Servlets and JSPs Tutorial: Learn Web Applications With Java </li>
-	<li>Master Object Oriented Design in Java - Exercises+ Solutions</li>
 	<li>Java Spring Part: 1</li>
 	<li>Introduction to Data Structures & Algorithms in Java </li>
 	<li>Java Fundamentals with Java 8 by Examples </li>
