@@ -56,7 +56,7 @@ permalink: /library/udemy/java/
 <li style="color:green"><strong>[udemy][android] How To Create Android Apps & Make Passive Income!</strong></li>
 <li style="color:green"><strong>[udemy][android] Professional Android app Development Training</strong></li>
 <li style="color:green"><strong>[Udemy][android] Android App Development Fundamentals I, Second Edition (UPADTED) [2015, ENG] </strong></li>
-<li style="color:green"><strong>[Udemy][android]Become an Android Developer from Scratch [2015, ENG] </strong></li>
+<li style="color:green"><strong>[Udemy][android] Become an Android Developer from Scratch [2015, ENG] </strong></li>
 <li style="color:green"><strong>[Udemy][android] Building a Chat App for Android from Scratch [2015, ENG] </strong></li>
 <li style="color:green"><strong>[Udemy][android] Projects in Android [2014, ENG]</strong></li>
 <li style="color:green"><strong>[Udemy][android] The Complete Android Lollipop Development Course-Build Apps! - (UPADTED) [2015, ENG]</strong></li>
