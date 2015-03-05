@@ -9,7 +9,7 @@ permalink: /library/livelessons/java/
 
 <ul>
 	<li>JavaFX Programming LiveLessons, Part I (Video Training)</li>
-	<li>Java Concurrency LiveLessons (Video Training), Downloadable Version</li>
+	<li>Java Concurrency LiveLessons (Video Training), Downloadable Version. [ENG, 4+ Hours, Mar 6 2015]<a href="http://www.informit.com/store/java-concurrency-livelessons-video-training-downloadable-9780134070896"> Course Description</a></li>
 	<li>Oracle Certified Associate, Java SE 7 Programmer Exam (1Z0-803) Complete Video Course</li>
 </ul>
 
