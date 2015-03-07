@@ -1,38 +1,8 @@
-<!DOCTYPE html>
-<html>
-
-
-<?php $title="JDK8, Maven, Gradle, Glassfish installation on Centos 6.X x86_x64"; ?>
-
-<?php
-ob_start();
-include("../../../../../../../../_header.php");
-$buffer=ob_get_contents();
-ob_end_clean();
-$buffer=str_replace("%TITLE%",$title,$buffer);
-echo $buffer;
-?>
-
-
-
-<body>
-
-<br/><br/>
-
-
-<?php include_once "../../../../../../../../_navBar.php"?>
-
-
-<hr>
-<br/><br/>
-
-<div class="link">
-
-
-
-<h2>JDK8, Maven, Gradle, Glassfish installation on Centos 6.X x86_x64</h2>
-
-
+---
+layout: page
+title: JDK8, Maven, Gradle, Glassfish installation on Centos 6.X x86_x64
+permalink: /java_basics/installation/jdk/8/linux/centos/6/x86_x64/
+---
 
 
 <h3>Let install some packages before</h3>
@@ -71,7 +41,7 @@ jdk-8u20-linux-x64.tar.gz
 # mkdir -p /opt/jdk/1.8.0.20
 
 
-# mv jdk1.8.0_20//* /opt/jdk/1.8.0.20
+# mv jdk1.8.0_20/* /opt/jdk/1.8.0.20
 
 
 # ln -s /opt/jdk/1.8.0.20 /opt/jdk/current
@@ -245,14 +215,3 @@ Default password is: adminadmin
 
 
 </pre>
-
-
-
-
-</div>
-
-<?php include_once "../../../../../../../../_footer.php"?>
-
-</body>
-
-</html>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Java Free eBooks Collection"
+title:  "Java Free eBooks collection"
 date:   2015-03-07 09:38:36
 categories: jekyll update
 ---
