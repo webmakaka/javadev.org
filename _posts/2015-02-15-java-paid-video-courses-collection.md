@@ -17,3 +17,8 @@ Let try to create list of all paid courses for java developers from companies wh
 <a href="/library/oreilly/java/">O'Reilly</a><br/>
 <a href="/library/udacity/java/">Udacity</a><br/>
 <a href="/library/cbtnuggets/java/">CBTnuggets</a><br/>
+
+
+___
+
+Clean Coders - Clean Code Video Series - Episode 1-30 Completed [Full HD] (2015)
