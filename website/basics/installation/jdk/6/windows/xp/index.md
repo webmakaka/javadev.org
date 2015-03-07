@@ -8,7 +8,6 @@ permalink: /java_basics/installation/jdk/6/windows/xp/
 <br/>
 <br/>
 
-
 ![JDK Installation On Windows](https://raw.githubusercontent.com/javadev-org/javadev-org.github.io/master/website/basics/installation/jdk/6/windows/xp/javadev_jdk_installation_01.png)
 ![JDK Installation On Windows](https://raw.githubusercontent.com/javadev-org/javadev-org.github.io/master/website/basics/installation/jdk/6/windows/xp/javadev_jdk_installation_02.png)
 ![JDK Installation On Windows](https://raw.githubusercontent.com/javadev-org/javadev-org.github.io/master/website/basics/installation/jdk/6/windows/xp/javadev_jdk_installation_03.png)
