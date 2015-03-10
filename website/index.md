@@ -6,7 +6,7 @@ permalink: /
 
 **Please share interesting code samples on java with us:**
 
-If you find interesting project on github, bitbucker, book, video course etc. on java, please send a link to us.  
+If you find interesting project on github, bitbucket, book, video course etc. on java, please send a link to us.  
 For example, this repository is very <a href="https://github.com/iluwatar/java-design-patterns">helpful</a> i think.
 
 <br/><br/>
