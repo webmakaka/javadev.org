@@ -85,6 +85,6 @@ All videos H.264, 1,280 x 720
 <li>Uncovering Hidden Power Tools in the JDK
 <li>Why There's No Future in Java Futures
 </ul>
-
-
+  
+  
 <a href="magnet:?xt=urn:btih:6f84a6028c34b01a73ca629e6a1f670f9a0e4766&dn=JavaOne%20-%20Development%20Tools%20and%20Techniques%20%282012%29&tr=http%3A%2F%2Fbt2.rutracker.org%2Fann%3Fuk%3D6WROVr5o1y&tr=http%3A%2F%2Fretracker.local%2Fannounce">magnetlink</a>
