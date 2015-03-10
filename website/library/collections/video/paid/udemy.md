@@ -10,6 +10,7 @@ permalink: /library/udemy/java/
 <strong>Java</strong>
 
 <ul>
+<li style="color:green"><strong>[Udemy] Java - Java Programming for Beginners! [ENG, ????] <a href="https://www.udemy.com/java-programming-java-java/">link</a></strong></li>
 <li style="color:green"><strong>[Udemy] Java for Beginners [ENG, ????] <a href="https://www.udemy.com/java-for-beginners6/">link</a></strong></li>
 <li style="color:green"><strong>[Udemy] Apache Tomcat 8 [ENG, 2015] <a href="https://www.udemy.com/apache-tomcat-8/">link</a></strong></li>
 
@@ -36,7 +37,6 @@ permalink: /library/udemy/java/
 <ul>
 	<li>Projects in Java</li>
 	<li>Programming Java for Beginners - The Ultimate Java Tutorial </li>
-	<li>Java - Java Programming for Beginners! </li>
 	<li>Servlets and JSPs Tutorial: Learn Web Applications With Java </li>
 	<li>Java Spring Part: 1</li>
 	<li>Introduction to Data Structures & Algorithms in Java </li>
