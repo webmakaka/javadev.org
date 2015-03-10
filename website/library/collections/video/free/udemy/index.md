@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Udemy Free Java Courses
-permalink: /library/udemy/java/free
+permalink: /library/udemy/java/free/
 
 ---
 
