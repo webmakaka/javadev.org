@@ -15,6 +15,8 @@ https://github.com/code-examples/pro-spring-mvc-book-code-examples
 
 <hr/>
 
+<br/>
+
 <strong>javavids.com</strong>
 
 https://github.com/jirkapinkas?tab=repositories
