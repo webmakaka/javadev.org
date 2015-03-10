@@ -4,10 +4,6 @@ title: Marakana Java Videos
 permalink: /library/marakana/java/
 ---
 
-<strong>Library [MARAKANA]:</strong><br/><br/>
-
-
-
 <h2>BEST VIDEOS about JAVA Development is open for ALL for FREE. <br/>
 THIS is absolutely legal content from MARAKANA.</h2><br/>
 
