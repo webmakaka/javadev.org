@@ -9,6 +9,8 @@ permalink: /
 If you find interesting project on github, bitbucker, book, video course etc. on java, please send a link to us.  
 For example, this repository is very <a https://github.com/iluwatar/java-design-patterns">helpful</a> i think.
 
+<br/><br/>
+
 
 **Latest 9 added courses:**
 
