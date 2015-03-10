@@ -5,7 +5,11 @@ permalink: /
 ---
 
 
-**Latest 8 added courses:**
+**Latest 9 added courses:**
+
+<ul>
+<li style="color:green"><strong>[Udemy] Java - Java Programming for Beginners! [ENG, ????] <a href="https://www.udemy.com/java-programming-java-java/">link</a></strong></li>
+</ul>
 
 * [Udemy] Apache Tomcat 8 [ENG, 2015]
 * [CBTNuggets] Google App Engine Qualified Developer [ENG, 2015]
