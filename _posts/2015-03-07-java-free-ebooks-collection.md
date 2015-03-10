@@ -7,7 +7,10 @@ categories: jekyll update
 
 **Java Core:**
 
-Thinking in Java 3rd edition  <a href="http://www.mindviewinc.com/downloads/TIJ-3rd-edition4.0.zip">HTML book and source code</a>
+<ul>
+<li>David J. Eck - Introduction to Programming Using Java, Sixth Edition (2011) <a href="http://math.hws.edu/javanotes/">HTML Book</a></li>
+<li>Thinking in Java 3rd edition <a href="http://www.mindviewinc.com/downloads/TIJ-3rd-edition4.0.zip">HTML book and source code</a></li>
+</ul>
 
 
   
