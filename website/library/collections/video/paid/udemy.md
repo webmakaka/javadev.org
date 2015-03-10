@@ -10,7 +10,7 @@ permalink: /library/udemy/java/
 <strong>Java</strong>
 
 <ul>
-
+<li style="color:green"><strong>[Udemy] Java for Beginners [ENG, ????] </strong></li>
 <li style="color:green"><strong>[Udemy] Apache Tomcat 8 [ENG, 2015] </strong></li>
 
 <li style="color:green"><strong>[Udemy] Master Object Oriented Design in Java - Projects + Solutions [ENG, 2015 ???] </strong> (NOT FULL)</li>
