@@ -21,5 +21,5 @@ Persons:
 Corps:  
 
 <a href="/library/marakana/java/">Marakana</a><br/>
-<a href="/library/udemy/java/free">Udemy</a><br/>
+<a href="/library/udemy/java/free/">Udemy</a><br/>
 <a href="/library/cave-of-programming/java/">Cave of Programming</a><br/>
