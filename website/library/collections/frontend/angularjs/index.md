@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Angular.js Courses
-permalink: /library/books/classic/
+permalink: /library/frontend/angularjs/
 ---
 
 **2014**
