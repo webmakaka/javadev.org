@@ -23,6 +23,8 @@ Let try to create list of all paid courses for java developers from companies wh
 
 ___
 
+<br/>
+
 <ul>
 <li style="color:green"><strong>Math Tutor DVD - Mastering Java Programming - Vol 1: Essential Skills</strong></li>
 <li style="color:green"><strong>Clean Coders - Clean Code Video Series - Episode 1-30 Completed [Full HD] (2015) </strong></li> 
