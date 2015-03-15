@@ -54,7 +54,8 @@ permalink: /library/udemy/java/
 
 <ul>
 <li><strong>[Udemy][android] [Tim Buchalka] Learn Android Lollipop Development. Create Java Android Apps [ENG, 28 Hours, 2015]</strong><a href="https://www.udemy.com/android-lollipop-complete-development-course/"> Course Description</a></li>
-<li style="color:green"><strong>[Udemy][android] The Complete Android Lollipop Development Course-Build Apps! - (UPADTED) [2015, ENG]</strong> Same ???</li>
+<li><strong>[Udemy][android] [ Paulo Dichone Fahd Sheraz] Android and Java Course: Build 21 Android Apps [ENG,  23 Hours, 2015]</strong><a href="https://www.udemy.com/complete-android-developer-course/"> Course Description</a></li>
+<li style="color:green"><strong>[Udemy][android] The Complete Android Lollipop Development Course-Build Apps! - (UPADTED) [2015, ENG]</strong></li>
 <li style="color:green"><strong>[Udemy][android] How To Create Android Apps & Make Passive Income!</strong></li>
 <li style="color:green"><strong>[Udemy][android] Professional Android app Development Training</strong></li>
 <li style="color:green"><strong>[Udemy][android] Android App Development Fundamentals II, Second Edition (UPADTED) [2015, ENG] </strong><a href="https://www.udemy.com/android-app-development-fundamentals-ii-second-edition/"> Course Description</a></li>
