@@ -4,8 +4,8 @@ title: Angular.js Courses
 permalink: /library/frontend/angularjs/
 ---
 
-**2014**
+**2015**
 
 <ul>
-	<li style="color:green"><strong>[Pluralsight] </strong></li>
+	<li style="color:green"><strong>[Lynda] Building a Data-Driven App with AngularJS </strong></li>
 </ul>
