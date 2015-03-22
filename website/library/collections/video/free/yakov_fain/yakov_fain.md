@@ -219,6 +219,13 @@ Collections and Stream API
 Functional Interfaces
 </pre>
 
+
+<br/>
+<br/>
+slides:  
+https://code.google.com/p/practicaljava/wiki/Slides
+
+
 <br/>
 <br/>
 <hr/>
