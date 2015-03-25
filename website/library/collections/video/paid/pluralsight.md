@@ -9,6 +9,7 @@ permalink: /library/pluralsight/java/
 
 
 <ul>
+    <li style="color:green"><strong>Context and Dependency Injection (CDI 1.1)</strong>[ENG, 3h 42m, 25 Mar 2015] (<a href="http://www.pluralsight.com/courses/context-dependency-injection-1-1">Link</a>)</li>
     <li style="color:green"><strong>Scala for Java Developers: Syntax Comparison</strong>[ENG, 3h 18m, 26 Feb 2015]</li>
     <li style="color:green"><strong>Getting Started with Spring Data JPA</strong>[ENG, 3h 16m, 06 Feb 2015]</li>
     <li style="color:green"><strong>Introduction to the Java API for WebSockets</strong>[ENG, 2h 2m, 09 Jan 2015]</li>
