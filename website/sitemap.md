@@ -7,7 +7,7 @@ permalink: /sitemap/
 <br/><br/>
 
 
-**Reading:**
+**Read:**
 
 <br/>
 
@@ -19,7 +19,7 @@ permalink: /sitemap/
 
 
 <br/><br/>
-**Watching:**
+**Watch:**
 <br/>
 
 <ul>
