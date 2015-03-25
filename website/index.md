@@ -15,6 +15,7 @@ For example, this repository is very <a href="https://github.com/iluwatar/java-d
 **Latest 10 added courses:**
 
 <ul>
+<li style="color:green"><strong>Treehouse - Java Data Structures</strong></li>
 <li style="color:green"><strong>[Pluralsight] Context and Dependency Injection (CDI 1.1) [ENG, 2015]</strong></li>
 <li style="color:green"><strong>[Udemy] Java - Java Programming for Beginners! [ENG, ????] <a href="https://www.udemy.com/java-programming-java-java/">link</a></strong></li>
 </ul>
@@ -26,8 +27,6 @@ For example, this repository is very <a href="https://github.com/iluwatar/java-d
 * [Lynda] Up and Running with Java [ENG, 2015]  
 * [Pluralsight] Introduction to Integration With Apache Camel [ENG, 2015]  
 * [Pluralsight] Scala for Java Developers: Syntax Comparison [ENG, 3h 18m, 26 Feb 2015]  
-* [Udemy] Java Servlets - Java Servlets from Practicals and Projects [ENG, 2015]  
-
 
 
 <br/><br/>
