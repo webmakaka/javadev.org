@@ -12,9 +12,10 @@ For example, this repository is very <a href="https://github.com/iluwatar/java-d
 <br/><br/>
 
 
-**Latest 9 added courses:**
+**Latest 10 added courses:**
 
 <ul>
+<li style="color:green"><strong>[Pluralsight] Context and Dependency Injection (CDI 1.1) [ENG, 2015]</strong></li>
 <li style="color:green"><strong>[Udemy] Java - Java Programming for Beginners! [ENG, ????] <a href="https://www.udemy.com/java-programming-java-java/">link</a></strong></li>
 </ul>
 
