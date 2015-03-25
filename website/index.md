@@ -18,15 +18,15 @@ For example, this repository is very <a href="https://github.com/iluwatar/java-d
 <li style="color:green"><strong>Treehouse - Java Data Structures</strong></li>
 <li style="color:green"><strong>[Pluralsight] Context and Dependency Injection (CDI 1.1) [ENG, 2015]</strong></li>
 <li style="color:green"><strong>[Udemy] Java - Java Programming for Beginners! [ENG, ????] <a href="https://www.udemy.com/java-programming-java-java/">link</a></strong></li>
-</ul>
+<li style="color:green"><strong>[Udemy] Apache Tomcat 8 [ENG, 2015]</strong></li>
+<li style="color:green"><strong>[CBTNuggets] Google App Engine Qualified Developer [ENG, 2015]</strong></li>
+<li style="color:green"><strong>[Udemy] Master Object Oriented Design in Java - Projects + Solutions [ENG, 2014]</strong></li>
+<li style="color:green"><strong>[InfiniteSkills] Hibernate and Java Persistence API (JPA) Fundamentals [ENG, 2015]</strong></li>
+<li style="color:green"><strong>[Lynda] Up and Running with Java [ENG, 2015]</strong></li>
+<li style="color:green"><strong>[Pluralsight] Introduction to Integration With Apache Camel [ENG, 2015]</strong></li>
+<li style="color:green"><strong>[Pluralsight] Scala for Java Developers: Syntax Comparison [ENG, 3h 18m, 26 Feb 2015]</strong></li>
 
-* [Udemy] Apache Tomcat 8 [ENG, 2015]
-* [CBTNuggets] Google App Engine Qualified Developer [ENG, 2015]
-* [Udemy] Master Object Oriented Design in Java - Projects + Solutions [ENG, 2014]
-* [InfiniteSkills] Hibernate and Java Persistence API (JPA) Fundamentals [ENG, 2015]
-* [Lynda] Up and Running with Java [ENG, 2015]  
-* [Pluralsight] Introduction to Integration With Apache Camel [ENG, 2015]  
-* [Pluralsight] Scala for Java Developers: Syntax Comparison [ENG, 3h 18m, 26 Feb 2015]  
+</ul>
 
 
 <br/><br/>
