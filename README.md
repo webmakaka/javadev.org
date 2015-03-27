@@ -4,7 +4,7 @@ Install Docker
 
 Then
 
-    doceker pull marley/centos6-for-dev
+    docker pull marley/centos6-for-dev
     docker run -i -t –rm -p 80:8080 –name javadev-org marley/centos6-for-dev /bin/bash
     
 
