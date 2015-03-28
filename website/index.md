@@ -15,6 +15,7 @@ For example, this repository is very <a href="https://github.com/iluwatar/java-d
 **Latest 10 added courses:**
 
 <ul>
+<li style="color:green"><strong>Understanding the Java Virtual Machine: Class Loading and Reflection</strong> [ENG, 1h 58m,28 Mar 2015] (<a href="http://www.pluralsight.com/courses/understanding-java-vm-class-loading-reflection">Link</a>)</li>
 <li style="color:green"><strong>Treehouse - Java Data Structures</strong></li>
 <li style="color:green"><strong>[Pluralsight] Context and Dependency Injection (CDI 1.1) [ENG, 2015]</strong></li>
 <li style="color:green"><strong>[Udemy] Java - Java Programming for Beginners! [ENG, ????] <a href="https://www.udemy.com/java-programming-java-java/">link</a></strong></li>
@@ -24,8 +25,6 @@ For example, this repository is very <a href="https://github.com/iluwatar/java-d
 <li style="color:green"><strong>[InfiniteSkills] Hibernate and Java Persistence API (JPA) Fundamentals [ENG, 2015]</strong></li>
 <li style="color:green"><strong>[Lynda] Up and Running with Java [ENG, 2015]</strong></li>
 <li style="color:green"><strong>[Pluralsight] Introduction to Integration With Apache Camel [ENG, 2015]</strong></li>
-<li style="color:green"><strong>[Pluralsight] Scala for Java Developers: Syntax Comparison [ENG, 3h 18m, 26 Feb 2015]</strong></li>
-
 </ul>
 
 
