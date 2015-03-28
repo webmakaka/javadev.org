@@ -15,8 +15,8 @@ For example, this repository is very <a href="https://github.com/iluwatar/java-d
 **Latest 10 added courses:**
 
 <ul>
-<li style="color:green"><strong>Understanding the Java Virtual Machine: Class Loading and Reflection</strong> [ENG, 1h 58m,28 Mar 2015] (<a href="http://www.pluralsight.com/courses/understanding-java-vm-class-loading-reflection">Link</a>)</li>
-<li style="color:green"><strong>Treehouse - Java Data Structures</strong></li>
+<li style="color:green"><strong>[Pluralsight] Understanding the Java Virtual Machine: Class Loading and Reflection</strong> [ENG, 1h 58m,28 Mar 2015] (<a href="http://www.pluralsight.com/courses/understanding-java-vm-class-loading-reflection">Link</a>)</li>
+<li style="color:green"><strong>[Treehouse] - Java Data Structures</strong></li>
 <li style="color:green"><strong>[Pluralsight] Context and Dependency Injection (CDI 1.1) [ENG, 2015]</strong></li>
 <li style="color:green"><strong>[Udemy] Java - Java Programming for Beginners! [ENG, ????] <a href="https://www.udemy.com/java-programming-java-java/">link</a></strong></li>
 <li style="color:green"><strong>[Udemy] Apache Tomcat 8 [ENG, 2015]</strong></li>
