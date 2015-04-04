@@ -18,7 +18,7 @@ permalink: /library/udemy/java/
 <li style="color:green"><strong>[Udemy] Java for Beginners [ENG, ????] <a href="https://www.udemy.com/java-for-beginners6/">Course Description</a></strong></li>
 <li style="color:green"><strong>[Udemy] Apache Tomcat 8 [ENG, 2015] <a href="https://www.udemy.com/apache-tomcat-8/">Course Description</a></strong></li>
 
-<li style="color:green"><strong>[Udemy] Master Object Oriented Design in Java - Projects + Solutions [ENG, 2015 ???] </strong>  <a href="https://www.udemy.com/mastering-object-oriented-design-in-java/">Course Description</a></li>
+<li style="color:green"><strong>[Udemy] Master Object Oriented Design in Java - Projects + Solutions [ENG, 2015 ???] </strong>  (Not Complete Course) <a href="https://www.udemy.com/mastering-object-oriented-design-in-java/">Course Description</a></li>
 
 <li style="color:green"><strong>[Udemy] Java Servlets - Java Servlets from Practicals and Projects [ENG, 2015] </strong></li>
 <li style="color:green"><strong>[Udemy] Build scalable apps on Google App Engine [ENG, 2015 ???] </strong></li>
