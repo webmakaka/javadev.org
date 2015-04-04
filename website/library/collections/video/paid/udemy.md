@@ -66,10 +66,9 @@ Learn Java with hands-on examples in most easiest way ever [ENG, 3,5 Hours, ????
 
 <ul>
 
-<li style="color:green"><strong>[Udemy] Servlets and JSPs Tutorial: Learn Web Applications With Java</strong><a href="https://www.udemy.com/javawebtut/">Course Description</a> </li>
-<li style="color:green"><strong>[Udemy] The Java Spring Tutorial: Learn Java's Popular Web Framework (27+ hours)</strong> <a href="https://www.udemy.com/javaspring/">Course Description</a> </li>
+<li style="color:green"><strong>[Udemy] Servlets and JSPs Tutorial: Learn Web Applications With Java [ENG, 10 Hours, ????]</strong> <a href="https://www.udemy.com/javawebtut/">Course Description</a> </li>
+<li style="color:green"><strong>[Udemy] The Java Spring Tutorial: Learn Java's Popular Web Framework [ENG, 27 Hours, ????]</strong> <a href="https://www.udemy.com/javaspring/">Course Description</a> </li>
 </ul>
-
 
 <ul>
 
