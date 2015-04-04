@@ -25,7 +25,7 @@ permalink: /library/udemy/java/
 
 <li style="color:green"><strong>[Udemy] Java Servlets - Java Servlets from Practicals and Projects [ENG, 2015] </strong></li>
 <li style="color:green"><strong>[Udemy] Build scalable apps on Google App Engine [ENG, 2015 ???] </strong></li>
-<li style="color:green"><strong>[Udemy] Java Swing (GUI) Programming: From Beginner to Expert [ENG, 2015] </strong></li>
+<li style="color:green"><strong>[Udemy] Java Swing (GUI) Programming: From Beginner to Expert [ENG, 14 Hours, 2015] </strong><a href="https://www.udemy.com/java-swing-complete/">Course Description</a></li>
 </ul>
 
 <br/><br/>
@@ -42,11 +42,12 @@ permalink: /library/udemy/java/
 <br/><br/>
 
 <ul>
+        <li>Learn to program in Java [ENG, 8 Hours, ????]<a href="https://www.udemy.com/learn-to-program-in-java/">Course Description</a></li>
 	<li>Projects in Java</li>
-	<li>Programming Java for Beginners - The Ultimate Java Tutorial </li>
-	<li>Servlets and JSPs Tutorial: Learn Web Applications With Java </li>
+	<li>Programming Java for Beginners - The Ultimate Java Tutorial [ENG, 10 Hours, ????]<a href="https://www.udemy.com/learn-to-program-with-java/">Course Description</a> </li>
+	<li>Servlets and JSPs Tutorial: Learn Web Applications With Java [ENG, 10 Hours, ????]<a href="https://www.udemy.com/javawebtut/">Course Description</a></li>
 	<li>Java Spring Part: 1</li>
-	<li>Introduction to Data Structures & Algorithms in Java </li>
+	<li>Introduction to Data Structures & Algorithms in Java [ENG, 6 Hours, ????]<a href="https://www.udemy.com/introduction-to-data-structures-algorithms-in-java/">Course Description</a></li>
 	<li>Java Fundamentals with Java 8 by Examples </li>
 	<li>Java Database Connection: JDBC and MySQL</li>
 	<li>Java Multithreading </li>
@@ -60,6 +61,11 @@ permalink: /library/udemy/java/
 <strong>Andoid</strong>
 
 <ul>
+<li><strong>[Udemy][android] Java Essentials for Android [ENG, 9 Hours, 2015]</strong><a href="https://www.udemy.com/java-essentials-for-android/"> Course Description</a></li>
+
+
+<li><strong>[Udemy][android] Learn Android 4.0 Programming in Java [ENG, 16 Hours, 2015]</strong><a href="https://www.udemy.com/android-tutorial/"> Course Description</a></li>
+
 <li style="color:green"><strong>[Udemy][android] [Tim Buchalka] Learn Android Lollipop Development. Create Java Android Apps [ENG, 28 Hours, 2015]</strong><a href="https://www.udemy.com/android-lollipop-complete-development-course/"> Course Description</a></li>
 <li><strong>[Udemy][android] [ Paulo Dichone Fahd Sheraz] Android and Java Course: Build 21 Android Apps [ENG,  23 Hours, 2015]</strong><a href="https://www.udemy.com/complete-android-developer-course/"> Course Description</a></li>
 <li style="color:green"><strong>[Udemy][android] The Complete Android Lollipop Development Course-Build Apps! - (UPADTED) [2015, ENG]</strong></li>
