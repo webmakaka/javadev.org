@@ -10,6 +10,8 @@ permalink: /library/udemy/java/
 <strong>Java</strong>
 
 <ul>
+<li><strong>[Udemy] What's new in Java 8 [ENG, 3 Hours, ????] <a href="https://www.udemy.com/whats-new-in-java-8/">Course Description</a></strong></li>
+<li><strong>[Udemy] Learning To Program In Java 8 - Video Based Training [ENG, 7 Hours, ????] <a href="https://www.udemy.com/learning-java-8/">Course Description</a></strong></li>
 <li><strong>[Udemy] Selenium 2 WebDriver Basics With Java [ENG, 22 Hours, ????] <a href="https://www.udemy.com/selenium-2-webdriver-basics-with-java/">Course Description</a></strong></li>
 <li><strong>[Udemy] Web Services using Java EE [ENG, 6 Hours, ????] <a href="https://www.udemy.com/draft/153870/">Course Description</a></strong></li>
 
