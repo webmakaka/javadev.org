@@ -10,12 +10,15 @@ permalink: /library/udemy/java/
 <strong>Java</strong>
 
 <ul>
-<li style="color:green"><strong>[Udemy] WebServices/REST API Testing with SoapUI [ENG, 15 Hours, 2015] <a href="https://www.udemy.com/webservices-testing-with-soap-ui/">link</a></strong></li>
-<li style="color:green"><strong>[Udemy] Java - Java Programming for Beginners! [ENG, ????] <a href="https://www.udemy.com/java-programming-java-java/">link</a></strong></li>
-<li style="color:green"><strong>[Udemy] Java for Beginners [ENG, ????] <a href="https://www.udemy.com/java-for-beginners6/">link</a></strong></li>
-<li style="color:green"><strong>[Udemy] Apache Tomcat 8 [ENG, 2015] <a href="https://www.udemy.com/apache-tomcat-8/">link</a></strong></li>
 
-<li style="color:green"><strong>[Udemy] Master Object Oriented Design in Java - Projects + Solutions [ENG, 2015 ???] </strong> (NOT FULL)</li>
+
+<li><strong>[Udemy] SDLC with SOA Spring Java JMS GIT ActiveMQ MongoDB Jenkins [ENG, 7 Hours, ????] <a href="https://www.udemy.com/sdlc-with-soa-spring-jms-git-activemq-mongodb-jenkins/">Course Description</a></strong></li>
+<li style="color:green"><strong>[Udemy] WebServices/REST API Testing with SoapUI [ENG, 15 Hours, 2015] <a href="https://www.udemy.com/webservices-testing-with-soap-ui/">Course Description</a></strong></li>
+<li style="color:green"><strong>[Udemy] Java - Java Programming for Beginners! [ENG, ????] <a href="https://www.udemy.com/java-programming-java-java/">Course Description</a></strong></li>
+<li style="color:green"><strong>[Udemy] Java for Beginners [ENG, ????] <a href="https://www.udemy.com/java-for-beginners6/">Course Description</a></strong></li>
+<li style="color:green"><strong>[Udemy] Apache Tomcat 8 [ENG, 2015] <a href="https://www.udemy.com/apache-tomcat-8/">Course Description</a></strong></li>
+
+<li style="color:green"><strong>[Udemy] Master Object Oriented Design in Java - Projects + Solutions [ENG, 2015 ???] </strong>  <a href="https://www.udemy.com/mastering-object-oriented-design-in-java/">Course Description</a></li>
 
 <li style="color:green"><strong>[Udemy] Java Servlets - Java Servlets from Practicals and Projects [ENG, 2015] </strong></li>
 <li style="color:green"><strong>[Udemy] Build scalable apps on Google App Engine [ENG, 2015 ???] </strong></li>
