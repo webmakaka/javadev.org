@@ -10,6 +10,27 @@ permalink: /library/udemy/java/
 <strong>Java</strong>
 
 <ul>
+<li><strong>[Udemy] Introduction to Java Programming for Online Learners [ENG, 22 Hours, ????] <a href="https://www.udemy.com/learning-to-program-in-java-a-supplement-for-online-academic-learners/">Course Description</a></strong></li>
+<li><strong>[Udemy] Java 101: Java Programming for Beginners [ENG, 8 Hours, ????] <a href="https://www.udemy.com/java-programming-for-beginners/">Course Description</a></strong></li>
+<li><strong>[Udemy] Projects in Java [ENG, 8 Hours, ????] <a href="https://www.udemy.com/learn-java-by-building-projects/">Course Description</a></strong></li>
+<li><strong>[Udemy] Learn Test Driven Development in Java [ENG, 3 Hours, ????] <a href="https://www.udemy.com/learn-test-driven-development-in-java/">Course Description</a></strong></li>
+<li><strong>[Udemy] Java JSP / Servlets Web Development and Database Design [ENG, 7 Hours, ????] <a href="https://www.udemy.com/java-web-developmen-with-real-world-development-flow/">Course Description</a></strong></li>
+<li><strong>[Udemy] Advance Java Programming [ENG, 2 Hours, ????] <a href="https://www.udemy.com/advance-java-programming/">Course Description</a></strong></li>
+<li><strong>[Udemy] Advance Java Programming [ENG, 2 Hours, ????] <a href="https://www.udemy.com/advance-java-programming/">Course Description</a></strong></li>
+<li><strong>[Udemy] Selenium Webdriver with Java (Basics + Advance + Architect) [ENG, 43 Hours, ????] <a href="https://www.udemy.com/selenium-tutorials/">Course Description</a></strong></li>
+<li><strong>[Udemy] Codename One 101 - Write Native Mobile Apps In Java [ENG, 7 Hours, ????] <a href="https://www.udemy.com/codenameone101/">Course Description</a></strong></li>
+<li><strong>[Udemy] Java Maven: Stop Building Java Programs the Hard Way! [ENG, 5 Hours, ????] <a href="https://www.udemy.com/apachemaven/">Course Description</a></strong></li>
+<li><strong>[Udemy] Java Persistence: Hibernate and JPA Fundamentals [ENG, 6 Hours, ????] <a href="https://www.udemy.com/hibernate-and-jpa-fundamentals/">Course Description</a></strong></li>
+<li><strong>[Udemy] 
+Learn Java with hands-on examples in most easiest way ever [ENG, 3,5 Hours, ????] </strong></li>
+<li><strong>[Udemy] Experience Design Patterns In Java [ENG, 8 Hours, ????] <a href="https://www.udemy.com/experience-design-patterns/">Course Description</a></strong></li>
+<li><strong>[Udemy] Become Awesome in Core JAVA - for Absolute Beginners [ENG, 10 Hours, ????] <a href="https://www.udemy.com/core-java-for-absolute-beginners/">Course Description</a></strong></li>
+<li><strong>[Udemy] Java for Absolute Beginners [ENG, 6 Hours, ????] <a href="https://www.udemy.com/learn-java-programming-the-basics/">Course Description</a></strong></li>
+<li><strong>[Udemy] Introduction to Java for Programmers [ENG, 21 Hours, ????] <a href="https://www.udemy.com/introduction-to-java-programming/">Course Description</a></strong></li>
+<li><strong>[Udemy] Java EE 7 A Practical Training Course From Infinite Skills [ENG, 8 Hours, ????] <a href="https://www.udemy.com/java-ee-7/">Course Description</a></strong></li>
+<li><strong>[Udemy] Java Programming using Eclipse: An Introduction [ENG, 10 Hours, ????] <a href="https://www.udemy.com/programming-java/">Course Description</a></strong></li>
+<li><strong>[Udemy] Advanced Java Programming [ENG, 7 Hours, ????] <a href="https://www.udemy.com/mcprogramming-advanced-java/">Course Description</a></strong></li>
+<li><strong>[Udemy] Java Hibernate [ENG, 2 Hours, ????] <a href="https://www.udemy.com/java-hibernate-java/">Course Description</a></strong></li>
 <li><strong>[Udemy] What's new in Java 8 [ENG, 3 Hours, ????] <a href="https://www.udemy.com/whats-new-in-java-8/">Course Description</a></strong></li>
 <li><strong>[Udemy] Learning To Program In Java 8 - Video Based Training [ENG, 7 Hours, ????] <a href="https://www.udemy.com/learning-java-8/">Course Description</a></strong></li>
 <li><strong>[Udemy] Selenium 2 WebDriver Basics With Java [ENG, 22 Hours, ????] <a href="https://www.udemy.com/selenium-2-webdriver-basics-with-java/">Course Description</a></strong></li>
@@ -23,7 +44,7 @@ permalink: /library/udemy/java/
 
 <li style="color:green"><strong>[Udemy] Master Object Oriented Design in Java - Projects + Solutions [ENG, 2015 ???] </strong>  (Not Complete Course) <a href="https://www.udemy.com/mastering-object-oriented-design-in-java/">Course Description</a></li>
 
-<li style="color:green"><strong>[Udemy] Java Servlets - Java Servlets from Practicals and Projects [ENG, 2015] </strong></li>
+<li style="color:green"><strong>[Udemy] Java Servlets - Java Servlets from Practicals and Projects [ENG, 9 Hours, 2015] </strong><a href="https://www.udemy.com/java-servlets/">Course Description</a></li>
 <li style="color:green"><strong>[Udemy] Build scalable apps on Google App Engine [ENG, 2015 ???] </strong></li>
 <li style="color:green"><strong>[Udemy] Java Swing (GUI) Programming: From Beginner to Expert [ENG, 14 Hours, 2015] </strong><a href="https://www.udemy.com/java-swing-complete/">Course Description</a></li>
 </ul>
@@ -42,8 +63,13 @@ permalink: /library/udemy/java/
 <br/><br/>
 
 <ul>
+
+
+
+<li>The Java Spring Training [ENG, 4 Hours, ????]<a href="https://www.udemy.com/the-java-spring-training/">Course Description</a></li>
+
+        <li>Basic Concepts of Web Development, HTTP and Java Servlets [ENG, 1 Hours, ????]<a href="https://www.udemy.com/web-application-and-java-servlet-concepts/">Course Description</a></li>
         <li>Learn to program in Java [ENG, 8 Hours, ????]<a href="https://www.udemy.com/learn-to-program-in-java/">Course Description</a></li>
-	<li>Projects in Java</li>
 	<li>Programming Java for Beginners - The Ultimate Java Tutorial [ENG, 10 Hours, ????]<a href="https://www.udemy.com/learn-to-program-with-java/">Course Description</a> </li>
 	<li>Servlets and JSPs Tutorial: Learn Web Applications With Java [ENG, 10 Hours, ????]<a href="https://www.udemy.com/javawebtut/">Course Description</a></li>
 	<li>Java Spring Part: 1</li>
