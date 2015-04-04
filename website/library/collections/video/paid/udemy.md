@@ -10,6 +10,16 @@ permalink: /library/udemy/java/
 <strong>Java</strong>
 
 <ul>
+<li><strong>[Udemy] Introduction to Unit Testing in Java with J-Unit 4 [ENG, 2 Hours, ????] <a href="https://www.udemy.com/introduction-to-unit-testing-java/">Course Description</a></strong></li>
+<li><strong>[Udemy] Beginners Eclipse Java IDE Training Course [ENG, 5 Hours, ????] <a href="https://www.udemy.com/beginners-eclipse-java-ide-training-course/">Course Description</a></strong></li>
+<li><strong>[Udemy] Become An Awesome Java Professional [ENG, 17 Hours, ????] <a href="https://www.udemy.com/java-programming-wizard/">Course Description</a></strong></li>
+<li><strong>[Udemy] Core Java Basic Programming with Adv Topics [ENG, 9 Hours, ????] <a href="https://www.udemy.com/core-java-basic-programming-with-adv-topics/">Course Description</a></strong></li>
+<li><strong>[Udemy] JDBC - Java Database Connectivity [ENG, 1 Hours, ????] <a href="https://www.udemy.com/jdbc-java-database-connectivity/">Course Description</a></strong></li>
+<li><strong>[Udemy] Learn Java From Scratch [ENG, 5 Hours, ????] <a href="https://www.udemy.com/learnjava/">Course Description</a></strong></li>
+
+<li><strong>[Udemy] A Java Servlet E-shop - Advanced [ENG, 3 Hours, ????] <a href="https://www.udemy.com/a-java-servlet-e-shop-advanced/">Course Description</a></strong></li>
+
+<li><strong>[Udemy] A Java Servlet e-Shop (eshop) [ENG, 3 Hours, ????] <a href="https://www.udemy.com/servlet-eshop/">Course Description</a></strong></li>
 <li><strong>[Udemy] Introduction to Java Programming for Online Learners [ENG, 22 Hours, ????] <a href="https://www.udemy.com/learning-to-program-in-java-a-supplement-for-online-academic-learners/">Course Description</a></strong></li>
 <li><strong>[Udemy] Java 101: Java Programming for Beginners [ENG, 8 Hours, ????] <a href="https://www.udemy.com/java-programming-for-beginners/">Course Description</a></strong></li>
 <li><strong>[Udemy] Projects in Java [ENG, 8 Hours, ????] <a href="https://www.udemy.com/learn-java-by-building-projects/">Course Description</a></strong></li>
@@ -86,6 +96,10 @@ Learn Java with hands-on examples in most easiest way ever [ENG, 3,5 Hours, ????
 <strong>Andoid</strong>
 
 <ul>
+
+<li><strong>[Udemy][android] Android Development with Java Essentials [ENG, 8 Hours, 2015]</strong><a href="https://www.udemy.com/android-development-with-java-essentials/"> Course Description</a></li>
+
+
 <li><strong>[Udemy][android] Java Essentials for Android [ENG, 9 Hours, 2015]</strong><a href="https://www.udemy.com/java-essentials-for-android/"> Course Description</a></li>
 
 
