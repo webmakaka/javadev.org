@@ -50,7 +50,6 @@ permalink: /library/udemy/java/
 	<li>Introduction to Data Structures & Algorithms in Java [ENG, 6 Hours, ????]<a href="https://www.udemy.com/introduction-to-data-structures-algorithms-in-java/">Course Description</a></li>
 	<li>Java Fundamentals with Java 8 by Examples </li>
 	<li>Java Database Connection: JDBC and MySQL</li>
-	<li>Java Multithreading </li>
 </ul>
 
 
