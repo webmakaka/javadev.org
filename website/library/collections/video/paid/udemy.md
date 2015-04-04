@@ -66,8 +66,8 @@ Learn Java with hands-on examples in most easiest way ever [ENG, 3,5 Hours, ????
 
 <ul>
 
-<li style="color:green"><strong>Servlets and JSPs Tutorial: Learn Web Applications With Java</strong><a href="https://www.udemy.com/javawebtut/">Course Description</a> </li>
-<li style="color:green"><strong>The Java Spring Tutorial: Learn Java's Popular Web Framework (27+ hours)</strong> <a href="https://www.udemy.com/javaspring/">Course Description</a> </li>
+<li style="color:green"><strong>[Udemy] Servlets and JSPs Tutorial: Learn Web Applications With Java</strong><a href="https://www.udemy.com/javawebtut/">Course Description</a> </li>
+<li style="color:green"><strong>[Udemy] The Java Spring Tutorial: Learn Java's Popular Web Framework (27+ hours)</strong> <a href="https://www.udemy.com/javaspring/">Course Description</a> </li>
 </ul>
 
 
@@ -75,15 +75,15 @@ Learn Java with hands-on examples in most easiest way ever [ENG, 3,5 Hours, ????
 
 
 
-<li>The Java Spring Training [ENG, 4 Hours, ????]<a href="https://www.udemy.com/the-java-spring-training/">Course Description</a></li>
+<li>[Udemy] The Java Spring Training [ENG, 4 Hours, ????]<a href="https://www.udemy.com/the-java-spring-training/">Course Description</a></li>
 
-        <li>Basic Concepts of Web Development, HTTP and Java Servlets [ENG, 1 Hours, ????]<a href="https://www.udemy.com/web-application-and-java-servlet-concepts/">Course Description</a></li>
-        <li>Learn to program in Java [ENG, 8 Hours, ????]<a href="https://www.udemy.com/learn-to-program-in-java/">Course Description</a></li>
-	<li>Programming Java for Beginners - The Ultimate Java Tutorial [ENG, 10 Hours, ????]<a href="https://www.udemy.com/learn-to-program-with-java/">Course Description</a> </li>
-	<li>Servlets and JSPs Tutorial: Learn Web Applications With Java [ENG, 10 Hours, ????]<a href="https://www.udemy.com/javawebtut/">Course Description</a></li>
-	<li>Java Spring Part: 1</li>
-	<li>Introduction to Data Structures & Algorithms in Java [ENG, 6 Hours, ????]<a href="https://www.udemy.com/introduction-to-data-structures-algorithms-in-java/">Course Description</a></li>
-	<li>Java Fundamentals with Java 8 by Examples </li>
+        <li>[Udemy] Basic Concepts of Web Development, HTTP and Java Servlets [ENG, 1 Hours, ????]<a href="https://www.udemy.com/web-application-and-java-servlet-concepts/">Course Description</a></li>
+        <li>[Udemy] Learn to program in Java [ENG, 8 Hours, ????]<a href="https://www.udemy.com/learn-to-program-in-java/">Course Description</a></li>
+	<li>[Udemy] Programming Java for Beginners - The Ultimate Java Tutorial [ENG, 10 Hours, ????]<a href="https://www.udemy.com/learn-to-program-with-java/">Course Description</a> </li>
+	<li>[Udemy] Servlets and JSPs Tutorial: Learn Web Applications With Java [ENG, 10 Hours, ????]<a href="https://www.udemy.com/javawebtut/">Course Description</a></li>
+	<li>[Udemy] Java Spring Part: 1</li>
+	<li>[Udemy] Introduction to Data Structures & Algorithms in Java [ENG, 6 Hours, ????]<a href="https://www.udemy.com/introduction-to-data-structures-algorithms-in-java/">Course Description</a></li>
+	<li>[Udemy] Java Fundamentals with Java 8 by Examples </li>
 </ul>
 
 
