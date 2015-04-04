@@ -66,11 +66,10 @@ Learn Java with hands-on examples in most easiest way ever [ENG, 3,5 Hours, ????
 
 <ul>
 
-<li style="color:green"><strong>Servlets and JSPs: Creating Web Applications With Java</strong></li>
-<li style="color:green"><strong>The Java Spring Tutorial: Learn Java's Popular Web Framework (27+ hours)</strong> <a href="https://www.udemy.com/javaspring/">link</a> </li>
+<li style="color:green"><strong>Servlets and JSPs Tutorial: Learn Web Applications With Java</strong><a href="https://www.udemy.com/javawebtut/">Course Description</a> </li>
+<li style="color:green"><strong>The Java Spring Tutorial: Learn Java's Popular Web Framework (27+ hours)</strong> <a href="https://www.udemy.com/javaspring/">Course Description</a> </li>
 </ul>
 
-<br/><br/>
 
 <ul>
 
@@ -85,7 +84,6 @@ Learn Java with hands-on examples in most easiest way ever [ENG, 3,5 Hours, ????
 	<li>Java Spring Part: 1</li>
 	<li>Introduction to Data Structures & Algorithms in Java [ENG, 6 Hours, ????]<a href="https://www.udemy.com/introduction-to-data-structures-algorithms-in-java/">Course Description</a></li>
 	<li>Java Fundamentals with Java 8 by Examples </li>
-	<li>Java Database Connection: JDBC and MySQL</li>
 </ul>
 
 
@@ -116,3 +114,8 @@ Learn Java with hands-on examples in most easiest way ever [ENG, 3,5 Hours, ????
 <li style="color:green"><strong>[Udemy][android] Building a Chat App for Android from Scratch [2015, ENG] </strong></li>
 <li style="color:green"><strong>[Udemy][android] Projects in Android [2014, ENG]</strong></li>
 </ul>
+
+
+
+<h2><a href="http://javadev.org/library/udemy/java/free/">List of Free Udemy Videos</a></h2>
+
