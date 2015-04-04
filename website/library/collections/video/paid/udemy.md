@@ -115,7 +115,10 @@ Learn Java with hands-on examples in most easiest way ever [ENG, 3,5 Hours, ????
 <li style="color:green"><strong>[Udemy][android] Projects in Android [2014, ENG]</strong></li>
 </ul>
 
+<br/><br/>
+<hr/>
+<br/><br/>
 
-
-<h2><a href="http://javadev.org/library/udemy/java/free/">List of Free Udemy Videos</a></h2>
-
+<div align="center">
+     <h2><a href="http://javadev.org/library/udemy/java/free/">List of Free Udemy Videos</a></h2>
+</div>
