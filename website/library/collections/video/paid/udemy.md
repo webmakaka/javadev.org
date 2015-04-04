@@ -10,7 +10,8 @@ permalink: /library/udemy/java/
 <strong>Java</strong>
 
 <ul>
-
+<li><strong>[Udemy] Selenium 2 WebDriver Basics With Java [ENG, 22 Hours, ????] <a href="https://www.udemy.com/selenium-2-webdriver-basics-with-java/">Course Description</a></strong></li>
+<li><strong>[Udemy] Web Services using Java EE [ENG, 6 Hours, ????] <a href="https://www.udemy.com/draft/153870/">Course Description</a></strong></li>
 
 <li><strong>[Udemy] SDLC with SOA Spring Java JMS GIT ActiveMQ MongoDB Jenkins [ENG, 7 Hours, ????] <a href="https://www.udemy.com/sdlc-with-soa-spring-jms-git-activemq-mongodb-jenkins/">Course Description</a></strong></li>
 <li style="color:green"><strong>[Udemy] WebServices/REST API Testing with SoapUI [ENG, 15 Hours, 2015] <a href="https://www.udemy.com/webservices-testing-with-soap-ui/">Course Description</a></strong></li>
