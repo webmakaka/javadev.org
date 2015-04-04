@@ -75,10 +75,9 @@ Learn Java with hands-on examples in most easiest way ever [ENG, 3,5 Hours, ????
 
 
 
-<li>[Udemy] The Java Spring Training [ENG, 4 Hours, ????]<a href="https://www.udemy.com/the-java-spring-training/">Course Description</a></li>
-
+        <li>[Udemy] The Java Spring Training [ENG, 4 Hours, ????] <a href="https://www.udemy.com/the-java-spring-training/">Course Description</a></li>
         <li>[Udemy] Basic Concepts of Web Development, HTTP and Java Servlets [ENG, 1 Hours, ????] <a href="https://www.udemy.com/web-application-and-java-servlet-concepts/">Course Description</a></li>
-        <li>[Udemy] Learn to program in Java [ENG, 8 Hours, ????]<a href="https://www.udemy.com/learn-to-program-in-java/">Course Description</a></li>
+        <li>[Udemy] Learn to program in Java [ENG, 8 Hours, ????] <a href="https://www.udemy.com/learn-to-program-in-java/">Course Description</a></li>
 	<li>[Udemy] Programming Java for Beginners - The Ultimate Java Tutorial [ENG, 10 Hours, ????] <a href="https://www.udemy.com/learn-to-program-with-java/">Course Description</a> </li>
 	<li>[Udemy] Servlets and JSPs Tutorial: Learn Web Applications With Java [ENG, 10 Hours, ????] <a href="https://www.udemy.com/javawebtut/">Course Description</a></li>
 	<li>[Udemy] Java Spring Part: 1</li>
