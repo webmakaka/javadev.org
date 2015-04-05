@@ -10,7 +10,7 @@ permalink: /library/udemy/java/
 <strong>Java</strong>
 
 <ul>
-<li><strong>[Udemy] Java 8 - Make it your new Cup of Coffee [ENG, 19 Hours, ????] <a href="https://www.udemy.com/introduction-to-unit-testing-java/">Course Description</a></strong></li>
+<li><strong>[Udemy] Java 8 - Make it your new Cup of Coffee [ENG, 19 Hours, ????] <a href="https://www.udemy.com/java-basics-for-j2ee-and-android/">Course Description</a></strong></li>
 <li><strong>[Udemy] Introduction to Unit Testing in Java with J-Unit 4 [ENG, 2 Hours, ????] <a href="https://www.udemy.com/introduction-to-unit-testing-java/">Course Description</a></strong></li>
 <li><strong>[Udemy] Beginners Eclipse Java IDE Training Course [ENG, 5 Hours, ????] <a href="https://www.udemy.com/beginners-eclipse-java-ide-training-course/">Course Description</a></strong></li>
 <li><strong>[Udemy] Become An Awesome Java Professional [ENG, 17 Hours, ????] <a href="https://www.udemy.com/java-programming-wizard/">Course Description</a></strong></li>
