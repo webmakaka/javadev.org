@@ -56,7 +56,7 @@ Learn Java with hands-on examples in most easiest way ever [ENG, 3,5 Hours, ????
 <li style="color:green"><strong>[Udemy] Master Object Oriented Design in Java - Projects + Solutions [ENG, 2015 ???] </strong>  (Not Complete Course) <a href="https://www.udemy.com/mastering-object-oriented-design-in-java/">Course Description</a></li>
 
 <li style="color:green"><strong>[Udemy] Java Servlets - Java Servlets from Practicals and Projects [ENG, 9 Hours, 2015] </strong><a href="https://www.udemy.com/java-servlets/">Course Description</a></li>
-<li style="color:green"><strong>[Udemy] Build scalable apps on Google App Engine [ENG, 2015 ???] </strong></li>
+<li style="color:green"><strong>[Udemy] Build scalable apps on Google App Engine [ENG, 2015 ???]</strong> <a href="https://www.udemy.com/build-scalable-apps-on-google-app-engine/">Course Description</a></li>
 <li style="color:green"><strong>[Udemy] Java Swing (GUI) Programming: From Beginner to Expert [ENG, 14 Hours, 2015] </strong><a href="https://www.udemy.com/java-swing-complete/">Course Description</a></li>
 </ul>
 
