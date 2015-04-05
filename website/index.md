@@ -15,6 +15,7 @@ For example, this repository is very <a href="https://github.com/iluwatar/java-d
 **Latest 10 added courses:**
 
 <ul>
+<li style="color:green"><strong>[Udemy] Step By Step Java Programming Complete Course [ENG, 3 Hours, ????] <a href="https://www.udemy.com/step-by-step-java-programming-complete-course/">Course Description</a></strong></li>
 <li style="color:green"><strong>[Udemy] WebServices/REST API Testing with SoapUI [ENG, 15 Hours, 2015] <a href="https://www.udemy.com/webservices-testing-with-soap-ui/">link</a></strong></li>
 <li style="color:green"><strong>[Pluralsight] Understanding the Java Virtual Machine: Class Loading and Reflection</strong> [ENG, 1h 58m,28 Mar 2015] (<a href="http://www.pluralsight.com/courses/understanding-java-vm-class-loading-reflection">Link</a>)</li>
 <li style="color:green"><strong>[Treehouse] - Java Data Structures</strong></li>
@@ -24,7 +25,6 @@ For example, this repository is very <a href="https://github.com/iluwatar/java-d
 <li style="color:green"><strong>[CBTNuggets] Google App Engine Qualified Developer [ENG, 2015]</strong></li>
 <li style="color:green"><strong>[Udemy] Master Object Oriented Design in Java - Projects + Solutions [ENG, 2014]</strong></li>
 <li style="color:green"><strong>[InfiniteSkills] Hibernate and Java Persistence API (JPA) Fundamentals [ENG, 2015]</strong></li>
-<li style="color:green"><strong>[Lynda] Up and Running with Java [ENG, 2015]</strong></li>
 </ul>
 
 
