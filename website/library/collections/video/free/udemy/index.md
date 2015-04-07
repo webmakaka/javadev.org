@@ -7,7 +7,7 @@ permalink: /library/udemy/java/free/
 
 <ul>
 <li>Java Square One - Learning Through Example (<a href="https://www.udemy.com/java-square-one-a-concise-course-with-examples/">link</a>)</li>
-<li>Java Database Connection: JDBC and MySQL  (<a href="https://www.udemy.com/how-to-connect-java-jdbc-to-mysql/">link</a>)</li>
+<li style="color:green">Java Database Connection: JDBC and MySQL  (<a href="https://www.udemy.com/how-to-connect-java-jdbc-to-mysql/">Course Description</a>)</li>
 <li>Eclipse IDE for Beginners: Increase Your Java Productivity (<a href="https://www.udemy.com/luv2code-eclipse-ide-for-beginners/">link</a>)</li>
 <li>Selenium WebDriver Training with Java Basics (<a href="https://www.udemy.com/selenium-training/">link</a>)</li>
 <li>Learning Java. A video guide for beginners (<a href="https://www.udemy.com/java-tutorial-video/">link</a>)</li>
