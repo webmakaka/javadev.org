@@ -24,7 +24,7 @@ permalink: /library/udemy/java/
 <li><strong>[Udemy] A Java Servlet e-Shop (eshop) [ENG, 3 Hours, ????] <a href="https://www.udemy.com/servlet-eshop/">Course Description</a></strong></li>
 <li><strong>[Udemy] Introduction to Java Programming for Online Learners [ENG, 22 Hours, ????] <a href="https://www.udemy.com/learning-to-program-in-java-a-supplement-for-online-academic-learners/">Course Description</a></strong></li>
 <li><strong>[Udemy] Java 101: Java Programming for Beginners [ENG, 8 Hours, ????] <a href="https://www.udemy.com/java-programming-for-beginners/">Course Description</a></strong></li>
-<li><strong>[Udemy] Projects in Java [ENG, 8 Hours, ????] <a href="https://www.udemy.com/learn-java-by-building-projects/">Course Description</a></strong></li>
+<li style="color:green"><strong>[Udemy] Projects in Java [ENG, 8 Hours, ????] <a href="https://www.udemy.com/learn-java-by-building-projects/">Course Description</a></strong></li>
 <li><strong>[Udemy] Learn Test Driven Development in Java [ENG, 3 Hours, ????] <a href="https://www.udemy.com/learn-test-driven-development-in-java/">Course Description</a></strong></li>
 <li><strong>[Udemy] Java JSP / Servlets Web Development and Database Design [ENG, 7 Hours, ????] <a href="https://www.udemy.com/java-web-developmen-with-real-world-development-flow/">Course Description</a></strong></li>
 <li><strong>[Udemy] Advance Java Programming [ENG, 2 Hours, ????] <a href="https://www.udemy.com/advance-java-programming/">Course Description</a></strong></li>
