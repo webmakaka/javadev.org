@@ -22,7 +22,7 @@ permalink: /java_basics/installation/jdk/8/linux/centos/6/x86_x64/
 
 	# cd /tmp
 
--- download jdk from oracle website
+to download jdk from oracle website in command line:
 
     # wget --no-check-certificate --no-cookies - --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u40-b26/jdk-8u40-linux-x64.tar.gz
 
