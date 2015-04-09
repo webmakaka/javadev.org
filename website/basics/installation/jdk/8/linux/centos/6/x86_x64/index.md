@@ -7,15 +7,10 @@ permalink: /java_basics/installation/jdk/8/linux/centos/6/x86_x64/
 
 <h3>Let install some packages before</h3>
 
-
-<pre>
-
-# yum install -y \
-vim \
-wget \
-unzip
-
-</pre>
+	# yum install -y \
+	vim \
+	wget \
+	unzip
 
 
 <br/><br/>
@@ -25,33 +20,30 @@ unzip
 <br/>
 
 
-<pre>
-# cd /tmp
+	# cd /tmp
 
 -- download jdk from oracle website
-# wget --no-check-certificate --no-cookies - --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u20-b26/jdk-8u20-linux-x64.tar.gz
+
+    # wget --no-check-certificate --no-cookies - --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u40-b26/jdk-8u40-linux-x64.tar.gz
 
 
-# ls jdk*
-jdk-8u20-linux-x64.tar.gz
+    # ls jdk*
+jdk-8u40-linux-x64.tar.gz
 
+    # tar -xvzpf jdk-8u40-linux-x64.tar.gz
 
-# tar -xvzpf jdk-8u20-linux-x64.tar.gz
+    # mkdir -p /opt/jdk/1.8.0.40
 
-# mkdir -p /opt/jdk/1.8.0.20
-
-
-# mv jdk1.8.0_20/* /opt/jdk/1.8.0.20
-
-
-# ln -s /opt/jdk/1.8.0.20 /opt/jdk/current
+    # mv jdk1.8.0_40/* /opt/jdk/1.8.0.40/
+    
+    # ln -s /opt/jdk/1.8.0.40 /opt/jdk/current
 
 
 
-# useradd user1
-# su - user1
+    # useradd user1
+    # su - user1
 
-$ vi ~/.bash_profile
+    $ vi ~/.bash_profile
 
 
 #### JAVA 1.8.0 #######################
@@ -62,17 +54,16 @@ $ vi ~/.bash_profile
 #### JAVA 1.8.0 #######################
 
 
-$ source ~/.bash_profile
+     $ source ~/.bash_profile
 
 
 Let check result:
 
-$ java -version
-java version "1.8.0_20"
-Java(TM) SE Runtime Environment (build 1.8.0_20-b26)
-Java HotSpot(TM) 64-Bit Server VM (build 25.20-b23, mixed mode)
-
-</pre>
+    $ java -version
+    
+java version "1.8.0_40"
+Java(TM) SE Runtime Environment (build 1.8.0_40-b26)
+Java HotSpot(TM) 64-Bit Server VM (build 25.40-b25, mixed mode)
 
 
 
@@ -84,18 +75,16 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.20-b23, mixed mode)
 http://maven.apache.org
 
 
-<pre>
-
 $ su - root
 
 # cd /tmp
-# wget http://www.sai.msu.su/apache/maven/binaries/apache-maven-3.1.0-bin.tar.gz
+# wget http://apache-mirror.rbc.ru/pub/apache/maven/maven-3/3.3.1/binaries/apache-maven-3.3.1-bin.tar.gz
 
-# tar -xvzpf apache-maven-3.1.0-bin.tar.gz
+# tar -xvzpf apache-maven-3.3.1-bin.tar.gz
 
-# mkdir -p /opt/maven/3.1.0
+# mkdir -p /opt/maven/3.3.1
 
-# mv apache-maven-3.1.0/* /opt/maven/3.1.0/
+# mv apache-maven-3.3.1/* /opt/maven/3.3.1/
 
 
 $ su - user1
@@ -103,21 +92,19 @@ $ su - user1
 $ vi ~/.bash_profile
 
 
-#### MAVEN 3.1.0 #########################
+#### MAVEN 3.3.1 #########################
 
-	export MAVEN_HOME=/opt/maven/3.1.0
+	export MAVEN_HOME=/opt/maven/3.3.1
 	export PATH=$PATH:$MAVEN_HOME/bin
 
-#### MAVEN 3.1.0 #########################
+#### MAVEN 3.3.1 #########################
 
 
 
-$ source ~/.bash_profile
+    $ source ~/.bash_profile
 
+    $ mvn -version
 
-$ mvn -version
-
-</pre>
 
 <br/><br/>
 
