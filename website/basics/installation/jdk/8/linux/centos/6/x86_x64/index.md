@@ -26,16 +26,17 @@ permalink: /java_basics/installation/jdk/8/linux/centos/6/x86_x64/
 
     # wget --no-check-certificate --no-cookies - --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u40-b26/jdk-8u40-linux-x64.tar.gz
 
+<br/>
 
     # ls jdk*
-jdk-8u40-linux-x64.tar.gz
+	jdk-8u40-linux-x64.tar.gz
 
     # tar -xvzpf jdk-8u40-linux-x64.tar.gz
 
     # mkdir -p /opt/jdk/1.8.0.40
 
     # mv jdk1.8.0_40/* /opt/jdk/1.8.0.40/
-    
+
     # ln -s /opt/jdk/1.8.0.40 /opt/jdk/current
 
 
@@ -43,27 +44,33 @@ jdk-8u40-linux-x64.tar.gz
     # useradd user1
     # su - user1
 
+<br/>
+
     $ vi ~/.bash_profile
 
+<br/>
 
-#### JAVA 1.8.0 #######################
 
-	export JAVA_HOME=/opt/jdk/current
-	export PATH=$PATH:$JAVA_HOME/bin
+	#### JAVA 1.8.0 #######################
 
-#### JAVA 1.8.0 #######################
+		export JAVA_HOME=/opt/jdk/current
+		export PATH=$PATH:$JAVA_HOME/bin
 
+	#### JAVA 1.8.0 #######################
+
+<br/>
 
      $ source ~/.bash_profile
 
 
 Let check result:
 
+<br/>
+
     $ java -version
-    
-java version "1.8.0_40"
-Java(TM) SE Runtime Environment (build 1.8.0_40-b26)
-Java HotSpot(TM) 64-Bit Server VM (build 25.40-b25, mixed mode)
+	java version "1.8.0_40"
+	Java(TM) SE Runtime Environment (build 1.8.0_40-b26)
+	Java HotSpot(TM) 64-Bit Server VM (build 25.40-b25, mixed mode)
 
 
 
@@ -75,30 +82,34 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.40-b25, mixed mode)
 http://maven.apache.org
 
 
-$ su - root
+	$ su - root
 
-# cd /tmp
-# wget http://apache-mirror.rbc.ru/pub/apache/maven/maven-3/3.3.1/binaries/apache-maven-3.3.1-bin.tar.gz
+	# cd /tmp
+	# wget http://apache-mirror.rbc.ru/pub/apache/maven/maven-3/3.3.1/binaries/apache-maven-3.3.1-bin.tar.gz
 
-# tar -xvzpf apache-maven-3.3.1-bin.tar.gz
+	# tar -xvzpf apache-maven-3.3.1-bin.tar.gz
 
-# mkdir -p /opt/maven/3.3.1
+	# mkdir -p /opt/maven/3.3.1
 
-# mv apache-maven-3.3.1/* /opt/maven/3.3.1/
-
-
-$ su - user1
-
-$ vi ~/.bash_profile
+	# mv apache-maven-3.3.1/* /opt/maven/3.3.1/
 
 
-#### MAVEN 3.3.1 #########################
+	$ su - user1
 
-	export MAVEN_HOME=/opt/maven/3.3.1
-	export PATH=$PATH:$MAVEN_HOME/bin
+	$ vi ~/.bash_profile
 
-#### MAVEN 3.3.1 #########################
 
+<br/>
+
+	#### MAVEN 3.3.1 #########################
+
+		export MAVEN_HOME=/opt/maven/3.3.1
+		export PATH=$PATH:$MAVEN_HOME/bin
+
+	#### MAVEN 3.3.1 #########################
+
+
+<br/>
 
 
     $ source ~/.bash_profile
