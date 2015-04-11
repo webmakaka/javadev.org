@@ -15,7 +15,7 @@ For example, this repository is very <a href="https://github.com/iluwatar/java-d
 **Latest 10 added courses:**
 
 <ul>
-<li style="color:green"><strong>[Skilled] Intermediate & Advanced Java Programming [ENG, 3 hr 37 min, 2014]</strong> <a href="https://www.skillfeed.com/courses/2105-intermediate-advanced-java-programming">Description</a></li>
+<li style="color:green"><strong>[Skillfeed] Intermediate & Advanced Java Programming [ENG, 3 hr 37 min, 2014]</strong> <a href="https://www.skillfeed.com/courses/2105-intermediate-advanced-java-programming">Description</a></li>
 <li style="color:green">[Udemy] Java Database Connection: JDBC and MySQL  (<a href="https://www.udemy.com/how-to-connect-java-jdbc-to-mysql/">Course Description</a>)</li>
 <li style="color:green"><strong>[Udemy] Projects in Java [ENG, 8 Hours, ????] <a href="https://www.udemy.com/learn-java-by-building-projects/">Course Description</a></strong></li>
 <li style="color:green"><strong>[Udemy] Step By Step Java Programming Complete Course [ENG, 3 Hours, ????] <a href="https://www.udemy.com/step-by-step-java-programming-complete-course/">Course Description</a></strong></li>
