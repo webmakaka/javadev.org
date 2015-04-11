@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Eclipse Creating Local and Remote Git Repository
+title: Creating Local and Remote Git Repository in Eclipse IDE
 permalink: /java_basics/git/eclipse/
 ---
 
