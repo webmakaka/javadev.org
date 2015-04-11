@@ -12,13 +12,13 @@ permalink: /library/skilled/java/
 <li><strong>[Skillfeed] Java for beginners : A very easy course on Java [ENG, 2 hr 36 min, 2015]</strong> <a href="https://www.skillfeed.com/courses/10877-java-for-beginners-a-very-easy-course-on-java">(Course Description)</a></li>
 <li><strong>[Skillfeed] Automation Testing using Selenium Webdriver and Java [ENG, 3 hr 22 min, 2015]</strong> <a href="https://www.skillfeed.com/courses/10275-automation-testing-using-selenium-webdriver-and-java">(Course Description)</a></li>
 <li><strong>[Skillfeed] Become a professional Java developer from scratch [ENG, 5 hr 4 min, 2015]</strong> <a href="https://www.skillfeed.com/courses/10489-become-a-professional-java-developer-from-scratch">(Course Description)</a></li>
-<li><strong>[Skillfeed] 
-Java Tutorial For Beginners [ENG, 9 hr 41 min, 2015]</strong> <a href="https://www.skillfeed.com/courses/10156-java-tutorial-for-beginners">(Course Description)</a></li>
-
-
-
+<li><strong>[Skillfeed] Java Tutorial For Beginners [ENG, 9 hr 41 min, 2015]</strong> <a href="https://www.skillfeed.com/courses/10156-java-tutorial-for-beginners">(Course Description)</a></li>
+<li><strong>[Skillfeed] EJB 3.0 in Simple Steps, Do it Right Do it Fast [ENG, 2 hr 31 min, 2015]</strong> <a href="https://www.skillfeed.com/courses/9890-ejb-3-0-in-simple-steps-do-it-right-do-it-fast">(Course Description)</a></li>
+<li><strong>[Skillfeed] Java Memory Management (Heap, stack space and string interning) [ENG, 36 min, 2015]</strong> <a href="https://www.skillfeed.com/courses/9266-java-memory-management-heap-stack-space-and-string-interning">(Course Description)</a></li>
+<li><strong>[Skillfeed] WebServices/REST API Testing with SoapUI [ENG, 13 hr 42 min, 2015]</strong> <a href="https://www.skillfeed.com/courses/9095-webservices-rest-api-testing-with-soapui">(Course Description)</a></li>
 
 </ul>
+
 
 
 
