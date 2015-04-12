@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Cave of Programming
-permalink: /library/cave-of-programming/java/
+permalink: /library/cave-of-programming/java/free/
 ---
 <ul>
 <li>Java for Complete Beginners <a href="http://courses.caveofprogramming.com/courses/java-for-complete-beginners">(Course Description)</a></li>
