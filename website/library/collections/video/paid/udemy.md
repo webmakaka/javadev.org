@@ -26,7 +26,6 @@ permalink: /library/udemy/java/
 <li><strong>[Udemy] Learn Test Driven Development in Java [ENG, 3 Hours, ????] <a href="https://www.udemy.com/learn-test-driven-development-in-java/">Course Description</a></strong></li>
 <li><strong>[Udemy] Java JSP / Servlets Web Development and Database Design [ENG, 7 Hours, ????] <a href="https://www.udemy.com/java-web-developmen-with-real-world-development-flow/">Course Description</a></strong></li>
 <li><strong>[Udemy] Advance Java Programming [ENG, 2 Hours, ????] <a href="https://www.udemy.com/advance-java-programming/">Course Description</a></strong></li>
-<li><strong>[Udemy] Advance Java Programming [ENG, 2 Hours, ????] <a href="https://www.udemy.com/advance-java-programming/">Course Description</a></strong></li>
 <li><strong>[Udemy] Selenium Webdriver with Java (Basics + Advance + Architect) [ENG, 43 Hours, ????] <a href="https://www.udemy.com/selenium-tutorials/">Course Description</a></strong></li>
 <li><strong>[Udemy] Codename One 101 - Write Native Mobile Apps In Java [ENG, 7 Hours, ????] <a href="https://www.udemy.com/codenameone101/">Course Description</a></strong></li>
 <li><strong>[Udemy] Java Maven: Stop Building Java Programs the Hard Way! [ENG, 5 Hours, ????] <a href="https://www.udemy.com/apachemaven/">Course Description</a></strong></li>
