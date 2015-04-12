@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Marakana Java Videos
-permalink: /library/marakana/java/
+permalink: /library/marakana/java/free/
 ---
 
 <h2>BEST VIDEOS about JAVA Development is open for ALL for FREE. <br/>
