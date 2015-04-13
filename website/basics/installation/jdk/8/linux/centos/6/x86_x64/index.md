@@ -75,6 +75,18 @@ Let check result:
 
 
 <br/><br/>
+<h3>IF JDK7 Needed:</h3>
+
+    # cd /tmp
+    # wget --no-check-certificate --no-cookies - --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/7u75-b13/jdk-7u75-linux-x64.tar.gz
+    # tar -xvzpf jdk-7u75-linux-x64.tar.gz
+    # mkdir -p /opt/jdk/1.7.0.75/
+    # mv jdk1.7.0_75/* /opt/jdk/1.7.0.75/
+    # ln -s /opt/jdk/1.7.0.75 /opt/jdk/current
+
+
+
+<br/><br/>
 <h3>Maven Installation:</h3>
 
 
