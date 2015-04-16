@@ -9,10 +9,9 @@ permalink: /library/infiniteskills/java/
 
 
 <ul>
-
-<li style="color:green"><strong>Hibernate and Java Persistence API (JPA) Fundamentals [ENG, 2015]</strong></li>
-
-	<li style="color:green"><strong>Java 8 - Beyond the Basics</strong></li>
+<li style="color:green"><strong>[InfiniteSkills] Learning Apache Maven Training Video [ENG, 5 hours, 2015]</strong> (<a href="http://www.infiniteskills.com/training/learning-apache-maven.html">Course Description</a>)</li>
+<li style="color:green"><strong>[InfiniteSkills] Hibernate and Java Persistence API (JPA) Fundamentals [ENG, 2015]</strong></li>
+<li style="color:green"><strong>[InfiniteSkills] Java 8 - Beyond the Basics</strong></li>
 </ul>
 
 <br/><br/>
@@ -21,10 +20,10 @@ permalink: /library/infiniteskills/java/
 
 
 <ul>
-	<li style="color:green"><strong>Learning Spring Programming</strong></li>
-	<li style="color:green"><strong>Learning Java 8</strong></li>
-	<li style="color:green"><strong>Learning Java EE 7</strong></li>
-	<li style="color:green"><strong>Learning Eclipse Java IDE Training Video</strong></li>
+	<li style="color:green"><strong>[InfiniteSkills] Learning Spring Programming</strong></li>
+	<li style="color:green"><strong>[InfiniteSkills] Learning Java 8</strong></li>
+	<li style="color:green"><strong>[InfiniteSkills] Learning Java EE 7</strong></li>
+	<li style="color:green"><strong>[InfiniteSkills] Learning Eclipse Java IDE Training Video</strong></li>
 </ul>
 
 
@@ -33,7 +32,7 @@ permalink: /library/infiniteskills/java/
 <strong>2013</strong>
 
 <ul>
-	<li style="color:green"><strong>Java Database Programming</strong></li>
+	<li style="color:green"><strong>[InfiniteSkills] Java Database Programming</strong></li>
 
 </ul>
 
@@ -43,8 +42,8 @@ permalink: /library/infiniteskills/java/
 <strong>2012</strong>
 
 <ul>
-	<li style="color:green"><strong>Advanced Java Programming</strong></li>
-	<li style="color:green"><strong>Java Programming Bundle</strong></li>
+	<li style="color:green"><strong>[InfiniteSkills] Advanced Java Programming</strong></li>
+	<li style="color:green"><strong>[InfiniteSkills] Java Programming Bundle</strong></li>
 </ul>
 
 
@@ -54,6 +53,6 @@ permalink: /library/infiniteskills/java/
 <strong>2011</strong>
 
 <ul>
-	<li style="color:green"><strong>Beginners Java Programming Training Video: Learning To Program In Java </strong></li>
+	<li style="color:green"><strong>[InfiniteSkills] Beginners Java Programming Training Video: Learning To Program In Java </strong></li>
 
 </ul>
