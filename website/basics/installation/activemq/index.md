@@ -16,7 +16,7 @@ permalink: /java_basics/installation/activemq/centos/6/x86_x64/
 
 	# su - root
 	# cd /tmp
-	# wget http://apache-mirror.rbc.ru/pub/apache/activemq/5.11.1/apache-activemq-5.11.1-bin.tar.gz
+	# wget http://mirrors.sonic.net/apache/activemq/5.11.1/apache-activemq-5.11.1-bin.tar.gz
 	# tar -xvzpf apache-activemq-5.11.1-bin.tar.gz
 
 
