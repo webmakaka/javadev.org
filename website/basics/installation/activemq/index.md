@@ -4,10 +4,10 @@ title: ActiveMQ installation on Centos 6.X
 permalink: /java_basics/installation/activemq/centos/6/x86_x64/
 ---
 
-1) java should be installed.
+1) java should be installed. (I had problem when i worked with jdk 1.8.X)
 
 	$ java -version
-	java version "1.8.0_40"
+	java version "1.7.0_75"
 
 
 <br/>
