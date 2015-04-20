@@ -33,11 +33,11 @@ to download jdk from oracle website in command line:
 
     # tar -xvzpf jdk-8u40-linux-x64.tar.gz
 
-    # mkdir -p /opt/jdk/1.8.0.40
+    # mkdir -p /opt/jdk/1.8.0_40
 
-    # mv jdk1.8.0_40/* /opt/jdk/1.8.0.40/
+    # mv jdk1.8.0_40/* /opt/jdk/1.8.0_40/
 
-    # ln -s /opt/jdk/1.8.0.40 /opt/jdk/current
+    # ln -s /opt/jdk/1.8.0_40 /opt/jdk/current
 
 
 
@@ -80,9 +80,9 @@ Let check result:
     # cd /tmp
     # wget --no-check-certificate --no-cookies - --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/7u75-b13/jdk-7u75-linux-x64.tar.gz
     # tar -xvzpf jdk-7u75-linux-x64.tar.gz
-    # mkdir -p /opt/jdk/1.7.0.75/
-    # mv jdk1.7.0_75/* /opt/jdk/1.7.0.75/
-    # ln -s /opt/jdk/1.7.0.75 /opt/jdk/current
+    # mkdir -p /opt/jdk/1.7.0_75/
+    # mv jdk1.7.0_75/* /opt/jdk/1.7.0_75/
+    # ln -s /opt/jdk/1.7.0_75 /opt/jdk/current
 
 
 
