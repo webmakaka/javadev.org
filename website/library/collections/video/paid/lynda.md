@@ -19,7 +19,7 @@ permalink: /library/lynda/java/
 
 <ul>
 	<li style="color:green"><strong>Using Java to Program Google App Engine</strong></li>
-	<li style="color:green"><strong>Java EE Essentials: Enterprise JavaBeans</strong></li>
+	<li style="color:green"><strong>Java EE Essentials: Enterprise JavaBeans</strong> <a href="https://github.com/javadev-org/Java-EE-Essentials-Enterprise-JavaBeans">src</a></li>
 	<li style="color:green"><strong>Java EE Essentials: Servlets and JavaServer Faces</strong></li>
 	<li style="color:green"><strong>Java SE 8 New Features</strong></li>
 	<li style="color:green"><strong>Building Web Services with Java EE</strong></li>
