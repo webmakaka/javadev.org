@@ -10,6 +10,7 @@ permalink: /library/udemy/java/
 <strong>Java</strong>
 
 <ul>
+<li style="color:green"><strong>[Udemy] Learn Hibernate 4 : Java's Popular ORM Framework [ENG (Indian), 1 Hours, ????] <a href="https://www.udemy.com/hibernate-4-java-orm-framework/">Course Description</a></strong></li>
 <li style="color:green"><strong>[Udemy] Step By Step Java Programming Complete Course [ENG, 3 Hours, ????] <a href="https://www.udemy.com/step-by-step-java-programming-complete-course/">Course Description</a></strong></li>
 <li><strong>[Udemy] Java 8 - Make it your new Cup of Coffee [ENG, 19 Hours, ????] <a href="https://www.udemy.com/java-basics-for-j2ee-and-android/">Course Description</a></strong></li>
 <li><strong>[Udemy] Introduction to Unit Testing in Java with J-Unit 4 [ENG, 2 Hours, ????] <a href="https://www.udemy.com/introduction-to-unit-testing-java/">Course Description</a></strong></li>
