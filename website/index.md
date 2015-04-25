@@ -15,6 +15,7 @@ For example, this repository is very <a href="https://github.com/iluwatar/java-d
 **Latest 10 added courses:**
 
 <ul>
+<li style="color:green"><strong>[Udemy] Learn Hibernate 4 : Java's Popular ORM Framework [ENG (Indian), 1 Hours, ????] <a href="https://www.udemy.com/hibernate-4-java-orm-framework/">Course Description</a></strong></li>
 <li style="color:green"><strong>[O'Reilly]  Enterprise Messaging JMS 1.1 and JMS 2.0 Fundamentals </strong> [ENG, 5 hours 29 minutes, 2014] (<a href="http://shop.oreilly.com/product/0636920034698.do">Course Description</a>)</li>
 <li style="color:green"><strong>[InfiniteSkills] Learning Apache Maven Training Video [ENG, 5 hours, 2015]</strong> (<a href="http://www.infiniteskills.com/training/learning-apache-maven.html">Course Description</a>)</li>
 <li style="color:green"><strong>[Packtpub] Play Framework for Web Application Development</strong> [ENG, 2 hours 07 minutes, June 28, 2013] (<a href="https://www.packtpub.com/web-development/play-framework-web-application-development-video">Course Description</a>)</li>
