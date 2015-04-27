@@ -12,7 +12,7 @@ For example, this repository is very <a href="https://github.com/iluwatar/java-d
 <br/><br/>
 
 
-**I decided to move list books and videocourses about java development to javalabs.org:**
+**I decided to move list of books and video courses about java development to <a href="https://javalabs.org/">javalabs.org</a>**
 
 
 
