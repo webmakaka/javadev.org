@@ -67,7 +67,7 @@ run ConsumerTool.java as Java Application
 
 $ cd /opt/wildfly/8.2.0/standalone/configuration
 
-$ cp standalone.xml standalone.xml.backup
+$ cp standalone-full.xml standalone-full.xml.backup
 
 $ vi standalone.xml
 
@@ -134,7 +134,7 @@ add to block
 
 
 
-$ standalone.sh -b=0.0.0.0 -bmanagement=0.0.0.0
+$ standalone.sh -c standalone-full.xml -b=0.0.0.0 -bmanagement=0.0.0.0
 
 
 

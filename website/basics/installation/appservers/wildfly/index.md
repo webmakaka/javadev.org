@@ -60,7 +60,7 @@ http://javadev.org/java_basics/installation/jdk/8/linux/centos/6/x86_x64/
 
 Устанавливаем пароль для пользователе jboss
 
-    # passwd jboss
+    # passwd wildfly
 
 
 ### Создание структуры каталогов и назначение необходимых прав
@@ -115,9 +115,11 @@ What type of user do you wish to add?
  b) Application User (application-users.properties)
 (a): [Enter]
 
+
 Enter the details of the new user to add.
 Using realm 'ManagementRealm' as discovered from the existing property files.
 Username : admin
+
 The username 'admin' is easy to guess
 Are you sure you want to add user 'admin' yes/no? yes
 Password recommendations are listed below. To modify these restrictions edit the add-user.properties configuration file.
@@ -125,26 +127,31 @@ Password recommendations are listed below. To modify these restrictions edit the
  - The password should contain at least 8 characters, 1 alphabetic character(s), 1 digit(s), 1 non-alphanumeric symbol(s)
  - The password should be different from the username
 Password :
+
 JBAS152565: Password must not be equal to 'admin', this value is restricted.
-Are you sure you want to use the password entered yes/no? yes
-Re-enter Password :
+Are you sure you want to use the password entered yes/no?
+
+
 What groups do you want this user to belong to? (Please enter a comma separated list, or leave blank for none)[  ]:
+
+
 About to add user 'admin' for realm 'ManagementRealm'
-Is this correct yes/no? yes
+Is this correct yes/no?
+
 Added user 'admin' to file '/opt/wildfly/8.2.0/standalone/configuration/mgmt-users.properties'
 Added user 'admin' to file '/opt/wildfly/8.2.0/domain/configuration/mgmt-users.properties'
 Added user 'admin' with groups  to file '/opt/wildfly/8.2.0/standalone/configuration/mgmt-groups.properties'
 Added user 'admin' with groups  to file '/opt/wildfly/8.2.0/domain/configuration/mgmt-groups.properties'
 Is this new user going to be used for one AS process to connect to another AS process?
 e.g. for a slave host controller connecting to the master or for a Remoting connection for server to server EJB calls.
-yes/no? yes
-To represent the user add the following to the server-identities definition <secret value="YWRtaW4=" />
+yes/no?
+
 
 {% endhighlight %}
 
 
 
-### Запуск JBoss
+### WildFly Start
 
     $ standalone.sh -b=0.0.0.0 -bmanagement=0.0.0.0
 
