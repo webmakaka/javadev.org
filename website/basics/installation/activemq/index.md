@@ -62,17 +62,17 @@ Switch to the activemq admin
 	$ source ~/.bash_profile
 
 
-	$ nohup activemq start &
+	$ nohup activemq start
 
 
 	$ netstat -tulpn | grep 61616
 
 	(No info could be read for "-p": geteuid()=500 but you should be root.)
 	tcp        0      0 :::61616                    :::*                        LISTEN      -
-	
-	
+
+
 	$ netstat -tulpn | grep 8161
-        tcp        0      0 :::8161                     :::*                        LISTEN      -                   
+        tcp        0      0 :::8161                     :::*                        LISTEN      -
 
 
 

@@ -84,6 +84,24 @@ Let check result:
     # mv jdk1.7.0_75/* /opt/jdk/1.7.0_75/
     # ln -s /opt/jdk/1.7.0_75 /opt/jdk/current
 
+<br/>
+
+	$ vi ~/.bash_profile
+
+<br/>
+
+
+	#### JAVA 1.7.0 #######################
+
+		export JAVA_HOME=/opt/jdk/current
+		export PATH=$PATH:$JAVA_HOME/bin
+
+	#### JAVA 1.7.0 #######################
+
+<br/>
+
+     $ source ~/.bash_profile
+
 
 
 <br/><br/>
