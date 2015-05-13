@@ -83,9 +83,8 @@ Let check result:
 ### Maven Installation:
 
 
-	<strong>Distrib:</strong><br/>
-	http://maven.apache.org
-
+<strong>Distrib:</strong><br/>
+http://maven.apache.org
 
 	$ su - root
 
