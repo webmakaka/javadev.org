@@ -12,7 +12,7 @@ permalink: /java_basics/installation/jdk/8/linux/centos/6/x86_x64/
 	wget \
 	unzip
 
-	<br/><br/><br/>
+<br/><br/>
 
 ### JDK8 Installation:
 
@@ -150,7 +150,7 @@ http://www.gradle.org/downloads
 	$ vi ~/.bash_profile
 
 
-<br/><br/>
+<br/>
 
 
 	#### GRADLE 2.4 ###########################
@@ -161,7 +161,7 @@ http://www.gradle.org/downloads
 	#### GRADLE 2.4 ###########################
 
 
-<br/><br/>
+<br/>
 
 
 	$ source ~/.bash_profile
@@ -171,6 +171,7 @@ http://www.gradle.org/downloads
 
 
 <br/><br/>
+
 ### Glassfish Installation:
 
 
