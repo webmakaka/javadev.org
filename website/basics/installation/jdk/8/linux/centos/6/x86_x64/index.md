@@ -12,12 +12,9 @@ permalink: /java_basics/installation/jdk/8/linux/centos/6/x86_x64/
 	wget \
 	unzip
 
-	<br/><br/>
+	<br/><br/><br/>
 
 ### JDK8 Installation:
-
-
-<br/>
 
 	# cd /tmp
 
@@ -38,6 +35,7 @@ to download jdk from oracle website in command line:
 
     # ln -s /opt/jdk/1.8.0_45 /opt/jdk/current
 
+<br/>
 
     # useradd user1
     # su - user1
@@ -63,14 +61,13 @@ to download jdk from oracle website in command line:
 
 Let check result:
 
-	<br/>
+<br/>
 
 	$ java -version
 
-
 <br/><br/>
 
-	<h3>IF JDK7 Needed:</h3>
+### IF JDK7 Needed:
 
     # cd /tmp
     # wget --no-check-certificate --no-cookies - --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/7u75-b13/jdk-7u75-linux-x64.tar.gz
@@ -80,9 +77,10 @@ Let check result:
     # ln -s /opt/jdk/1.7.0_75 /opt/jdk/current
 
 
-	<br/><br/>
+<br/><br/>
 
-	### Maven Installation:
+
+### Maven Installation:
 
 
 	<strong>Distrib:</strong><br/>
@@ -102,6 +100,7 @@ Let check result:
 
 	# ln -s /opt/maven/3.3.3 /opt/maven/current
 
+<br/><br/>
 
 	$ su - user1
 
