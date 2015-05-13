@@ -12,33 +12,31 @@ permalink: /java_basics/installation/jdk/8/linux/centos/6/x86_x64/
 	wget \
 	unzip
 
+	<br/><br/>
 
-<br/><br/>
-<h3>JDK8 Installation:</h3>
+### JDK8 Installation:
 
 
 <br/>
-
 
 	# cd /tmp
 
 to download jdk from oracle website in command line:
 
-    # wget --no-check-certificate --no-cookies - --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u40-b26/jdk-8u40-linux-x64.tar.gz
+    # wget --no-check-certificate --no-cookies - --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u40-b26/jdk-8u45-linux-x64.tar.gz
 
 <br/>
 
     # ls jdk*
-	jdk-8u40-linux-x64.tar.gz
+	jdk-8u45-linux-x64.tar.gz
 
-    # tar -xvzpf jdk-8u40-linux-x64.tar.gz
+    # tar -xvzpf jdk-8u45-linux-x64.tar.gz
 
-    # mkdir -p /opt/jdk/1.8.0_40
+    # mkdir -p /opt/jdk/1.8.0_45
 
-    # mv jdk1.8.0_40/* /opt/jdk/1.8.0_40/
+    # mv jdk1.8.0_45/* /opt/jdk/1.8.0_45/
 
-    # ln -s /opt/jdk/1.8.0_40 /opt/jdk/current
-
+    # ln -s /opt/jdk/1.8.0_45 /opt/jdk/current
 
 
     # useradd user1
@@ -65,17 +63,14 @@ to download jdk from oracle website in command line:
 
 Let check result:
 
-<br/>
+	<br/>
 
-    $ java -version
-	java version "1.8.0_40"
-	Java(TM) SE Runtime Environment (build 1.8.0_40-b26)
-	Java HotSpot(TM) 64-Bit Server VM (build 25.40-b25, mixed mode)
-
+	$ java -version
 
 
 <br/><br/>
-<h3>IF JDK7 Needed:</h3>
+
+	<h3>IF JDK7 Needed:</h3>
 
     # cd /tmp
     # wget --no-check-certificate --no-cookies - --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/7u75-b13/jdk-7u75-linux-x64.tar.gz
@@ -84,32 +79,14 @@ Let check result:
     # mv jdk1.7.0_75/* /opt/jdk/1.7.0_75/
     # ln -s /opt/jdk/1.7.0_75 /opt/jdk/current
 
-<br/>
 
-	$ vi ~/.bash_profile
+	<br/><br/>
 
-<br/>
-
-
-	#### JAVA 1.7.0 #######################
-
-		export JAVA_HOME=/opt/jdk/current
-		export PATH=$PATH:$JAVA_HOME/bin
-
-	#### JAVA 1.7.0 #######################
-
-<br/>
-
-     $ source ~/.bash_profile
+	### Maven Installation:
 
 
-
-<br/><br/>
-<h3>Maven Installation:</h3>
-
-
-<strong>Distrib:</strong><br/>
-http://maven.apache.org
+	<strong>Distrib:</strong><br/>
+	http://maven.apache.org
 
 
 	$ su - root
@@ -117,11 +94,13 @@ http://maven.apache.org
 	# cd /tmp
 	# wget http://apache-mirror.rbc.ru/pub/apache/maven/maven-3/3.3.1/binaries/apache-maven-3.3.1-bin.tar.gz
 
-	# tar -xvzpf apache-maven-3.3.1-bin.tar.gz
+	# tar -xvzpf apache-maven-3.3.3-bin.tar.gz
 
-	# mkdir -p /opt/maven/3.3.1
+	# mkdir -p /opt/maven/3.3.3
 
-	# mv apache-maven-3.3.1/* /opt/maven/3.3.1/
+	# mv apache-maven-3.3.3/* /opt/maven/3.3.3/
+
+	# ln -s /opt/maven/3.3.3 /opt/maven/current
 
 
 	$ su - user1
@@ -131,23 +110,22 @@ http://maven.apache.org
 
 <br/>
 
-	#### MAVEN 3.3.1 #########################
+	#### MAVEN 3.3.3 #########################
 
-		export MAVEN_HOME=/opt/maven/3.3.1
+		export MAVEN_HOME=/opt/maven/current
 		export PATH=$PATH:$MAVEN_HOME/bin
 
-	#### MAVEN 3.3.1 #########################
+	#### MAVEN 3.3.3 #########################
 
 
 <br/>
 
-
     $ source ~/.bash_profile
-
     $ mvn -version
 
 
 <br/><br/>
+
 
 <h3>Gradle Installation:</h3>
 
