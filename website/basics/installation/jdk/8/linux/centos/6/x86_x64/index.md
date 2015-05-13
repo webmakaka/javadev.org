@@ -74,7 +74,7 @@ Let check result:
     # tar -xvzpf jdk-7u75-linux-x64.tar.gz
     # mkdir -p /opt/jdk/1.7.0_75/
     # mv jdk1.7.0_75/* /opt/jdk/1.7.0_75/
-    # ln -s /opt/jdk/1.7.0_75 /opt/jdk/current
+    # ln -s /opt/jdk/1.7.0_75/ /opt/jdk/current
 
 
 <br/><br/>
@@ -97,7 +97,7 @@ http://maven.apache.org
 
 	# mv apache-maven-3.3.3/* /opt/maven/3.3.3/
 
-	# ln -s /opt/maven/3.3.3 /opt/maven/current
+	# ln -s /opt/maven/3.3.3/ /opt/maven/current
 
 <br/><br/>
 
@@ -125,97 +125,90 @@ http://maven.apache.org
 <br/><br/>
 
 
-<h3>Gradle Installation:</h3>
+### Gradle Installation:
 
 
 <strong>Distrib:</strong><br/>
 http://www.gradle.org/downloads
 
 
-<pre>
+	$ su - root
 
-$ su - root
+	# cd /tmp
+	# wget https://services.gradle.org/distributions/gradle-2.4-all.zip
 
-# cd /tmp
-# wget http://services.gradle.org/distributions/gradle-1.12-bin.zip
+	# unzip gradle-2.4-all.zip
 
-# unzip gradle-1.12-bin.zip
+	# mkdir -p /opt/gradle/2.4
 
-# mkdir -p /opt/gradle/1.12
+	# mv gradle-2.4/* /opt/gradle/2.4/
 
-# mv gradle-1.12/* /opt/gradle/1.12
+	# ln -s /opt/gradle/2.4/ /opt/gradle/current
 
-# su - user1
+	# su - user1
 
-$ vi ~/.bash_profile
-
-
-#### GRADLE 1.12 ###########################
-
-	export GRADLE_HOME=/opt/gradle/1.12
-	export PATH=$PATH:$GRADLE_HOME/bin
-
-#### GRADLE 1.12 ###########################
-
-
-
-$ source ~/.bash_profile
-
-$ gradle -version
-
-</pre>
+	$ vi ~/.bash_profile
 
 
 <br/><br/>
-<h3>Glassfish Installation:</h3>
+
+
+	#### GRADLE 2.4 ###########################
+
+		export GRADLE_HOME=/opt/gradle/current
+		export PATH=$PATH:$GRADLE_HOME/bin
+
+	#### GRADLE 2.4 ###########################
+
+
+<br/><br/>
+
+
+	$ source ~/.bash_profile
+
+	$ gradle -version
+
+
+
+<br/><br/>
+### Glassfish Installation:
 
 
 <strong>Distrib:</strong><br/>
 http://glassfish.org
 
 
-<pre>
+	$ su - root
 
-$ su - root
+	# cd /tmp
+	# wget http://download.java.net/glassfish/4.0/release/glassfish-4.0.zip
 
-# cd /tmp
-# wget http://download.java.net/glassfish/4.0/release/glassfish-4.0.zip
+	# mkdir -p /opt/glassfish/4.0
 
-# mkdir -p /opt/glassfish/4.0
-
-# unzip glassfish-4.0.zip
+	# unzip glassfish-4.0.zip
 
 
-# mv glassfish4/* /opt/glassfish/4.0
+	# mv glassfish4/* /opt/glassfish/4.0
 
 
-# su - user1
+	# su - user1
 
-$ vi ~/.bash_profile
-
-
-#### GLASSFISH 4.0 ##############################
-
-	export GLASSFISH_HOME=/opt/glassfish/4.0/glassfish
-	export PATH=$PATH:$GLASSFISH_HOME/bin
-
-#### GLASSFISH 4.0 ##############################
+	$ vi ~/.bash_profile
 
 
+<br/><br/>
 
-$ source ~/.bash_profile
+	#### GLASSFISH 4.0 ##############################
 
+		export GLASSFISH_HOME=/opt/glassfish/4.0/glassfish
+		export PATH=$PATH:$GLASSFISH_HOME/bin
 
-$ asadmin  version
-Version string could not be obtained from Server [localhost:4848].
-(Turn debugging on e.g. by setting AS_DEBUG=true in your environment, to see the details.)
-Using locally retrieved version string from version class.
-Version = GlassFish Server Open Source Edition  4.0  (build 89)
-Command version executed successfully.
+	#### GLASSFISH 4.0 ##############################
 
+<br/><br/>
+
+	$ source ~/.bash_profile
+	$ asadmin  version
 
 
 Default password is: adminadmin
-
-
-</pre>

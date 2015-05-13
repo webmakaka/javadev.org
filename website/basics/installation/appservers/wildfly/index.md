@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Инсталляция сервера приложений JBoss 7.1 в операционной системе Centos 6.6 x86 64 bit
-permalink: /appservers/jboss/7.1/installation/
+title: Wildfly 8.2 Installation on Centos 6.6 x86_64
+permalink: /appservers/wildfly/8.2/installation/
 ---
 
 В случае обнаружения ошибок, неточностей, опечаток или Вам известны лучшие способы, пишите мне адрес эл. почты.  
@@ -33,14 +33,12 @@ permalink: /appservers/jboss/7.1/installation/
 
     # chkconfig iptables off
 
+    # reboot
 
 
-### JDK7 Installation (JDK8 can not properly working with app server)
+### JDK8 Installation
 
 http://javadev.org/java_basics/installation/jdk/8/linux/centos/6/x86_x64/
-
-
-    # reboot
 
 
 ### Создание пользователей и групп
@@ -51,7 +49,6 @@ http://javadev.org/java_basics/installation/jdk/8/linux/centos/6/x86_x64/
     -g wildfly_admins \
     -d /home/wildfly \
     -m wildfly
-
 
 
 Если нужно добавить пользователя в группу jboss_admins можно это сделать следующей командой:
@@ -85,6 +82,7 @@ http://javadev.org/java_basics/installation/jdk/8/linux/centos/6/x86_x64/
     $ vi ~/.bash_profile
 
 {% highlight bash %}
+
 # User specific environment and startup programs
 
 #### WildFly 8.2.0 ##################
@@ -93,7 +91,6 @@ export WILDFLY_HOME=/opt/wildfly/8.2.0
 export PATH=$PATH:$HOME/bin:$WILDFLY_HOME/bin
 
 #### WildFly 8.2.0 ##################
-
 
 {% endhighlight %}
 
