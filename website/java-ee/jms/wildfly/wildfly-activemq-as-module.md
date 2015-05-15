@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Configuring a Resource Adapter for ActiveMQ on WildFly 8.2
-permalink: /java-ee/jms/wildfly-activemq-integration/
+permalink: /java-ee/jms/wildfly-activemq-as-module/
 ---
 
 
