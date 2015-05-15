@@ -102,10 +102,10 @@ reboot server
 
 
 
-    <div align="center">
-        <img src="https://raw.githubusercontent.com/javadev-org/javadev-org.github.io/master/website/java-ee/jms/wildfly/resource_adapters.png" alt="WildFly ActiveMQ as Module">
+<div align="center">
+    <img src="https://raw.githubusercontent.com/javadev-org/javadev-org.github.io/master/website/java-ee/jms/wildfly/resource_adapters.png" alt="WildFly ActiveMQ as Module">
 
-    </div>
+</div>
 
 
 Based on article:  
