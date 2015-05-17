@@ -70,7 +70,7 @@ permalink: /java-ee/jms/wildfly-activemq-as-module/
     <subsystem xmlns="urn:jboss:domain:resource-adapters:2.0"/>
 
 
-replaced on:
+replace on:
 
 
     <subsystem xmlns="urn:jboss:domain:resource-adapters:2.0">
@@ -96,7 +96,7 @@ replaced on:
     </subsystem>
 
 
-reboot server
+restart wildfly server
 
     $ standalone.sh -c standalone-full.xml -b=0.0.0.0 -bmanagement=0.0.0.0
 
