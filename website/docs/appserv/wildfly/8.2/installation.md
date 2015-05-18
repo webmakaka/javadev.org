@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Wildfly 8.2 installation on Centos 7.1 x86 64 bit
+title: Wildfly 8.2 Installation on Centos 6.6 x86_64
 permalink: /appservers/wildfly/8.2/installation/
 ---
 
@@ -33,88 +33,22 @@ permalink: /appservers/wildfly/8.2/installation/
 
     # chkconfig iptables off
 
-
-<br/>
-
     # reboot
 
-<!--
 
-### Инсталляция дополнительных пакетов:
-
-    # yum install -y \
-    mc \
-    nano \
-    vim \
-    emacs \
-    make \
-    openssh-clients \
-    wget \
-    xinetd \
-    screen \
-    vsftpd \
-    gamin \
-    unzip \
-    ntp \
-    net-snmp
-
--->
-
-### Инсталляция JDK7
+### JDK8 Installation
 
 http://javadev.org/java_basics/installation/jdk/8/linux/centos/6/x86_x64/
 
-<!--
 
-### Дополнительные настройки:
+### Add User and Groups
 
-Настраиваем планировщик заданий  
+    $ sudo groupadd -g 1001 wildfly_admins
 
-Сервера ru.pool.ntp.org выбраны в качестве примера  
-
-    # crontab -e
-
-
-
-{% highlight bash %}
-# Set the date and time via NTP
-*/15 * * * * /usr/sbin/ntpdate 0.ru.pool.ntp.org 1.ru.pool.ntp.org 2.ru.pool.ntp.org 3.ru.pool.ntp.org   > /var/log/time.log
-{% endhighlight %}
-
-
-### Автозапуск только выбранных программ
-
-Следующая команда отключает автозапуск сразу всех пакетов.
-
-    # for i in $(chkconfig --list | grep '3:on\|4:on\|5:on' | awk {'print $1'}); do chkconfig --level 345 $i off; done
-
-После этого, включаем в автозапуск следующие программы:
-
-    # {
-    chkconfig  --level 345 sshd on
-    chkconfig  --level 345 network on
-    chkconfig  --level 345 xinetd on
-    chkconfig  --level 345 rsyslog on
-    chkconfig  --level 345 auditd on
-    }
-
-<br/>
-
-
--->
-
-
-
-
-### Создание пользователей и групп
-
-    # groupadd -g 1001 jboss_admins
-
-    # useradd \
-    -g jboss_admins \
-    -d /home/jboss \
-    -m jboss
-
+    $ sudo useradd \
+    -g wildfly_admins \
+    -d /home/wildfly \
+    -m wildfly
 
 
 Если нужно добавить пользователя в группу jboss_admins можно это сделать следующей командой:
@@ -123,33 +57,24 @@ http://javadev.org/java_basics/installation/jdk/8/linux/centos/6/x86_x64/
 
 Устанавливаем пароль для пользователе jboss
 
-    # passwd jboss
+    $ sudo passwd wildfly
 
 
 ### Создание структуры каталогов и назначение необходимых прав
 
-    # mkdir -p /opt/jboss
-    # chown -R jboss:jboss_admins /opt/jboss
-    # chmod -R 775 /opt/jboss
-
-
-<!--
-
-    # mkdir -p /u02/jboss_domains/
-    # chown -R  jboss:jboss_admins  /u02/jboss_domains/
-    # chmod -R 775 /u02/jboss_domains/
-
--->
+    $ sudo mkdir -p /opt/wildfly
+    $ sudo chown -R wildfly:wildfly_admins /opt/wildfly
+    $ sudo chmod -R 775 /opt/wildfly
 
 
 ### Развертывание jboss
 
-    # su - jboss
-    $ cd /opt/jboss
-    $ wget http://download.jboss.org/jbossas/7.1/jboss-as-7.1.1.Final/jboss-as-7.1.1.Final.zip
-    $ unzip jboss-as-7.1.1.Final.zip
-    $ mv jboss-as-7.1.1.Final 7.1.1
-    $ rm jboss-as-7.1.1.Final.zip
+    # sudo su - wildfly
+    $ cd /opt/wildfly
+    $ wget http://download.jboss.org/wildfly/8.2.0.Final/wildfly-8.2.0.Final.zip
+    $ unzip wildfly-8.2.0.Final.zip
+    $ mv wildfly-8.2.0.Final 8.2.0
+    $ rm wildfly-8.2.0.Final.zip
 
 
 ### Настройка окружения пользователя Jboss
@@ -157,15 +82,15 @@ http://javadev.org/java_basics/installation/jdk/8/linux/centos/6/x86_x64/
     $ vi ~/.bash_profile
 
 {% highlight bash %}
+
 # User specific environment and startup programs
 
-#### JBoss 7.1.1 ##################
+#### WildFly 8.2.0 ##################
 
-export JBOSS_HOME=/opt/jboss/7.1.1
-export PATH=$PATH:$HOME/bin:$JBOSS_HOME/bin
+export WILDFLY_HOME=/opt/wildfly/8.2.0
+export PATH=$PATH:$HOME/bin:$WILDFLY_HOME/bin
 
-#### JBoss 7.1.1 ##################
-
+#### WildFly 8.2.0 ##################
 
 {% endhighlight %}
 
@@ -181,54 +106,62 @@ export PATH=$PATH:$HOME/bin:$JBOSS_HOME/bin
     $ add-user.sh
 
 {% highlight bash %}
+
 What type of user do you wish to add?
-
  a) Management User (mgmt-users.properties)
-
  b) Application User (application-users.properties)
+(a): [Enter]
 
-(a): [ENTER]
 
 Enter the details of the new user to add.
-
-Realm (ManagementRealm) :  [ENTER]
-
+Using realm 'ManagementRealm' as discovered from the existing property files.
 Username : admin
 
+The username 'admin' is easy to guess
+Are you sure you want to add user 'admin' yes/no? yes
+Password recommendations are listed below. To modify these restrictions edit the add-user.properties configuration file.
+ - The password should not be one of the following restricted values {root, admin, administrator}
+ - The password should contain at least 8 characters, 1 alphabetic character(s), 1 digit(s), 1 non-alphanumeric symbol(s)
+ - The password should be different from the username
 Password :
 
-Re-enter Password :
+JBAS152565: Password must not be equal to 'admin', this value is restricted.
+Are you sure you want to use the password entered yes/no?
+
+
+What groups do you want this user to belong to? (Please enter a comma separated list, or leave blank for none)[  ]:
+
 
 About to add user 'admin' for realm 'ManagementRealm'
+Is this correct yes/no?
 
-Is this correct yes/no? yes
+Added user 'admin' to file '/opt/wildfly/8.2.0/standalone/configuration/mgmt-users.properties'
+Added user 'admin' to file '/opt/wildfly/8.2.0/domain/configuration/mgmt-users.properties'
+Added user 'admin' with groups  to file '/opt/wildfly/8.2.0/standalone/configuration/mgmt-groups.properties'
+Added user 'admin' with groups  to file '/opt/wildfly/8.2.0/domain/configuration/mgmt-groups.properties'
+Is this new user going to be used for one AS process to connect to another AS process?
+e.g. for a slave host controller connecting to the master or for a Remoting connection for server to server EJB calls.
+yes/no?
 
-Added user 'admin' to file '/opt/jboss/7.1.1/standalone/configuration/mgmt-users.properties'
 
-Added user 'admin' to file '/opt/jboss/7.1.1/domain/configuration/mgmt-users.properties'
 {% endhighlight %}
 
 
 
-### Запуск JBoss
+### To start WildFly
 
     $ standalone.sh -b=0.0.0.0 -bmanagement=0.0.0.0
 
-http://192.168.1.40:8080/  
+http://192.168.1.11:8080/  
 
-192.168.1.40 - ip адрес сервера jboss
-
-<img src="https://raw.githubusercontent.com/javadev-ru/javadev-ru.github.io/master/website/basics/appservers/jboss/7.1/installation/images/image00.png" alt="jBoss">
-
-
-<img src="https://raw.githubusercontent.com/javadev-ru/javadev-ru.github.io/master/website/basics/appservers/jboss/7.1/installation/images/image01.png" alt="jBoss">
+192.168.1.11 - ip адрес сервера jboss
 
 
 Если нужно подключиться по ssh под учетной записью jboss.  
 Чтобы сервер не перестал работать после закрытии сессии.
 
     $ screen
-    $ standalone.sh -b=0.0.0.0 -bmanagement=0.0.0.0 &
+    $ standalone.sh -b=0.0.0.0 -bmanagement=0.0.0.0
 
 
 
