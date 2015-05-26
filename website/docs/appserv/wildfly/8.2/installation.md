@@ -51,11 +51,11 @@ http://javadev.org/java_basics/installation/jdk/8/linux/centos/6/x86_x64/
     -m wildfly
 
 
-Если нужно добавить пользователя в группу jboss_admins можно это сделать следующей командой:
+Если нужно добавить пользователя в группу wildfly_admins можно это сделать следующей командой:
 
     # usermod -a -G jboss_admins <user_name>
 
-Устанавливаем пароль для пользователе jboss
+Устанавливаем пароль для пользователя wildfly
 
     $ sudo passwd wildfly
 
