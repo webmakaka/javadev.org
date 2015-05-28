@@ -2,7 +2,7 @@
 layout: page
 title: Jenkins Installation on Centos 6.6 x86_64
 permalink: /tools/jenkins/installation/
-
+---
 
 
 # mkdir /opt/jenkins
@@ -30,8 +30,5 @@ Manage Jenkins --> Manage Plugins --> Available
 BitBucket Plugin  
 Bitbucket Approve Plugin
 
-And then i added current maven home on server  
+And then i added current maven home on jenkins console  
 /opt/maven/current
-
-
----
