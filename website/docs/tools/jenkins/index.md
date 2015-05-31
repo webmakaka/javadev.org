@@ -5,18 +5,18 @@ permalink: /tools/jenkins/installation/
 ---
 
 
-# mkdir /opt/jenkins
-# cd /opt/jenkins/
-# wget http://mirrors.jenkins-ci.org/war/latest/jenkins.war
+    # mkdir /opt/jenkins
+    # cd /opt/jenkins/
+    # wget http://mirrors.jenkins-ci.org/war/latest/jenkins.war
 
 
-$ su - user
-$ cd /opt/jenkins/
-$ java -jar jenkins.war
+    $ su - user
+    $ cd /opt/jenkins/
+    $ java -jar jenkins.war
 
 or
 
-$ java -jar jenkins.war --httpPort=8081
+    $ java -jar jenkins.war --httpPort=8081
 
 or
 

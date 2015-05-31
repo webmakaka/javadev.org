@@ -7,51 +7,56 @@ permalink: /docs/appserv/wildfly/8.2/active-mq/wildfly-activemq-integration-as-a
 
     $ mkdir -p /opt/wildfly/8.2.0/modules/system/layers/base/org/apache/activemq/main/
 
+<br/>
+
     $ cd /opt/wildfly/8.2.0/modules/system/layers/base/org/apache/activemq/main/
+
+<br/>
+
     $ vi module.xml
 
-<br/><br/>
+<br/>
 
-<module xmlns="urn:jboss:module:1.1" name="org.apache.activemq" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <resources>
-    <resource-root path="."/>
-    <resource-root path="activemq-broker-5.9.0.jar"/>
-    <resource-root path="activemq-client-5.9.0.jar"/>
-    <resource-root path="activemq-jms-pool-5.9.0.jar"/>
-    <resource-root path="activemq-kahadb-store-5.9.0.jar"/>
-    <resource-root path="activemq-openwire-legacy-5.9.0.jar"/>
-    <resource-root path="activemq-pool-5.9.0.jar"/>
-    <resource-root path="activemq-protobuf-1.1.jar"/>
-    <resource-root path="activemq-ra-5.9.0.jar"/>
-    <resource-root path="activemq-spring-5.9.0.jar"/>
-    <resource-root path="aopalliance-1.0.jar"/>
-    <resource-root path="commons-pool-1.6.jar"/>
-    <resource-root path="commons-logging-1.1.3.jar"/>
-    <resource-root path="hawtbuf-1.9.jar"/>
-    <resource-root path="spring-aop-3.2.4.RELEASE.jar"/>
-    <resource-root path="spring-beans-3.2.4.RELEASE.jar"/>
-    <resource-root path="spring-context-3.2.4.RELEASE.jar"/>
-    <resource-root path="spring-core-3.2.4.RELEASE.jar"/>
-    <resource-root path="spring-expression-3.2.4.RELEASE.jar"/>
-    <resource-root path="xbean-spring-3.14.jar"/>
-  </resources>
-  <exports>
-    <exclude path="org/springframework/**"/>
-    <exclude path="org/apache/xbean/**"/>
-    <exclude path="org/apache/commons/**"/>
-    <exclude path="org/aopalliance/**"/>
-    <exclude path="org/fusesource/**"/>
-  </exports>
-  <dependencies>
-    <module name="javax.api"/>
-    <module name="org.slf4j"/>
-    <module name="javax.resource.api"/>
-    <module name="javax.jms.api"/>
-    <module name="javax.management.j2ee.api"/>
-  </dependencies>
-</module>
+    <module xmlns="urn:jboss:module:1.1" name="org.apache.activemq" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <resources>
+        <resource-root path="."/>
+        <resource-root path="activemq-broker-5.9.0.jar"/>
+        <resource-root path="activemq-client-5.9.0.jar"/>
+        <resource-root path="activemq-jms-pool-5.9.0.jar"/>
+        <resource-root path="activemq-kahadb-store-5.9.0.jar"/>
+        <resource-root path="activemq-openwire-legacy-5.9.0.jar"/>
+        <resource-root path="activemq-pool-5.9.0.jar"/>
+        <resource-root path="activemq-protobuf-1.1.jar"/>
+        <resource-root path="activemq-ra-5.9.0.jar"/>
+        <resource-root path="activemq-spring-5.9.0.jar"/>
+        <resource-root path="aopalliance-1.0.jar"/>
+        <resource-root path="commons-pool-1.6.jar"/>
+        <resource-root path="commons-logging-1.1.3.jar"/>
+        <resource-root path="hawtbuf-1.9.jar"/>
+        <resource-root path="spring-aop-3.2.4.RELEASE.jar"/>
+        <resource-root path="spring-beans-3.2.4.RELEASE.jar"/>
+        <resource-root path="spring-context-3.2.4.RELEASE.jar"/>
+        <resource-root path="spring-core-3.2.4.RELEASE.jar"/>
+        <resource-root path="spring-expression-3.2.4.RELEASE.jar"/>
+        <resource-root path="xbean-spring-3.14.jar"/>
+      </resources>
+      <exports>
+        <exclude path="org/springframework/**"/>
+        <exclude path="org/apache/xbean/**"/>
+        <exclude path="org/apache/commons/**"/>
+        <exclude path="org/aopalliance/**"/>
+        <exclude path="org/fusesource/**"/>
+      </exports>
+      <dependencies>
+        <module name="javax.api"/>
+        <module name="org.slf4j"/>
+        <module name="javax.resource.api"/>
+        <module name="javax.jms.api"/>
+        <module name="javax.management.j2ee.api"/>
+      </dependencies>
+    </module>
 
-<br/><br/>
+<br/>
 
 
     $ cd /tmp
@@ -59,7 +64,7 @@ permalink: /docs/appserv/wildfly/8.2/active-mq/wildfly-activemq-integration-as-a
     $ unzip ./activemq-rar-5.9.0.rar -d /opt/wildfly/8.2.0/modules/system/layers/base/org/apache/activemq/main/
 
 
-
+<br/>
 
     $ cd /opt/wildfly/8.2.0/standalone/configuration
     $ cp standalone-full.xml standalone-full.xml.backup
@@ -99,14 +104,3 @@ replace on:
 restart wildfly server
 
     $ standalone.sh -c standalone-full.xml -b=0.0.0.0 -bmanagement=0.0.0.0
-
-
-
-<div align="center">
-    <img src="https://raw.githubusercontent.com/javadev-org/javadev-org.github.io/master/website/java-ee/jms/wildfly/resource_adapters.png" alt="WildFly ActiveMQ as Module">
-
-</div>
-
-
-Based on article:  
-http://www.mastertheboss.com/jboss-frameworks/ironjacamar/configuring-a-resource-adapter-for-activemq-on-jbosswildfly
