@@ -17,13 +17,13 @@ permalink: /docs/appserv/wildfly/8.2/active-mq/wildfly-activemq-integration-as-a
     $ ls /opt/wildfly/8.2.0/standalone/deployments/activemq-rar-5.11.1.rar
 
 
-============================================================
+<br/>
 
-$ cd /opt/wildfly/8.2.0/standalone/configuration
+    $ cd /opt/wildfly/8.2.0/standalone/configuration
 
-$ cp standalone-full.xml standalone-full.xml.backup
+    $ cp standalone-full.xml standalone-full.xml.backup
 
-$ vi standalone-full.xml
+    $ vi standalone-full.xml
 
 replace block
 
@@ -92,11 +92,7 @@ on
 
 
 
-$ standalone.sh -c standalone-full.xml -b=0.0.0.0 -bmanagement=0.0.0.0
-
-
-
-http://www.mastertheboss.com/jboss-server/jboss-jms/integrate-activemq-with-wildfly
+    $ standalone.sh -c standalone-full.xml -b=0.0.0.0 -bmanagement=0.0.0.0
 
 
 
@@ -104,18 +100,18 @@ http://www.mastertheboss.com/jboss-server/jboss-jms/integrate-activemq-with-wild
 
 
 
-$ wget http://repo1.maven.org/maven2/org/apache/activemq/activemq-rar/5.11.1/activemq-rar-5.11.1.rar
-$ unzip ./activemq-rar-5.11.1.rar -d /opt/wildfly/8.2.0/modules/system/layers/base/org/apache/activemq/main/
+    $ wget http://repo1.maven.org/maven2/org/apache/activemq/activemq-rar/5.11.1/activemq-rar-5.11.1.rar
+    $ unzip ./activemq-rar-5.11.1.rar -d /opt/wildfly/8.2.0/modules/system/layers/base/org/apache/activemq/main/
 
 
 
 ironjacama
 http://www.ironjacamar.org
 
-$ wget http://sourceforge.net/projects/ironjacamar/files/1.2.4.Final/ironjacamar-1.2.4.Final.zip
+    $ wget http://sourceforge.net/projects/ironjacamar/files/1.2.4.Final/ironjacamar-1.2.4.Final.zip
 
-$ unzip ironjacamar-1.2.4.Final.zip
-$ cd ironjacamar-1.2.4.Final/doc/as/
+    $ unzip ironjacamar-1.2.4.Final.zip
+    $ cd ironjacamar-1.2.4.Final/doc/as/
 
 
 
@@ -136,7 +132,7 @@ Simply add paths for them in the rar-info.sh file (separated by character);
     java -Dlog4j.ignoreTCL=true -classpath ./ironjacamar-as.jar:../../lib/jboss-logging.jar:../../lib/jboss-common-core.jar:../../lib/ironjacamar-spec-api.jar:../../lib/jandex.jar:../../lib/ironjacamar-common-impl.jar:../../lib/ironjacamar-common-api.jar:../../lib/ironjacamar-common-spi.jar:../../lib/ironjacamar-core-impl.jar:../../lib/ironjacamar-core-api.jar:../../lib/ironjacamar-validator.jar:../../lib/jandex.jar:../../lib/validation-api.jar:/opt/wildfly/8.2.0/modules/system/layers/base/javax/jms/api/main/jboss-jms-api_2.0_spec-1.0.0.Final.jar:/opt/wildfly/8.2.0/modules/system/layers/base/javax/transaction/api/main/jboss-transaction-api_1.2_spec-1.0.0.Final.jar:../../lib/hibernate-validator.jar org.jboss.jca.as.rarinfo.Main $*
 
 
-
+<br/>
 
     $ ./rar-info.sh /tmp/activemq-rar-5.11.1.rar -o result.txt
 
@@ -147,4 +143,4 @@ Simply add paths for them in the rar-info.sh file (separated by character);
     Done.
 
 
-    Remove the opening <resource-adapters> and <resource-adapter> tags and replace with an <ironjacamar.xml> opening tag in the standalone-full.xml.
+Remove the opening <resource-adapters> and <resource-adapter> tags and replace with an <ironjacamar.xml> opening tag in the standalone-full.xml.

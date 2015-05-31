@@ -70,6 +70,9 @@ $ vi module.xml
 
     $ cd /opt/wildfly/8.2.0/standalone/configuration
     $ cp standalone-full.xml standalone-full.xml.backup
+
+<br/>
+
     $ vi standalone-full.xml
 
 <br/>
@@ -127,12 +130,8 @@ restart wildfly server
     ]) - failure description: "JBAS010473: Failed to load module for RA [org.apache.activemq]"
 
 
-I solwed this error by replace parameters slot in standalone-full and module.xml on main
+I solwed this error by replace parameters slot in standalone-full.xml and module.xml on main
 
-
-
-Based on article:  
-http://www.mastertheboss.com/jboss-frameworks/ironjacamar/configuring-a-resource-adapter-for-activemq-on-jbosswildfly
 
 
 
