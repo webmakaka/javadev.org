@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Wildfly 8.2 Installation on Centos 6.6 x86_64
-permalink: /appservers/wildfly/8.2/installation/
+permalink: /docs/appserv/wildfly/8.2/installation/
 ---
 
 В случае обнаружения ошибок, неточностей, опечаток или Вам известны лучшие способы, пишите мне адрес эл. почты.  
