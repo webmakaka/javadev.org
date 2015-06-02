@@ -111,6 +111,9 @@ Login Password: admin
 	$ cd $ACTIVEMQ_HOME/bin
 
 	$ cp activemq activemq.backup
+
+<br/>
+
 	$ vi activemq
 
 <br/>
@@ -146,14 +149,11 @@ Path: /api/jolokia
 <br/>
 
 
-<strong>
-
 With hawtio-default-2.0.0.war not working.  
 After i press login (admin/admin), hothing change.  
 
 If you know how to correct, please write.
 
-</strong>
 
 
 <!--
