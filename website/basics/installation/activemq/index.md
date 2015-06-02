@@ -84,3 +84,75 @@ http://localhost:8161/admin
 
 Login Username: admin  
 Login Password: admin
+
+
+### hawtio console for active mq release > 5.9
+
+
+	$ cd /tmp
+	$ wget http://central.maven.org/maven2/io/hawt/hawtio-default/1.3.1/hawtio-default-1.3.1.war
+	$ unzip hawtio-default-1.3.1.war -d ${ACTIVEMQ_HOME}/webapps/hawtio
+
+
+	$ cd $ACTIVEMQ_HOME
+
+	$ vi conf/jetty.xml
+
+<br/>
+
+	<bean class="org.eclipse.jetty.webapp.WebAppContext">
+	    <property name="contextPath" value="/hawtio" />
+	    <property name="resourceBase" value="${ACTIVEMQ_HOME}/webapps/hawtio" />
+	    <property name="logUrlOnStart" value="true" />
+	</bean>
+
+	$ cd $ACTIVEMQ_HOME/bin
+
+	$ cp activemq activemq.backup
+	$ vi activemq
+
+<br/>
+
+	invoke_start(){
+
+	***
+
+	ACTIVEMQ_OPTS="$ACTIVEMQ_OPTS -Dhawtio.realm=activemq"
+	ACTIVEMQ_OPTS="$ACTIVEMQ_OPTS -Dhawtio.role=admins"
+	ACTIVEMQ_OPTS="$ACTIVEMQ_OPTS -Dhawtio.rolePrincipalClasses=org.apache.activemq.jaas.GroupPrincipal"
+
+<br/>
+
+	$ activemq restart
+
+<br/>
+
+http://192.168.1.11:8161/hawtio/
+
+
+<br/>
+
+
+Path: /api/jolokia
+
+
+With hawtio-default-2.0.0.war not working.  
+After i press login (admin/admin), hothing change.  
+
+If you know how to correct, please write.
+
+
+
+<!--
+
+<bean class="org.eclipse.jetty.webapp.WebAppContext">
+    <property name="contextPath" value="/hawtio" />
+    <property name="war" value="${ACTIVEMQ_HOME}/webapps/hawtio-default-1.3.1.war" />
+    <property name="logUrlOnStart" value="true" />
+</bean>
+
+
+http://sensatic.net/activemq/activemq-and-hawtio.html
+http://stackoverflow.com/questions/26674726/how-to-configure-the-activemq-5-10-0-hawtio-interface
+
+-->
