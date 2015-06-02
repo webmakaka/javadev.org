@@ -106,6 +106,8 @@ Login Password: admin
 	    <property name="logUrlOnStart" value="true" />
 	</bean>
 
+<br/>
+
 	$ cd $ACTIVEMQ_HOME/bin
 
 	$ cp activemq activemq.backup
@@ -133,14 +135,25 @@ http://192.168.1.11:8161/hawtio/
 <br/>
 
 
+<div align="center">
+    <img src="https://raw.githubusercontent.com/javadev-org/javadev-org.github.io/master/website/basics/installation/activemq/hawtio-1.3.png" alt="hawtio">
+
+</div>
+
+
 Path: /api/jolokia
 
+<br/>
+
+
+<strong>
 
 With hawtio-default-2.0.0.war not working.  
 After i press login (admin/admin), hothing change.  
 
 If you know how to correct, please write.
 
+</strong>
 
 
 <!--
