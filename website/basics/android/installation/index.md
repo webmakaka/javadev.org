@@ -31,13 +31,13 @@ http://blog.whitehorses.nl/2015/03/07/enabling-hardware-acceleration-for-android
 ### Android SDK installation
 
     $ cd /tmp/
-    $ sudo mkdir -p /opt/android-sdk/24/2
+    $ sudo mkdir -p /opt/android-sdk/
 
     $ wget http://dl.google.com/android/android-sdk_r24.2-linux.tgz
 
     $ tar -xvzf android-sdk_r24.2-linux.tgz
     $ cd android-sdk-linux/
-    $ sudo mv * /opt/android-sdk/24/2/
+    $ sudo mv * /opt/android-sdk/
 
 
 I do some changes to store environment variables in .bash_profile (leke as on RedHat Deistributives)
@@ -53,12 +53,12 @@ I do some changes to store environment variables in .bash_profile (leke as on Re
 
     $ vi ~/.bash_profile
 
-    #### ANDROID SDK 24.2 #######################
+    #### ANDROID SDK #######################
 
-        export ANDROID_HOME=/opt/android-sdk/24/2/
+        export ANDROID_HOME=/opt/android-sdk/
         export PATH=$PATH:$ANDROID_HOME/tools
 
-    #### JAVA SDK 24.2 #######################
+    #### JAVA SDK #######################
 
 <br/>
 
@@ -92,7 +92,7 @@ To update packages execute next command
 
 
 
-### IDE for Development Android Applications
+###  Android Studio Installation
 
     $ cd /tmp/
     $ sudo mkdir -p /opt/android-studio/
