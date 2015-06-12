@@ -79,7 +79,7 @@ I'm installing all packages for API 22
 
 <div align="center">
 
-    <img src="https://raw.githubusercontent.com/javalabs-org/javalabs-org.github.io/master/website/labs/videos/courses/android/udacity/android/2014/developing_android_apps/prev/1.png" alt="Packages for API 22">
+    <img src="https://raw.githubusercontent.com/javadev-org/javadev-org.github.io/master/website/basics/android/installation/1.png" alt="Packages for API 22">
 
 </div>
 
@@ -135,7 +135,7 @@ To run android studio
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/javalabs-org/javalabs-org.github.io/master/website/labs/videos/courses/android/udacity/android/2014/developing_android_apps/prev/2.png" alt="How to run Android emulation on ubuntu linux">
+<img src="https://raw.githubusercontent.com/javadev-org/javadev-org.github.io/master/website/basics/android/installation/2.png" alt="How to run Android emulation on ubuntu linux">
 
 
 <br/><br/>
@@ -143,24 +143,24 @@ Create AVD
 <br/><br/>
 
 
-<img src="https://raw.githubusercontent.com/javalabs-org/javalabs-org.github.io/master/website/labs/videos/courses/android/udacity/android/2014/developing_android_apps/prev/3.png" alt="How to run Android emulation on ubuntu linux">
+<img src="https://raw.githubusercontent.com/javadev-org/javadev-org.github.io/master/website/basics/android/installation/3.png" alt="How to run Android emulation on ubuntu linux">
 
 
 <br/><br/>
 Use Host GPU is very important for hardware acceleration
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/javalabs-org/javalabs-org.github.io/master/website/labs/videos/courses/android/udacity/android/2014/developing_android_apps/prev/4.png" alt="How to run Android emulation on ubuntu linux">  
+<img src="https://raw.githubusercontent.com/javadev-org/javadev-org.github.io/master/website/basics/android/installation/4.png" alt="How to run Android emulation on ubuntu linux">  
 
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/javalabs-org/javalabs-org.github.io/master/website/labs/videos/courses/android/udacity/android/2014/developing_android_apps/prev/5.png" alt="How to run Android emulation on ubuntu linux">
+<img src="https://raw.githubusercontent.com/javadev-org/javadev-org.github.io/master/website/basics/android/installation/5.png" alt="How to run Android emulation on ubuntu linux">
 
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/javalabs-org/javalabs-org.github.io/master/website/labs/videos/courses/android/udacity/android/2014/developing_android_apps/prev/6.png" alt="How to run Android emulation on ubuntu linux">
+<img src="https://raw.githubusercontent.com/javadev-org/javadev-org.github.io/master/website/basics/android/installation/6.png" alt="How to run Android emulation on ubuntu linux">
 
 
 </div>
@@ -192,7 +192,7 @@ I get next result (In the future i'm planning to start emulation with this param
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/javalabs-org/javalabs-org.github.io/master/website/labs/videos/courses/android/udacity/android/2014/developing_android_apps/prev/7.png" alt="How to run Android emulation on ubuntu linux">
+<img src="https://raw.githubusercontent.com/javadev-org/javadev-org.github.io/master/website/basics/android/installation/7.png" alt="How to run Android emulation on ubuntu linux">
 
 </div>
 
