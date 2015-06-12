@@ -40,3 +40,10 @@ permalink: /sitemap/
 ### Other:
 
 <strong><a href="/java_basics/git/eclipse/">Creating Local and Remote Git Repository in Eclipse IDE (Youtube Video)</a></strong>
+
+
+
+### Android:
+
+
+<strong><a href="/java_basics/android/installation/">Prepare Ubuntu Linux Environment for Development Android Apps with Android Studio</a></strong>
