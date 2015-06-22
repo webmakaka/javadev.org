@@ -8,7 +8,7 @@ permalink: /java_basics/android/installation/
 ### Enabling hardware acceleration for Android SDK emulator on Linux
 
 
-I don't know Hardware Acceleration works or not.
+I'm really don't know Hardware Acceleration works or not.
 
 Ubuntu:
 
@@ -40,7 +40,7 @@ http://blog.whitehorses.nl/2015/03/07/enabling-hardware-acceleration-for-android
     $ sudo mv * /opt/android-sdk/
 
 
-I do some changes to store environment variables in .bash_profile (leke as on RedHat Deistributives)
+I do some changes to store environment variables in .bash_profile (like as on RedHat Deistributives)
 
     $ vi ~/.bashrc
 
