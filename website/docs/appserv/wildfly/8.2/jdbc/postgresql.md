@@ -5,24 +5,23 @@ permalink: /appservers/wildfly/8.2/jdbc/postgresq/
 ---
 
 
-**Качаю:** с сайта https://jdbc.postgresql.org/download.html
-Драйвер postgresql-9.4-1201.jdbc41.jar  
+**Download source:**  
+https://jdbc.postgresql.org/download.html
+
+
+**Driver:**
+postgresql-9.4-1201.jdbc41.jar  
 
     $ mkdir -p mkdir -p /opt/wildfly/8.2.0/modules/org/postgresql/main
     $ cd /opt/wildfly/8.2.0/modules/org/postgresql/main
     $ wget  https://jdbc.postgresql.org/download/postgresql-9.4-1201.jdbc41.jar
 
 
-**WildFly**
 
-
-### Подключение JDBC драйвера как модуля Jboss
+### Connect JDBC driver as Wildfly module WildFly
 
 $ vi /opt/wildfly/8.2.0/modules/org/postgresql/main/module.xml
 
-// Чтобы текст в vi не уехал вправо
-
-    :set paste
 
 {% highlight xml %}
 
@@ -41,15 +40,9 @@ $ vi /opt/wildfly/8.2.0/modules/org/postgresql/main/module.xml
 {% endhighlight %}
 
 
-// Отменяю ранее введенный параметр.
-// Далее не буду умоминать его вызов.
-
-    :set nopaste
-
 
 ### PostgreSQL Datasource
 
-// Делаю резервную копию файла standalone.xml
 
     $ cp /opt/wildfly/8.2.0//standalone/configuration/standalone.xml /opt/wildfly/8.2.0//standalone/configuration/standalone.xml.orig
 
@@ -58,7 +51,7 @@ $ vi /opt/wildfly/8.2.0/modules/org/postgresql/main/module.xml
     $ vi /opt/wildfly/8.2.0/standalone/configuration/standalone.xml
 
 
-Заменяю datasources на вот это:
+Replase datasource description:
 
 {% highlight xml %}
 
@@ -82,7 +75,7 @@ $ vi /opt/wildfly/8.2.0/modules/org/postgresql/main/module.xml
 
 {% endhighlight %}
 
-на
+on
 
 {% highlight xml %}
 
@@ -122,7 +115,7 @@ $ vi /opt/wildfly/8.2.0/modules/org/postgresql/main/module.xml
 {% endhighlight %}
 
 
-И в блоке default-bindings заменить datasource
+And in default-bindings block i replaced datasource
 
 {% highlight xml %}
 
@@ -205,15 +198,14 @@ ___
 
 
 
-Ошибка:  
+Error:  
 
     Caused by: org.postgresql.util.PSQLException: FATAL: Ident authentication failed for user "scott" ...
 
-Была по причине того, что неправильно были настроены правила в конфиге postgresql сервера.  
+The reason was, because not right properties has been written in the config file.  
 /var/lib/pgsql/data/pg_hba.conf
 
-На тестовом окружении, я просто тупо поменял записи вида ident на trust. Все заработало.  
-
+On my test environment i changed all ident on trust. And all start working.
 
 local   all             all                                     peer
 
