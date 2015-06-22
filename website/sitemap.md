@@ -33,7 +33,7 @@ permalink: /sitemap/
 
 ### Weblogic:
 
-<strong><a href="/docs/appserv/weblogic/12c/installation/">Weblogic 12c Installation on Centos 6.6 x86_64</a></strong> (not translated on English yet)
+<strong><a href="/docs/appserv/weblogic/12c/installation/">Weblogic 12c Installation on Centos 6.6 x86_64</a></strong> 
 
 ### Jenkins:
 
