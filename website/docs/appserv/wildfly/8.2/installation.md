@@ -4,34 +4,31 @@ title: Wildfly 8.2 Installation on Centos 6.6 x86_64
 permalink: /docs/appserv/wildfly/8.2/installation/
 ---
 
-В случае обнаружения ошибок, неточностей, опечаток или Вам известны лучшие способы, пишите мне адрес эл. почты.  
+Distributives:  
 
 
-Самые последние версии (на момент написания):  
+* Centos - 6.6 (http://centos.org/modules/tinycontent/index.php?id=15)  
+* WildFly - 8.2 (http://wildfly.org/downloads/)  
+* jdk 8 (http://java.sun.com)  
 
 
-* Centos - 6.6 (http://centos.org/modules/tinycontent/index.php?id=15)
-* JBoss - 7.1 (http://www.jboss.org/jbossas/downloads)
-* jdk версии 7  (http://java.sun.com) **С 8 версией java у меня были проблемы со стартом jboss**
-
-
-### Подготовка операционной системы к инсталляции базы данных:
-
-Некоторые комментарии к следующей команде. Создаем резервную копию файла /etc/selinux/config, и меняем значение парамета SELINUX с enforcing на disabled
+### Before Install:
 
     # sed -i.bkp -e "s/SELINUX=enforcing/SELINUX=disabled/g" /etc/selinux/config
 
-А здесь, мы делаем резервную копию и меняем значение timeout с 5 на 0
+<br/>
 
     # sed -i.bkp -e "s/timeout=5/timeout=0/g" /boot/grub/grub.conf
 
-Выключаю firewall
+<br/>
 
     # service iptables stop
 
-Запрещаю firewall запускаться при старте операционной системы
+<br/>
 
     # chkconfig iptables off
+
+<br/>
 
     # reboot
 
@@ -45,29 +42,30 @@ http://javadev.org/java_basics/installation/jdk/8/linux/centos/6/x86_x64/
 
     $ sudo groupadd -g 1001 wildfly_admins
 
+<br/>
+
     $ sudo useradd \
     -g wildfly_admins \
     -d /home/wildfly \
     -m wildfly
 
-
-Если нужно добавить пользователя в группу wildfly_admins можно это сделать следующей командой:
+If you need to add user to group wildfly_admins, you can do it with the next command:
 
     # usermod -a -G jboss_admins <user_name>
 
-Устанавливаем пароль для пользователя wildfly
+<br/>
 
     $ sudo passwd wildfly
 
 
-### Создание структуры каталогов и назначение необходимых прав
+### Creating folder structure and permissions for wildfly
 
     $ sudo mkdir -p /opt/wildfly
     $ sudo chown -R wildfly:wildfly_admins /opt/wildfly
     $ sudo chmod -R 775 /opt/wildfly
 
 
-### Развертывание jboss
+### Setup wildfly
 
     # sudo su - wildfly
     $ cd /opt/wildfly
@@ -77,7 +75,7 @@ http://javadev.org/java_basics/installation/jdk/8/linux/centos/6/x86_x64/
     $ rm wildfly-8.2.0.Final.zip
 
 
-### Настройка окружения пользователя Jboss
+### Setup user environment
 
     $ vi ~/.bash_profile
 
@@ -96,12 +94,12 @@ export PATH=$PATH:$HOME/bin:$WILDFLY_HOME/bin
 
 
 
-Применить новые параметры окружения к bash:
+Apply new parameters to current environment:
 
     $ source ~/.bash_profile
 
 
-### Создание пользователя с правами доступа к консоли управления JBOSS
+### Create user for access to the wildfly web console
 
     $ add-user.sh
 
@@ -153,20 +151,10 @@ yes/no?
     $ standalone.sh -b=0.0.0.0 -bmanagement=0.0.0.0
 
 http://192.168.1.11:8080/  
+http://192.168.1.11:8080/console  
 
-192.168.1.11 - ip адрес сервера jboss
-
-
-Если нужно подключиться по ssh под учетной записью jboss.  
-Чтобы сервер не перестал работать после закрытии сессии.
-
-    $ screen
-    $ standalone.sh -b=0.0.0.0 -bmanagement=0.0.0.0
+192.168.1.11 - ip address of the wildfly server
 
 
-
-____
-
-
-Можно запустить с другим конфиг файлом:  
+You can specify config file for wildfly server. By default app server starting with standalone.xml config:
 $ standalone.sh -c standalone-full.xml -b=0.0.0.0 -bmanagement=0.0.0.0
