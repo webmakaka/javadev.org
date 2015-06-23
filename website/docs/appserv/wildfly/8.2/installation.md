@@ -156,5 +156,8 @@ http://192.168.1.11:8080/console
 192.168.1.11 - ip address of the wildfly server
 
 
-You can specify config file for wildfly server. By default app server starting with standalone.xml config:
+-b= - hosts what can connect to the server. 0.0.0.0 - all hosts can.  
+-bmanagement - hosts what can connect to admin console. 0.0.0.0 - all hosts can.  
+
+You can specify config file for wildfly server. By default app server starting with standalone.xml config:  
 $ standalone.sh -c standalone-full.xml -b=0.0.0.0 -bmanagement=0.0.0.0

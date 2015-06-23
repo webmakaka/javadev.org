@@ -69,7 +69,7 @@ We should change 8080 on 80.
 
 
 
-10) Create file StartApacheTomcat.bat
+Create file StartApacheTomcat.bat
 
 
     cd C:\Program Files\apache-tomcat\bin
