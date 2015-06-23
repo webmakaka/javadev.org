@@ -16,7 +16,7 @@ permalink: /sitemap/
 <strong><a href="/java_basics/installation/jdk/8/linux/ubuntu/14.04/x86_x64/">JDK8 installation on Ubuntu 14.04</a></strong>
 
 
-<strong><a href="/java_basics/installation/jdk/8/linux/centos/6/x86_x64/">JDK8, Maven, Gradle, Glassfish installation on Centos 6.X x86_x64</a></strong>
+<strong><a href="/java_basics/installation/jdk/8/linux/centos/6/x86_x64/">JDK8, Maven, Gradle installation on Centos 6.X x86_x64</a></strong>
 
 
 ### TomCat:
@@ -33,9 +33,13 @@ permalink: /sitemap/
 <strong><a href="/docs/appserv/wildfly/8.2/active-mq/">Configure a Resource Adapter for ActiveMQ on WildFly 8.2</a></strong>
 
 
+### Glassfish:
+
+<strong><a href="/docs/appserv/centos/6.6/glassfish/4/installation/">Glassfish 4 Installation on Centos 6.6s</a></strong>
+
 ### Weblogic:
 
-<strong><a href="/docs/appserv/weblogic/12c/installation/">Weblogic 12c Installation on Centos 6.6 x86_64</a></strong> 
+<strong><a href="/docs/appserv/weblogic/12c/installation/">Weblogic 12c Installation on Centos 6.6 x86_64</a></strong>
 
 ### Jenkins:
 

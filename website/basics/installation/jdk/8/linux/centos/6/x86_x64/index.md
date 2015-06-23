@@ -1,6 +1,6 @@
 ---
 layout: page
-title: JDK8, Maven, Gradle, Glassfish installation on Centos 6.X x86_x64
+title: JDK8, Maven, Gradle installation on Centos 6.X x86_x64
 permalink: /java_basics/installation/jdk/8/linux/centos/6/x86_x64/
 ---
 
@@ -167,49 +167,3 @@ http://www.gradle.org/downloads
 	$ source ~/.bash_profile
 
 	$ gradle -version
-
-
-
-<br/><br/>
-
-### Glassfish Installation:
-
-
-<strong>Distrib:</strong><br/>
-http://glassfish.org
-
-
-	$ su - root
-
-	# cd /tmp
-	# wget http://download.java.net/glassfish/4.0/release/glassfish-4.0.zip
-
-	# mkdir -p /opt/glassfish/4.0
-
-	# unzip glassfish-4.0.zip
-
-
-	# mv glassfish4/* /opt/glassfish/4.0
-
-
-	# su - user1
-
-	$ vi ~/.bash_profile
-
-
-<br/><br/>
-
-	#### GLASSFISH 4.0 ##############################
-
-		export GLASSFISH_HOME=/opt/glassfish/4.0/glassfish
-		export PATH=$PATH:$GLASSFISH_HOME/bin
-
-	#### GLASSFISH 4.0 ##############################
-
-<br/><br/>
-
-	$ source ~/.bash_profile
-	$ asadmin  version
-
-
-Default password is: adminadmin
