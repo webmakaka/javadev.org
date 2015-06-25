@@ -18,7 +18,7 @@ postgresql-9.4-1201.jdbc41.jar
 
 
 
-### Connect JDBC driver as Wildfly module WildFly
+### Connect JDBC driver as Wildfly module
 
 $ vi /opt/wildfly/8.2.0/modules/org/postgresql/main/module.xml
 
