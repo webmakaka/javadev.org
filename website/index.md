@@ -56,6 +56,8 @@ alt="I can't open the jar">
 </div>
 
 
+<br/><br/>
+
 <div align="center">
     <img src="/website/pictures/java_wtf.jpg" border="0"
 alt="WTF in Minutes">
