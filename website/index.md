@@ -19,6 +19,11 @@ For example, next repositories is very interesting i think:
 <a href="http://www.opencms.org/en/development/core.html">Open CMS</a> (<a href="https://github.com/alkacon/opencms-core">Core src</a>)
 
 
+**Spring**  
+
+<a href="https://github.com/spring-projects/spring-petclinic">spring-petclinic
+</a>
+
 
 <br/><br/>
 
