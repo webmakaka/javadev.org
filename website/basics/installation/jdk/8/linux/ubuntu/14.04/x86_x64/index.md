@@ -12,10 +12,11 @@ permalink: /java_basics/installation/jdk/8/linux/ubuntu/14.04/x86_x64/
     $ sudo apt-get install oracle-java8-installer
     $ sudo apt-get install oracle-java8-set-default
 
-
+Read more:  
 http://tecadmin.net/install-oracle-java-8-jdk-8-ubuntu-via-ppa/
 
 
+<br/>
 
 **VARIANT 2:**
 
@@ -24,8 +25,6 @@ Remove OpenJDK (If OpenJDK installed)<br/>
 
     $ sudo apt-get purge -y openjdk*
 
-
-<br/><br/>
 
 **Then add on .bashrc link on file .bash_profile.
 (as redhat distributives):**
