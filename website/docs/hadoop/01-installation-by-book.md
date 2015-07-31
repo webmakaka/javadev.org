@@ -11,9 +11,9 @@ Hadoop can be run in one of three modes:
     <li><strong>Standalone (or local) mode</strong> - There are no daemons running and everything runs in a single JVM. Standalone
     mode is suitable for running MapReduce programs during development, since it is
     easy to test and debug them.</li>
-    <li<strong>Pseudodistributed mode</strong> - The Hadoop daemons run on the local machine, thus simulating a cluster on a small
+    <li><strong>Pseudodistributed mode</strong> - The Hadoop daemons run on the local machine, thus simulating a cluster on a small
     scale.</li>
-    <li<strong>Fully distributed mode</strong> - The Hadoop daemons run on a cluster of machines.</li>
+    <li><strong>Fully distributed mode</strong> - The Hadoop daemons run on a cluster of machines.</li>
 </ul>
 
 
