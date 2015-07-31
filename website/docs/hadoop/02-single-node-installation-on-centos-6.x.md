@@ -4,18 +4,18 @@ title: Hadoop Single Node Installation on Centos 6.X
 permalink: /docs/hadoop/centos/6/installation/single-node-installation-on-centos-6/
 ---
 
-Имеем виртуальную машину Centos, c IP 192.168.1.11
+We have virtual mashine with Centos IP 192.168.1.11
 
 <br/>
 
-> Java должна быть установлена
+> Java should be installed
 > http://javadev.org/java_basics/installation/jdk/8/linux/centos/6/x86_x64/
 
 
 
 <br/>
 
-### Делаем возможность подключиться к localhost по SSH без пароля
+### Grant permission to access on localhost by SSH without password
 
 	$ ssh-keygen -t dsa -P '' -f ~/.ssh/id_dsa
 	$ cat ~/.ssh/id_dsa.pub >> ~/.ssh/authorized_keys
@@ -76,7 +76,7 @@ permalink: /docs/hadoop/centos/6/installation/single-node-installation-on-centos
 <br/>
 
 
-### Настройка конфигов
+### Configuration scripts
 
 	$ vi /opt/hadoop/2.7.1/etc/hadoop/hadoop-env.sh
 
@@ -84,7 +84,7 @@ permalink: /docs/hadoop/centos/6/installation/single-node-installation-on-centos
 
 	export JAVA_HOME=${JAVA_HOME}
 
-меняю на
+replace on:
 
 	# export JAVA_HOME=${JAVA_HOME}
 	export JAVA_HOME=/opt/jdk/current
@@ -133,10 +133,6 @@ permalink: /docs/hadoop/centos/6/installation/single-node-installation-on-centos
 		</property>
 	</configuration>
 
-
-! Нужно посмотреть, возможно, что параметр должен называться dfs.datanode.data.dir
-
-
 <br/>
 
 	$ vi /opt/hadoop/2.7.1/etc/hadoop/yarn-site.xml
@@ -173,7 +169,7 @@ permalink: /docs/hadoop/centos/6/installation/single-node-installation-on-centos
 
 <br/>
 
-### Запуск демонов
+### Start hadoop daemons
 
 	$ hadoop namenode -format
 	$ hadoop-daemon.sh start datanode
@@ -218,7 +214,7 @@ permalink: /docs/hadoop/centos/6/installation/single-node-installation-on-centos
 
 <br/>
 
-### Можно подключиться браузером
+### Connect to hadoop browser console
 
 Summary
 

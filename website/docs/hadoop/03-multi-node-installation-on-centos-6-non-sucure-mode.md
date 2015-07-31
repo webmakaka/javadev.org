@@ -5,19 +5,18 @@ permalink: /docs/hadoop/centos/6/installation/multi-node-installation-on-centos-
 ---
 
 
-> Java должна быть установлена
+> Java should be installed
 > http://javadev.org/java_basics/installation/jdk/8/linux/centos/6/x86_x64/
 
 
-Инсталляция также как и в single.
-Разница только в конфигах.
+Hadoop installation is same as in the single mode.
+Difference between only in the config files.
 
-Имеем 4 виртуальные машины Centos
-
+We have 4 virtual mashines with centos 6.
 
 <br/>
 
-### Обязательные пакеты для работы. Устанавливаются на все компьютеры кластера.
+### Next packages should be installed on all computers in the cluster.
 
 	# yum install -y \
 	openssh-clients
@@ -26,7 +25,7 @@ permalink: /docs/hadoop/centos/6/installation/multi-node-installation-on-centos-
 <br/>
 
 
-Конфиг везде разный, но выглядит приблизительно следующим образом:
+Network congigs looks like:
 
 	# vi /etc/sysconfig/network
 
@@ -46,7 +45,7 @@ permalink: /docs/hadoop/centos/6/installation/multi-node-installation-on-centos-
 <br/>
 
 
-### Делаем возможность подключиться к localhost по SSH без пароля (hadoopmaster1, hadoopslave1, hadoopslave2, hadoopslave3)
+### Grant permission to access on localhost by SSH without password (hadoopmaster1, hadoopslave1, hadoopslave2, hadoopslave3)
 
 	$ ssh-keygen -t dsa -P '' -f ~/.ssh/id_dsa
 	$ cat ~/.ssh/id_dsa.pub >> ~/.ssh/authorized_keys
@@ -55,7 +54,7 @@ permalink: /docs/hadoop/centos/6/installation/multi-node-installation-on-centos-
 
 <br/>
 
-### Делаем возможность подключиться к узлам по SSH без пароля между (hadoopmaster1 и hadoopslave1, hadoopslave2, hadoopslave3)
+### Grant permission to access between nodes and master server by SSH without password (hadoopmaster1 и hadoopslave1, hadoopslave2, hadoopslave3)
 
 	hadoopslave1
 
@@ -167,7 +166,7 @@ permalink: /docs/hadoop/centos/6/installation/multi-node-installation-on-centos-
 
 <br/>
 
-### На всех компьютерах, работающих в кластере (hadoopmaster1, hadoopslave1, hadoopslave2, hadoopslave3)
+### Next configs are the same on all computers in the cluster (hadoopmaster1, hadoopslave1, hadoopslave2, hadoopslave3)
 
 
 	$ vi /opt/hadoop/2.7.1/etc/hadoop/core-site.xml
@@ -250,7 +249,7 @@ permalink: /docs/hadoop/centos/6/installation/multi-node-installation-on-centos-
 
 <br/>
 
-### Запуск на hadoopmaster1
+### Start hadoop daemons on hadoopmaster1
 
 
 	$ hadoop namenode -format
@@ -275,7 +274,7 @@ permalink: /docs/hadoop/centos/6/installation/multi-node-installation-on-centos-
 
 <br/>
 
-### Можно подключиться браузером и проверить, сколько нод в кластере.
+### Connect to hadoop browser console
 
 Summary
 
