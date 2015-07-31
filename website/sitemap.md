@@ -8,6 +8,8 @@ permalink: /sitemap/
 
 **Basics:**
 
+<br/>
+
 ### JDK:
 
 <strong><a href="/java_basics/installation/jdk/6/windows/xp/">JDK6 Installation on Windows XP</a></strong>
@@ -18,11 +20,13 @@ permalink: /sitemap/
 
 <strong><a href="/java_basics/installation/jdk/8/linux/centos/6/x86_x64/">JDK8, Maven, Gradle installation on Centos 6.X x86_x64</a></strong>
 
+<br/>
 
 ### TomCat:
 
 <strong><a href="/docs/appserv/tomcat/installation/windows/">TomCat Installation on Windows</a></strong>
 
+<br/>
 
 ### jBoss / WildFly:
 
@@ -32,33 +36,49 @@ permalink: /sitemap/
 
 <strong><a href="/docs/appserv/wildfly/8.2/active-mq/">Configure a Resource Adapter for ActiveMQ on WildFly 8.2</a></strong>
 
+<br/>
 
 ### Glassfish:
 
 <strong><a href="/docs/appserv/centos/6.6/glassfish/4/installation/">Glassfish 4 Installation on Centos 6.6s</a></strong>
 
+<br/>
+
 ### Weblogic:
 
 <strong><a href="/docs/appserv/weblogic/12c/installation/">Weblogic 12c Installation on Centos 6.6 x86_64</a></strong>
+
+<br/>
 
 ### Jenkins:
 
 
 <strong><a href="/tools/jenkins/installation/">Jenkins Installation on Centos 6.6 x86_64</a></strong>
 
+<br/>
 
 ### Active MQ
 
 <strong><a href="/java_basics/installation/activemq/centos/6/x86_x64/">ActiveMQ installation on Centos 6.X x86_x64</a></strong>
 
+<br/>
 
 ### Other:
 
 <strong><a href="/java_basics/git/eclipse/">Creating Local and Remote Git Repository in Eclipse IDE (Youtube Video)</a></strong>
 
 
+<br/>
 
 ### Android:
 
 
 <strong><a href="/java_basics/android/installation/">Prepare Ubuntu Linux Environment for Development Android Apps with Android Studio</a></strong>
+
+
+<br/>
+
+### Hadoop:
+
+
+<strong><a href="/linux/distributed-systems/hadoop/">Hadoop Installation</a></strong>
