@@ -40,7 +40,7 @@ permalink: /sitemap/
 
 ### Glassfish:
 
-<strong><a href="/docs/appserv/centos/6.6/glassfish/4/installation/">Glassfish 4 Installation on Centos 6.6s</a></strong>
+<strong><a href="/docs/appserv/centos/6.6/glassfish/4/installation/">Glassfish 4 Installation on Centos 6.6</a></strong>
 
 <br/>
 
