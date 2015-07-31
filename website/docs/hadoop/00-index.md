@@ -14,6 +14,11 @@ permalink: /linux/distributed-systems/hadoop/
 ###[Hadoop Multi Node Installation on Centos 6.X (Non-Secure Mode)](/docs/hadoop/centos/6/installation/multi-node-installation-on-centos-6-non-sucure-mode/)
 
 
+Guys, anyone want to try create distributed hadoop cluster with me?  
+I have static IP, domain name for tests, virtual mashines.
+
+<br/><br/>
+<br/><br/>
 
 
     How to download 'weather data' for your analysis
