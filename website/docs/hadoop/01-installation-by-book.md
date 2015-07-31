@@ -8,12 +8,12 @@ permalink: /docs/hadoop/centos/6/installation/by-book/
 Hadoop can be run in one of three modes:
 
 <ul>
-    <li>**Standalone (or local) mode** - There are no daemons running and everything runs in a single JVM. Standalone
+    <li><strong>Standalone (or local) mode</strong> - There are no daemons running and everything runs in a single JVM. Standalone
     mode is suitable for running MapReduce programs during development, since it is
     easy to test and debug them.</li>
-    <li>**Pseudodistributed mode** - The Hadoop daemons run on the local machine, thus simulating a cluster on a small
+    <li<strong>Pseudodistributed mode</strong> - The Hadoop daemons run on the local machine, thus simulating a cluster on a small
     scale.</li>
-    <li>**Fully distributed mode** - The Hadoop daemons run on a cluster of machines.</li>
+    <li<strong>Fully distributed mode</strong> - The Hadoop daemons run on a cluster of machines.</li>
 </ul>
 
 
@@ -59,6 +59,9 @@ variable to the alternative location, or make sure you start the daemons with th
             <value>hdfs://localhost/</value>
         </property>
     </configuration>
+
+<br/>
+
     <?xml version="1.0"?>
     <!-- hdfs-site.xml -->
     <configuration>
@@ -67,6 +70,9 @@ variable to the alternative location, or make sure you start the daemons with th
             <value>1</value>
         </property>
     </configuration>
+
+<br/>
+
     <?xml version="1.0"?>
     <!-- mapred-site.xml -->
     <configuration>
@@ -75,6 +81,9 @@ variable to the alternative location, or make sure you start the daemons with th
             <value>yarn</value>
         </property>
     </configuration>
+
+<br/>
+
     <?xml version="1.0"?>
     <!-- yarn-site.xml -->
     <configuration>
