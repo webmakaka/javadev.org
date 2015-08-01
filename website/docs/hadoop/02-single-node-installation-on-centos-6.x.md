@@ -8,7 +8,7 @@ We have virtual mashine with Centos IP 192.168.1.11
 
 <br/>
 
-> Java should be installed
+> Java should be installed  
 > http://javadev.org/java_basics/installation/jdk/8/linux/centos/6/x86_x64/
 
 
