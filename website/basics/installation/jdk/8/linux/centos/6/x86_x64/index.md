@@ -5,15 +5,15 @@ permalink: /java_basics/installation/jdk/8/linux/centos/6/x86_x64/
 ---
 
 
-<h3>Let install some packages before</h3>
+### Let install some packages before
 
 	# yum install -y \
 	vim \
 	wget \
 	unzip
 
-<br/><br/>
 
+<br/>
 
 ### JDK8 Installation:
 
@@ -32,11 +32,8 @@ To download jdk from oracle website execute next command in the command line:
 	jdk-8u45-linux-x64.tar.gz
 
     # tar -xvzpf jdk-8u45-linux-x64.tar.gz
-
     # mkdir -p /opt/jdk/1.8.0_45
-
     # mv jdk1.8.0_45/* /opt/jdk/1.8.0_45/
-
     # ln -s /opt/jdk/1.8.0_45 /opt/jdk/current
 
 username - that user will work with java
@@ -97,11 +94,8 @@ http://maven.apache.org
 	# wget http://apache-mirror.rbc.ru/pub/apache/maven/maven-3/3.3.3/binaries/apache-maven-3.3.3-bin.tar.gz
 
 	# tar -xvzpf apache-maven-3.3.3-bin.tar.gz
-
 	# mkdir -p /opt/maven/3.3.3
-
 	# mv apache-maven-3.3.3/* /opt/maven/3.3.3/
-
 	# ln -s /opt/maven/3.3.3/ /opt/maven/current
 
 <br/><br/>
@@ -142,13 +136,15 @@ http://www.gradle.org/downloads
 	# cd /tmp
 	# wget https://services.gradle.org/distributions/gradle-2.4-all.zip
 
+<br/>
+
 	# unzip gradle-2.4-all.zip
-
 	# mkdir -p /opt/gradle/2.4
-
 	# mv gradle-2.4/* /opt/gradle/2.4/
-
 	# ln -s /opt/gradle/2.4/ /opt/gradle/current
+
+
+<br/>
 
 	# su - <username>
 
