@@ -59,9 +59,9 @@ We have virtual mashine with Centos IP 192.168.1.11
 
 	#### HADOOP 2.7.1 #######################
 
-	export HADOOP_HOME=/opt/hadoop/2.7.1
-	export PATH=$PATH:$HADOOP_HOME/bin
-	export PATH=$PATH:$HADOOP_HOME/sbin
+		export HADOOP_HOME=/opt/hadoop/2.7.1
+		export PATH=$PATH:$HADOOP_HOME/bin
+		export PATH=$PATH:$HADOOP_HOME/sbin
 
 	#### HADOOP 2.7.1 #######################
 

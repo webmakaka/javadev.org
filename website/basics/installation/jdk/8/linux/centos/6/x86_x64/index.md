@@ -41,8 +41,8 @@ To download jdk from oracle website execute next command in the command line:
 
 username - that user will work with java
 
-    # useradd username
-    # su - username
+    # useradd <username>
+    # su - <username>
 
 <br/>
 
@@ -106,7 +106,7 @@ http://maven.apache.org
 
 <br/><br/>
 
-	$ su - username
+	$ su - <username>
 
 	$ vi ~/.bash_profile
 
@@ -150,7 +150,7 @@ http://www.gradle.org/downloads
 
 	# ln -s /opt/gradle/2.4/ /opt/gradle/current
 
-	# su - username
+	# su - <username>
 
 	$ vi ~/.bash_profile
 
