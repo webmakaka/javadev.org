@@ -5,7 +5,8 @@ permalink: /chat/
 ---
 
 IRC in Browser:  
-http://webchat.freenode.net/?channels=%23javadev
+
+Click <a href="http://webchat.freenode.net/?channels=%23javadev">here</a>. Chose nickname and enter capcha code.
 
 <br/>
 
