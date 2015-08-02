@@ -1,7 +1,7 @@
 ---
 layout: page
 title: IRC
-permalink: /irc/
+permalink: /chat/
 ---
 
 IRC in Browser:  

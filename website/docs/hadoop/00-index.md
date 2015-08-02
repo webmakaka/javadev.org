@@ -14,7 +14,7 @@ permalink: /linux/distributed-systems/hadoop/
 ###[Hadoop Multi Node Installation on Centos 6.X (Non-Secure Mode)](/docs/hadoop/centos/6/installation/multi-node-installation-on-centos-6-non-sucure-mode/)
 
 
-###[Hadoop Simple Example from book)](/linux/distributed-systems/hadoop/example-1/)
+###[Hadoop Simple Example from book](/linux/distributed-systems/hadoop/example-1/)
 
 
 

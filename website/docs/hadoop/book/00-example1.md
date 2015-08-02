@@ -15,6 +15,9 @@ permalink: /linux/distributed-systems/hadoop/example-1/
 <br/>
 
     $ mvn package -DskipTests
+
+<br/>
+
     $ export HADOOP_CLASSPATH=hadoop-examples.jar
     $ hadoop MaxTemperature input/ncdc/sample.txt output
 
