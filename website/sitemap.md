@@ -6,9 +6,6 @@ permalink: /sitemap/
 
 <br/><br/>
 
-**Basics:**
-
-<br/>
 
 ### JDK:
 

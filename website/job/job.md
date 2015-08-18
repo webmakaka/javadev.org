@@ -4,7 +4,22 @@ title: Job Offer
 permalink: /job_offer/
 ---
 
-### Hello! I'm looking for new temporary job on projects.
+
+
+
+### Hello, we are software developers from RUSSIA:<br/>
+
+<br/><br/>
+
+<div align="center">
+	<img src="http://prev.javadev.org/pictures/russian_developers.jpg" border="0">
+</div>
+
+
+And I have active connections with java developers from Russia, Ukraine, Belarus and Kazakhstan. We could try to work on together as team remote developers on any projects.
+
+
+### I'm looking for new temporary job on projects.
 
 
 When i worked on <strong>NetCracker</strong> (NEC department), i worked with oracle servers from <strong>Russia, Europe, Australia, Canada, America, India</strong>.
@@ -18,8 +33,6 @@ I can work remotely as Java, PL/SQL Developer with Wildfly (Jboss), Weblogic, Or
 There is a financial and political crisis on in the Russia, and i should try to looking for a job out of scope of Russia.
 
 Our current salary is something between $1000 and $2000.
-
-I have active connections with java developers from Russia, Ukraine, Belarus and Kazakhstan. We could try to work on together as team remote developers on any projects.
 
 
 If my person and suggestion would be interesting, send me emai.<br/>
