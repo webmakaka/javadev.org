@@ -8,8 +8,6 @@ permalink: /
 <div class="row-fluid">
     <div class="span12">
 
-    <h1>Oracle DBA!</h1>
-
         <div class="row-fluid">
           <div class="span8">
 
