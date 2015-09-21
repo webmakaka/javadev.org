@@ -11,7 +11,6 @@ permalink: /
         <div class="row-fluid">
           <div class="span8">
 
-
               <h3>Please share interesting code samples on java with us:</h3>
 
               If you find interesting project on github, bitbucket, book, video course etc. on java, please send a link to us.
