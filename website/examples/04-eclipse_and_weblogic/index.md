@@ -9,11 +9,11 @@ permalink: /examples/eclipse_helios_and_weblogic/
 
 
 
-<strong>Инсталляция сервера приложений Oracle Weblogic для разработки web приложений:</strong>
+<strong>Installation Oracle Weblogic for development java web applications:</strong>
 
 
 <br/><br/>
-<a href="http://www.oracle.com/technetwork/middleware/fusion-middleware/downloads/index.html">Скачать сервер приложений Weblogic с официального сайта Oracle</a>
+<a href="http://www.oracle.com/technetwork/middleware/fusion-middleware/downloads/index.html">Download Weblogic from Oracle website</a>
 
 <br/><br/>
 
@@ -48,7 +48,7 @@ permalink: /examples/eclipse_helios_and_weblogic/
 <br/><br/>
 
 
-<strong>Подкючение сервера приложений Oracle Weblogic к IDE Eclipse:</strong>
+<strong>Connect Weblogic to Eclipse:</strong>
 
 
 <br/><br/>

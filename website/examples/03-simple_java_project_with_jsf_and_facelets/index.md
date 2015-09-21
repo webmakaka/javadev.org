@@ -5,7 +5,7 @@ permalink: /examples/simple_java_project_with_jsf_and_facelets/
 ---
 
 
-<strong>Создание очень простого приложения с помощью Elipse Helios и Jboss 6 в Windows:</strong>
+<strong>Simple java project with jsf and facelets:</strong>
 
 
 <br/><br/>

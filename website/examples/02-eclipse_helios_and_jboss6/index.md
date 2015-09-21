@@ -5,15 +5,15 @@ permalink: /examples/eclipse_helios_and_jboss6/
 ---
 
 
-<strong>Eclipse Helios и Jboss6:</strong>
+<strong>Eclipse Helios and Jboss6:</strong>
 
 
 <br/><br/>
-
-<p>Последняя версия Eclipse - Indigo. Но стабильные сборки Jboss tools для Eclipse на сеогодня - Helios.</p>
 <br/><br/>
+
 http://download.jboss.org/jbosstools/updates/stable/
 <br/><br/>
+
 <img src="http://files.javadev.org/eclipse/eclipse_helios_and_jboss6/eclipse_helios_and_jboss6_01.png" border="0" alt="Eclipse Helios и Jboss6"><br/><br/>
 <img src="http://files.javadev.org/eclipse/eclipse_helios_and_jboss6/eclipse_helios_and_jboss6_02.png" border="0" alt="Eclipse Helios и Jboss6"><br/><br/>
 <img src="http://files.javadev.org/eclipse/eclipse_helios_and_jboss6/eclipse_helios_and_jboss6_03.png" border="0" alt="Eclipse Helios и Jboss6"><br/><br/>
