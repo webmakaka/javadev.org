@@ -7,11 +7,10 @@ permalink: /examples/eclipse_helios_and_jboss6/
 
 <strong>Eclipse Helios and Jboss6:</strong>
 
-
-<br/><br/>
-<br/><br/>
+<br/>
 
 http://download.jboss.org/jbosstools/updates/stable/
+
 <br/><br/>
 
 <img src="http://files.javadev.org/eclipse/eclipse_helios_and_jboss6/eclipse_helios_and_jboss6_01.png" border="0" alt="Eclipse Helios и Jboss6"><br/><br/>
@@ -67,9 +66,4 @@ http://download.jboss.org/jbosstools/updates/stable/
 <img src="http://files.javadev.org/eclipse/eclipse_helios_and_jboss6/eclipse_helios_and_jboss6_37.png" border="0" alt="Eclipse Helios и Jboss6"><br/><br/>
 <img src="http://files.javadev.org/eclipse/eclipse_helios_and_jboss6/eclipse_helios_and_jboss6_38.png" border="0" alt="Eclipse Helios и Jboss6"><br/><br/>
 <img src="http://files.javadev.org/eclipse/eclipse_helios_and_jboss6/eclipse_helios_and_jboss6_39.png" border="0" alt="Eclipse Helios и Jboss6"><br/><br/>
-
-
-<img src="http://files.javadev.org/eclipse/eclipse_helios_and_jboss6/eclipse_helios_and_jboss6_40.png" border="0" alt="Eclipse Helios и Jboss6"><br/><br/>
-<img src="http://files.javadev.org/eclipse/eclipse_helios_and_jboss6/eclipse_helios_and_jboss6_41.png" border="0" alt="Eclipse Helios и Jboss6"><br/><br/>
-<img src="http://files.javadev.org/eclipse/eclipse_helios_and_jboss6/eclipse_helios_and_jboss6_42.png" border="0" alt="Eclipse Helios и Jboss6"><br/><br/>
-<img src="http://files.javadev.org/eclipse/eclipse_helios_and_jboss6/eclipse_helios_and_jboss6_43.png" border="0" alt="Eclipse Helios и Jboss6"><br/><br/>
+<img src="http://files.javadev.org/eclipse/eclipse_helios_and_jboss6/eclipse_helios_and_jboss6_40.png" border="0" alt="Eclipse Helios и Jboss6">
