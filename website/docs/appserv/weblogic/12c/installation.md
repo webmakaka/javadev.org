@@ -103,29 +103,29 @@ export WL_HOME=${MW_HOME}/wlserver_12.1
     $ ./oepe-indigo-installer-12.1.1.0.0.201112072225-12.1.1-linux32.bin
 
 
-<img src="https://raw.githubusercontent.com/javadev-ru/javadev-ru.github.io/master/website/basics/appservers/weblogic/12c/installation/images/image01.png" alt="Weblogic Installation on Centos">
+<img src="http://files.javadev.org/appserv/weblogic/12c/installation/image01.png" alt="Weblogic Installation on Centos">
 
 
 Folder for installation:  
 /u01/app/oracle/weblogic/12.1
 
 
-<img src="https://raw.githubusercontent.com/javadev-ru/javadev-ru.github.io/master/website/basics/appservers/weblogic/12c/installation/images/image02.png" alt="Weblogic Installation on Centos">
+<img src="http://files.javadev.org/appserv/weblogic/12c/installation/image02.png" alt="Weblogic Installation on Centos">
 
-<img src="https://raw.githubusercontent.com/javadev-ru/javadev-ru.github.io/master/website/basics/appservers/weblogic/12c/installation/images/image03.png" alt="Weblogic Installation on Centos">
+<img src="http://files.javadev.org/appserv/weblogic/12c/installation/image03.png" alt="Weblogic Installation on Centos">
 
-<img src="https://raw.githubusercontent.com/javadev-ru/javadev-ru.github.io/master/website/basics/appservers/weblogic/12c/installation/images/image04.png" alt="Weblogic Installation on Centos">
+<img src="http://files.javadev.org/appserv/weblogic/12c/installation/image04.png" alt="Weblogic Installation on Centos">
 
-<img src="https://raw.githubusercontent.com/javadev-ru/javadev-ru.github.io/master/website/basics/appservers/weblogic/12c/installation/images/image05.png" alt="Weblogic Installation on Centos">
+<img src="http://files.javadev.org/appserv/weblogic/12c/installation/image05.png" alt="Weblogic Installation on Centos">
 
-<img src="https://raw.githubusercontent.com/javadev-ru/javadev-ru.github.io/master/website/basics/appservers/weblogic/12c/installation/images/image06.png" alt="Weblogic Installation on Centos">
+<img src="http://files.javadev.org/appserv/weblogic/12c/installation/image06.png" alt="Weblogic Installation on Centos">
 
-<img src="https://raw.githubusercontent.com/javadev-ru/javadev-ru.github.io/master/website/basics/appservers/weblogic/12c/installation/images/image07.png" alt="Weblogic Installation on Centos">
+<img src="http://files.javadev.org/appserv/weblogic/12c/installation/image07.png" alt="Weblogic Installation on Centos">
 
-<img src="https://raw.githubusercontent.com/javadev-ru/javadev-ru.github.io/master/website/basics/appservers/weblogic/12c/installation/images/image08.png" alt="Weblogic Installation on Centos">
+<img src="http://files.javadev.org/appserv/weblogic/12c/installation/image08.png" alt="Weblogic Installation on Centos">
 
 
-<img src="https://raw.githubusercontent.com/javadev-ru/javadev-ru.github.io/master/website/basics/appservers/weblogic/12c/installation/images/image09.png" alt="Weblogic Installation on Centos">
+<img src="http://files.javadev.org/appserv/weblogic/12c/installation/image09.png" alt="Weblogic Installation on Centos">
 
 
 ### Weblogic domain creation
@@ -140,24 +140,24 @@ To start creation in text mode use:
     $ ./config.sh -mode=console
 
 
-<img src="https://raw.githubusercontent.com/javadev-ru/javadev-ru.github.io/master/website/basics/appservers/weblogic/12c/installation/images/image10.png" alt="Weblogic Installation on Centos">
+<img src="http://files.javadev.org/appserv/weblogic/12c/installation/image10.png" alt="Weblogic Installation on Centos">
 
-<img src="https://raw.githubusercontent.com/javadev-ru/javadev-ru.github.io/master/website/basics/appservers/weblogic/12c/installation/images/image11.png" alt="Weblogic Installation on Centos">
+<img src="http://files.javadev.org/appserv/weblogic/12c/installation/image11.png" alt="Weblogic Installation on Centos">
 
-<img src="https://raw.githubusercontent.com/javadev-ru/javadev-ru.github.io/master/website/basics/appservers/weblogic/12c/installation/images/image12.png" alt="Weblogic Installation on Centos">
+<img src="http://files.javadev.org/appserv/weblogic/12c/installation/image12.png" alt="Weblogic Installation on Centos">
 
-<img src="https://raw.githubusercontent.com/javadev-ru/javadev-ru.github.io/master/website/basics/appservers/weblogic/12c/installation/images/image13.png" alt="Weblogic Installation on Centos">
+<img src="http://files.javadev.org/appserv/weblogic/12c/installation/image13.png" alt="Weblogic Installation on Centos">
 
-<img src="https://raw.githubusercontent.com/javadev-ru/javadev-ru.github.io/master/website/basics/appservers/weblogic/12c/installation/images/image14.png" alt="Weblogic Installation on Centos">
+<img src="http://files.javadev.org/appserv/weblogic/12c/installation/image14.png" alt="Weblogic Installation on Centos">
 
-<img src="https://raw.githubusercontent.com/javadev-ru/javadev-ru.github.io/master/website/basics/appservers/weblogic/12c/installation/images/image15.png" alt="Weblogic Installation on Centos">
+<img src="http://files.javadev.org/appserv/weblogic/12c/installation/image15.png" alt="Weblogic Installation on Centos">
 
 We are not planning to use more then 1 application server
 
-<img src="https://raw.githubusercontent.com/javadev-ru/javadev-ru.github.io/master/website/basics/appservers/weblogic/12c/installation/images/image16.png" alt="Weblogic Installation on Centos">
+<img src="http://files.javadev.org/appserv/weblogic/12c/installation/image16.png" alt="Weblogic Installation on Centos">
 
 
-<img src="https://raw.githubusercontent.com/javadev-ru/javadev-ru.github.io/master/website/basics/appservers/weblogic/12c/installation/images/image17.png" alt="Weblogic Installation on Centos">
+<img src="http://files.javadev.org/appserv/weblogic/12c/installation/image17.png" alt="Weblogic Installation on Centos">
 
 
 
@@ -172,17 +172,17 @@ We do not deploy JEE app on server yet.
 If we will try to connect to server by port 7001, we will recieve next message.  
 
 
-<img src="https://raw.githubusercontent.com/javadev-ru/javadev-ru.github.io/master/website/basics/appservers/weblogic/12c/installation/images/image18.png" alt="Weblogic Installation on Centos" />
+<img src="http://files.javadev.org/appserv/weblogic/12c/installation/image18.png" alt="Weblogic Installation on Centos" />
 
 <br/><br/>
 
 We can connect to the server console <host>:7001/console/
 
 
-<img src="https://raw.githubusercontent.com/javadev-ru/javadev-ru.github.io/master/website/basics/appservers/weblogic/12c/installation/images/image19.png" alt="Weblogic Installation on Centos">
+<img src="http://files.javadev.org/appserv/weblogic/12c/installation/image19.png" alt="Weblogic Installation on Centos">
 
 
-<img src="https://raw.githubusercontent.com/javadev-ru/javadev-ru.github.io/master/website/basics/appservers/weblogic/12c/installation/images/image20.png" alt="Weblogic Installation on Centos">  
+<img src="http://files.javadev.org/appserv/weblogic/12c/installation/image20.png" alt="Weblogic Installation on Centos">  
 
 
 <br/><br/>
@@ -196,15 +196,15 @@ Next application we would deploy to server:
 https://github.com/javadev-ru/javadev-ru.github.io/blob/master/website/basics/appservers/weblogic/12c/installation/apps/wlnav.war
 
     $ cd /tmp/
-    $ wget https://github.com/javadev-ru/javadev-ru.github.io/raw/master/website/basics/appservers/weblogic/12c/installation/apps/wlnav.war
+    $ wget http://files.javadev.org/appserv/weblogic/12c/installation/apps/wlnav.war
     $ cp wlnav.war /u01/app/oracle/wls/11.1/user_projects/domains/MyApp/autodeploy
 
 
 http://192.168.1.201:7001/wlnav
 
 
-<img src="https://raw.githubusercontent.com/javadev-ru/javadev-ru.github.io/master/website/basics/appservers/weblogic/12c/installation/images/image21.png" alt="Weblogic Installation on Centos">
+<img src="http://files.javadev.org/appserv/weblogic/12c/installation/image21.png" alt="Weblogic Installation on Centos">
 
 
 
-<img src="https://raw.githubusercontent.com/javadev-ru/javadev-ru.github.io/master/website/basics/appservers/weblogic/12c/installation/images/image22.png" alt="Weblogic Installation on Centos">
+<img src="http://files.javadev.org/appserv/weblogic/12c/installation/image22.png" alt="Weblogic Installation on Centos">
