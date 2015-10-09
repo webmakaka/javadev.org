@@ -14,8 +14,9 @@ permalink: /sitemap/
 
 <strong><a href="/java_basics/installation/jdk/8/linux/ubuntu/14.04/x86_x64/">JDK8 installation on Ubuntu 14.04</a></strong>
 
+<strong><a href="/install/jdk/8/linux/centos/6/x64/">JDK8, Maven, Gradle installation on Centos 6.X x86_x64</a></strong>
 
-<strong><a href="/java_basics/installation/jdk/8/linux/centos/6/x86_x64/">JDK8, Maven, Gradle installation on Centos 6.X x86_x64</a></strong>
+<strong><a href="/install/jdk/7/linux/centos/6/x64/">JDK7 installation on Centos 6.X x86_x64</a></strong>
 
 <br/>
 
