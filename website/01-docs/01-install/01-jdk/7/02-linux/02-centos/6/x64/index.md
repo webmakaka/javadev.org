@@ -5,7 +5,7 @@ permalink: /install/jdk/7/linux/centos/6/x64/
 ---
 
 
-### Let install some packages before
+### Next packages we will use for JDK installation:
 
 	# yum install -y \
 	vim \

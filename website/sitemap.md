@@ -12,7 +12,7 @@ permalink: /sitemap/
 <strong><a href="/java_basics/installation/jdk/6/windows/xp/">JDK6 Installation on Windows XP</a></strong>
 
 
-<strong><a href="/java_basics/installation/jdk/8/linux/ubuntu/14.04/x86_x64/">JDK8 installation on Ubuntu 14.04</a></strong>
+<strong><a href="/install/jdk/8/linux/ubuntu/14.04/x64/">JDK8 installation on Ubuntu 14.04</a></strong>
 
 <strong><a href="/install/jdk/8/linux/centos/6/x64/">JDK8 installation on Centos 6.X x86_x64</a></strong>
 
