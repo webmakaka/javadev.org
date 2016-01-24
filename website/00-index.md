@@ -31,7 +31,7 @@ permalink: /
 
               <br/><br/>
 
-              <a href="https://github.com/spring-projects/spring-petclinic">spring-petclinic</a>
+              <a href="https://github.com/marley-spring/spring-petclinic">spring-petclinic</a>
 
           </div>
 
