@@ -16,6 +16,18 @@ Read more:
 http://tecadmin.net/install-oracle-java-8-jdk-8-ubuntu-via-ppa/
 
 
+If will have some errors with message:
+
+    oracle-license-v1-1 license could not be presented
+
+
+try to do next:
+
+    $ echo debconf shared/accepted-oracle-license-v1-1 select true | sudo debconf-set-selections
+
+    $ echo debconf shared/accepted-oracle-license-v1-1 seen true | sudo debconf-set-selections
+
+
 <br/>
 
 **VARIANT 2:**
