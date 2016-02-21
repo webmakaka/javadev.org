@@ -22,17 +22,7 @@ permalink: /
                <br/><br/>
 
               <a href="https://github.com/javadev-org/java-design-patterns">Design Patterns</a><br/>
-              <a href="https://github.com/javadev-org/javaee7-samples">Java EE 7 samples</a><br/>
-              <a href="http://www.opencms.org/en/development/core.html">Open CMS</a> (<a href="https://github.com/alkacon/opencms-core">Core src</a>)<br/>
-
-              <br/><br/>
-
-              <strong>Spring</strong>
-
-              <br/><br/>
-
-              <a href="https://github.com/marley-spring/spring-petclinic">spring-petclinic</a>
-
+             
           </div>
 
           <div class="span4">
