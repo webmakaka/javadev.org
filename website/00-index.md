@@ -22,7 +22,7 @@ permalink: /
                <br/><br/>
 
               <a href="https://github.com/javadev-org/java-design-patterns">Design Patterns</a><br/>
-             
+
           </div>
 
           <div class="span4">
@@ -41,7 +41,6 @@ permalink: /
 
 <br/><br/>
 
-
 <div align="center">
     <img src="/website/pictures/jars.jpg" border="0"
 alt="I can't open the jar">
@@ -50,29 +49,25 @@ alt="I can't open the jar">
 
 <br/><br/>
 
+
 **I decided to move list of books and video courses about java development to <a href="http://javalabs.org/">javalabs.org</a>**
 
 
+### If you planning to watch any Video Course or read any book about Java Development and want to discuss it, we can create discussion board on javalabs.org
 
 
-<br/><br/>
+GitHub can help to us. We can create issue, discuss, send pull request to improve code and etc.
+If it would be interesting to you, send link on course what you planning to study and link to your github || bitbucket repo.
 
-<div class="home">
+For example github on video course:
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+[Udemy] Building An E-Commerce Store Using Java Spring Framework [ENG, 2016]
+https://github.com/marley-spring/Building-an-e-commerce-store-using-java-spring-framework
 
 
-</div>
+My contact: <br/>
+<img src="http://img.fotografii.org/a3333333mail.gif" alt="Marley">
+
 
 
 <br/><br/>
