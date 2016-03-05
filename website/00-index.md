@@ -61,7 +61,7 @@ If it would be interesting to you, send link on course what you planning to stud
 
 For example github on video course:
 
-[Udemy] Building An E-Commerce Store Using Java Spring Framework [ENG, 2016]
+[Udemy] Building An E-Commerce Store Using Java Spring Framework [ENG, 2016] <br/>
 https://github.com/marley-spring/Building-an-e-commerce-store-using-java-spring-framework
 
 
