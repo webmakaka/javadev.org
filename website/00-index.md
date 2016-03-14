@@ -5,37 +5,17 @@ permalink: /
 ---
 
 
-<div class="row-fluid">
-    <div class="span12">
+### Please share interesting code samples on java with us:
 
-        <div class="row-fluid">
-          <div class="span8">
+If you find interesting project on github, bitbucket, book, video course etc. on java, please send a link to us.
 
-              <h3>Please share interesting code samples on java with us:</h3>
+<br/><br/>
 
-              If you find interesting project on github, bitbucket, book, video course etc. on java, please send a link to us.
+<strong>For example, next repositories is very interesting i think:</strong>
 
-              <br/><br/>
+ <br/><br/>
 
-              <strong>For example, next repositories is very interesting i think:</strong>
-
-               <br/><br/>
-
-              <a href="https://github.com/javadev-org/java-design-patterns">Design Patterns</a><br/>
-
-          </div>
-
-          <div class="span4">
-
-              <a class="twitter-timeline" href="https://twitter.com/hashtag/javadev" data-widget-id="644845215887585280">#javadev Tweets</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-          </div>
-
-        </div>
-    </div>
-
-</div>
+<a href="https://github.com/javadev-org/java-design-patterns">Design Patterns</a><br/>
 
 
 
