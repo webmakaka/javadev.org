@@ -1,6 +1,8 @@
-# javadev-org.github.io
+# [javadev.org](http://javadev.org) source codes
 
-Install Docker
+To run javadev.org on your local server, you can do next:
+
+**Install Docker**
 
 Then
 
@@ -10,9 +12,9 @@ Then
 
     source ~/.bash_profile
     cd /projects
-    git clone --depth=1 https://github.com/javadev-org/javadev-org.github.io
-    cd javadev-org.github.io
+    git clone --depth=1 https://github.com/javadev-org/javadev.org
+    cd javadev.org
     gem install jekyll 
-    jekyll serve --watch  --host 0.0.0.0 --port 8080
+    jekyll serve --watch --host 0.0.0.0 --port 8080
 
 and connect to localhost.
