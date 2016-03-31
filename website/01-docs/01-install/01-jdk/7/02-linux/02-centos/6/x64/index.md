@@ -55,7 +55,7 @@ username - that user will work with java
 	#### JAVA 1.7.0 #######################
 
 		export JAVA_HOME=/opt/jdk/current
-		export PATH=$PATH:$JAVA_HOME/bin
+		export PATH=$JAVA_HOME/bin:$PATH
 
 	#### JAVA 1.7.0 #######################
 
