@@ -6,7 +6,7 @@ permalink: /github/
 
 **Java**  
 
-https://github.com/java-course-ee
+https://github.com/java-course-ee  
 https://github.com/javadev-org/shopizer    
 https://github.com/alkacon/opencms-core    
 https://github.com/javadev-org/javaee7-samples  
