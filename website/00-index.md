@@ -22,13 +22,36 @@ If you find interesting project on github, bitbucket, book, video course etc. on
 <br/><br/>
 
 <div align="center">
-    <img src="/website/pictures/jars.jpg" border="0"
-alt="I can't open the jar">
+    <img src="/website/pictures/jars.jpg" border="0" alt="I can't open the jar">
 </div>
 
 
 <br/><br/>
 
+### Docker for our purposes
+
+I start working with docker. And recommend to find (or buy) video course
+
+[PLURALSIGHT.COM, DAN WAHLIN] DOCKER FOR WEB DEVELOPERS [2016, ENG] (Here examples for windows and mac, with codes on nodejs and asp.net)
+
+code examples:  
+https://github.com/sysadm-ru/Docker-for-Web-Developers
+
+
+<br/><br/>
+
+For example. This guy start 3 container wiht 3 tomcat by 1 command.
+
+<div align="center">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/gtoT0By8yh4" frameborder="0" allowfullscreen></iframe>
+</div>
+
+If someone can share interesting examples for java application, please do it.
+
+
+<br/><br/>
+
+### JAVALABS
 
 **I decided to move list of books and video courses about java development to <a href="http://javalabs.org/">javalabs.org</a>**
 
