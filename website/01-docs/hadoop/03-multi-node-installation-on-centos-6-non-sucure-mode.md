@@ -12,7 +12,7 @@ permalink: /docs/hadoop/centos/6/installation/multi-node-installation-on-centos-
 Hadoop installation is same as in the single mode.
 Difference between only in the config files.
 
-We have 4 virtual mashines with centos 6.
+We have 4 virtual machines with centos 6.
 
 <br/>
 

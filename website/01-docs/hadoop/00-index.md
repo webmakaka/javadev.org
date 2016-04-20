@@ -6,21 +6,22 @@ permalink: /linux/distributed-systems/hadoop/
 
 
 
-###[Installing Apache Hadoop by book Tom White - Hadoop: The Definitive Guide, 4th Edition [ENG, 2015]](/docs/hadoop/centos/6/installation/by-book/)
+### [Installing Apache Hadoop by book Tom White - Hadoop: The Definitive Guide, 4th Edition [ENG, 2015]](/docs/hadoop/centos/6/installation/by-book/)
 
-###[Hadoop Single Node Installation on Centos 6.X](/docs/hadoop/centos/6/installation/single-node-installation-on-centos-6/)
-
-
-###[Hadoop Multi Node Installation on Centos 6.X (Non-Secure Mode)](/docs/hadoop/centos/6/installation/multi-node-installation-on-centos-6-non-sucure-mode/)
+### [Hadoop Single Node Installation on Centos 6.X](/docs/hadoop/centos/6/installation/single-node-installation-on-centos-6/)
 
 
-###[Hadoop Simple Example from book](/linux/distributed-systems/hadoop/example-1/)
+### [Hadoop Multi Node Installation on Centos 6.X (Non-Secure Mode)](/docs/hadoop/centos/6/installation/multi-node-installation-on-centos-6-non-sucure-mode/)
+
+
+### [Hadoop Simple Example from book](/linux/distributed-systems/hadoop/example-1/)
 
 
 
+<br/>
 
-Guys, anyone want to try create distributed hadoop cluster with me?  
-I have static IP, domain name for tests, virtual mashines.
+If someone will want to try create distributed hadoop cluster, i want to participate.
+I have static IP, domain name for tests, virtual maсhines: virtualbox, docker.
 
 <br/><br/>
 <br/><br/>
