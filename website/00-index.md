@@ -40,11 +40,16 @@ https://github.com/sysadm-ru/Docker-for-Web-Developers
 
 <br/><br/>
 
-For example. This guy start 3 container wiht 3 tomcat by 1 command.
+For example. This guy start 3 container with tomcat by 1 command.
+
+<br/><br/>
 
 <div align="center">
     <iframe width="853" height="480" src="https://www.youtube.com/embed/gtoT0By8yh4" frameborder="0" allowfullscreen></iframe>
 </div>
+
+
+<br/><br/>
 
 If someone can share interesting examples for java application, please do it.
 
