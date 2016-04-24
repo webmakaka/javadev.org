@@ -4,7 +4,7 @@ title: OpenSource projects on Java (GitHub)
 permalink: /github/
 ---
 
-useful-java-links
+**Useful Java links**
 
 https://github.com/Vedenin/useful-java-links
 
