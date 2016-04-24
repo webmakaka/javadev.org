@@ -4,6 +4,11 @@ title: OpenSource projects on Java (GitHub)
 permalink: /github/
 ---
 
+**Awesome Java**
+
+https://github.com/akullpp/awesome-java
+
+
 **Useful Java links**
 
 https://github.com/Vedenin/useful-java-links
