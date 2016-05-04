@@ -28,15 +28,7 @@ If you find interesting project on github, bitbucket, book, video course etc. on
 
 <br/><br/>
 
-### Docker for our purposes
-
-I start working with docker. And recommend to find (or buy) video course
-
-[PLURALSIGHT.COM, DAN WAHLIN] DOCKER FOR WEB DEVELOPERS [2016, ENG] (Here examples for windows and mac, with codes on nodejs and asp.net)
-
-code examples:  
-https://github.com/sysadm-ru/Docker-for-Web-Developers
-
+### Docker for JAVA DEVELOPERS
 
 <br/><br/>
 
@@ -52,6 +44,14 @@ For example. This guy start 3 container with tomcat by 1 command.
 <br/><br/>
 
 If someone can share interesting examples for java application, please do it.
+
+<br/>
+
+And i want to try investigate next article for creating environment for test application.
+
+https://blog.codecentric.de/en/2015/10/continuous-integration-platform-using-docker-container-jenkins-sonarqube-nexus-gitlab/
+
+
 
 
 <br/><br/>
