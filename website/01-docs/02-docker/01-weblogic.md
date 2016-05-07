@@ -13,7 +13,7 @@ permalink: /docker/weblogic/
 
 
 
-I will run it on Ubuntu Linux. If you working on WIndows, you can use docker-mashine to run this example.
+I will run it on Ubuntu Linux. If you working on WIndows, you can use docker-machine to run this example.
 
 
     $ cd /projects/
@@ -138,6 +138,7 @@ http://localhost:7001/medrec/
 
 <img src="http://files.javadev.org/docker/weblogic/app/Docker_Java_App_Weblogic_Example_01.png" alt="Docker Java App Weblogic Example">
 
+<br/>
 
 <img src="http://files.javadev.org/docker/weblogic/app/Docker_Java_App_Weblogic_Example_02.png" alt="Docker Java App Weblogic Example">
 
