@@ -26,7 +26,7 @@ permalink: /sitemap/
 
 ### Docker:
 
-<strong><a href="https://github.com/javadev-org/docker" rel="nofollow">ubuntu oracle java8 dockerfile</a></strong>
+<strong><a href="https://github.com/javadev-org/docker" rel="nofollow">DockerFile for ubuntu with JDK8</a></strong>
 
 
 <strong><a href="https://blog.giantswarm.io/getting-started-with-java-development-on-docker/" rel="nofollow">Getting Started with Java Development on Docker</a></strong>
