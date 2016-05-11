@@ -32,7 +32,7 @@ permalink: /sitemap/
 
 <strong><a href="https://hub.docker.com/_/maven/" rel="nofollow">Getting Started with Java Development on Docker</strong>
 
-<strong><a href="https://blog.giantswarm.io/getting-started-with-java-development-on-docker/" rel="nofollow">Maven</strong>
+<strong><a href="https://blog.giantswarm.io/getting-started-with-java-development-on-docker/" rel="nofollow">Maven</a></strong>
 
 <strong><a href="/docker/weblogic/">Running simple java ee application on weblogic server by docker container</a></strong>
 
