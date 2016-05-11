@@ -26,9 +26,9 @@ permalink: /sitemap/
 
 ### Docker:
 
-<strong><a href="https://github.com/dockerfile/java/blob/master/oracle-java8/Dockerfile">ubuntu oracle java8 dockerfile</a> (looks like not working, I try to update it later)</strong>
+<strong><a href="https://github.com/javadev-org/java/blob/master/oracle-java8/Dockerfile">ubuntu oracle java8 dockerfile</a> (looks like not working, I try to update it later)</strong>
 
-<strong><a href="https://github.com/dockerfile/java/blob/master/oracle-java7/Dockerfile">ubuntu oracle java7 dockerfile</a> (looks like not working, I try to update it later) </strong>
+<strong><a href="https://github.com/javadev-org/java/blob/master/oracle-java7/Dockerfile">ubuntu oracle java7 dockerfile</a> (looks like not working, I try to update it later) </strong>
 
 <strong><a href="/docker/weblogic/">Running simple java ee application on weblogic server by docker container</a></strong>
 
