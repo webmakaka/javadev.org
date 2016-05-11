@@ -26,13 +26,10 @@ permalink: /sitemap/
 
 ### Docker:
 
-<strong><a href="https://github.com/javadev-org/java/blob/master/oracle-java8/Dockerfile" rel="nofollow">ubuntu oracle java8 dockerfile</a> (looks like not working, I try to update it later)</strong>
+<strong><a href="https://github.com/javadev-org/docker" rel="nofollow">ubuntu oracle java8 dockerfile</a></strong>
 
-<strong><a href="https://github.com/javadev-org/java/blob/master/oracle-java7/Dockerfile" rel="nofollow">ubuntu oracle java7 dockerfile</a> (looks like not working, I try to update it later) </strong>
 
 <strong><a href="https://blog.giantswarm.io/getting-started-with-java-development-on-docker/" rel="nofollow">Getting Started with Java Development on Docker</a></strong>
-
-<strong><a href="https://hub.docker.com/_/maven/" rel="nofollow">Maven</a></strong>
 
 <strong><a href="/docker/weblogic/">Running simple java ee application on weblogic server by docker container</a></strong>
 
