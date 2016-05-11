@@ -30,7 +30,7 @@ permalink: /sitemap/
 
 <strong><a href="https://github.com/javadev-org/java/blob/master/oracle-java7/Dockerfile" rel="nofollow">ubuntu oracle java7 dockerfile</a> (looks like not working, I try to update it later) </strong>
 
-<strong><a href="https://hub.docker.com/_/maven/" rel="nofollow">Getting Started with Java Development on Docker</strong>
+<strong><a href="https://hub.docker.com/_/maven/" rel="nofollow">Getting Started with Java Development on Docker</a></strong>
 
 <strong><a href="https://blog.giantswarm.io/getting-started-with-java-development-on-docker/" rel="nofollow">Maven</a></strong>
 
