@@ -19,6 +19,7 @@ permalink: /sitemap/
 
 <strong><a href="/install/assembly-tools/linux/centos/6/x64/">Maven, Gradle installation on Centos 6.X x86_x64</a></strong>
 
+<strong><a href="/install/assembly-tools/linux/centos/6/x64/archiva/">Archiva Maven Repository Manager Installation on Centos 6.X x86_x64</a></strong>
 
 
 <br/><br/>
