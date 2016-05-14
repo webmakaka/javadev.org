@@ -10,7 +10,8 @@ permalink: /install/jdk/8/linux/centos/6/x64/
 	# yum install -y \
 	vim \
 	wget \
-	unzip
+	unzip \
+    tar
 
 
 <br/>
@@ -23,18 +24,18 @@ Before start, you can check on site: java.sun.com latest jdk version.
 
 To download jdk from oracle website execute next command in the command line:
 
-    # wget --no-check-certificate --no-cookies - --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u45-b14/jdk-8u45-linux-x64.tar.gz
+    # wget --no-check-certificate --no-cookies - --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u91-b14/jdk-8u91-linux-x64.tar.gz
 
 
 <br/>
 
     # ls jdk*
-	jdk-8u45-linux-x64.tar.gz
+	jdk-8u91-linux-x64.tar.gz
 
-    # tar -xvzpf jdk-8u45-linux-x64.tar.gz
-    # mkdir -p /opt/jdk/1.8.0_45
-    # mv jdk1.8.0_45/* /opt/jdk/1.8.0_45/
-    # ln -s /opt/jdk/1.8.0_45 /opt/jdk/current
+    # tar -xvzpf jdk-8u91-linux-x64.tar.gz
+    # mkdir -p /opt/jdk/1.8.0_91
+    # mv jdk1.8.0_91/* /opt/jdk/1.8.0_91/
+    # ln -s /opt/jdk/1.8.0_91 /opt/jdk/current
 
 username - that user will work with java
 
@@ -65,4 +66,7 @@ Let try to check result:
 
 <br/>
 
-	$ java -version
+    $ java -version
+    java version "1.8.0_91"
+    Java(TM) SE Runtime Environment (build 1.8.0_91-b14)
+    Java HotSpot(TM) 64-Bit Server VM (build 25.91-b14, mixed mode)
