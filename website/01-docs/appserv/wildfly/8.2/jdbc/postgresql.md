@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Wildfly 8.2 setup jdbc connection with PostgreSQL
-permalink: /appservers/wildfly/8.2/jdbc/postgresq/
+permalink: /appservers/wildfly/8.2/jdbc/postgresql/
 ---
 
 
