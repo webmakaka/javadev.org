@@ -18,7 +18,7 @@ permalink: /install/assembly-tools/linux/centos/6/x64/archiva/
 
 <br/>
 
-    # chown -R developer /opt/archiva/
+    # chown -R <username> /opt/archiva/
 
 <br/>
 
