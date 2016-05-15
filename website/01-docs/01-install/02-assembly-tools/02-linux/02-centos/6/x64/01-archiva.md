@@ -18,6 +18,19 @@ permalink: /install/assembly-tools/linux/centos/6/x64/archiva/
 
 <br/>
 
+
+Changing default port to 8081
+
+    $ vi /opt/archiva/2.2.0/conf/jetty.xml
+
+
+<br/>
+
+     <Set name="port"><SystemProperty name="jetty.port" default="8081"/></Set>
+
+
+<br/>
+
     # chown -R <username> /opt/archiva/
 
 <br/>

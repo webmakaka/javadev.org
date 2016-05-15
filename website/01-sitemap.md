@@ -22,7 +22,15 @@ permalink: /sitemap/
 <strong><a href="/install/assembly-tools/linux/centos/6/x64/archiva/">Archiva Maven Repository Manager Installation on Centos 6.X x86_x64</a></strong>
 
 
-<br/><br/>
+<br/>
+
+### Jenkins:
+
+
+<strong><a href="/tools/jenkins/installation/">Jenkins Installation on Centos 6.6 x86_64</a></strong>
+
+
+<br/>
 
 
 ### Docker:
@@ -63,12 +71,6 @@ permalink: /sitemap/
 
 <strong><a href="/docs/appserv/weblogic/12c/installation/">Weblogic 12c Installation on Centos 6.6 x86_64</a></strong>
 
-<br/>
-
-### Jenkins:
-
-
-<strong><a href="/tools/jenkins/installation/">Jenkins Installation on Centos 6.6 x86_64</a></strong>
 
 <br/>
 
@@ -78,12 +80,15 @@ permalink: /sitemap/
 
 <br/>
 
-### Other:
+### GIT:
 
 <strong><a href="/java_basics/git/eclipse/">Creating Local and Remote Git Repository in Eclipse IDE (Youtube Video)</a></strong>
 
+<strong><a href="https://about.gitlab.com/downloads/" rel="nofollow">Install GitLab CE by Omnibus package </a></strong>
+
 
 <br/>
+
 
 ### Android:
 
