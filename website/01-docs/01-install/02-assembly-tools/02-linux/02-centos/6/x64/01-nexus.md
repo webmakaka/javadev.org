@@ -11,7 +11,9 @@ permalink: /install/assembly-tools/linux/centos/6/x64/nexus/
 
 ### Run Nexus in Docker container:
 
-$ docker run -d -p 8081:8081 --name nexus sonatype/nexus3
+
+    $ docker run -d -p 8081:8081 --name nexus sonatype/nexus3
+
 
 It can take some time (2-3 minutes) for the service to launch in a new container
 
