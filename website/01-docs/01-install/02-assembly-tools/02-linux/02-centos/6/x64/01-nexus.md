@@ -103,9 +103,3 @@ wait 2-3 minutes
 <br/>
 
 http://localhost:8081/
-
-
-<br/><br/>
-
-Not Bad instruction (But not works by me):  
-http://evertrue.github.io/blog/2014/07/21/setting-up-an-archiva-repository/
