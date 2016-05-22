@@ -7,6 +7,10 @@ permalink: /install/assembly-tools/linux/centos/6/x64/nexus/
 ### Sonatype Nexus Repository Manager
 
 
+
+
+### Run Nexus in Docker container:
+
 $ docker run -d -p 8081:8081 --name nexus sonatype/nexus3
 
 It can take some time (2-3 minutes) for the service to launch in a new container
@@ -22,10 +26,10 @@ https://hub.docker.com/r/sonatype/nexus3/
 
 
 
-
-
 <br/>
 
+
+### Traditional Installation
 
 
     # cd /tmp/
@@ -37,6 +41,7 @@ https://hub.docker.com/r/sonatype/nexus3/
     # tar -xvzpf nexus-3.0.0-03-unix.tar.gz
     # mkdir -p /opt/nexus/3.0.0
     # mv nexus-3.0.0-03/* /opt/nexus/3.0.0/
+    # mv nexus-3.0.0-03/.install4j/ /opt/nexus/3.0.0/
     # ln -s /opt/nexus/3.0.0/ /opt/nexus/current
 
 
@@ -77,14 +82,22 @@ wait 2-3 minutes
 
     $ nexus status
 
-<!--
+<br/>
+
+    $ curl -I http://localhost:8081/
+    HTTP/1.1 200 OK
+    Date: Sun, 22 May 2016 00:19:40 GMT
+    Server: Nexus/3.0.0-03 (OSS)
+    X-Frame-Options: SAMEORIGIN
+    X-Content-Type-Options: nosniff
+    Content-Type: text/html
+    Last-Modified: Sun, 22 May 2016 00:19:40 GMT
+    Pragma: no-cache
+    Cache-Control: post-check=0, pre-check=0
+    Expires: 0
+    Content-Length: 4747
+
 
 <br/>
 
-$ curl -I http://localhost:8080/  
-
-<br/>
-
-http://localhost:8080/#welcome
-
--->
+http://localhost:8081/
