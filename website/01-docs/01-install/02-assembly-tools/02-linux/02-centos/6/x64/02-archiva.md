@@ -81,5 +81,5 @@ http://localhost:8080/#welcome
 
 <br/><br/>
 
-Not Bad instruction (But not works by me):  
+Not Bad instruction (But not works):  
 http://evertrue.github.io/blog/2014/07/21/setting-up-an-archiva-repository/

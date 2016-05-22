@@ -103,3 +103,90 @@ wait 2-3 minutes
 <br/>
 
 http://localhost:8081/
+
+
+<br/>
+
+### Try to run
+
+
+
+<br/>
+
+    $ mkdir -p /home/developer/.m2/
+
+<br/>
+
+    $ vi /home/developer/.m2/settings.xml
+
+<br/>  
+
+My config. I will update it later (i hope).
+
+<br/>  
+
+    <settings>
+        <profiles>
+            <profile>
+              <id>main</id>
+              <activation>
+                <activeByDefault>true</activeByDefault>
+              </activation>
+              <repositories>
+                <repository>
+                  <id>maven-central</id>
+                  <url>http://localhost:8081/repository/maven-central/</url>
+                  <layout>default</layout>
+                  <releases>
+                    <enabled>true</enabled>
+                  </releases>
+                </repository>
+              </repositories>
+              <pluginRepositories>
+                <pluginRepository>
+                  <id>maven-central</id>
+                  <url>http://localhost:8081/repository/maven-central/</url>
+                </pluginRepository>
+              </pluginRepositories>
+            </profile>
+          </profiles>
+            <servers>
+                <server>
+                   <id>maven-central</id>
+                   <username>admin</username>
+                   <password>admin123</password>
+                   <configuration>
+                     <basicAuthScope>
+                       <host>ANY</host>
+                       <port>ANY</port>
+                       <realm>OAM 11g</realm>
+                     </basicAuthScope>
+                     <httpConfiguration>
+                       <all>
+                         <params>
+                           <property>
+                             <name>http.protocol.allow-circular-redirects</name>
+                             <value>%b,true</value>
+                           </property>
+                         </params>
+                       </all>
+                     </httpConfiguration>
+                   </configuration>
+                 </server>
+            </servers>
+    </settings>
+
+<br/>
+<br/>
+
+    $ cd /tmp/
+    $ git clone https://github.com/marley-spring/Building-an-e-commerce-store-using-java-spring-framework
+    $ cd Building-an-e-commerce-store-using-java-spring-framework/
+    $ mvn package
+
+<br/>
+<br/>
+
+Output should like:
+
+http://localhost:8081/repository/maven-central
