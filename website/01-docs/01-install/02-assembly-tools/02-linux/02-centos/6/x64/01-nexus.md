@@ -20,7 +20,7 @@ It can take some time (2-3 minutes) for the service to launch in a new container
 
 http://localhost:8081/
 
-    login: admi
+    login: admin
     password: admin123
 
 
