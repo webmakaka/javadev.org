@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Sonatype Nexus Installation on Centos 6.X x86_x64
-permalink: /install/assembly-tools/linux/centos/6/x64/nexus/
+title: Sonatype Nexus Installation on Centos 7.X
+permalink: /install/assembly-tools/linux/centos/7.X/nexus/
 ---
 
 ### Sonatype Nexus Repository Manager
@@ -183,10 +183,3 @@ My config. I will update it later (i hope).
     $ git clone https://github.com/marley-spring/Building-an-e-commerce-store-using-java-spring-framework
     $ cd Building-an-e-commerce-store-using-java-spring-framework/
     $ mvn package
-
-<br/>
-<br/>
-
-Output should like:
-
-http://localhost:8081/repository/maven-central

@@ -25,9 +25,9 @@ permalink: /sitemap/
 ### Repository Manager:
 
 
-<strong><a href="/install/assembly-tools/linux/centos/6/x64/nexus/">Sonatype Nexus Installation on Centos 6.X x86_x64</a></strong>
+<strong><a href="/install/assembly-tools/linux/centos/7.X/nexus/">Sonatype Nexus Installation on Centos 7.X</a></strong>
 
-<strong><a href="/install/assembly-tools/linux/centos/6/x64/archiva/">Archiva Maven Repository Manager Installation on Centos 6.X x86_x64</a></strong>
+<strong><a href="/install/assembly-tools/linux/centos/7.X/archiva/">Archiva Maven Repository Manager Installation on Centos 7.X</a></strong>
 
 
 <br/>
