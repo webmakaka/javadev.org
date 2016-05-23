@@ -142,56 +142,56 @@ My config. I will update it later (i hope).
 
 <br/>  
 
-<settings>
-    <profiles>
-        <profile>
-          <id>main</id>
-          <activation>
-            <activeByDefault>true</activeByDefault>
-          </activation>
-          <repositories>
-            <repository>
-              <id>mirror</id>
-              <url>http://localhost:8081/repository/mirror/</url>
-              <layout>default</layout>
-              <releases>
-                <enabled>true</enabled>
-              </releases>
-            </repository>
-          </repositories>
-          <pluginRepositories>
-            <pluginRepository>
-              <id>mirror</id>
-              <url>http://localhost:8081/repository/mirror/</url>
-              </pluginRepository>
-            </pluginRepositories>
-          </profile>
-        </profiles>
-          <servers>
-              <server>
-                 <id>mirror</id>
-                 <username>admin</username>
-                 <password>admin123</password>
-                 <configuration>
-                   <basicAuthScope>
-                     <host>ANY</host>
-                     <port>ANY</port>
-                     <realm>OAM 11g</realm>
-                   </basicAuthScope>
-                   <httpConfiguration>
-                     <all>
-                       <params>
-                         <property>
-                           <name>http.protocol.allow-circular-redirects</name>
-                           <value>%b,true</value>
-                         </property>
-                       </params>
-                     </all>
-                   </httpConfiguration>
-                 </configuration>
-               </server>
-          </servers>
-  </settings>
+    <settings>
+        <profiles>
+            <profile>
+              <id>main</id>
+              <activation>
+                <activeByDefault>true</activeByDefault>
+              </activation>
+              <repositories>
+                <repository>
+                  <id>mirror</id>
+                  <url>http://localhost:8081/repository/mirror/</url>
+                  <layout>default</layout>
+                  <releases>
+                    <enabled>true</enabled>
+                  </releases>
+                </repository>
+              </repositories>
+              <pluginRepositories>
+                <pluginRepository>
+                  <id>mirror</id>
+                  <url>http://localhost:8081/repository/mirror/</url>
+                  </pluginRepository>
+                </pluginRepositories>
+              </profile>
+            </profiles>
+              <servers>
+                  <server>
+                     <id>mirror</id>
+                     <username>admin</username>
+                     <password>admin123</password>
+                     <configuration>
+                       <basicAuthScope>
+                         <host>ANY</host>
+                         <port>ANY</port>
+                         <realm>OAM 11g</realm>
+                       </basicAuthScope>
+                       <httpConfiguration>
+                         <all>
+                           <params>
+                             <property>
+                               <name>http.protocol.allow-circular-redirects</name>
+                               <value>%b,true</value>
+                             </property>
+                           </params>
+                         </all>
+                       </httpConfiguration>
+                     </configuration>
+                   </server>
+              </servers>
+    </settings>
 
 
 <br/>
