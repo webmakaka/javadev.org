@@ -7,8 +7,6 @@ permalink: /install/assembly-tools/linux/centos/7.X/nexus/
 ### Sonatype Nexus Repository Manager
 
 
-
-
 ### Run Nexus in Docker container:
 
 
@@ -30,8 +28,7 @@ https://hub.docker.com/r/sonatype/nexus3/
 
 <br/>
 
-
-### Traditional Installation
+### Nexus Installation on Linux
 
 
     # cd /tmp/
