@@ -22,12 +22,13 @@ permalink: /sitemap/
 
 <br/>
 
-### Repository Manager:
+### Repository Managers:
 
+<strong><a href="/install/assembly-tools/linux/centos/7.X/archiva/">Archiva Maven Repository Manager Installation on Centos 7.X</a></strong>
 
 <strong><a href="/install/assembly-tools/linux/centos/7.X/nexus/">Sonatype Nexus Installation on Centos 7.X</a></strong>
 
-<strong><a href="/install/assembly-tools/linux/centos/7.X/archiva/">Archiva Maven Repository Manager Installation on Centos 7.X</a></strong>
+<strong><a href="http://buttso.blogspot.ru/2015/02/fronting-oracle-maven-repository-with.html"rel="nofollow">Artifactory</a></strong>
 
 
 <br/>
