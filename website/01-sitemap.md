@@ -28,7 +28,7 @@ permalink: /sitemap/
 
 <strong><a href="/install/assembly-tools/linux/centos/7.X/nexus/">Sonatype Nexus Installation on Centos 7.X</a></strong>
 
-<strong><a href="http://buttso.blogspot.ru/2015/02/fronting-oracle-maven-repository-with.html"rel="nofollow">Artifactory</a></strong>
+<strong><a href="https://www.jfrog.com/blog/fronting-oracle-maven-repository-artifactory/" rel="nofollow">Artifactory</a></strong>
 
 
 <br/>
