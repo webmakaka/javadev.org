@@ -80,6 +80,8 @@ wait 2-3 minutes
 <br/>
 
     $ nexus status
+    nexus is running.
+
 
 <br/>
 
