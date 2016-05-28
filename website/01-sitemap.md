@@ -22,7 +22,7 @@ permalink: /sitemap/
 
 ### Version Control:
 
-<strong><a href="/virsion-control/">Version Control</a></strong>
+<strong><a href="/version-control/">Version Control</a></strong>
 
 
 <br/>
