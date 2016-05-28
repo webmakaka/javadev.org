@@ -85,7 +85,9 @@ permalink: /sitemap/
 
 ### Examples:
 
-<strong><a href="/examples/jboss-installation-on-windows/">Jboss6 Installation on Windows</a></strong>  
-<strong><a href="/examples/eclipse_helios_and_jboss6/">Eclipse Helios and Jboss6</a></strong>  
-<strong><a href="/examples/simple_java_project_with_jsf_and_facelets/">Simple java project with jsf and facelets</a></strong>  
-<strong><a href="/examples/eclipse_helios_and_weblogic/">Eclipse Helios and Oracle Weblogic</a></strong>  
+<ul>
+    <li><strong><a href="/examples/jboss-installation-on-windows/">Jboss6 Installation on Windows</a></strong>  </li>
+    <li><strong><a href="/examples/eclipse_helios_and_jboss6/">Eclipse Helios and Jboss6</a></strong></li>
+    <li><strong><a href="/examples/simple_java_project_with_jsf_and_facelets/">Simple java project with jsf and facelets</a></strong></li>
+    <li><strong><a href="/examples/eclipse_helios_and_weblogic/">Eclipse Helios and Oracle Weblogic</a></strong></li>
+</ul>

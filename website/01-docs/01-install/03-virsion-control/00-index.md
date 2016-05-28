@@ -7,7 +7,7 @@ permalink: /virsion-control/
 
 <br/>
 
-### Version Control
+### GIT
 
 
 <ul>
