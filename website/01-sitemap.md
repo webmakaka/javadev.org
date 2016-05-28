@@ -9,22 +9,20 @@ permalink: /sitemap/
 
 ### JDK:
 
-<strong><a href="/java_basics/installation/jdk/6/windows/xp/">JDK6 Installation on Windows XP</a></strong>
 
-<strong><a href="/install/jdk/8/linux/ubuntu/14.04/x64/">JDK8 installation on Ubuntu 14.04</a></strong>
-
-<strong><a href="/install/jdk/8/linux/centos/6/x64/">JDK8 installation on Centos 6.X x86_x64</a></strong>
-
-<strong><a href="/install/jdk/7/linux/centos/6/x64/">JDK7 installation on Centos 6.X x86_x64</a></strong>
+<ul>
+    <li><strong><a href="/java_basics/installation/jdk/6/windows/xp/">JDK6 Installation on Windows XP</a></strong></li>
+    <li><strong><a href="/install/jdk/8/linux/ubuntu/14.04/x64/">JDK8 installation on Ubuntu 14.04</a></strong></li>
+    <li><strong><a href="/install/jdk/8/linux/centos/6/x64/">JDK8 installation on Centos 6.X x86_x64</a></strong></li>
+    <li><strong><a href="/install/jdk/7/linux/centos/6/x64/">JDK7 installation on Centos 6.X x86_x64</a></strong></li>
+</ul>
 
 
 <br/>
 
 ### Version Control:
 
-<strong><a href="/java_basics/git/eclipse/">Creating Local and Remote Git Repository in Eclipse IDE (Youtube Video)</a></strong>
-
-<strong><a href="https://about.gitlab.com/downloads/" rel="nofollow">Install GitLab CE by Omnibus package </a></strong>
+<strong><a href="/virsion-control/">Version Control</a></strong>
 
 
 <br/>
@@ -69,11 +67,11 @@ permalink: /sitemap/
 
 ### Docker:
 
-<strong><a href="https://github.com/javadev-org/dockerfiles" rel="nofollow">DockerFile with JDK8</a></strong>
-
-<strong><a href="https://blog.giantswarm.io/getting-started-with-java-development-on-docker/" rel="nofollow">Getting Started with Java Development on Docker</a></strong>
-
-<strong><a href="/docker/weblogic/">Running simple java ee application on weblogic server by docker container</a></strong>
+<ul>
+    <li><strong><a href="https://github.com/javadev-org/dockerfiles" rel="nofollow">DockerFile with JDK8</a></strong></li>
+    <li><strong><a href="https://blog.giantswarm.io/getting-started-with-java-development-on-docker/" rel="nofollow">Getting Started with Java Development on Docker</a></strong></li>
+    <li><strong><a href="/docker/weblogic/">Running simple java ee application on weblogic server by docker container</a></strong></li>
+</ul>
 
 
 <br/>
@@ -81,7 +79,6 @@ permalink: /sitemap/
 ### Hadoop:
 
 <strong><a href="/linux/distributed-systems/hadoop/">Hadoop Installation</a></strong>
-
 
 
 <br/>

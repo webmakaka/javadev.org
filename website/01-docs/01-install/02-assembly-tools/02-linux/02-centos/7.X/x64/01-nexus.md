@@ -272,7 +272,8 @@ http://localhost:8081/nexus/
 
 https://www.youtube.com/watch?v=ose6oXq7g7E
 
-
+License should be approved:  
+https://www.oracle.com/webapps/maven/register/license.html
 
     % cd /opt/nexus/current/conf
     $ cp nexus.properties nexus.properties.orig
