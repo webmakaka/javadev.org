@@ -7,7 +7,7 @@ permalink: /sitemap/
 <br/><br/>
 
 
-### JDK Installation:
+### Java Development Kit (JDK) Installation:
 
 
 <ul>
