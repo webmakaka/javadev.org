@@ -7,44 +7,21 @@ permalink: /sitemap/
 <br/><br/>
 
 
-### JDK:
+### JDK Installation:
 
 
 <ul>
-    <li><strong><a href="/java_basics/installation/jdk/6/windows/xp/">JDK6 Installation on Windows XP</a></strong></li>
-    <li><strong><a href="/install/jdk/8/linux/ubuntu/14.04/x64/">JDK8 installation on Ubuntu 14.04</a></strong></li>
-    <li><strong><a href="/install/jdk/8/linux/centos/6/x64/">JDK8 installation on Centos 6.X x86_x64</a></strong></li>
-    <li><strong><a href="/install/jdk/7/linux/centos/6/x64/">JDK7 installation on Centos 6.X x86_x64</a></strong></li>
+    <li><strong><a href="/jdk/installation/">JDK Installation</a></strong></li>
 </ul>
 
 
 <br/>
 
-### Version Control:
+### Development Tools:
 
 <ul>
-    <li><strong><a href="/version-control/">Version Control</a></strong></li>
+    <li><strong><a href="/development-tools/">Development Tools</a></strong></li>
 </ul>
-
-
-<br/>
-
-### Assembly Tools:
-
-<ul>
-    <li><strong><a href="/install/assembly-tools/">Assembly Tools</a></strong></li>
-</ul>
-
-
-<br/>
-
-### Continuous integration:
-
-<ul>
-    <li><strong><a href="/tools/jenkins/installation/">Jenkins Installation on Centos 6.6 x86_64</a></strong></li>
-</ul>
-
-
 
 
 <br/>
@@ -58,7 +35,7 @@ permalink: /sitemap/
 
 <br/>
 
-### Active MQ
+### Java Messaging
 
 <ul>
     <li><strong><a href="/java_basics/installation/activemq/centos/6/x86_x64/">ActiveMQ installation on Centos 6.X x86_x64</a></strong></li>
@@ -67,20 +44,18 @@ permalink: /sitemap/
 
 <br/>
 
-
-### Android:
-
-<ul>
-    <li><strong><a href="/java_basics/android/installation/">Prepare Ubuntu Linux Environment for Development Android Apps with Android Studio</a></strong></li>
-</ul>
-
-<br/>
-
-
 ### Docker:
 
 <ul>
     <li><strong><a href="/docker/">Docker</a></strong></li>
+</ul>
+
+<br/>
+
+### Android
+
+<ul>
+    <li><strong><a href="/java_basics/android/installation/">Prepare Ubuntu Linux Environment for Development Android Apps with Android Studio</a></strong></li>
 </ul>
 
 
