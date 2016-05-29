@@ -22,21 +22,28 @@ permalink: /sitemap/
 
 ### Version Control:
 
-<strong><a href="/version-control/">Version Control</a></strong>
+<ul>
+    <li><strong><a href="/version-control/">Version Control</a></strong></li>
+</ul>
 
 
 <br/>
 
 ### Assembly Tools:
 
-<strong><a href="/install/assembly-tools/">Assembly Tools</a></strong>
+<ul>
+    <li><strong><a href="/install/assembly-tools/">Assembly Tools</a></strong></li>
+</ul>
 
 
 <br/>
 
 ### Continuous integration:
 
-<strong><a href="/tools/jenkins/installation/">Jenkins Installation on Centos 6.6 x86_64</a></strong>
+<ul>
+    <li><strong><a href="/tools/jenkins/installation/">Jenkins Installation on Centos 6.6 x86_64</a></strong></li>
+</ul>
+
 
 
 
@@ -44,14 +51,18 @@ permalink: /sitemap/
 
 ### Application Servers
 
-<strong><a href="/appserv/">Application Servers</a></strong>
+<ul>
+    <li><strong><a href="/appserv/">Application Servers</a></strong></li>
+</ul>
 
 
 <br/>
 
 ### Active MQ
 
-<strong><a href="/java_basics/installation/activemq/centos/6/x86_x64/">ActiveMQ installation on Centos 6.X x86_x64</a></strong>
+<ul>
+    <li><strong><a href="/java_basics/installation/activemq/centos/6/x86_x64/">ActiveMQ installation on Centos 6.X x86_x64</a></strong></li>
+</ul>
 
 
 <br/>
@@ -59,8 +70,9 @@ permalink: /sitemap/
 
 ### Android:
 
-<strong><a href="/java_basics/android/installation/">Prepare Ubuntu Linux Environment for Development Android Apps with Android Studio</a></strong>
-
+<ul>
+    <li><strong><a href="/java_basics/android/installation/">Prepare Ubuntu Linux Environment for Development Android Apps with Android Studio</a></strong></li>
+</ul>
 
 <br/>
 
@@ -69,7 +81,6 @@ permalink: /sitemap/
 
 <ul>
     <li><strong><a href="/docker/">Docker</a></strong></li>
-
 </ul>
 
 
@@ -77,7 +88,9 @@ permalink: /sitemap/
 
 ### Hadoop:
 
-<strong><a href="/linux/distributed-systems/hadoop/">Hadoop Installation</a></strong>
+<ul>
+    <li><strong><a href="/linux/distributed-systems/hadoop/">Hadoop Installation</a></strong></li>
+</ul>
 
 
 <br/>
