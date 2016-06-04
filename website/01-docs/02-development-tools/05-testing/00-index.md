@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tests
-permalink: /tools/tests/
+permalink: /development-tools/testing/
 ---
 
 

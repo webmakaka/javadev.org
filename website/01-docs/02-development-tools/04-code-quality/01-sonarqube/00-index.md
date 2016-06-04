@@ -1,7 +1,7 @@
 ---
 layout: page
 title: SonarQube
-permalink: /tools/code-quality/sonarqube/
+permalink: /development-tools/code-quality/sonarqube/
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Source Code Quality Management
-permalink: /tools/code-quality/
+permalink: /development-tools/code-quality/
 ---
 
 
@@ -9,5 +9,5 @@ permalink: /tools/code-quality/
 ### SonarQube:
 
 <ul>
-    <li><strong><a href="/tools/code-quality/sonarqube">SonarQube</a></strong></li>
+    <li><strong><a href="/development-tools/code-quality/sonarqube/">SonarQube</a></strong></li>
 </ul>

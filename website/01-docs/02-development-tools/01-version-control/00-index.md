@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Version Control
-permalink: /version-control/
+permalink: /development-tools/version-controls/
 ---
 
 

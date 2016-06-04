@@ -23,7 +23,7 @@ permalink: /development-tools/
 ### Version Control:
 
 <ul>
-    <li><strong><a href="/version-control/">Version Control</a></strong></li>
+    <li><strong><a href="/development-tools/version-controls/">Version Control</a></strong></li>
 </ul>
 
 
@@ -32,7 +32,7 @@ permalink: /development-tools/
 ### Assembly Tools:
 
 <ul>
-    <li><strong><a href="/install/assembly-tools/">Assembly Tools</a></strong></li>
+    <li><strong><a href="/development-tools/assembly-tools/">Assembly Tools</a></strong></li>
 </ul>
 
 
@@ -41,7 +41,7 @@ permalink: /development-tools/
 ### Continuous integration:
 
 <ul>
-    <li><strong><a href="/tools/jenkins/installation/">Jenkins Installation on Centos 6.6 x86_64</a></strong></li>
+    <li><strong><a href="/development-tools/continuous-integration/jenkins/">Jenkins Installation on Centos 6.6 x86_64</a></strong></li>
 </ul>
 
 
@@ -50,14 +50,14 @@ permalink: /development-tools/
 ### Source Code Quality Management
 
 <ul>
-    <li><strong><a href="/tools/code-quality/">Code Quality</a></strong></li>
+    <li><strong><a href="/development-tools/code-quality/">Code Quality</a></strong></li>
 </ul>
 
 
 <br/>
 
-### Tests
+### Testing
 
 <ul>
-    <li><strong><a href="/tools/tests/">Tests</a></strong></li>
+    <li><strong><a href="/development-tools/testing/">Testing</a></strong></li>
 </ul>

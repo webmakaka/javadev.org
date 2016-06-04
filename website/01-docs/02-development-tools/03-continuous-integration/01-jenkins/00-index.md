@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Jenkins Installation on Centos 6.6 x86_64
-permalink: /tools/jenkins/installation/
+permalink: /development-tools/continuous-integration/jenkins/
 ---
 
 

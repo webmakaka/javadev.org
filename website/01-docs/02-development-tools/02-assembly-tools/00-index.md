@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Assembly Tools
-permalink: /install/assembly-tools/
+permalink: /development-tools/assembly-tools/
 ---
 
 
