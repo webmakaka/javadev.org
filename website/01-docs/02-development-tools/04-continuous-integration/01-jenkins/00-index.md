@@ -25,12 +25,12 @@ or
     $ java -jar jenkins.war --httpPort=-1 --httpPort=8080
 
 
+<br/>
 
 
+http://<host>:8080/  
 
-http://<host>:8080/
-
-Manage Jenkins --> Manage Plugins --> Available
+Manage Jenkins --> Manage Plugins --> Available  
 
 BitBucket Plugin  
 Bitbucket Approve Plugin
