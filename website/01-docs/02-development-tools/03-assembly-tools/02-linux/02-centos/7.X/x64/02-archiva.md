@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Archiva Maven Repository Manager Installation on Centos 7.X
-permalink: /install/assembly-tools/linux/centos/7.X/archiva/
+permalink: /development-tools/assembly-tools/linux/centos/7.X/archiva/installation/
 ---
 
 ### Archiva Maven Repository Manager
