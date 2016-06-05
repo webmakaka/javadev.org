@@ -1,7 +1,7 @@
 ---
 layout: page
-title: JDK8 installation on Centos 6.X x86_x64
-permalink: /jdk/installation/centos/6/
+title: JDK8 installation on Centos 7.X
+permalink: /jdk/installation/centos/7/
 ---
 
 
@@ -48,11 +48,16 @@ username - that user will work with java
 
 <br/>
 
+after
+
+    # User specific environment and startup programs
+
+<br/>
 
 	#### JAVA 1.8.0 #######################
 
 		export JAVA_HOME=/opt/jdk/current
-		export PATH=$JAVA_HOME/bin:$PATH
+		export PATH=${JAVA_HOME}/bin:$PATH
 
 	#### JAVA 1.8.0 #######################
 

@@ -58,3 +58,14 @@ permalink: /development-tools/
 <ul>
     <li><strong><a href="/development-tools/testing/">Testing</a></strong></li>
 </ul>
+
+
+<br/>
+
+### Code Review
+
+<ul>
+    <li><strong><a href="https://www.youtube.com/watch?v=Wxx8XndqZ7A" rel="nofollow">Gerrit</a></strong></li>
+    <li><strong><a href="https://www.youtube.com/watch?v=jeWTvDad6VM" rel="nofollow">GerritHub</a></strong></li>
+    <li><strong>Atlassin has something for this</strong></li>
+</ul>
