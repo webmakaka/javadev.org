@@ -1,7 +1,7 @@
 ---
 layout: page
 title: JDK8 installation on Centos 6.X x86_x64
-permalink: /install/jdk/8/linux/centos/6/x64/
+permalink: /jdk/installation/centos/6/
 ---
 
 

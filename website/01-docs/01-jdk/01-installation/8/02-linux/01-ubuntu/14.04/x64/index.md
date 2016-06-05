@@ -1,7 +1,7 @@
 ---
 layout: page
 title: JDK8 installation on Ubuntu 14.04
-permalink: /install/jdk/8/linux/ubuntu/14.04/x64/
+permalink: /jdk/installation/ubuntu/14.04/
 ---
 
 

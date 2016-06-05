@@ -1,9 +1,15 @@
 ---
 layout: page
 title: JDK Installation on Windows XP
-permalink: /java_basics/installation/jdk/6/windows/xp/
+permalink: /jdk/installation/windows/xp/
 ---
 
+
+<br/>
+<br/>
+
+    Variables: JAVA_HOME
+    PATH: %JAVA_HOME%\bin
 
 <br/>
 <br/>
@@ -27,5 +33,5 @@ permalink: /java_basics/installation/jdk/6/windows/xp/
 ![JDK Installation On Windows](http://files.javadev.org/jdk/installation/windows/xp/javadev_jdk_installation_17.png)
 ![JDK Installation On Windows](http://files.javadev.org/jdk/installation/windows/xp/javadev_jdk_installation_18.png)
 ![JDK Installation On Windows](http://files.javadev.org/jdk/installation/windows/xp/javadev_jdk_installation_19.png)
-![JDK Installation On Windows](http://files.javadev.org/jdk/installation/windows/xp/javadev_jdk_installation_20png)
+![JDK Installation On Windows](http://files.javadev.org/jdk/installation/windows/xp/javadev_jdk_installation_20.png)
 ![JDK Installation On Windows](http://files.javadev.org/jdk/installation/windows/xp/javadev_jdk_installation_21.png)
