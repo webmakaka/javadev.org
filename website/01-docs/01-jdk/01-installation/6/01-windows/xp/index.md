@@ -8,6 +8,10 @@ permalink: /jdk/installation/windows/xp/
 <br/>
 <br/>
 
+    website: java.sun.com
+
+<br/>
+
     Variables: JAVA_HOME
     PATH: %JAVA_HOME%\bin
 
