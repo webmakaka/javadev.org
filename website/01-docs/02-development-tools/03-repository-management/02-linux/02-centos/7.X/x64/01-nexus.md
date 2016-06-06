@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sonatype Nexus Installation on Centos 7.X
-permalink: /development-tools/assembly-tools/linux/centos/7.X/nexus/installation/
+permalink: /development-tools/repository-management/linux/centos/7.X/nexus/installation/
 ---
 
 ### Sonatype Nexus Repository Manager
