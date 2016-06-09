@@ -4,6 +4,7 @@ title: Java Development
 permalink: /
 ---
 
+# Java Development
 
 ### Please share interesting code samples on java with us:
 

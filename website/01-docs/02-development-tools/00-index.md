@@ -4,7 +4,7 @@ title: Java Development Tools
 permalink: /development-tools/
 ---
 
-### Java Development Tools:
+# Java Development Tools:
 
 
 ### IDE:
@@ -21,6 +21,15 @@ permalink: /development-tools/
 
 <ul>
     <li><strong><a href="/development-tools/version-controls/">Version Control</a></strong></li>
+</ul>
+
+
+<br/>
+
+### Repository Management:
+
+<ul>
+    <li><strong><a href="/development-tools/repository-management/">Repository Management</a></strong></li>
 </ul>
 
 
