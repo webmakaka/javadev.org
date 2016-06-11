@@ -1,13 +1,12 @@
 ---
 layout: page
-title: Tests
+title: Testsing
 permalink: /development-tools/testing/
 ---
 
 
-### Selenium:
+### Testsing:
 
 <ul>
-    <li><strong><a href="https://github.com/SeleniumHQ/selenium/wiki/Grid2">Selenium grid</a></strong></li>
-    <li><strong><a href="hhttps://github.com/SeleniumHQ/docker-selenium">Selenium docker</a></strong></li>
+    <li><strong><a href="/development-tools/testing/selenium/">Selenium</a></strong></li>
 </ul>
