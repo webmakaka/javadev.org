@@ -1,9 +1,11 @@
 ---
 layout: page
 title: JDK Installation on Windows XP
-permalink: /jdk/installation/windows/xp/
+permalink: /development-tools/jdk/installation/windows/xp/
 ---
 
+
+### JDK Installation on Windows XP
 
 <br/>
 <br/>
