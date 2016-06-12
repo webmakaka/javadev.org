@@ -20,7 +20,12 @@ permalink: /development-tools/testing/selenium/installation/centos/7/
 
 
 <br/>
+
+<!--
+
 <br/>
+
+
 
     $ vi ~/.bash_profile
 
@@ -43,4 +48,7 @@ after
 
 
      $ source ~/.bash_profile
+
+-->
+
      $ java -jar /opt/selenium/selenium
