@@ -7,9 +7,9 @@ permalink: /development-tools/
 # Java Development Tools:
 
 
+<br/>
 
 ### Java Development Kit (JDK) Installation:
-
 
 <ul>
     <li><strong><a href="/development-tools/jdk/installation/">JDK Installation</a></strong></li>
