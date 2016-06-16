@@ -11,9 +11,7 @@ permalink: /development-tools/code-quality/sonarqube/installation/
 http://www.sonarqube.org/downloads/
 
 
-
 Plan...
-
 
 ### 1) JDK8 Installation
 
@@ -42,7 +40,6 @@ DISABLE FIREWALL
     # systemctl disable firewalld
     # systemctl stop firewalld
 
-
 <br/>
 
     # cd /tmp/
@@ -52,12 +49,9 @@ DISABLE FIREWALL
     # mkdir -p /opt/sonarqube/5.6
     # mv sonarqube-5.6/* /opt/sonarqube/5.6/
 
-
     # ln -s /opt/sonarqube/5.6 /opt/sonarqube/current
 
-
-<br/>    
-
+<br/>
 
     $ su - <username>
 
@@ -123,7 +117,6 @@ after
 
 
 <br/>  
-
 
     $ less /opt/sonarqube/current/logs/sonar.log
 
@@ -194,8 +187,8 @@ https://www.youtube.com/watch?v=JWI_3ibHNTo
     $ mvn sonar:sonar
 
 
-    <br/>   
-    <br/>  
+<br/>   
+<br/>  
 
 See also:  
 https://www.youtube.com/watch?v=xLO8Q_F3jIg  
