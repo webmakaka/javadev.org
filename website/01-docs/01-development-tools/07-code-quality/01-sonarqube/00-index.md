@@ -117,6 +117,8 @@ after
 
     $ cd /opt/sonarqube/current/bin/linux-x86-64/
 
+<br/>
+
     $ ./sonar.sh start
 
 <br/>    
@@ -137,7 +139,7 @@ after
 
     $ less /opt/sonarqube/current/logs/sonar.log
 
-<br/>  
+to clear log file:
 
     $ cat /dev/null > /opt/sonarqube/current/logs/sonar.log
 
@@ -233,7 +235,13 @@ Or you can use spring project from my repo:
 <br/>  
 
 <div align="center">
-	<img src="http://storage6.static.itmages.ru/i/16/0618/h_1466254300_6954986_e9423bb326.png" border="0">
+	<img src="http://storage6.static.itmages.ru/i/16/0618/h_1466254300_6954986_e9423bb326.png" border="0" alt="sonarqube">
+
+
+<br/><br/>
+
+    <img src="storage1.static.itmages.ru/i/16/0618/h_1466256552_1300392_88415246dc.png" border="0" alt="sonarqube">
+
 </div>
 
 
