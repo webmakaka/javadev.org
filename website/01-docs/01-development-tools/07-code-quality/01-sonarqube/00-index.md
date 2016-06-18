@@ -29,7 +29,13 @@ DISABLE FIREWALL
 
 + http://javadev.org/development-tools/jdk/installation/centos/7/
 
-### 2) MySQL Installation
+
+### 2) Maven Installation
+
++ http://javadev.org/development-tools/assembly-tools/maven/linux/centos/7/
+
+
+### 3) MySQL Installation
 
 + http://sysadm.ru/linux/databases/mysql/installation/centos7/
 
@@ -46,7 +52,7 @@ DISABLE FIREWALL
     FLUSH PRIVILEGES;
 
 
-### 3) Web Server
+### 4) Web Server
 
 
 <br/>
