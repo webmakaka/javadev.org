@@ -240,7 +240,7 @@ Or you can use spring project from my repo:
 
 <br/><br/>
 
-    <img src="storage1.static.itmages.ru/i/16/0618/h_1466256552_1300392_88415246dc.png" border="0" alt="sonarqube">
+    <img src="http://storage1.static.itmages.ru/i/16/0618/h_1466256552_1300392_88415246dc.png" border="0" alt="sonarqube">
 
 </div>
 
