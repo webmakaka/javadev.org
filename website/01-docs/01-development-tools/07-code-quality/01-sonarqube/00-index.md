@@ -5,22 +5,35 @@ permalink: /development-tools/code-quality/sonarqube/installation/
 ---
 
 
-### SonarQube Installation
-
+### Official website:
 
 http://www.sonarqube.org/downloads/
 
 
-Plan...
+<br/>
+
+### SonarQube Installation
+
+
+I'm working with centos 7.X
+
+
+DISABLE FIREWALL
+
+    # systemctl disable firewalld
+    # systemctl stop firewalld
+
+
 
 ### 1) JDK8 Installation
 
-+
++ http://javadev.org/development-tools/jdk/installation/centos/7/
 
 ### 2) MySQL Installation
 
 + http://sysadm.ru/linux/databases/mysql/installation/centos7/
 
+<br/>
 
     mysql -u root -p
 
@@ -35,10 +48,6 @@ Plan...
 
 ### 3) Web Server
 
-DISABLE FIREWALL
-
-    # systemctl disable firewalld
-    # systemctl stop firewalld
 
 <br/>
 
@@ -118,21 +127,30 @@ after
 
 <br/>  
 
+    $ ./sonar.sh start
+
+
+<br/>
+
+### logs
+
+
     $ less /opt/sonarqube/current/logs/sonar.log
 
 <br/>  
 
     $ cat /dev/null > /opt/sonarqube/current/logs/sonar.log
 
-<br/>  
 
-    $ ./sonar.sh start
 
-<br/>  
+<br/>
+
+### Checks
+
 
     $ ps auxww | grep sonar
 
-<br/>    
+<br/>      
 
     $ curl -I http://192.168.1.11:8080
     HTTP/1.1 200 OK
@@ -175,7 +193,20 @@ GitHub
 
 ### Example how it works
 
+
+
+
 https://www.youtube.com/watch?v=JWI_3ibHNTo
+
+<br/>   
+
+to start this example, sonar should works on 9000 port and should be accessible by
+
+
+    $ curl -I http://localhost:9000
+
+
+It didn't work for me, until i write in hosts information what 192.168.1.11 is localhost.
 
 <br/>   
 
@@ -187,8 +218,27 @@ https://www.youtube.com/watch?v=JWI_3ibHNTo
     $ mvn sonar:sonar
 
 
-<br/>   
 <br/>  
+
+Or you can use spring project from my repo:
+
+<br/>  
+
+
+    $ cd /tmp
+    $ git clone https://github.com/marley-spring/Building-an-e-commerce-store-using-java-spring-framework
+    $ cd Building-an-e-commerce-store-using-java-spring-framework
+    $ mvn sonar:sonar
+
+<br/>  
+
+<div align="center">
+	<img src="http://storage6.static.itmages.ru/i/16/0618/h_1466254300_6954986_e9423bb326.png" border="0">
+</div>
+
+
+
+<br/>     
 
 See also:  
 https://www.youtube.com/watch?v=xLO8Q_F3jIg  
