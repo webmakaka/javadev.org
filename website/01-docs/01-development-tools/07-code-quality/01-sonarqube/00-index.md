@@ -256,3 +256,8 @@ Or you can use spring project from my repo:
 See also:  
 https://www.youtube.com/watch?v=xLO8Q_F3jIg  
 http://dev.mamikon.net/installing-sonarqube-on-ubuntu/
+
+
+
+Gradle:  
+http://stackoverflow.com/questions/31892344/sonarqube-is-not-collecting-issues-from-android-gradle-project
