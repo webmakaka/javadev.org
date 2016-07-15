@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Gradle installation on Centos 7.X x86_x64
-permalink: /development-tools/assembly-tools/maven/linux/centos/7/
+permalink: /development-tools/assembly-tools/gradle/linux/centos/7/
 ---
 
 

@@ -35,7 +35,7 @@ DISABLE FIREWALL
 + http://javadev.org/development-tools/assembly-tools/maven/linux/centos/7/
 
 
-### 3) MySQL Installation
+### 3) MySQL Installation (>=5.6)
 
 + http://sysadm.ru/linux/databases/mysql/installation/centos7/
 
@@ -133,15 +133,14 @@ after
     SonarQube is running (11973).
 
 
-<br/>  
+To restart:
 
-    $ ./sonar.sh start
+    $ ./sonar.sh restart
 
 
 <br/>
 
 ### logs
-
 
     $ less /opt/sonarqube/current/logs/sonar.log
 
@@ -257,3 +256,8 @@ Or you can use spring project from my repo:
 See also:  
 https://www.youtube.com/watch?v=xLO8Q_F3jIg  
 http://dev.mamikon.net/installing-sonarqube-on-ubuntu/
+
+
+
+Gradle:  
+http://stackoverflow.com/questions/31892344/sonarqube-is-not-collecting-issues-from-android-gradle-project
