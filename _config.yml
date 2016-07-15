@@ -1,11 +1,11 @@
 # Site settings
 title: javadev.org
-email: your-email@domain.com
 description: Website about java development. Java SE, Java EE
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://javadev.org" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-sitemap
