@@ -7,8 +7,12 @@ permalink: /
 # Java Development
 
 
+<br/>
 
-### Docker for Java Developers (free)  
+### Docker for JAVA DEVELOPERS
+
+
+### Free Book
 
 By: Arun Gupta  
 Released: June 2016  
@@ -22,6 +26,16 @@ Released: June 2016
     <img src="http://storage4.static.itmages.ru/i/16/0719/h_1468924764_4874600_196541fb75.png" border="0" alt="I can't open the jar">
 </div>
 
+
+<br/><br/>
+
+For example. This guy start 3 container with tomcat by 1 command.
+
+<br/><br/>
+
+<div align="center">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/gtoT0By8yh4" frameborder="0" allowfullscreen></iframe>
+</div>
 
 
 
@@ -46,33 +60,6 @@ If you find interesting project on github, bitbucket, book, video course etc. on
 <div align="center">
     <img src="/website/pictures/jars.jpg" border="0" alt="I can't open the jar">
 </div>
-
-
-<br/><br/>
-
-### Docker for JAVA DEVELOPERS
-
-<br/><br/>
-
-For example. This guy start 3 container with tomcat by 1 command.
-
-<br/><br/>
-
-<div align="center">
-    <iframe width="853" height="480" src="https://www.youtube.com/embed/gtoT0By8yh4" frameborder="0" allowfullscreen></iframe>
-</div>
-
-
-<br/><br/>
-
-If someone can share interesting examples for java application, please do it.
-
-<br/>
-
-And i want to try investigate next article for creating environment for test application.
-
-https://blog.codecentric.de/en/2015/10/continuous-integration-platform-using-docker-container-jenkins-sonarqube-nexus-gitlab/
-
 
 
 
