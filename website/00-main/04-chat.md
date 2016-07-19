@@ -6,14 +6,12 @@ permalink: /chat/
 
 IRC in Browser:  
 
-Click <a href="http://webchat.freenode.net/?channels=%23javadev">here</a>. Chose nickname and enter capcha code.
+Click <a href="http://webchat.freenode.net/?channels=%23javadev">here</a>.
+Choose a nickname, type captcha code to enter.
 
 <br/>
 
-Clients:
-
-Window: MIRC  
-Linux: Pigdig  
+To connect by IRC Client (Pigdig, MIRC, etc.):
 
 <br/>
 
