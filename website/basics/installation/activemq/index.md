@@ -139,7 +139,7 @@ http://192.168.1.11:8161/hawtio/
 
 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/javadev-org/javadev-org.github.io/master/website/basics/installation/activemq/hawtio-1.3.png" alt="hawtio">
+    <img src="https://raw.githubusercontent.com/javadev-org/files.javadev.org/gh-pages/activemq/hawtio-1.3.png" alt="hawtio">
 
 </div>
 
