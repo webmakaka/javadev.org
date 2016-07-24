@@ -7,6 +7,25 @@ permalink: /
 # Java Development
 
 
+
+
+### Bob Martin SOLID Principles of Object Oriented and Agile Design
+
+
+<br/>
+
+<div align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/TMuno5RZNeE" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<br/><br/>
+
+
++ DevExpress CTO Messages for the SOLID object oriented development Principles  
+https://www.youtube.com/playlist?list=PL4CE9F710017EA77A
+
+
+
 <br/>
 
 ### Docker for JAVA DEVELOPERS
