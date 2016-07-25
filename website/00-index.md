@@ -51,6 +51,10 @@ permalink: /
 </div>
 
 
+https://www.youtube.com/watch?v=lZq8Jlq18Ec  
+https://www.youtube.com/watch?v=yIf3EQmHmyw  
+
+
 <br/><br/>
 
 

@@ -54,3 +54,7 @@ http://oracle-adf.com/github/
 **Some Guys**
 
 https://github.com/armdev
+
+
+**Interview**
+http://www.programmerinterview.com/index.php/java-questions/java-diamond-problem/
