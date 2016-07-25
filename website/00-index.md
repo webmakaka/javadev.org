@@ -7,10 +7,11 @@ permalink: /
 # Java Development
 
 
+<br/>
 
+### Robert Martin
 
-### Bob Martin SOLID Principles of Object Oriented and Agile Design
-
+**SOLID Principles of Object Oriented and Agile Design**
 
 <br/>
 
@@ -18,7 +19,41 @@ permalink: /
     <iframe width="560" height="315" src="https://www.youtube.com/embed/TMuno5RZNeE" frameborder="0" allowfullscreen></iframe>
 </div>
 
+
+<br/>
+
+**The S.O.L.I.D. Principles of OO and Agile Design - by Uncle Bob Martin**
+
+<br/>
+
+<div align="center">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/t86v3N4OshQ" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<br/>
+
+**Solid Principles by Uncle Bob Martin**
+
+<br/>
+
+<div align="center">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/oar-T2KovwE" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<br/>
+
+**The Principles of Clean Architecture by Uncle Bob Martin**
+
+<br/>
+
+<div align="center">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/o_TH-Y78tt4" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
 <br/><br/>
+
+
 
 
 + DevExpress CTO Messages for the SOLID object oriented development Principles  

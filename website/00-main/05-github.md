@@ -4,6 +4,17 @@ title: OpenSource projects on Java (GitHub)
 permalink: /github/
 ---
 
+**java8-the-missing-tutorial**
+
+https://github.com/shekhargulati/java8-the-missing-tutorial
+
+
+**java8-tutorial**
+https://github.com/winterbe/java8-tutorial
+
+
+
+
 **Awesome Java**
 
 https://github.com/akullpp/awesome-java
