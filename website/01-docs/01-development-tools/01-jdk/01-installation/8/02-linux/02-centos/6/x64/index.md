@@ -7,7 +7,9 @@ permalink: /development-tools/jdk/installation/centos/7/
 
 ### JDK8 installation on Centos 7.X
 
-### Next packages we will use for JDK installation:
+
+
+### In the beginning install next packages:
 
 	# yum install -y \
 	vim \
@@ -26,18 +28,18 @@ Before start, you can check on site: java.sun.com latest jdk version.
 
 To download jdk from oracle website execute next command in the command line:
 
-    # wget --no-check-certificate --no-cookies - --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u91-b14/jdk-8u91-linux-x64.tar.gz
+    # wget --no-check-certificate --no-cookies - --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u101-b13/jdk-8u101-linux-x64.tar.gz
 
 
 <br/>
 
     # ls jdk*
-	jdk-8u91-linux-x64.tar.gz
+	jdk-8u101-linux-x64.tar.gz
 
-    # tar -xvzpf jdk-8u91-linux-x64.tar.gz
-    # mkdir -p /opt/jdk/1.8.0_91
-    # mv jdk1.8.0_91/* /opt/jdk/1.8.0_91/
-    # ln -s /opt/jdk/1.8.0_91 /opt/jdk/current
+    # tar -xvzpf jdk-8u101-linux-x64.tar.gz
+    # mkdir -p /opt/jdk/1.8.0_101
+    # mv jdk1.8.0_101/* /opt/jdk/1.8.0_101/
+    # ln -s /opt/jdk/1.8.0_101 /opt/jdk/current
 
 username - that user will work with java
 
@@ -74,6 +76,6 @@ Let try to check result:
 <br/>
 
     $ java -version
-    java version "1.8.0_91"
-    Java(TM) SE Runtime Environment (build 1.8.0_91-b14)
-    Java HotSpot(TM) 64-Bit Server VM (build 25.91-b14, mixed mode)
+	java version "1.8.0_101"
+	Java(TM) SE Runtime Environment (build 1.8.0_101-b13)
+	Java HotSpot(TM) 64-Bit Server VM (build 25.101-b13, mixed mode)
