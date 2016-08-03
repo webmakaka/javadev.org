@@ -26,11 +26,15 @@ password: admin123
 <strong><a href="/development-tools/repository-management/nexus/2/using-the-oracle-maven-repository-with-nexus/">Using the Oracle Maven Repository with Nexus 2</a></strong>
 
 
+<br/>
 
 **Archiva**
 
 <strong><a href="/development-tools/repository-management/archiva/installation/">Archiva Maven Repository Manager Installation on Centos 7.X</a></strong>
 
-**Artifactory**
+
+<br/>
+
+**Artifactory (Commercial)**
 
 <strong><a href="https://www.jfrog.com/blog/fronting-oracle-maven-repository-artifactory/" rel="nofollow">Artifactory</a></strong>
