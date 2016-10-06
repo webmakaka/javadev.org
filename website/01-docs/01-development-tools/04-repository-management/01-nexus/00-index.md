@@ -11,7 +11,7 @@ login: admin
 password: admin123  
 
 
-<strong><a href="Run Nexus in Docker container">Sonatype Nexus Installation on Centos 7.X</a></strong>
+<strong><a href="/development-tools/repository-management/nexus/docker/">Run Nexus in Docker container</a></strong>
 
 
 <strong><a href="/development-tools/repository-management/nexus/3/installation-on-linux/">Nexus 3.X Installation on Linux</a></strong>

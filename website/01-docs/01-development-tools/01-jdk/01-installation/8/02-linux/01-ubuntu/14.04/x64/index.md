@@ -61,4 +61,4 @@ Remove OpenJDK (If OpenJDK installed)<br/>
 
 
 Then do same as:<br/>
-<a href="/install/jdk/8/linux/centos/6/x64/">HERE</a>
+<a href="/development-tools/jdk/installation/centos/7/">HERE</a>
