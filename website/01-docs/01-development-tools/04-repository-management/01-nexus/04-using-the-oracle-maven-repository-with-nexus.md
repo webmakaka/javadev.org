@@ -6,10 +6,33 @@ permalink: /development-tools/repository-management/nexus/2/using-the-oracle-mav
 
 ### Using the Oracle Maven Repository with Nexus 2:  
 
+
+**Nexus 3 versions do not yet have support for proxying maven.oracle.com**
+
+https://issues.sonatype.org/browse/NEXUS-10164
+
+
+
+Video:  
 https://www.youtube.com/watch?v=ose6oXq7g7E
+
+
+Article:  
+https://support.sonatype.com/hc/en-us/articles/213465728-How-to-configure-a-proxy-repository-to-maven-oracle-com
 
 License should be approved:  
 https://www.oracle.com/webapps/maven/register/license.html
+
+<br/>
+
+For Oracle ADF projects:  
+
+**As it turns out the 12.2.1.0.0 version is available but Nexus doesn't display it but when you request a 12.2.1.0.0 POM file it will be served as expected.**
+
+https://community.oracle.com/thread/3925202?start=0&tstart=0
+
+
+<br/>
 
     $ cd /opt/nexus/current/conf
     $ cp nexus.properties nexus.properties.orig
@@ -20,7 +43,9 @@ https://www.oracle.com/webapps/maven/register/license.html
 
 add in the bottom:
 
+    # Comma separated list of hostnames that needs to accept circular redirections
     nexus.remoteStorage.enableCircularRedirectsForHosts=maven.oracle.com
+    # Comma separated list of hostnames that benefit from using cookies
     nexus.remoteStorage.useCookiesForHosts=maven.oracle.com
 
 <br/>
@@ -54,6 +79,11 @@ Public Repositories (group) --> configuration
 
 Move Maven Oracle to left
 
+
+
+<br/>
+
+### Setup Default Maven Properties to use Nexus Repos
 
 
 <br/>

@@ -12,7 +12,7 @@ permalink: /job_offer/
 <br/><br/>
 
 <div align="center">
-	<img src="http://prev.javadev.org/pictures/russian_developers.jpg" border="0">
+	<img src="http://prev.javadev.org/pictures/russian_developers.jpg" alt="Software developers from RUSSIA" border="0">
 </div>
 
 
