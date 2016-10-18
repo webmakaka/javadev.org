@@ -4,6 +4,9 @@ title: Weblogic 12c Installation on Centos 6.6 x86_64
 permalink: /docs/appserv/weblogic/12c/installation/
 ---
 
+
+### Weblogic 12c Installation on Centos 6.6 x86_64
+
 I think i should correct this packages list what needs to be install.
 
 ### Package Installation:
