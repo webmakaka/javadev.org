@@ -125,7 +125,7 @@ restart wildfly server
 
 
 <div align="center">
-    <img src="https://github.com/javadev-org/javadev-org.github.io/raw/master/website/docs/appserv/wildfly/8.2/active-mq/resource_adapters.png" alt="WildFly ActiveMQ as Module">
+    <img src="https://github.com/javadev-org/javadev.org/blob/gh-pages/website/01-docs/appserv/wildfly/8.2/active-mq/resource_adapters.png?raw=true" alt="WildFly ActiveMQ as Module">
 
 </div>
 

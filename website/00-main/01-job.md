@@ -4,15 +4,12 @@ title: Job Offer
 permalink: /job_offer/
 ---
 
-
-
-
 ### Hello, we are software developers from RUSSIA:<br/>
 
 <br/><br/>
 
 <div align="center">
-	<img src="http://prev.javadev.org/pictures/russian_developers.jpg" border="0">
+	<img src="http://prev.javadev.org/pictures/russian_developers.jpg" alt="Software developers from RUSSIA" border="0">
 </div>
 
 
@@ -37,16 +34,6 @@ Our current salary is something between $1000 and $2000.
 
 If my person and suggestion would be interesting, send me emai.<br/>
 Thanks.
-
-<br/>
-<br/>
-
-<div align="center">
-
-    <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
-    <script type="IN/MemberProfile" data-id="http://www.linkedin.com/pub/andrey-rodin/58/924/860" data-format="inline" data-related="false"></script>
-
-</div>
 
 <br/>
 <br/>

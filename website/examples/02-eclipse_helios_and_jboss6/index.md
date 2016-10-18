@@ -19,7 +19,6 @@ http://download.jboss.org/jbosstools/updates/stable/
 <img src="http://files.javadev.org/eclipse/eclipse_helios_and_jboss6/eclipse_helios_and_jboss6_04.png" border="0" alt="Eclipse Helios и Jboss6"><br/><br/>
 <img src="http://files.javadev.org/eclipse/eclipse_helios_and_jboss6/eclipse_helios_and_jboss6_05.png" border="0" alt="Eclipse Helios и Jboss6"><br/><br/>
 <img src="http://files.javadev.org/eclipse/eclipse_helios_and_jboss6/eclipse_helios_and_jboss6_06.png" border="0" alt="Eclipse Helios и Jboss6"><br/><br/>
-<img src="http://files.javadev.org/eclipse/eclipse_helios_and_jboss6/eclipse_helios_and_jboss6_07.png" border="0" alt="Eclipse Helios и Jboss6"><br/><br/>
 <img src="http://files.javadev.org/eclipse/eclipse_helios_and_jboss6/eclipse_helios_and_jboss6_08.png" border="0" alt="Eclipse Helios и Jboss6"><br/><br/>
 <img src="http://files.javadev.org/eclipse/eclipse_helios_and_jboss6/eclipse_helios_and_jboss6_09.png" border="0" alt="Eclipse Helios и Jboss6"><br/><br/>
 

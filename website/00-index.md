@@ -7,6 +7,37 @@ permalink: /
 # Java Development
 
 
+### JavaOne 2016
+
+<div align="center">
+
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLPIzp-E1msrYicmovyeuOABO4HxVPlhEA" frameborder="0" allowfullscreen></iframe>
+
+</div>
+
+<br/>
+
+### Java Memory Management
+
+<div align="center">
+
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/ckYwv4_Qtmo" frameborder="0" allowfullscreen></iframe>
+
+</div>
+
+
+
+<br/>
+
+### JVM ( java virtual machine) architecture - tutorial
+
+<div align="center">
+
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/ZBJ0u9MaKtM" frameborder="0" allowfullscreen></iframe>
+
+</div>
+
+
 <br/>
 
 ### Robert Martin
