@@ -7,6 +7,16 @@ permalink: /
 # Java Development
 
 
+### Java 8 Lambda Basics
+
+<div align="center">
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLqq-6Pq4lTTa9YGfyhyW2CqdtW9RtY-I3" frameborder="0" allowfullscreen></iframe>
+
+</div>
+
+<br/>
+
 ### JavaOne 2016
 
 <div align="center">
