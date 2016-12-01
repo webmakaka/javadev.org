@@ -11,7 +11,7 @@ permalink: /
 
 <div align="center">
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLqq-6Pq4lTTa9YGfyhyW2CqdtW9RtY-I3" frameborder="0" allowfullscreen></iframe>
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLqq-6Pq4lTTa9YGfyhyW2CqdtW9RtY-I3" frameborder="0" allowfullscreen></iframe>
 
 </div>
 
@@ -190,6 +190,9 @@ https://github.com/marley-spring/Building-an-e-commerce-store-using-java-spring-
 My contact: <br/>
 <img src="http://img.fotografii.org/a3333333mail.gif" alt="Marley">
 
+
+<!-- <a href="https://gitter.im/sysadm-ru/Lobby" rel="nofollow"><img src="https://badges.gitter.im/sysadm-ru/Lobby.svg" alt="sysadm chat"></a> -->
+<a href="https://travis-ci.org/javadev-org/javadev.org" rel="nofollow"><img src="https://travis-ci.org/javadev-org/javadev.org.svg?branch=gh-pages" alt="sysadm build"></a>
 
 
 <br/><br/>
