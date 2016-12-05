@@ -15,6 +15,9 @@ permalink: /
 
 </div>
 
+<a href="//javalabs.org/labs/lab-07/">I'm trying to study this course</a>
+
+
 <br/>
 
 ### JavaOne 2016
