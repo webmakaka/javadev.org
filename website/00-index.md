@@ -195,7 +195,7 @@ My contact: <br/>
 
 
 <!-- <a href="https://gitter.im/sysadm-ru/Lobby" rel="nofollow"><img src="https://badges.gitter.im/sysadm-ru/Lobby.svg" alt="sysadm chat"></a> -->
-<a href="https://travis-ci.org/javadev-org/javadev.org" rel="nofollow"><img src="https://travis-ci.org/javadev-org/javadev.org.svg?branch=gh-pages" alt="sysadm build"></a>
+<a href="https://travis-ci.org/javadev-org/javadev.org" rel="nofollow"><img src="https://travis-ci.org/javadev-org/javadev.org.svg?branch=gh-pages" alt="javadev build"></a>
 
 
 <br/><br/>
