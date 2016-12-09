@@ -7,6 +7,27 @@ permalink: /
 # Java Development
 
 
+
+### Docker and Kubernetes Recipes for Java Developers by Arun Gupta
+
+<div align="center">
+
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/aSATsLG59Zs" frameborder="0" allowfullscreen></iframe>
+
+</div>
+
+
+### Refactor your Java EE application using Microservices and Containers by Arun Gupta
+
+<div align="center">
+
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/iJVW7v8O9BU" frameborder="0" allowfullscreen></iframe>
+
+</div>
+
+
+
+
 ### Java 8 Lambda Basics
 
 <div align="center">
