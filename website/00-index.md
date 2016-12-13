@@ -38,7 +38,7 @@ permalink: /
 
 </div>
 
-<a href="//javalabs.org/labs/lab-07/">I'm trying to study this course</a>
+<a href="//labs.javadev.org/labs/lab-07/">I'm trying to study this course</a>
 
 
 <br/>
