@@ -6,7 +6,7 @@ permalink: /
 
 # Java Development
 
-
+<br/>
 
 ### Docker and Kubernetes Recipes for Java Developers by Arun Gupta
 
@@ -16,6 +16,7 @@ permalink: /
 
 </div>
 
+<br/>
 
 ### Refactor your Java EE application using Microservices and Containers by Arun Gupta
 
@@ -27,6 +28,7 @@ permalink: /
 
 
 
+<br/>
 
 ### Java 8 Lambda Basics
 
@@ -194,9 +196,9 @@ If you find interesting project on github, bitbucket, book, video course etc. on
 
 <br/><br/>
 
-### JAVALABS
+### LABS
 
-**I decided to move list of books and video courses about java development to <a href="http://javalabs.org/">javalabs.org</a>**
+**I decided to move list of books and video courses about java development on <a href="http://labs.javadev.org/">labs.javadev.org</a>**
 
 
 ### If you planning to watch any Video Course or read any book about Java Development and want to discuss it, we can create discussion board on javalabs.org
@@ -206,6 +208,8 @@ GitHub can help to us. We can create issue, discuss, send pull request to improv
 If it would be interesting to you, send link on course what you planning to study and link to your github || bitbucket repo.
 
 For example github on video course:
+
+<br/>
 
 [Udemy] Building An E-Commerce Store Using Java Spring Framework [ENG, 2016] <br/>
 https://github.com/marley-spring/Building-an-e-commerce-store-using-java-spring-framework
