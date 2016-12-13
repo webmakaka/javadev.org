@@ -135,8 +135,8 @@ And i added -Dlog4j.ignoreTCL=true in the beginning
 
 
 
-    2015-05-15 09:43:49,512 [ActiveMQ Task-1] INFO  FailoverTransport              - Successfully connected to tcp://localhost:61616
+    2015-05-15 09:43:49,512 [ActiveMQ Task-1] INFO  FailoverTransport - Successfully connected to tcp://localhost:61616
     Done.
 
 
-Remove the opening <resource-adapters> and <resource-adapter> tags and replace with an <ironjacamar.xml> opening tag in the standalone-full.xml.
+Remove the opening <resource-adapters> and <resource-adapter> tags and replace with an <ironjacamar> opening tag in the standalone-full.xml.
