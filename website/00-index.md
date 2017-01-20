@@ -230,8 +230,9 @@ My contact: <br/>
 <img src="http://img.fotografii.org/a3333333mail.gif" alt="Marley">
 
 
-<!-- <a href="https://gitter.im/sysadm-ru/Lobby" rel="nofollow"><img src="https://badges.gitter.im/sysadm-ru/Lobby.svg" alt="sysadm chat"></a> -->
-<a href="https://travis-ci.org/javadev-org/javadev.org" rel="nofollow"><img src="https://travis-ci.org/javadev-org/javadev.org.svg?branch=gh-pages" alt="javadev build"></a>
+
+<a href="https://gitter.im/javadev-org/Lobby" rel="nofollow"><img src="https://badges.gitter.im/javadev-org/Lobby.svg" alt="javadev chat room"></a> <a href="https://travis-ci.org/javadev-org/javadev.org" rel="nofollow"><img src="https://travis-ci.org/javadev-org/javadev.org.svg?branch=gh-pages" alt="javadev build status"></a>
+<a href="http://isitmaintained.com/project/javadev-org/javadev.org" rel="nofollow"><img src="http://isitmaintained.com/badge/open/javadev-org/javadev.org.svg" alt="open issue"></a>
 
 
 <br/><br/>

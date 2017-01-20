@@ -1,24 +1,10 @@
 ---
 layout: page
-title: IRC
+title: Chat
 permalink: /chat/
 ---
 
-IRC in Browser:  
+# Chat
 
-Click <a href="http://webchat.freenode.net/?channels=%23javadev">here</a>.
-Choose a nickname, type captcha code to enter.
 
-<br/>
-
-To connect by IRC Client (Pigdig, MIRC, etc.):
-
-<br/>
-
-Server: irc.freenode.net  
-Channel: javadev
-
-<br/><br/>
-
-Additional info about IRC commands:  
-http://www.ircbeginner.com/ircinfo/ircc-commands.html
+<a href="https://gitter.im/javadev-org/Lobby" rel="nofollow"><img src="https://badges.gitter.im/javadev-org/Lobby.svg" alt="javadev chat room"></a>
