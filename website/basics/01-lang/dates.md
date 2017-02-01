@@ -26,7 +26,7 @@ string format YYYY-MM-DD // 2017-12-31
         Calendar cl = Calendar.getInstance();
 
         cl.set(Calendar.YEAR, Integer.parseInt(YYYY));
-        cl.set(Calendar.MONTH, Integer.parseInt(MM));
+        cl.set(Calendar.MONTH, Integer.parseInt(MM) -1);
         cl.set(Calendar.DATE, Integer.parseInt(DD));
 
         java.util.Date dateRes =  cl.getTime();
