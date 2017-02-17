@@ -33,3 +33,13 @@ string format YYYY-MM-DD // 2017-12-31
 
         return dateRes;
     }
+
+
+<br/>
+<hr/>
+<br/>
+
+    public static java.sql.Date UtilDateToSqlDate(java.util.Date date) {
+        java.sql.Date result = new java.sql.Date(date.getTime());
+        return result;
+    }
