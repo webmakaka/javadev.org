@@ -1,8 +1,11 @@
 ---
 layout: page
-title: OpenSource projects on Java (GitHub)
-permalink: /github/
+title: OpenSource projects on Java
+permalink: /projects/
 ---
+
+
+# OpenSource projects on Java
 
 **java8-the-missing-tutorial**
 
@@ -11,8 +14,6 @@ https://github.com/shekhargulati/java8-the-missing-tutorial
 
 **java8-tutorial**
 https://github.com/winterbe/java8-tutorial
-
-
 
 
 **Awesome Java**

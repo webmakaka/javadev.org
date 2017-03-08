@@ -9,7 +9,7 @@ permalink: /
 
 <br/>
 
-### GitHub Blocked my Free Account without any Warnings and Notification
+### GitHub Blocked my Free Account without any Warnings and Notifications
 
 You may check: github.com/javadev-org is not accessible now.
 
@@ -17,7 +17,7 @@ For that reason i have to move all projects to bitbucket.org.
 
 Another alternative - gitlab.com
 
-May be later i'll up my own gitlab service and will store all project on place where no one will not block my codes.
+May be later I'll up my own gitlab service and will store all project on place where no one can block my codes.
 
 Thanks.
 
