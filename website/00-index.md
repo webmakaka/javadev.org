@@ -9,6 +9,61 @@ permalink: /
 
 <br/>
 
+### GitHub Blocked my Free Account without any Warnings and Notification
+
+You may check: github.com/javadev-org is not accessible now.
+
+For that reason i have to move all projects to bitbucket.org.
+
+Another alternative - gitlab.com
+
+May be later i'll up my own gitlab service and will store all project on place where no one will not block my codes.
+
+Thanks.
+
+**Sorry for not working links on my github projects.**
+
+
+<br/>
+
+### Docker for JAVA DEVELOPERS
+
+
+<div align="center">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/IgJXYU3GOM4" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+### Free Book
+
+By: Arun Gupta  
+Released: June 2016  
+
+- http://shop.oreilly.com/product/0636920050872.do
+
+
+<br/><br/>
+
+<div align="center">
+    <img src="http://storage4.static.itmages.ru/i/16/0719/h_1468924764_4874600_196541fb75.png" border="0" alt="I can't open the jar">
+</div>
+
+
+<br/><br/>
+
+For example. This guy start 3 container with tomcat by 1 command.
+
+<br/><br/>
+
+<div align="center">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/gtoT0By8yh4" frameborder="0" allowfullscreen></iframe>
+</div>
+
+
+
+
+<br/>
+
 ### Spring Boot Quick Start
 
 <div align="center">
@@ -136,47 +191,14 @@ https://www.youtube.com/watch?v=yIf3EQmHmyw
 <br/><br/>
 
 
-
-
 + DevExpress CTO Messages for the SOLID object oriented development Principles  
 https://www.youtube.com/playlist?list=PL4CE9F710017EA77A
 
 
 
-<br/>
-
-### Docker for JAVA DEVELOPERS
-
-
-### Free Book
-
-By: Arun Gupta  
-Released: June 2016  
-
-- http://shop.oreilly.com/product/0636920050872.do
-
-
 <br/><br/>
 
-<div align="center">
-    <img src="http://storage4.static.itmages.ru/i/16/0719/h_1468924764_4874600_196541fb75.png" border="0" alt="I can't open the jar">
-</div>
-
-
-<br/><br/>
-
-For example. This guy start 3 container with tomcat by 1 command.
-
-<br/><br/>
-
-<div align="center">
-    <iframe width="853" height="480" src="https://www.youtube.com/embed/gtoT0By8yh4" frameborder="0" allowfullscreen></iframe>
-</div>
-
-
-<br/><br/>
-
-Java tutorialspoint:  
+### Java tutorialspoint:  
 
 http://www.tutorialspoint.com/java/java_tutorial.pdf
 
