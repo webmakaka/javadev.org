@@ -35,6 +35,18 @@ Direct link on <a href="https://bitbucket.org/javadev-org/javadev.org" target="_
     <iframe width="853" height="480" src="https://www.youtube.com/embed/IgJXYU3GOM4" frameborder="0" allowfullscreen></iframe>
 </div>
 
+<br/>
+
+So difficult, because Arun use Mac and IntelliJ for containers.
+
+
+Some Examples:  
+https://github.com/docker/labs/tree/master/developer-tools/java
+
+
+If you know any interesting examples with docker and java, please send links. Especially if you have some examples with Weblogic.
+
+I have java ee application what i can run on weblogic, but i didn't prepare containers for it.
 
 ### Free Book
 
