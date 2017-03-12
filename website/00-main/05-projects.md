@@ -47,6 +47,18 @@ https://bitbucket.org/marley-spring/building-an-e-commerce-store-using-java-spri
 
 https://github.com/spring-projects/spring-petclinic  
 
+
+**[Book] Alex Bretet - Spring MVC Cookbook - 2016**
+
+Application:  
+http://cloudstreetmarket.com/
+
+Source codes:  
+https://github.com/alex-bretet/cloudstreetmarket.com
+
+
+
+
 https://github.com/marley-spring/example-eshop-spring  
 https://github.com/marley-spring/eshop-spring-2    
 https://github.com/marley-spring/pro-spring-mvc-book-code-examples  

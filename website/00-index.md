@@ -36,6 +36,13 @@ I found book "Alex Bretet - Spring MVC Cookbook - 2016".
 If someone will read this book too, we can discuss if something will not work correctly.
 
 
+In this book we will develop next application:  
+http://cloudstreetmarket.com/
+
+With this source codes:
+https://github.com/alex-bretet/cloudstreetmarket.com
+
+Technologies: Eclipse for Java 8, Maven 3, and Tomcat 8
 
 <br/>
 
