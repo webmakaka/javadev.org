@@ -19,11 +19,22 @@ Another alternative - gitlab.com
 
 May be later I'll up my own gitlab service and will store all project on place where no one can block my codes.
 
-Thanks.
 
 **Sorry for not working links on my github projects.**
 
 Direct link on <a href="https://bitbucket.org/javadev-org/javadev.org" target="_blank">javadev.org</a> source codes.
+
+
+<br/>
+
+### I'm planning to start reading something about Spring MVC Development
+
+If you can recommend something interesting, please write to me by email.
+
+I found book "Alex Bretet - Spring MVC Cookbook - 2016".
+
+If someone will read this book too, we can discuss if something will not work correctly.
+
 
 
 <br/>
