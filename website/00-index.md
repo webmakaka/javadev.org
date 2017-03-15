@@ -9,11 +9,11 @@ permalink: /
 
 <br/>
 
-### GitHub Blocked my Free Account without any Warnings and Notifications
+### GitHub Blocked my Free Accounts without any Warnings and Notifications
 
 You may check: github.com/javadev-org is not accessible now.
 
-For that reason i have to move all projects to bitbucket.org.
+For that reason I have to move all projects to bitbucket.org.
 
 Another alternative - gitlab.com
 
