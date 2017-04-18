@@ -4,7 +4,7 @@ title: JDK7 installation on Centos 6.X x86_x64
 permalink: /development-tools/jdk7/installation/centos/6/
 ---
 
-### JDK7 installation on Centos 6.X x86_x64
+# JDK7 installation on Centos 6.X x86_x64
 
 After April 2015, Oracle will not post further updates of Java SE 7 to its public download sites. Customers who need continued access to critical bug fixes and security fixes as well as general maintenance for Java SE 7 or older versions can get long term support through Oracle Java SE Support.
 

@@ -5,7 +5,7 @@ permalink: /examples/jboss-installation-on-windows/
 ---
 
 
-<strong>Jboss6 Installation on Windows:</strong>
+# Jboss6 Installation on Windows:
 
 
 <br/><br/>

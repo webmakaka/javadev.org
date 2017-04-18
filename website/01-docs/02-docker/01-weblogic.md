@@ -4,13 +4,7 @@ title: Running simple java ee application on weblogic server by docker container
 permalink: /docker/weblogic/
 ---
 
-<br/><br/>
-
-
-### Running simple java ee application on weblogic server by docker container
-
-
-
+# Running simple java ee application on weblogic server by docker container
 
 
 I will run it on Ubuntu Linux. If you working on WIndows, you can use docker-machine to run this example.

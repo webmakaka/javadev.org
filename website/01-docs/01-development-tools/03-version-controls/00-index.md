@@ -4,10 +4,7 @@ title: Version Control
 permalink: /development-tools/version-controls/
 ---
 
-
-<br/>
-
-### GIT
+# GIT
 
 
 <ul>

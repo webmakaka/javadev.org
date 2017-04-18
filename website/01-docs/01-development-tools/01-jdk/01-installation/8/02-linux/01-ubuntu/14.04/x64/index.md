@@ -5,7 +5,7 @@ permalink: /development-tools/jdk/installation/ubuntu/14.04/
 ---
 
 
-### JDK8 installation on Ubuntu 14.04
+# JDK8 installation on Ubuntu 14.04
 
 **VARIANT 1:**
 

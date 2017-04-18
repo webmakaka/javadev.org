@@ -5,7 +5,7 @@ permalink: /development-tools/jdk/installation/windows/xp/
 ---
 
 
-### JDK Installation on Windows XP
+# JDK Installation on Windows XP
 
 <br/>
 <br/>

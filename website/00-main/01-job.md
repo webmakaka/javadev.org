@@ -4,9 +4,13 @@ title: Job Offer
 permalink: /job_offer/
 ---
 
-### Hello, we are software developers from RUSSIA:<br/>
+# Job Offer
 
-<br/><br/>
+
+Hello, we are software developers from RUSSIA:
+
+
+<br/>
 
 <div align="center">
 	<img src="http://prev.javadev.org/pictures/russian_developers.jpg" alt="Software developers from RUSSIA" border="0">

@@ -4,10 +4,7 @@ title: Eclipse (free)
 permalink: /development-tools/ide/eclipse/
 ---
 
-
-<br/>
-
-### Eclipse (free):
+# Eclipse (free):
 
 
 <strong><a href="http://www.eclipse.org/downloads/" rel="nofollow">Eclipse Download Link</a></strong>
