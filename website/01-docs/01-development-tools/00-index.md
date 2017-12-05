@@ -27,6 +27,15 @@ permalink: /development-tools/
 
 <br/>
 
+### Java Troubleshooting Tool:
+
+<ul>
+    <li><strong><a href="https://visualvm.github.io/" rel="nofollow">VisualVM</a></strong></li>
+</ul>
+
+
+<br/>
+
 ### Version Control:
 
 <ul>
