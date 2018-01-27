@@ -44,6 +44,38 @@ https://github.com/alex-bretet/cloudstreetmarket.com
 
 Technologies: Eclipse for Java 8, Maven 3, and Tomcat 8
 
+
+<br/>
+
+### [Douglas Schmidt] CS 891 (2017) Introduction to Concurrent and Parallel Java 
+
+
+<div align="center">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/NVcbxQEoseE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
+<br/>
+
+Also on channel:
+
+<br/>
+
+- Pattern-Oriented Software Architectures for Concurrent and Networked Software
+- CS 892 (2017) Concurrent Java Programming with Android
+- CS 891 (Spring 2018) Advanced Concurrent Java Programming in Android
+- etc
+
+<br/>
+
+### Projects in Enterprise Java | Creating a Voting System 
+
+
+<div align="center">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/aCOdp3hdy0c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
+
+
 <br/>
 
 ### Docker for JAVA DEVELOPERS
@@ -79,19 +111,6 @@ Released: June 2016
 <div align="center">
     <img src="http://storage4.static.itmages.ru/i/16/0719/h_1468924764_4874600_196541fb75.png" border="0" alt="I can't open the jar">
 </div>
-
-
-<br/><br/>
-
-For example. This guy start 3 container with tomcat by 1 command.
-
-<br/><br/>
-
-<div align="center">
-    <iframe width="853" height="480" src="https://www.youtube.com/embed/gtoT0By8yh4" frameborder="0" allowfullscreen></iframe>
-</div>
-
-
 
 
 <br/>
