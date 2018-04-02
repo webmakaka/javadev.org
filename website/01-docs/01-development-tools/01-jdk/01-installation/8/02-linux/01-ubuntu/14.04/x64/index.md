@@ -55,7 +55,7 @@ Remove OpenJDK (If OpenJDK installed)<br/>
 <br/>
 
     ############################################################
-    # To use bash_profile as file with Locat Variables
+    # To use bash_profile as file with Local Variables
     . ~/.bash_profile
     ############################################################
 

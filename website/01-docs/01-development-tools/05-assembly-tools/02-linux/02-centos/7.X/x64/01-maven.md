@@ -4,7 +4,7 @@ title: Maven installation on Centos 7.X x86_x64
 permalink: /development-tools/assembly-tools/maven/linux/centos/7/
 ---
 
-### Maven
+# Maven
 
 <strong>Distrib:</strong><br/>
 http://maven.apache.org
@@ -15,12 +15,12 @@ http://maven.apache.org
 	$ su - root
 
 	# cd /tmp
-	# wget http://apache.mirrors.pair.com/maven/maven-3/3.3.9/binaries/apache-maven-3.3.9-bin.tar.gz
+	# wget http://apache-mirror.rbc.ru/pub/apache/maven/maven-3/3.5.3/binaries/apache-maven-3.5.3-bin.tar.gz
 
-	# tar -xvzpf apache-maven-3.3.9-bin.tar.gz
-	# mkdir -p /opt/maven/3.3.9
-	# mv apache-maven-3.3.9/* /opt/maven/3.3.9/
-	# ln -s /opt/maven/3.3.9/ /opt/maven/current
+	# tar -xvzpf apache-maven-3.5.3-bin.tar.gz
+	# mkdir -p /opt/maven/3.5.3
+	# mv apache-maven-3.5.3/* /opt/maven/3.5.3/
+	# ln -s /opt/maven/3.5.3/ /opt/maven/current
 
 <br/><br/>
 
@@ -31,18 +31,22 @@ http://maven.apache.org
 
 <br/>
 
-    #### MAVEN 3.3.9 #########################
 
-    	export MAVEN_HOME=/opt/maven/current
-    	export PATH=$PATH:$MAVEN_HOME/bin
+{% highlight bash %}
+#### MAVEN 3.5.3 #########################
 
-    #### MAVEN 3.3.9 #########################
+	export MAVEN_HOME=/opt/maven/current
+	export PATH=$PATH:$MAVEN_HOME/bin
 
+#### MAVEN 3.5.3 #########################
+{% endhighlight %}
 
 <br/>
 
     $ source ~/.bash_profile
-    $ mvn -version
+    $ mvn --version
+    Apache Maven 3.5.3 (3383c37e1f9e9b3bc3df5050c29c8aff9f295297; 2018-02-24T22:49:05+03:00)
+
 
 
 <br/><br/>
