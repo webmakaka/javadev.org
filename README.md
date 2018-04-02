@@ -9,16 +9,15 @@ To run javadev.org on your local server, you can do next:
 
 Then
 
-    docker pull marley/centos6-for-dev
-    docker run -i -t –rm -p 80:8080 –-name javadev-org marley/centos6-for-dev /bin/bash
+    $ docker pull marley/centos6-for-jekyll:latest
+    $ docker run -i -t -p 80:8080 --name oracle_adf_ru marley/centos6-for-jekyll:latest /bin/bash
 
+In container:
 
     $ source ~/.bash_profile
     $ cd /projects
-    $ git clone --depth=1 https://javadev-org@bitbucket.org/javadev-org/javadev.org.git
-    $ cd javadev.org
-    // $ gem install jekyll
+    $ git clone --depth=1 https://bitbucket.org/javadev-org/javadev.org.git .
     $ bundle
-    $ jekyll serve --watch --host 0.0.0.0 --port 8080
+    $ JEKYLL_ENV=production bundle exec jekyll serve --host 0.0.0.0 --port 8080
 
 and connect to localhost.

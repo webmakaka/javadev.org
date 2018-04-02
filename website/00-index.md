@@ -67,7 +67,7 @@ Also on channel:
 
 <br/>
 
-### Projects in Enterprise Java | Creating a Voting System 
+### Projects in Enterprise Java | Creating a Voting System (I think not full video course)
 
 
 <div align="center">
