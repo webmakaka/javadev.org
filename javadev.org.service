@@ -1,0 +1,21 @@
+[Unit]
+Description=javadev.org
+
+Requires=docker.service
+After=docker.service
+
+[Service]
+
+Restart=always
+TimeoutStartSec=0
+ExecStartPre=-/usr/bin/docker kill javadev.org
+ExecStartPre=-/usr/bin/docker rm javadev.org
+ExecStartPre=-/usr/bin/docker pull marley/javadev.org:latest
+ExecStart=/bin/sh -c '/usr/bin/docker run --name javadev.org   \
+ -p 4024:80                        \
+ marley/javadev.org'
+ExecStop=-/usr/bin/docker kill javadev.org
+ExecStop=-/usr/bin/docker rm javadev.org
+
+[Install]
+WantedBy=multi-user.target
