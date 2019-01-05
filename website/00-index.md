@@ -6,7 +6,6 @@ permalink: /
 
 # Java Development
 
-
 <br/>
 
 ### GitHub Blocked my Free Accounts without any Warnings and Notifications
@@ -19,11 +18,9 @@ Another alternative - gitlab.com
 
 May be later I'll up my own gitlab service and will store all project on place where no one can block my codes.
 
-
 **Sorry for not working links on my github projects.**
 
 Direct link on <a href="https://bitbucket.org/javadev-org/javadev.org" target="_blank">javadev.org</a> source codes.
-
 
 <br/>
 
@@ -35,7 +32,6 @@ I found book "Alex Bretet - Spring MVC Cookbook - 2016".
 
 If someone will read this book too, we can discuss if something will not work correctly.
 
-
 In this book we will develop next application:  
 http://cloudstreetmarket.com/
 
@@ -44,11 +40,9 @@ https://github.com/alex-bretet/cloudstreetmarket.com
 
 Technologies: Eclipse for Java 8, Maven 3, and Tomcat 8
 
-
 <br/>
 
-### [Douglas Schmidt] CS 891 (2017) Introduction to Concurrent and Parallel Java 
-
+### [Douglas Schmidt] CS 891 (2017) Introduction to Concurrent and Parallel Java
 
 <div align="center">
     <iframe width="853" height="480" src="https://www.youtube.com/embed/NVcbxQEoseE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -60,26 +54,22 @@ Also on channel:
 
 <br/>
 
-- Pattern-Oriented Software Architectures for Concurrent and Networked Software
-- CS 892 (2017) Concurrent Java Programming with Android
-- CS 891 (Spring 2018) Advanced Concurrent Java Programming in Android
-- etc
+-   Pattern-Oriented Software Architectures for Concurrent and Networked Software
+-   CS 892 (2017) Concurrent Java Programming with Android
+-   CS 891 (Spring 2018) Advanced Concurrent Java Programming in Android
+-   etc
 
 <br/>
 
 ### Projects in Enterprise Java | Creating a Voting System (I think not full video course)
 
-
 <div align="center">
     <iframe width="853" height="480" src="https://www.youtube.com/embed/aCOdp3hdy0c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
-
-
 <br/>
 
 ### Docker for JAVA DEVELOPERS
-
 
 <div align="center">
     <iframe width="853" height="480" src="https://www.youtube.com/embed/IgJXYU3GOM4" frameborder="0" allowfullscreen></iframe>
@@ -89,10 +79,8 @@ Also on channel:
 
 So difficult, because Arun use Mac and IntelliJ for containers.
 
-
 Some Examples:  
 https://github.com/docker/labs/tree/master/developer-tools/java
-
 
 If you know any interesting examples with docker and java, please send links. Especially if you have some examples with Weblogic.
 
@@ -101,17 +89,15 @@ I have java ee application what i can run on weblogic, but i didn't prepare cont
 ### Free Book
 
 By: Arun Gupta  
-Released: June 2016  
+Released: June 2016
 
-- http://shop.oreilly.com/product/0636920050872.do
-
+-   http://shop.oreilly.com/product/0636920050872.do
 
 <br/><br/>
 
 <div align="center">
     <img src="http://storage4.static.itmages.ru/i/16/0719/h_1468924764_4874600_196541fb75.png" border="0" alt="I can't open the jar">
 </div>
-
 
 <br/>
 
@@ -143,8 +129,6 @@ Released: June 2016
 
 </div>
 
-
-
 <br/>
 
 ### Java 8 Lambda Basics
@@ -156,7 +140,6 @@ Released: June 2016
 </div>
 
 <a href="//labs.javadev.org/labs/lab-07/">I'm trying to study this course</a>
-
 
 <br/>
 
@@ -178,8 +161,6 @@ Released: June 2016
 
 </div>
 
-
-
 <br/>
 
 ### JVM ( java virtual machine) architecture - tutorial
@@ -189,7 +170,6 @@ Released: June 2016
     <iframe width="853" height="480" src="https://www.youtube.com/embed/ZBJ0u9MaKtM" frameborder="0" allowfullscreen></iframe>
 
 </div>
-
 
 <br/>
 
@@ -202,7 +182,6 @@ Released: June 2016
 <div align="center">
     <iframe width="853" height="480" src="https://www.youtube.com/embed/TMuno5RZNeE" frameborder="0" allowfullscreen></iframe>
 </div>
-
 
 <br/>
 
@@ -234,25 +213,19 @@ Released: June 2016
     <iframe width="853" height="480" src="https://www.youtube.com/embed/o_TH-Y78tt4" frameborder="0" allowfullscreen></iframe>
 </div>
 
-
 https://www.youtube.com/watch?v=lZq8Jlq18Ec  
-https://www.youtube.com/watch?v=yIf3EQmHmyw  
-
-
-<br/><br/>
-
-
-+ DevExpress CTO Messages for the SOLID object oriented development Principles  
-https://www.youtube.com/playlist?list=PL4CE9F710017EA77A
-
-
+https://www.youtube.com/watch?v=yIf3EQmHmyw
 
 <br/><br/>
 
-### Java tutorialspoint:  
+-   DevExpress CTO Messages for the SOLID object oriented development Principles  
+    https://www.youtube.com/playlist?list=PL4CE9F710017EA77A
+
+<br/><br/>
+
+### Java tutorialspoint:
 
 http://www.tutorialspoint.com/java/java_tutorial.pdf
-
 
 <br/><br/>
 
@@ -264,19 +237,13 @@ If you find interesting project on github, bitbucket, book, video course etc. on
 
 <strong>For example, next repositories is very interesting i think:</strong>
 
- <br/><br/>
+<br/><br/>
 
-<a href="https://github.com/javadev-org/java-design-patterns">Design Patterns</a><br/>
-
-
+<a href="https://bitbucket.org/javadev-org/java-design-patterns/src/master/">Design Patterns</a><br/>
 
 <br/><br/>
 
-<div align="center">
-    <img src="/website/pictures/jars.jpg" border="0" alt="I can't open the jar">
-</div>
-
-
+![I can't open the jar](/img/jars.jpg "I can't open the jar"){: .center-image }
 
 <br/><br/>
 
@@ -284,9 +251,7 @@ If you find interesting project on github, bitbucket, book, video course etc. on
 
 **I decided to move list of books and video courses about java development on <a href="http://labs.javadev.org/">labs.javadev.org</a>**
 
-
 ### If you planning to watch any Video Course or read any book about Java Development and want to discuss it, we can create discussion board on javalabs.org
-
 
 GitHub can help to us. We can create issue, discuss, send pull request to improve code and etc.
 If it would be interesting to you, send link on course what you planning to study and link to your github || bitbucket repo.
@@ -296,21 +261,12 @@ For example github on video course:
 <br/>
 
 [Udemy] Building An E-Commerce Store Using Java Spring Framework [ENG, 2016] <br/>
-https://github.com/marley-spring/Building-an-e-commerce-store-using-java-spring-framework
-
+https://bitbucket.org/marley-spring/building-an-e-commerce-store-using-java-spring-framework/src/master/
 
 My contact: <br/>
-<img src="http://img.fotografii.org/a3333333mail.gif" alt="Marley">
 
-
-
-<a href="https://gitter.im/javadev-org/Lobby" rel="nofollow"><img src="https://badges.gitter.im/javadev-org/Lobby.svg" alt="javadev chat room"></a> <a href="https://travis-ci.org/javadev-org/javadev.org" rel="nofollow"><img src="https://travis-ci.org/javadev-org/javadev.org.svg?branch=gh-pages" alt="javadev build status"></a>
-<a href="http://isitmaintained.com/project/javadev-org/javadev.org" rel="nofollow"><img src="http://isitmaintained.com/badge/open/javadev-org/javadev.org.svg" alt="open issue"></a>
-
+![Marley](/img/a3333333mail.gif "Marley"){: .center-image }
 
 <br/><br/>
 
-<div align="center">
-    <img src="/website/pictures/java_wtf.jpg" border="0"
-alt="WTF in Minutes">
-</div>
+![WTF in Minutes](/img/java_wtf.jpg "WTF in Minutes"){: .center-image }

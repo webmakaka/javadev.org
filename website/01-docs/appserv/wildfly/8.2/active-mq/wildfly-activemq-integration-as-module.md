@@ -4,9 +4,7 @@ title: Configuring a Resource Adapter for ActiveMQ on WildFly 8.2
 permalink: /docs/appserv/wildfly/8.2/active-mq//wildfly-activemq-integration-as-module/
 ---
 
-
 <strong><a href="/docs/appserv/wildfly/8.2/active-mq/wildfly-activemq-integration-as-application/5.9.0/">For active mq version 5.9.0</a></strong>
-
 
 ### Here we will work with active mq version 5.11.1
 
@@ -24,7 +22,7 @@ permalink: /docs/appserv/wildfly/8.2/active-mq//wildfly-activemq-integration-as-
 
 <br/>
 
-$ vi module.xml
+\$ vi module.xml
 
 <br/>
 
@@ -73,7 +71,6 @@ $ vi module.xml
 
 <br/>
 
-
     $ cd /opt/wildfly/8.2.0/standalone/configuration
     $ cp standalone-full.xml standalone-full.xml.backup
 
@@ -117,35 +114,22 @@ replace on:
 
 {% endhighlight %}
 
-
 restart wildfly server
 
     $ standalone.sh -c standalone-full.xml -b=0.0.0.0 -bmanagement=0.0.0.0
 
-
-
-<div align="center">
-    <img src="https://github.com/javadev-org/javadev.org/blob/gh-pages/website/01-docs/appserv/wildfly/8.2/active-mq/resource_adapters.png?raw=true" alt="WildFly ActiveMQ as Module">
-
-</div>
-
-
+![WildFly ActiveMQ as Module](/img/appserv/wildfly/8.2/active-mq/resource_adapters.png "WildFly ActiveMQ as Module"){: .center-image }
 
 <br/><br/>
 
 ### Error
-
 
     14:43:38,202 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 49) JBAS014613: Operation ("add") failed - address: ([
         ("subsystem" => "resource-adapters"),
         ("resource-adapter" => "activemq-5.11.1")
     ]) - failure description: "JBAS010473: Failed to load module for RA [org.apache.activemq]"
 
-
 I solwed this error by replace parameters slot in standalone-full.xml and module.xml on main
-
-
-
 
 <!--
 

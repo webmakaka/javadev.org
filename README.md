@@ -1,4 +1,4 @@
-# [jsdev.org](http://jsdev.org) source codes
+# [javadev.org](https://javadev.org) source codes
 
 <br/>
 
