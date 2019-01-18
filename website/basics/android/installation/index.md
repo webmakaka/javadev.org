@@ -4,29 +4,23 @@ title: Prepare Ubuntu Linux Environment for Development Android Apps with Androi
 permalink: /java_basics/android/installation/
 ---
 
-
 ### Enabling hardware acceleration for Android SDK emulator on Linux
-
 
 I'm really don't know Hardware Acceleration works or not.
 
 Ubuntu:
-
 
     $ sudo apt-get install -y qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils
 
     $ sudo adduser <user> libvirtd
     $ sudo adduser <user> kvm
 
-
 Check if everything is ok:
 
     $ sudo virsh -c qemu:///system list
 
-
 More information:  
 http://blog.whitehorses.nl/2015/03/07/enabling-hardware-acceleration-for-android-sdk-emulator-on-linux/
-
 
 ### Android SDK installation
 
@@ -38,7 +32,6 @@ http://blog.whitehorses.nl/2015/03/07/enabling-hardware-acceleration-for-android
     $ tar -xvzf android-sdk_r24.2-linux.tgz
     $ cd android-sdk-linux/
     $ sudo mv * /opt/android-sdk/
-
 
 I do some changes to store environment variables in .bash_profile (like as on RedHat Deistributives)
 
@@ -68,31 +61,25 @@ I do some changes to store environment variables in .bash_profile (like as on Re
 
     $ sudo chown -R <user> /opt/android-sdk/
 
-
 <br/>
 
     $ android
 
-
 I'm installing all packages for API 22
-
 
 <div align="center">
 
-    <img src="http://files.javadev.org/android/installation/1.png" alt="Packages for API 22">
+    <img src="/files/android/installation/1.png" alt="Packages for API 22">
 
 </div>
 
 <br/>
 
-
 To update packages execute next command
 
     $ android update sdk --no-ui
 
-
-
-###  Android Studio Installation
+### Android Studio Installation
 
     $ cd /tmp/
     $ sudo mkdir -p /opt/android-studio/
@@ -125,49 +112,37 @@ To run android studio
 
     $ studio.sh
 
-
-
 ### Run Virtual Android Device
 
     $ android avd
 
-
-
 <div align="center">
 
-<img src="http://files.javadev.org/android/installation/2.png" alt="How to run Android emulation on ubuntu linux">
-
+<img src="/files/android/installation/2.png" alt="How to run Android emulation on ubuntu linux">
 
 <br/><br/>
 Create AVD
 <br/><br/>
 
-
-<img src="http://files.javadev.org/android/installation/3.png" alt="How to run Android emulation on ubuntu linux">
-
+<img src="/files/android/installation/3.png" alt="How to run Android emulation on ubuntu linux">
 
 <br/><br/>
 Use Host GPU is very important for hardware acceleration
 <br/><br/>
 
-<img src="http://files.javadev.org/android/installation/4.png" alt="How to run Android emulation on ubuntu linux">  
-
-
-<br/><br/>
-
-<img src="http://files.javadev.org/android/installation/5.png" alt="How to run Android emulation on ubuntu linux">
-
+<img src="/files/android/installation/4.png" alt="How to run Android emulation on ubuntu linux">
 
 <br/><br/>
 
-<img src="http://files.javadev.org/android/installation/6.png" alt="How to run Android emulation on ubuntu linux">
+<img src="/files/android/installation/5.png" alt="How to run Android emulation on ubuntu linux">
 
+<br/><br/>
+
+<img src="/files/android/installation/6.png" alt="How to run Android emulation on ubuntu linux">
 
 </div>
 
-
 ### Some commands (Yes, i love work in command line)
-
 
     $ android list avd
     Available Android Virtual Devices:
@@ -182,28 +157,24 @@ Use Host GPU is very important for hardware acceleration
 
     $ emulator -avd Nexus_5_by_Google
 
-
 With next paramters:
 
     $ emulator -avd Nexus_5_by_Google -scale 0.3 -gpu on -qemu -enable-kvm
 
 I get next result (In the future i'm planning to start emulation with this parameters):
 
-
 <div align="center">
 
-<img src="http://files.javadev.org/android/installation/7.png" alt="How to run Android emulation on ubuntu linux">
+<img src="/files/android/installation/7.png" alt="How to run Android emulation on ubuntu linux">
 
 </div>
 
 More Parameters:  
 http://developer.android.com/tools/help/emulator.html
 
-
-// To faster kill emu  
+// To faster kill emu
 
     $ adb emu kill
-
 
 // Get list devices
 
@@ -217,17 +188,14 @@ http://developer.android.com/tools/help/emulator.html
     $ adb shell
     $ adb -s emulator-5554 shell
 
-
 // Get file with database from virtual android device
 
     $ adb -s emulator-5554 pull /data/data/com.android.providers.contacts/databases/contacts2.db /data/contacts2.db
-
 
 // Logs
 
     $ adb logcat
     $ adb -s emulator-5554 logcat
-
 
 // sqlite3 databases on android devices:
 
@@ -299,9 +267,7 @@ http://developer.android.com/tools/help/emulator.html
 
     # qlite3 /data/data/com.android.providers.contacts/databases/contacts2.db
 
-
 <br/>
-
 
     sqlite> .tables
     _sync_state               phone_lookup              view_data_usage_stat

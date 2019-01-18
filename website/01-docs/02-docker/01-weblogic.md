@@ -6,9 +6,7 @@ permalink: /docker/weblogic/
 
 # Running simple java ee application on weblogic server by docker container
 
-
 I will run it on Ubuntu Linux. If you working on WIndows, you can use docker-machine to run this example.
-
 
     $ cd /projects/
     $ git clone https://github.com/oracle-adf/docker-images
@@ -17,7 +15,6 @@ I will run it on Ubuntu Linux. If you working on WIndows, you can use docker-mac
 
 ### BUILD oracle/jdk image
 
-
     $ cd /projects/docker-images/OracleJDK/java-8/
 
 <br/>
@@ -25,7 +22,6 @@ I will run it on Ubuntu Linux. If you working on WIndows, you can use docker-mac
     $ wget --no-check-certificate --no-cookies - --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u91-b14/server-jre-8u91-linux-x64.tar.gz
 
 <br/>
-
 
     $ cp server-jre-8u91-linux-x64.tar.gz /projects/docker-images/OracleWebLogic/dockerfiles/12.2.1
 
@@ -40,11 +36,9 @@ I will run it on Ubuntu Linux. If you working on WIndows, you can use docker-mac
     oracle/jdk          8                   2419e855eace        47 seconds ago      519.9 MB
     oraclelinux         latest              befb6606d561        9 weeks ago         205.9 MB
 
-
 <br/>
 
 ### BUILD oracle/weblogic:12.2.1-developer image
-
 
     REQUIRED FILES TO BUILD THIS IMAGE
     # ----------------------------------
@@ -54,14 +48,11 @@ I will run it on Ubuntu Linux. If you working on WIndows, you can use docker-mac
     # (2) server-jre-8uXX-linux-x64.tar.gz
     #     Download from http://www.oracle.com/technetwork/java/javase/downloads/server-jre8-downloads-2133154.html
 
-
-
 <br/>
 
 I don't know how to copy archive with command line and did it by browser.
 
 I copied fmw_12.2.1.0.0_wls_quick_Disk1_1of1.zip to /projects/docker-images/OracleWebLogic/dockerfiles/12.2.1
-
 
     $ cd /projects/docker-images/OracleWebLogic/dockerfiles/
 
@@ -79,17 +70,14 @@ I copied fmw_12.2.1.0.0_wls_quick_Disk1_1of1.zip to /projects/docker-images/Orac
     oracle/jdk          8                   2419e855eace        21 minutes ago      519.9 MB
     oraclelinux         latest              befb6606d561        9 weeks ago         205.9 MB
 
-
 <br/>
 
 ### Build MedRec image
-
 
     # REQUIRED FILES TO BUILD THIS IMAGE
     # ----------------------------------
     # (1) fmw_12.2.1.0.0_wls_supplemental_quick_Disk1_1of1.zip
     #     Download the Developer Quick installer from http://www.oracle.com/technetwork/middleware/weblogic/downloads/wls-for-dev-1703574.html
-
 
 I copied fmw_12.2.1.0.0_wls_supplemental_quick_Disk1_1of1.zip to /projects/docker-images/OracleWebLogic/samples/1221-medrec
 
@@ -110,34 +98,26 @@ I copied fmw_12.2.1.0.0_wls_supplemental_quick_Disk1_1of1.zip to /projects/docke
     oracle/jdk          8                   2419e855eace        25 minutes ago      519.9 MB
     oraclelinux         latest              befb6606d561        9 weeks ago         205.9 MB
 
-
 <br/>
 
 ### Run MedRec App on Docker Container
 
-
     $ docker run -ti -p 7001:7001 1221-medrec
-
 
 wait until...
 
     gicServer> <BEA-000365> <Server state changed to RUNNING.>
          [java] Server started successfully.
 
-
 <br/>
 
 http://localhost:7001/medrec/
 
-
-<img src="http://files.javadev.org/docker/weblogic/app/Docker_Java_App_Weblogic_Example_01.png" alt="Docker Java App Weblogic Example">
+<img src="/files/docker/weblogic/app/Docker_Java_App_Weblogic_Example_01.png" alt="Docker Java App Weblogic Example">
 
 <br/>
 
-<img src="http://files.javadev.org/docker/weblogic/app/Docker_Java_App_Weblogic_Example_02.png" alt="Docker Java App Weblogic Example">
-
-
-
+<img src="/files/docker/weblogic/app/Docker_Java_App_Weblogic_Example_02.png" alt="Docker Java App Weblogic Example">
 
 Materials:  
 https://github.com/oracle-adf/docker-images/tree/master/OracleWebLogic
