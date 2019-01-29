@@ -93,11 +93,11 @@ Released: June 2016
 
 -   http://shop.oreilly.com/product/0636920050872.do
 
-<br/><br/>
+<!-- <br/><br/>
 
 <div align="center">
     <img src="http://storage4.static.itmages.ru/i/16/0719/h_1468924764_4874600_196541fb75.png" border="0" alt="I can't open the jar">
-</div>
+</div> -->
 
 <br/>
 
@@ -249,7 +249,7 @@ If you find interesting project on github, bitbucket, book, video course etc. on
 
 ### LABS
 
-**I decided to move list of books and video courses about java development on <a href="http://labs.javadev.org/">labs.javadev.org</a>**
+**I decided to move list of books and video courses about java development on <a href="//labs.javadev.org/">labs.javadev.org</a>**
 
 ### If you planning to watch any Video Course or read any book about Java Development and want to discuss it, we can create discussion board on javalabs.org
 
