@@ -4,15 +4,12 @@ title: Nexus 3.X Installation on Linux
 permalink: /development-tools/repository-management/nexus/3/installation-on-linux/
 ---
 
-
 <br/>
 
 ### Nexus 3.X Installation on Linux
 
-
     # cd /tmp/
     # wget http://download.sonatype.com/nexus/3/nexus-3.0.0-03-unix.tar.gz
-
 
 <br/>
 
@@ -21,7 +18,6 @@ permalink: /development-tools/repository-management/nexus/3/installation-on-linu
     # mv nexus-3.0.0-03/* /opt/nexus/3.0.0/
     # mv nexus-3.0.0-03/.install4j/ /opt/nexus/3.0.0/
     # ln -s /opt/nexus/3.0.0/ /opt/nexus/current
-
 
 <br/>
 
@@ -54,7 +50,6 @@ permalink: /development-tools/repository-management/nexus/3/installation-on-linu
 
 <br/>
 
-
     $ nexus status
     nexus is running.
 
@@ -77,11 +72,9 @@ wait 2-3 minutes
     Expires: 0
     Content-Length: 4747
 
-
 <br/>
 
 http://localhost:8081/
-
 
 <br/>
 
@@ -95,11 +88,11 @@ http://localhost:8081/
 
     $ vi /home/developer/.m2/settings.xml
 
-<br/>  
+<br/>
 
 My config. I will update it later (i hope).
 
-<br/>  
+<br/>
 
     <settings>
         <profiles>
@@ -156,6 +149,6 @@ My config. I will update it later (i hope).
 <br/>
 
     $ cd /tmp/
-    $ git clone https://github.com/marley-spring/Building-an-e-commerce-store-using-java-spring-framework
+    $ git clone git clone https://marley-spring@bitbucket.org/marley-spring/building-an-e-commerce-store-using-java-spring-framework.git
     $ cd Building-an-e-commerce-store-using-java-spring-framework/
     $ mvn package

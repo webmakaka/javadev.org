@@ -18,16 +18,13 @@ permalink: /development-tools/repository-management/archiva/installation/
 
 <br/>
 
-
 Changing default port to 8081
 
     $ vi /opt/archiva/2.2.0/conf/jetty.xml
 
-
 <br/>
 
      <Set name="port"><SystemProperty name="jetty.port" default="8081"/></Set>
-
 
 <br/>
 
@@ -65,7 +62,7 @@ Changing default port to 8081
 
 <br/>
 
-    $ curl -I http://localhost:8080/  
+    $ curl -I http://localhost:8080/
     HTTP/1.1 200 OK
     Date: Sat, 14 May 2016 13:43:35 GMT
     Content-Type: text/html
@@ -78,12 +75,9 @@ Changing default port to 8081
 
 http://localhost:8080/#welcome
 
-
-
 <br/>
 
 ### Try to run
-
 
 ### Proxy Connectors: Remove all connections
 
@@ -106,8 +100,6 @@ http://localhost:8080/#welcome
 
 <br/>
 
-
-
 ### Proxy Connectors:
 
     ADD
@@ -117,16 +109,11 @@ http://localhost:8080/#welcome
 
     SAVE
 
-
-
 <br/>
-
 
 ### USERS --> Manage --> Guest --> Edit --> Edit Roles --> Repository Observer --> + mirror
 
     UPDATE
-
-
 
 <br/>
 
@@ -136,11 +123,11 @@ http://localhost:8080/#welcome
 
     $ vi /home/developer/.m2/settings.xml
 
-<br/>  
+<br/>
 
 My config. I will update it later (i hope).
 
-<br/>  
+<br/>
 
     <settings>
         <profiles>
@@ -193,13 +180,11 @@ My config. I will update it later (i hope).
               </servers>
     </settings>
 
-
 <br/>
 <br/>
-
 
     $ cd /tmp/
-    $ git clone https://github.com/marley-spring/Building-an-e-commerce-store-using-java-spring-framework
+    $ git clone git clone https://marley-spring@bitbucket.org/marley-spring/building-an-e-commerce-store-using-java-spring-framework.git
     $ cd Building-an-e-commerce-store-using-java-spring-framework/
     $ mvn package
 
@@ -223,8 +208,5 @@ Output should like:
     [INFO] Final Memory: 22M/214M
     [INFO] ------------------------------------------------------------------------
 
-
-
-
-Next Article can be very helpful (but didn't help me):    
+Next Article can be very helpful (but didn't help me):  
 http://evertrue.github.io/blog/2014/07/21/setting-up-an-archiva-repository/

@@ -4,40 +4,32 @@ title: SonarQube
 permalink: /development-tools/code-quality/sonarqube/installation/
 ---
 
-
 ### Official website:
 
 http://www.sonarqube.org/downloads/
-
 
 <br/>
 
 ### SonarQube Installation
 
-
 I'm working with centos 7.X
-
 
 DISABLE FIREWALL
 
     # systemctl disable firewalld
     # systemctl stop firewalld
 
-
-
 ### 1) JDK8 Installation
 
-+ http://javadev.org/development-tools/jdk/installation/centos/7/
-
+-   http://javadev.org/development-tools/jdk/installation/centos/7/
 
 ### 2) Maven Installation
 
-+ http://javadev.org/development-tools/assembly-tools/maven/linux/centos/7/
-
+-   http://javadev.org/development-tools/assembly-tools/maven/linux/centos/7/
 
 ### 3) MySQL Installation (>=5.6)
 
-+ http://sysadm.ru/linux/databases/mysql/installation/centos7/
+-   http://sysadm.ru/linux/databases/mysql/installation/centos7/
 
 <br/>
 
@@ -51,9 +43,7 @@ DISABLE FIREWALL
     GRANT ALL ON sonar.* TO 'sonar'@'localhost' IDENTIFIED BY 'sonar';
     FLUSH PRIVILEGES;
 
-
 ### 4) Web Server
-
 
 <br/>
 
@@ -70,7 +60,6 @@ DISABLE FIREWALL
 
     $ su - <username>
 
-
 <br/>
 
     $ vi ~/.bash_profile
@@ -83,15 +72,14 @@ after
 
 <br/>
 
-	#### SonarQube 5.6 #######################
+    #### SonarQube 5.6 #######################
 
-		export SONAR_QUBE_HOME=/opt/sonarqube/current
-		export PATH=${SONAR_QUBE_HOME}/bin:$PATH
+    	export SONAR_QUBE_HOME=/opt/sonarqube/current
+    	export PATH=${SONAR_QUBE_HOME}/bin:$PATH
 
-	#### SonarQube 5.6 #######################
+    #### SonarQube 5.6 #######################
 
 <br/>
-
 
     $ source ~/.bash_profile
 
@@ -127,16 +115,14 @@ after
 
     $ ./sonar.sh start
 
-<br/>    
+<br/>
 
     $ ./sonar.sh status
     SonarQube is running (11973).
 
-
 To restart:
 
     $ ./sonar.sh restart
-
 
 <br/>
 
@@ -148,16 +134,13 @@ to clear log file:
 
     $ cat /dev/null > /opt/sonarqube/current/logs/sonar.log
 
-
-
 <br/>
 
 ### Checks
 
-
     $ ps auxww | grep sonar
 
-<br/>      
+<br/>
 
     $ curl -I http://192.168.1.11:8080
     HTTP/1.1 200 OK
@@ -176,46 +159,36 @@ to clear log file:
     Vary: Accept-Encoding
     Date: Sun, 05 Jun 2016 20:27:20 GMT
 
-
 <br/>   
 browser:  
 http://192.168.1.11:8080/
-
 
 <br/>
 
     login: admin
     password: admin
 
-
-<br/>   
-
+<br/>
 
 Administration --> SYSTEM --> Update Center --> Available
 
 GitHub
 
-
-<br/>   
+<br/>
 
 ### Example how it works
 
-
-
-
 https://www.youtube.com/watch?v=JWI_3ibHNTo
 
-<br/>   
+<br/>
 
 to start this example, sonar should works on 9000 port and should be accessible by
 
-
     $ curl -I http://localhost:9000
-
 
 It didn't work for me, until i write in hosts information what 192.168.1.11 is localhost.
 
-<br/>   
+<br/>
 
     # yum install -y git
     # cd /tmp
@@ -224,40 +197,33 @@ It didn't work for me, until i write in hosts information what 192.168.1.11 is l
     $ mvn clean install -DskipTests
     $ mvn sonar:sonar
 
-
-<br/>  
+<br/>
 
 Or you can use spring project from my repo:
 
-<br/>  
-
+<br/>
 
     $ cd /tmp
-    $ git clone https://github.com/marley-spring/Building-an-e-commerce-store-using-java-spring-framework
+    $ git clone git clone https://marley-spring@bitbucket.org/marley-spring/building-an-e-commerce-store-using-java-spring-framework.git
     $ cd Building-an-e-commerce-store-using-java-spring-framework
     $ mvn sonar:sonar
 
-<br/>  
+<!-- <br/>
 
 <div align="center">
 	<img src="http://storage6.static.itmages.ru/i/16/0618/h_1466254300_6954986_e9423bb326.png" border="0" alt="sonarqube">
-
 
 <br/><br/>
 
     <img src="http://storage1.static.itmages.ru/i/16/0618/h_1466256552_1300392_88415246dc.png" border="0" alt="sonarqube">
 
-</div>
+</div> -->
 
-
-
-<br/>     
+<br/>
 
 See also:  
 https://www.youtube.com/watch?v=xLO8Q_F3jIg  
 http://dev.mamikon.net/installing-sonarqube-on-ubuntu/
-
-
 
 Gradle:  
 http://stackoverflow.com/questions/31892344/sonarqube-is-not-collecting-issues-from-android-gradle-project
