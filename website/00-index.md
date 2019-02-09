@@ -8,37 +8,11 @@ permalink: /
 
 <br/>
 
-### GitHub Blocked my Free Accounts without any Warnings and Notifications
+### [Derek Banas] Java Tutorial
 
-You may check: github.com/javadev-org is not accessible now.
-
-For that reason I have to move all projects to bitbucket.org.
-
-Another alternative - gitlab.com
-
-May be later I'll up my own gitlab service and will store all project on place where no one can block my codes.
-
-**Sorry for not working links on my github projects.**
-
-Direct link on <a href="https://bitbucket.org/javadev-org/javadev.org" target="_blank">javadev.org</a> source codes.
-
-<br/>
-
-### I'm planning to start reading something about Spring MVC Development
-
-If you can recommend something interesting, please write to me by email.
-
-I found book "Alex Bretet - Spring MVC Cookbook - 2016".
-
-If someone will read this book too, we can discuss if something will not work correctly.
-
-In this book we will develop next application:  
-http://cloudstreetmarket.com/
-
-With this source codes:  
-https://github.com/alex-bretet/cloudstreetmarket.com
-
-Technologies: Eclipse for Java 8, Maven 3, and Tomcat 8
+<div align="center">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/n-xAqcBCws4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
 
 <br/>
 
