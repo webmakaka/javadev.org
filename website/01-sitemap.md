@@ -12,7 +12,7 @@ permalink: /sitemap/
 ### Development Tools:
 
 <ul>
-    <li><strong><a href="/development-tools/">Development Tools</a></strong></li>
+    <li><strong><a href="/devtools/">Development Tools</a></strong></li>
 </ul>
 
 
