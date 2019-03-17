@@ -1,20 +1,28 @@
 ---
 layout: page
-title: JDK8 installation on Ubuntu 14.04
-permalink: /devtools/jdk/install/ubuntu/14.04/
+title: JDK installation on Ubuntu
+permalink: /devtools/jdk/install/ubuntu/
 ---
 
-# JDK8 installation on Ubuntu 14.04
+# JDK installation on Ubuntu
 
-**VARIANT 1:**
+<br/>
+
+### VARIANT 1:
+
+<br/>
+
+**JDK8**
 
     $ sudo add-apt-repository ppa:webupd8team/java
     $ sudo apt-get update
-    $ sudo apt-get install oracle-java8-installer
+    $ sudo apt-get install -y oracle-java8-installer
     $ sudo apt-get install oracle-java8-set-default
 
-Read more:  
-http://tecadmin.net/install-oracle-java-8-jdk-8-ubuntu-via-ppa/
+<br/>
+
+    $ java -version
+    java version "1.8.0_201"
 
 <br/>
 
@@ -34,7 +42,23 @@ After installation, jars you can find on the next directory:
 
 <br/>
 
-**VARIANT 2:**
+**JDK11. I do not recommend use > JDK8 without special demands**
+
+    $ sudo add-apt-repository ppa:linuxuprising/java
+    $ sudo apt-get update
+
+    $ sudo apt-get install -y oracle-java11-installer
+    $ sudo apt-get install oracle-java11-set-default
+
+    $ java -version
+    java version "11.0.2" 2019-01-15 LTS
+
+    // Uninstall
+    $ sudo apt-get remove oracle-java11-installer
+
+<br/>
+
+### VARIANT 2:
 
 <br/>
 Remove OpenJDK (If OpenJDK installed)<br/>
@@ -44,14 +68,20 @@ Remove OpenJDK (If OpenJDK installed)<br/>
 **Then add on .bashrc link on file .bash_profile.
 (as redhat distributives):**
 
+<br/>
+
     $ vi ~/.bashrc
 
 <br/>
 
-    ############################################################
-    # To use bash_profile as file with Local Variables
-    . ~/.bash_profile
-    ############################################################
+```shell
+############################################################
+# To use bash_profile as file with Local Variables
+. ~/.bash_profile
+############################################################
+```
 
-Then do same as:<br/>
+<br/>
+
+**Then do the same:**<br/>
 <a href="/devtools/jdk/install/centos/7/">HERE</a>

@@ -6,6 +6,8 @@ permalink: /devtools/jdk/install/centos/7/
 
 # JDK8 installation on Centos 7.X
 
+<br/>
+
 ### In the beginning install next packages:
 
     # yum install -y \

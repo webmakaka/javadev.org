@@ -22,13 +22,17 @@ or
 
     $ java -jar jenkins.war --httpPort=8080
 
-or
+<!-- or
 
-    $ java -jar jenkins.war --httpPort=-1 --httpPort=8080
+    $ java -jar jenkins.war --httpPort=-1 --httpPort=8080 -->
 
 <br/>
 
 http://<host>:8080/
+
+<br/>
+
+### Add Plugins
 
 Manage Jenkins --> Manage Plugins --> Available
 
@@ -37,9 +41,3 @@ Bitbucket Approve Plugin
 
 And then i added current maven home on jenkins console  
 /opt/maven/current
-
-<br/><br/>
-
-For Hudson Link:
-
-    # wget http://mirror.cc.columbia.edu/pub/software/eclipse/hudson/war/hudson-3.3.3.war
