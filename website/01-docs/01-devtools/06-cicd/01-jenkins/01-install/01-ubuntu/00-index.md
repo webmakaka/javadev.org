@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Jenkins Installation on Ubuntu 18.04
-permalink: /devtools/ci/jenkins/install/ubuntu/18.04/
+permalink: /devtools/cicd/jenkins/install/ubuntu/18.04/
 ---
 
 # Jenkins Installation on Ubuntu 18.04

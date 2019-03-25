@@ -59,7 +59,7 @@ permalink: /devtools/
 ### Continuous integration:
 
 <ul>
-    <li><strong><a href="/devtools/ci/jenkins/">Jenkins Installation on Centos 6.6 x86_64</a></strong></li>
+    <li><strong><a href="/devtools/cicd/jenkins/">Jenkins Installation on Centos 6.6 x86_64</a></strong></li>
 </ul>
 
 <br/>
