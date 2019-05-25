@@ -87,3 +87,12 @@ permalink: /devtools/
     <li><strong><a href="https://www.youtube.com/watch?v=jeWTvDad6VM" rel="nofollow">GerritHub</a></strong></li>
     <li><strong>Atlassin has something for this</strong></li>
 </ul>
+
+
+<br/>
+
+### Scala
+
+<ul>
+    <li><strong><a href="/devtools/scala/install/linux/">Install on Linux</a></strong></li>
+</ul>
