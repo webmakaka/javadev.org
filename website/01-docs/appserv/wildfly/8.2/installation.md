@@ -35,7 +35,7 @@ Distributives:
 
 ### JDK8 Installation
 
-http://javadev.org/java_basics/installation/jdk/8/linux/centos/6/x86_x64/
+<a href="/devtools/jdk/install/linux/">here</a>
 
 
 ### Add User and Groups

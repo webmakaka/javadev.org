@@ -21,7 +21,7 @@ DISABLE FIREWALL
 
 ### 1) JDK8 Installation
 
--   http://javadev.org/devtools/jdk/install/centos/7/
+-   <a href="/devtools/jdk/install/linux/">here</a>
 
 ### 2) Maven Installation
 

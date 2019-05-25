@@ -6,7 +6,7 @@ permalink: /docs/hadoop/centos/6/installation/multi-node-installation-on-centos-
 
 
 > Java should be installed  
-> http://javadev.org/java_basics/installation/jdk/8/linux/centos/6/x86_x64/
+<a href="/devtools/jdk/install/linux/">here</a>
 
 
 Hadoop installation is same as in the single mode.
