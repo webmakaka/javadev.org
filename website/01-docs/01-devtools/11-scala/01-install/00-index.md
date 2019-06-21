@@ -1,12 +1,13 @@
 ---
 layout: page
-title: Installation SCALA on Linux
+title: Installation SCALA in linux
 permalink: /devtools/scala/install/linux/
 ---
 
 
-# Installation SCALA on Linux
+# Installation SCALA in linux
 
+    $ cd ${HOME}
     $ wget https://downloads.lightbend.com/scala/2.12.8/scala-2.12.8.tgz
 
     $ ls scala*
@@ -25,7 +26,7 @@ permalink: /devtools/scala/install/linux/
 
 <br/>
 
-    $ vi ~/.bash_profile
+    $ sudo vi /etc/profile.d/scala.sh
 
 <br/>
 
@@ -42,11 +43,10 @@ export PATH=${SCALA_HOME}/bin:$PATH
 
 <br/>
 
-     $ source ~/.bash_profile
+     $ source /etc/profile.d/scala.sh
 
 
 <br/>
 
     $ scala -version
     Scala code runner version 2.12.8 -- Copyright 2002-2018, LAMP/EPFL and Lightbend, Inc.
-

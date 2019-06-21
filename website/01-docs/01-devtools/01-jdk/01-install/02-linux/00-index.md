@@ -1,11 +1,11 @@
 ---
 layout: page
-title: JDK installation on Linux (Ubuntu, Centos)
+title: JDK installation in linux (Ubuntu, Centos)
 permalink: /devtools/jdk/install/linux/
 ---
 
 
-# JDK installation on Linux (Ubuntu, Centos)
+# JDK installation in linux (Ubuntu, Centos)
 
 
 To download jdk for now, you need:
@@ -13,44 +13,39 @@ To download jdk for now, you need:
 1) go to java.sun.com (browser will redirect you to right path). 
 2) create account if you do not have
 3) download latest JDK8 version
+4) copy jdk archive into ${HOME} directory.
 
 
 <br/>
 
-## Prepare Ubuntu host for installation
+## Install packages for installation
 
+<!--
 
-    # apt-get install -y \
+# sed -i "s/.*PasswordAuthentication.*/PasswordAuthentication yes/g" /etc/ssh/sshd_config
+# service sshd reload
+
+-->
+
+    // Ubuntu
+    $ sudo apt-get install -y \
     vim \
     unzip \
-    tar
+    tar \
+    wget
 
 <br/>
 
-    $ vi ~/.bashrc
-
-<br/>
-
-```shell
-############################################################
-# To use bash_profile as file with Local Variables
-. ~/.bash_profile
-############################################################
-```
-
-<br/>
-
-## Prepare Centos host for installation
-
-
-    # yum install -y \
+    // Centos
+    $ sudo yum install -y \
     vim \
     unzip \
-    tar
+    tar \
+    wget
 
 <br/>
 
-## Installation JDK8 on Linux
+## Installation JDK8 in linux
 
     $ ls jdk*
     jdk-8u211-linux-x64.tar.gz
@@ -67,13 +62,7 @@ To download jdk for now, you need:
 
 <br/>
 
-    $ vi ~/.bash_profile
-
-<br/>
-
-after (if they exists)
-
-    # User specific environment and startup programs
+    $ sudo vi /etc/profile.d/java.sh
 
 
 <br/>
@@ -89,7 +78,7 @@ export PATH=${JAVA_HOME}/bin:$PATH
 
 <br/>
 
-     $ source ~/.bash_profile
+     $ source /etc/profile.d/java.sh
 
 <br/>
 

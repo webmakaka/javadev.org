@@ -8,7 +8,7 @@ permalink: /devtools/jdk/install/
 
 <ul>
     <li><strong><a href="http://www.guru99.com/install-java.html" rel="nofollow">JDK8 Installation on Windows</a></strong></li>
-    <li><strong><a href="/devtools/jdk/install/linux/">JDK installation on Linux (Ubuntu, Centos)</a></strong></li>
+    <li><strong><a href="/devtools/jdk/install/linux/">JDK installation in linux (Ubuntu, Centos)</a></strong></li>
 </ul>
 
 <br/>

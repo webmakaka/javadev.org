@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Nexus 2.X Installation on Linux
+title: Nexus 2.X Installation in linux
 permalink: /devtools/repository-management/nexus/2/installation-on-linux/
 ---
 
 
-### Nexus 2.X Installation on Linux
+### Nexus 2.X Installation in linux
 
 
     # cd /tmp/

@@ -91,8 +91,26 @@ permalink: /devtools/
 
 <br/>
 
+### Hadoop
+
+<ul>
+    <li><strong><a href="/devtools/hadoop/install/linux/">Apache Hadoop, Pig, Hive, Derby installation in Centos Linux</a></strong></li>
+</ul>
+
+
+<br/>
+
+### Apache Spark
+
+<ul>
+    <li><strong><a href="/devtools/spark/install/linux/">Install in linux</a></strong></li>
+</ul>
+
+
+<br/>
+
 ### Scala
 
 <ul>
-    <li><strong><a href="/devtools/scala/install/linux/">Install on Linux</a></strong></li>
+    <li><strong><a href="/devtools/scala/install/linux/">Install in linux</a></strong></li>
 </ul>
