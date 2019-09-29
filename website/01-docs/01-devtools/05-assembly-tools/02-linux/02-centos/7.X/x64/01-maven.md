@@ -15,12 +15,12 @@ http://maven.apache.org
 	$ su - root
 
 	# cd /tmp
-	# wget http://apache-mirror.rbc.ru/pub/apache/maven/maven-3/3.5.3/binaries/apache-maven-3.5.3-bin.tar.gz
+	# wget http://apache-mirror.rbc.ru/pub/apache/maven/maven-3/3.6.2/binaries/apache-maven-3.6.2-bin.tar.gz
 
-	# tar -xvzpf apache-maven-3.5.3-bin.tar.gz
-	# mkdir -p /opt/maven/3.5.3
-	# mv apache-maven-3.5.3/* /opt/maven/3.5.3/
-	# ln -s /opt/maven/3.5.3/ /opt/maven/current
+	# tar -xvzpf apache-maven-3.6.2-bin.tar.gz
+	# mkdir -p /opt/maven/3.6.2
+	# mv apache-maven-3.6.2/* /opt/maven/3.6.2/
+	# ln -s /opt/maven/3.6.2/ /opt/maven/current
 
 <br/><br/>
 
@@ -73,13 +73,14 @@ http://maven.apache.org
 
 <br/>
 
-    #### MAVEN 2.2.1 #########################
+```
+#### MAVEN 2.2.1 #########################
 
-    	export MAVEN_HOME=/opt/maven/current
-    	export PATH=$PATH:$MAVEN_HOME/bin
+	export MAVEN_HOME=/opt/maven/current
+	export PATH=$PATH:$MAVEN_HOME/bin
 
-    #### MAVEN 2.2.1 #########################
-
+#### MAVEN 2.2.1 #########################
+```
 
 <br/>
 

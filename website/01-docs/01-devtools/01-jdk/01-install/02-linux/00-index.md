@@ -68,12 +68,12 @@ To download jdk for now, you need:
 <br/>
 
 ```
-#### JAVA 1.8.0 #######################
+#### JDK 1.8.0 #######################
 
 export JAVA_HOME=/opt/jdk/current
 export PATH=${JAVA_HOME}/bin:$PATH
 
-#### JAVA 1.8.0 #######################
+#### JDK 1.8.0 #######################
 ```
 
 <br/>
@@ -91,3 +91,17 @@ Let try to check result:
     Java(TM) SE Runtime Environment (build 1.8.0_211-b12)
     Java HotSpot(TM) 64-Bit Server VM (build 25.211-b12, mixed mode)
 
+
+
+<br/>
+
+### OpenJDK installation in linux
+
+    $ sudo apt-get update
+    $ sudo apt-get install -yq openjdk-8-jdk
+    $ sudo update-alternatives --set java /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+    $ java -version
+
+<br/>
+
+    $ sudo apt-get install -yq maven
