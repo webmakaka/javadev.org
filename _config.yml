@@ -1,6 +1,10 @@
 # Site settings
 title: javadev.org
+
 description: Website about java development. Java SE, Java EE
+
+keywords: linux, java, development, jdk, software, enterprise, services
+
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://javadev.org" # the base hostname & protocol for your site
 

@@ -114,3 +114,13 @@ permalink: /devtools/
 <ul>
     <li><strong><a href="/devtools/scala/install/linux/">Install in linux</a></strong></li>
 </ul>
+
+
+<br/>
+
+### Kafka
+
+<ul>
+    <li><strong><a href="/devtools/kafka/docker/">Run kafka in docker container</a></strong></li>
+    <li><strong><a href="/devtools/kafka/install/linux/">Install in linux</a></strong></li>
+</ul>
