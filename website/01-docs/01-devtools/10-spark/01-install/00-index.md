@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Apache Spark installation in Linux
+description: Apache Spark installation in Linux
+keywords: linux, spark, pyspark, jupyter-notebook, installation
 permalink: /devtools/spark/install/linux/
 ---
 
@@ -67,3 +69,78 @@ export PATH=${SPARK_HOME}/bin:$PATH
 <br/>
 
     $ pyspark --master local[2]
+
+
+
+<br/>
+
+### PySpark and jupyter-notebook installation
+
+    // if jdk not installed
+    $ sudo apt install openjdk-8-jdk
+    $ sudo update-alternatives --config java
+    $ java -version
+
+
+<br/>
+
+    // if scala not installed
+    $ sudo apt install -y scala
+
+<br/>
+
+    $ sudo apt install -y python3-pip
+
+<br/>
+
+    $ pip3 install py4j
+    $ pip3 install jupyter
+
+
+<br/>
+
+    $ sudo vi /etc/profile.d/pyspark.sh
+
+
+<br/>
+
+```
+#### SPARK #######################
+
+export PATH=$PATH:~/.local/bin/
+export PYTHONPATH=$SPARK_HOME/python:$PYTHONPATH
+
+export PYSPARK_DRIVER_PYTHON=jupyter
+export PYSPARK_DRIVER_PYTHON_OPTS='notebook'
+export PYSPARK_PYTHON='python3'
+
+#### SPARK #######################
+```
+
+<br/>
+
+     $ source /etc/profile.d/pyspark.sh
+
+<br/>
+
+    $ sudo chmod -R 777 /opt/spark/
+
+    $ pip3 install findspark
+
+
+    $ cd /opt/spark/current/python/
+    $ jupyter-notebook --ip 192.168.0.11 --port 8080
+
+<br/>
+
+new python3 notebook
+
+<br/>
+
+```
+import findspark
+findspark.init('/opt/spark/current')
+import pyspark
+```
+
+

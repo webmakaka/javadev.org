@@ -1,11 +1,16 @@
 ---
 layout: page
 title: Installation SCALA in linux
+description: Installation SCALA in linux
+keywords: linux, scala, installation
 permalink: /devtools/scala/install/linux/
 ---
 
 
 # Installation SCALA in linux
+
+https://www.scala-lang.org/download/
+
 
     $ cd ${HOME}
     $ wget https://downloads.lightbend.com/scala/2.13.0/scala-2.13.0.tgz
