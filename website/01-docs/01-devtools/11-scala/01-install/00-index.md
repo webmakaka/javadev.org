@@ -9,6 +9,26 @@ permalink: /devtools/scala/install/linux/
 
 # Installation SCALA in linux
 
+
+https://www.scala-sbt.org/download.html
+
+
+```
+echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
+curl -sL "https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x2EE0EA64E40A89B84B2DF73499E82A75642AC823" | sudo apt-key add
+sudo apt-get update
+sudo apt-get install sbt
+```
+
+<br/>
+
+    $ sbt console
+
+<br/>
+
+
+### Manually installation
+
 https://www.scala-lang.org/download/
 
 
@@ -54,3 +74,11 @@ export PATH=${SCALA_HOME}/bin:$PATH
 
     $ scala -version
     Scala code runner version 2.13.0 -- Copyright 2002-2018, LAMP/EPFL and Lightbend, Inc.
+
+
+<br/>
+
+### Scala from ubuntu repo
+
+    // Possible can enough for debian like distributives
+    $ sudo apt install -y scala

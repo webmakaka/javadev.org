@@ -77,7 +77,7 @@ export PATH=${SPARK_HOME}/bin:$PATH
 ### PySpark and jupyter-notebook installation
 
     // if jdk not installed
-    $ sudo apt install openjdk-8-jdk
+    $ sudo apt install -y openjdk-8-jdk
     $ sudo update-alternatives --config java
     $ java -version
 

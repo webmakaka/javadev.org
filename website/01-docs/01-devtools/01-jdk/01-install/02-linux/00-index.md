@@ -1,6 +1,6 @@
 ---
 layout: page
-title: JDK installation in linux (Ubuntu, Centos)
+title: JDK8 installation in linux (Ubuntu, Centos)
 permalink: /devtools/jdk/install/linux/
 ---
 
@@ -47,18 +47,20 @@ To download jdk for now, you need:
 
 ## Installation JDK8 in linux
 
-    $ ls jdk*
-    jdk-8u211-linux-x64.tar.gz
+https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
 
-    $ tar -xvzpf jdk-8u211-linux-x64.tar.gz
-    $ sudo mkdir -p /opt/jdk/1.8.0_211
-    $ sudo mv jdk1.8.0_211/* /opt/jdk/1.8.0_211/
-    $ sudo ln -s /opt/jdk/1.8.0_211/ /opt/jdk/current
+
+    $ ls jdk*
+    jdk-8u241-linux-x64.tar.gz
+
+    $ tar -xvzpf jdk-8u241-linux-x64.tar.gz
+    $ sudo mv jdk1.8.0_241/ /opt/
+    $ sudo ln -s /opt/jdk1.8.0_241/ /opt/jdk
+
 
 <br/>
 
-    $ rm -rf jdk1.8.0_211/
-    $ rm -rf jdk-8u211-linux-x64.tar.gz
+    $ rm jdk-8u241-linux-x64.tar.gz
 
 <br/>
 
@@ -68,12 +70,12 @@ To download jdk for now, you need:
 <br/>
 
 ```
-#### JDK 1.8.0 #######################
+#### JDK8 #######################
 
-export JAVA_HOME=/opt/jdk/current
+export JAVA_HOME=/opt/jdk
 export PATH=${JAVA_HOME}/bin:$PATH
 
-#### JDK 1.8.0 #######################
+#### JDK8 #######################
 ```
 
 <br/>
@@ -86,10 +88,10 @@ Let try to check result:
 
 <br/>
 
-    $ java -version
-    java version "1.8.0_211"
-    Java(TM) SE Runtime Environment (build 1.8.0_211-b12)
-    Java HotSpot(TM) 64-Bit Server VM (build 25.211-b12, mixed mode)
+    $ java version "1.8.0_241"
+    Java(TM) SE Runtime Environment (build 1.8.0_241-b07)
+    Java HotSpot(TM) 64-Bit Server VM (build 25.241-b07, mixed mode)
+
 
 
 
@@ -99,7 +101,13 @@ Let try to check result:
 
     $ sudo apt-get update
     $ sudo apt-get install -yq openjdk-8-jdk
+
+    // get possible jdk locations
+    $ sudo update-alternatives --config java
+
+    // specify jdk location
     $ sudo update-alternatives --set java /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+    
     $ java -version
 
 <br/>

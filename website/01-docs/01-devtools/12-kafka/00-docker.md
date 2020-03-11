@@ -10,16 +10,9 @@ permalink: /devtools/kafka/docker/
 # Run kafka in docker container
 
 
-Из видеокурса Linux.Academy.Apache.Kafka.Deep.Dive-ViGOROUS
+[JDK8 should be installed](/devtools/jdk/install/linux/)
 
-
-<br/>
-
-    // java (openjdk) installation
-    $ sudo apt-get update
-    $ sudo apt-get install -yq openjdk-8-jdk
-    $ sudo update-alternatives --set java /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
-    $ java -version
+[Scala should be installed](/devtools/scala/install/linux/)
 
 <br/>
 
@@ -35,7 +28,12 @@ permalink: /devtools/kafka/docker/
 
     $ docker-compose up -d --build
 
+
+(Docker script from video course Linux.Academy.Apache.Kafka.Deep.Dive-ViGOROUS)
+
 <br/>
+
+### Client installation if needed
 
     $ cd ~/tmp
     $ wget http://mirror.cogentco.com/pub/apache/kafka/2.2.0/kafka_2.12-2.2.0.tgz

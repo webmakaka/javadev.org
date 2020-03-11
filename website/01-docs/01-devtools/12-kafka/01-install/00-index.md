@@ -187,5 +187,3 @@ reboot
 	Topic: test	Partition: 0	Leader: 2	Replicas: 2	Isr: 2
 	Topic: test	Partition: 1	Leader: 3	Replicas: 3	Isr: 3
 	Topic: test	Partition: 2	Leader: 1	Replicas: 1	Isr: 1
-
-
