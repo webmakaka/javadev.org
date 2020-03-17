@@ -8,7 +8,7 @@ permalink: /devtools/
 
 <br/>
 
-### Java Development Kit (JDK) Installation:
+### Java Development Kit (JDK, Java) Installation:
 
 <ul>
     <li><strong><a href="/devtools/jdk/install/">JDK Installation</a></strong></li>
@@ -91,36 +91,9 @@ permalink: /devtools/
 
 <br/>
 
-### Hadoop
+### BigData
 
 <ul>
-    <li><strong><a href="/devtools/hadoop/install/linux/">Apache Hadoop, Pig, Hive, Derby installation in Centos Linux</a></strong></li>
+    <li><strong><a href="/devtools/bigdata/hadoop/install/linux/">Hadoop, Spark, Scala, Kafka, etc.</a></strong></li>
 </ul>
 
-
-<br/>
-
-### Apache Spark
-
-<ul>
-    <li><strong><a href="/devtools/spark/install/linux/">Install in linux</a></strong></li>
-</ul>
-
-
-<br/>
-
-### Scala
-
-<ul>
-    <li><strong><a href="/devtools/scala/install/linux/">Install in linux</a></strong></li>
-</ul>
-
-
-<br/>
-
-### Kafka
-
-<ul>
-    <li><strong><a href="/devtools/kafka/docker/">Run kafka in docker container</a></strong></li>
-    <li><strong><a href="/devtools/kafka/install/linux/">Install in linux</a></strong></li>
-</ul>

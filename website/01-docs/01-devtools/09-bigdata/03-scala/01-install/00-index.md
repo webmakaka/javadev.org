@@ -3,7 +3,7 @@ layout: page
 title: Installation SCALA in linux
 description: Installation SCALA in linux
 keywords: linux, scala, installation
-permalink: /devtools/scala/install/linux/
+permalink: /devtools/bigdata/scala/install/linux/
 ---
 
 

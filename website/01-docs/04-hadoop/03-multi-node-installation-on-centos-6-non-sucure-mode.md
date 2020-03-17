@@ -5,6 +5,8 @@ permalink: /docs/hadoop/centos/6/installation/multi-node-installation-on-centos-
 ---
 
 
+# Hadoop Multi Node Installation on Centos 6.X (Non-Secure Mode)
+
 > Java should be installed  
 <a href="/devtools/jdk/install/linux/">here</a>
 

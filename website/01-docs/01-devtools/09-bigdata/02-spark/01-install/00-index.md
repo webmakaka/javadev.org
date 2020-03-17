@@ -3,14 +3,13 @@ layout: page
 title: Apache Spark installation in Linux
 description: Apache Spark installation in Linux
 keywords: linux, spark, pyspark, jupyter-notebook, installation
-permalink: /devtools/spark/install/linux/
+permalink: /devtools/bigdata/spark/install/linux/
 ---
 
 # Apache Spark installation in Linux
 
     $ cd ${HOME}
     $ wget https://archive.apache.org/dist/spark/spark-2.4.3/spark-2.4.3-bin-hadoop2.7.tgz
-
 
     $ ls
     spark-2.4.3-bin-hadoop2.7.tgz

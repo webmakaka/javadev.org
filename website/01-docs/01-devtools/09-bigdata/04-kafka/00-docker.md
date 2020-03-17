@@ -3,7 +3,7 @@ layout: page
 title: Run kafka in docker container
 description: Run kafka in docker container
 keywords: kafka, docker
-permalink: /devtools/kafka/docker/
+permalink: /devtools/bigdata/kafka/docker/
 ---
 
 
@@ -12,7 +12,7 @@ permalink: /devtools/kafka/docker/
 
 [JDK8 should be installed](/devtools/jdk/install/linux/)
 
-[Scala should be installed](/devtools/scala/install/linux/)
+[Scala should be installed](/devtools/bigdata/scala/install/linux/)
 
 <br/>
 

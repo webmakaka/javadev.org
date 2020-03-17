@@ -5,6 +5,7 @@ permalink: /linux/distributed-systems/hadoop/
 ---
 
 
+# Hadoop
 
 ### [Installing Apache Hadoop by book Tom White - Hadoop: The Definitive Guide, 4th Edition [ENG, 2015]](/docs/hadoop/centos/6/installation/by-book/)
 

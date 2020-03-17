@@ -4,6 +4,8 @@ title: Installing Apache Hadoop by book Tom White
 permalink: /docs/hadoop/centos/6/installation/by-book/
 ---
 
+# Installing Apache Hadoop by book Tom White
+
 
 Hadoop can be run in one of three modes:
 

@@ -3,7 +3,7 @@ layout: page
 title: Installation kafka in linux
 description: Installation kafka in linux
 keywords: kafka, installation, linux, vagrant, ansible
-permalink: /devtools/kafka/install/linux/
+permalink: /devtools/bigdata/kafka/install/linux/
 ---
 
 

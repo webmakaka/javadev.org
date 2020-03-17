@@ -1,6 +1,8 @@
 ---
 layout: page
 title: JDK8 installation in linux (Ubuntu, Centos)
+description: JDK8 installation in linux (Ubuntu, Centos)
+keywords: JDK8, installation, linux, ubuntu, centos
 permalink: /devtools/jdk/install/linux/
 ---
 
@@ -88,11 +90,8 @@ Let try to check result:
 
 <br/>
 
-    $ java version "1.8.0_241"
-    Java(TM) SE Runtime Environment (build 1.8.0_241-b07)
-    Java HotSpot(TM) 64-Bit Server VM (build 25.241-b07, mixed mode)
-
-
+    $ java -version
+    java version "1.8.0_241"
 
 
 <br/>
