@@ -10,7 +10,7 @@ permalink: /devtools/bigdata/hadoop/install/cloudera/
 # Apache Hadoop installation with Cloudera
 
 Working on doc:  
-17.03.2020
+18.03.2020
 
 
 <br/>
@@ -92,7 +92,20 @@ remove
 
     # cd /tmp
 
-    # wget https://archive.cloudera.com/cm5/installer/latest/cloudera-manager-installer.bin
+    # wget https://archive.cloudera.com/cm6/6.3.1/cloudera-manager-installer.bin
+
+    
+
+<!--
+
+# wget https://archive.cloudera.com/cm5/installer/latest/cloudera-manager-installer.bin
+
+# wget https://archive.cloudera.com/cm6/6.3.1/cloudera-manager-installer.bin
+
+# wget  https://archive.cloudera.com/cm7/7.0.3/cloudera-manager-installer.bin
+
+-->
+
 
     # chmod +x cloudera-manager-installer.bin
 
@@ -100,7 +113,9 @@ remove
 
     Next --> Next --> Yest ... etc...
 
-    // wait 2-3 minutes
+<br/>
+
+**// wait 2-3 minutes**
 
 <br/>
 
@@ -138,92 +153,154 @@ http://master.cloudera:7180/
 
 admin/admin
 
+
 <br/>
 
-![Hadoop Cloudera Installation](/img/devtools/bigdata/hadoop/install/cloudera/hadoop_cloudera_install-01.png "Hadoop Cloudera Installation"){: .center-image }
+![Hadoop Cloudera Installation CM6](/img/devtools/bigdata/hadoop/install/cloudera/cm6/hadoop_cloudera_cm6_install-01.png "Hadoop Cloudera Installation CM6"){: .center-image }
+
+<br/>
+
+![Hadoop Cloudera Installation CM6](/img/devtools/bigdata/hadoop/install/cloudera/cm6/hadoop_cloudera_cm6_install-02.png "Hadoop Cloudera Installation CM6"){: .center-image }
+
+<br/>
+
+![Hadoop Cloudera Installation CM6](/img/devtools/bigdata/hadoop/install/cloudera/cm6/hadoop_cloudera_cm6_install-03.png "Hadoop Cloudera Installation CM6"){: .center-image }
+
+<br/>
+
+![Hadoop Cloudera Installation CM6](/img/devtools/bigdata/hadoop/install/cloudera/cm6/hadoop_cloudera_cm6_install-04.png "Hadoop Cloudera Installation CM6"){: .center-image }
+
+<br/>
+
+![Hadoop Cloudera Installation CM6](/img/devtools/bigdata/hadoop/install/cloudera/cm6/hadoop_cloudera_cm6_install-05.png "Hadoop Cloudera Installation CM6"){: .center-image }
+
+<br/>
+
+![Hadoop Cloudera Installation CM6](/img/devtools/bigdata/hadoop/install/cloudera/cm6/hadoop_cloudera_cm6_install-06.png "Hadoop Cloudera Installation CM6"){: .center-image }
+
+<br/>
+
+![Hadoop Cloudera Installation CM6](/img/devtools/bigdata/hadoop/install/cloudera/cm6/hadoop_cloudera_cm6_install-07.png "Hadoop Cloudera Installation CM6"){: .center-image }
 
 <br/>
 
 Add nodes:
 
-master.cloudera
-node1.cloudera
-node2.cloudera
-node3.cloudera
+
+    master.cloudera
+    node1.cloudera
+    node2.cloudera
+    node3.cloudera
 
 <br/>
 
-![Hadoop Cloudera Installation](/img/devtools/bigdata/hadoop/install/cloudera/hadoop_cloudera_install-02.png "Hadoop Cloudera Installation"){: .center-image }
+![Hadoop Cloudera Installation CM6](/img/devtools/bigdata/hadoop/install/cloudera/cm6/hadoop_cloudera_cm6_install-08.png "Hadoop Cloudera Installation CM6"){: .center-image }
 
 <br/>
 
-![Hadoop Cloudera Installation](/img/devtools/bigdata/hadoop/install/cloudera/hadoop_cloudera_install-03.png "Hadoop Cloudera Installation"){: .center-image }
+![Hadoop Cloudera Installation CM6](/img/devtools/bigdata/hadoop/install/cloudera/cm6/hadoop_cloudera_cm6_install-09.png "Hadoop Cloudera Installation CM6"){: .center-image }
 
 <br/>
 
-![Hadoop Cloudera Installation](/img/devtools/bigdata/hadoop/install/cloudera/hadoop_cloudera_install-04.png "Hadoop Cloudera Installation"){: .center-image }
+![Hadoop Cloudera Installation CM6](/img/devtools/bigdata/hadoop/install/cloudera/cm6/hadoop_cloudera_cm6_install-10.png "Hadoop Cloudera Installation CM6"){: .center-image }
 
 <br/>
 
-![Hadoop Cloudera Installation](/img/devtools/bigdata/hadoop/install/cloudera/hadoop_cloudera_install-05.png "Hadoop Cloudera Installation"){: .center-image }
+![Hadoop Cloudera Installation CM6](/img/devtools/bigdata/hadoop/install/cloudera/cm6/hadoop_cloudera_cm6_install-11.png "Hadoop Cloudera Installation CM6"){: .center-image }
 
 <br/>
 
-![Hadoop Cloudera Installation](/img/devtools/bigdata/hadoop/install/cloudera/hadoop_cloudera_install-06.png "Hadoop Cloudera Installation"){: .center-image }
+**LOGIN/PASSWORD**  
+root/root
 
 <br/>
 
-![Hadoop Cloudera Installation](/img/devtools/bigdata/hadoop/install/cloudera/hadoop_cloudera_install-07.png "Hadoop Cloudera Installation"){: .center-image }
+![Hadoop Cloudera Installation CM6](/img/devtools/bigdata/hadoop/install/cloudera/cm6/hadoop_cloudera_cm6_install-12.png "Hadoop Cloudera Installation CM6"){: .center-image }
 
 <br/>
 
-![Hadoop Cloudera Installation](/img/devtools/bigdata/hadoop/install/cloudera/hadoop_cloudera_install-08.png "Hadoop Cloudera Installation"){: .center-image }
+
+![Hadoop Cloudera Installation CM6](/img/devtools/bigdata/hadoop/install/cloudera/cm6/hadoop_cloudera_cm6_install-13.png "Hadoop Cloudera Installation CM6"){: .center-image }
 
 <br/>
 
-![Hadoop Cloudera Installation](/img/devtools/bigdata/hadoop/install/cloudera/hadoop_cloudera_install-09.png "Hadoop Cloudera Installation"){: .center-image }
+![Hadoop Cloudera Installation CM6](/img/devtools/bigdata/hadoop/install/cloudera/cm6/hadoop_cloudera_cm6_install-14.png "Hadoop Cloudera Installation CM6"){: .center-image }
 
 <br/>
 
-![Hadoop Cloudera Installation](/img/devtools/bigdata/hadoop/install/cloudera/hadoop_cloudera_install-10.png "Hadoop Cloudera Installation"){: .center-image }
+![Hadoop Cloudera Installation CM6](/img/devtools/bigdata/hadoop/install/cloudera/cm6/hadoop_cloudera_cm6_install-15.png "Hadoop Cloudera Installation CM6"){: .center-image }
 
 <br/>
 
-I opened a new window to resume installation. 
-
-
-<br/>
-
-![Hadoop Cloudera Installation](/img/devtools/bigdata/hadoop/install/cloudera/hadoop_cloudera_install-11.png "Hadoop Cloudera Installation"){: .center-image }
+![Hadoop Cloudera Installation CM6](/img/devtools/bigdata/hadoop/install/cloudera/cm6/hadoop_cloudera_cm6_install-16.png "Hadoop Cloudera Installation CM6"){: .center-image }
 
 <br/>
 
-![Hadoop Cloudera Installation](/img/devtools/bigdata/hadoop/install/cloudera/hadoop_cloudera_install-12.png "Hadoop Cloudera Installation"){: .center-image }
+![Hadoop Cloudera Installation CM6](/img/devtools/bigdata/hadoop/install/cloudera/cm6/hadoop_cloudera_cm6_install-17.png "Hadoop Cloudera Installation CM6"){: .center-image }
 
 <br/>
 
-![Hadoop Cloudera Installation](/img/devtools/bigdata/hadoop/install/cloudera/hadoop_cloudera_install-13.png "Hadoop Cloudera Installation"){: .center-image }
+![Hadoop Cloudera Installation CM6](/img/devtools/bigdata/hadoop/install/cloudera/cm6/hadoop_cloudera_cm6_install-18.png "Hadoop Cloudera Installation CM6"){: .center-image }
 
 <br/>
 
-![Hadoop Cloudera Installation](/img/devtools/bigdata/hadoop/install/cloudera/hadoop_cloudera_install-14.png "Hadoop Cloudera Installation"){: .center-image }
+![Hadoop Cloudera Installation CM6](/img/devtools/bigdata/hadoop/install/cloudera/cm6/hadoop_cloudera_cm6_install-19.png "Hadoop Cloudera Installation CM6"){: .center-image }
 
 <br/>
 
-![Hadoop Cloudera Installation](/img/devtools/bigdata/hadoop/install/cloudera/hadoop_cloudera_install-15.png "Hadoop Cloudera Installation"){: .center-image }
+![Hadoop Cloudera Installation CM6](/img/devtools/bigdata/hadoop/install/cloudera/cm6/hadoop_cloudera_cm6_install-20.png "Hadoop Cloudera Installation CM6"){: .center-image }
 
 <br/>
 
-![Hadoop Cloudera Installation](/img/devtools/bigdata/hadoop/install/cloudera/hadoop_cloudera_install-16.png "Hadoop Cloudera Installation"){: .center-image }
+![Hadoop Cloudera Installation CM6](/img/devtools/bigdata/hadoop/install/cloudera/cm6/hadoop_cloudera_cm6_install-21.png "Hadoop Cloudera Installation CM6"){: .center-image }
 
 <br/>
 
-![Hadoop Cloudera Installation](/img/devtools/bigdata/hadoop/install/cloudera/hadoop_cloudera_install-17.png "Hadoop Cloudera Installation"){: .center-image }
+
+**Resume**
+
+![Hadoop Cloudera Installation CM6](/img/devtools/bigdata/hadoop/install/cloudera/cm6/hadoop_cloudera_cm6_install-22.png "Hadoop Cloudera Installation CM6"){: .center-image }
 
 <br/>
-Looks shitty
+
+![Hadoop Cloudera Installation CM6](/img/devtools/bigdata/hadoop/install/cloudera/cm6/hadoop_cloudera_cm6_install-23.png "Hadoop Cloudera Installation CM6"){: .center-image }
+
 <br/>
 
-![Hadoop Cloudera Installation](/img/devtools/bigdata/hadoop/install/cloudera/hadoop_cloudera_install-18.png "Hadoop Cloudera Installation"){: .center-image }
+![Hadoop Cloudera Installation CM6](/img/devtools/bigdata/hadoop/install/cloudera/cm6/hadoop_cloudera_cm6_install-24.png "Hadoop Cloudera Installation CM6"){: .center-image }
+
+<br/>
+
+![Hadoop Cloudera Installation CM6](/img/devtools/bigdata/hadoop/install/cloudera/cm6/hadoop_cloudera_cm6_install-25.png "Hadoop Cloudera Installation CM6"){: .center-image }
+
+<br/>
+
+**Fallback Erasure Coding Policy - No Default Erasure Coding Policy**
+
+![Hadoop Cloudera Installation CM6](/img/devtools/bigdata/hadoop/install/cloudera/cm6/hadoop_cloudera_cm6_install-26.png "Hadoop Cloudera Installation CM6"){: .center-image }
+
+<br/>
+
+
+**Restart failed services**
+
+![Hadoop Cloudera Installation CM6](/img/devtools/bigdata/hadoop/install/cloudera/cm6/hadoop_cloudera_cm6_install-27.png "Hadoop Cloudera Installation CM6"){: .center-image }
+
+<br/>
+
+
+![Hadoop Cloudera Installation CM6](/img/devtools/bigdata/hadoop/install/cloudera/cm6/hadoop_cloudera_cm6_install-28.png "Hadoop Cloudera Installation CM6"){: .center-image }
+
+<br/>
+
+![Hadoop Cloudera Installation CM6](/img/devtools/bigdata/hadoop/install/cloudera/cm6/hadoop_cloudera_cm6_install-29.png "Hadoop Cloudera Installation CM6"){: .center-image }
+
+<br/>
+
+![Hadoop Cloudera Installation CM6](/img/devtools/bigdata/hadoop/install/cloudera/cm6/hadoop_cloudera_cm6_install-30.png "Hadoop Cloudera Installation CM6"){: .center-image }
+
+<br/>
+
+![Hadoop Cloudera Installation CM6](/img/devtools/bigdata/hadoop/install/cloudera/cm6/hadoop_cloudera_cm6_install-31.png "Hadoop Cloudera Installation CM6"){: .center-image }
 
 
