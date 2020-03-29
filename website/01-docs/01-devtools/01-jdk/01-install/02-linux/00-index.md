@@ -111,4 +111,6 @@ Let try to check result:
 
 <br/>
 
+**also you can install maven from packages**
+
     $ sudo apt-get install -yq maven

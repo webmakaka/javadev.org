@@ -39,10 +39,7 @@ export PATH=${HADOOP_HOME}/bin:$PATH
 ```
 <!--
 export HADOOP_OPTS="-Djava.library.path=${HADOOP_HOME}/lib/native"
->
 
-
-<!--
     $ source /etc/profile.d/java.sh
 -->
 
@@ -92,6 +89,8 @@ export HADOOP_OPTS="-Djava.library.path=${HADOOP_HOME}/lib/native"
 **Configure core-site.xml**
 
     # vi /opt/hadoop/current/etc/hadoop/core-site.xml
+
+<br/>
 
 ```xml
 <configuration>
@@ -297,7 +296,7 @@ The same can be done for the Namenode and SecondaryNameNode
 
 You can add them to /etc/rc.local file
 
-<!-- # cd /opt/hadoop/current/sbin 
+ # cd /opt/hadoop/current/sbin 
 
     # start-hdfs.sh   
     # stop-hdfs.sh 
