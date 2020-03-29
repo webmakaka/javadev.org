@@ -17,6 +17,14 @@ Working on doc:
 
 **You can download prapared 1 node cloudera cluster from cloudera website, and just run it in your virtual machine.**
 
+<br/>
+
+**Can be interesting:**
+
+**Configuring Big Data Cluster using Cloudera Manager**  
+https://www.youtube.com/watch?v=jKyJmPPmm1A
+
+
 
 <br/>
 
@@ -26,7 +34,7 @@ Working on doc:
 
 ```
 #---------------------------------------------------------------------
-# Hadoop cluster
+# Cloudera cluster
 #---------------------------------------------------------------------
 
 192.168.0.10 master.cloudera master
@@ -71,10 +79,11 @@ With 4 GB RAM for master node there were errors on installation.
 
 <br/>
 
-
     $ vagrant ssh master.cloudera
 
     $ sudo su -
+
+<br/>
 
 **All nodes**
 
@@ -186,6 +195,7 @@ admin/admin
 
 Add nodes:
 
+<br/>
 
     master.cloudera
     node1.cloudera

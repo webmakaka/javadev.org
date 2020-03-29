@@ -44,6 +44,8 @@ permalink: /devtools/bigdata/kafka/install/linux/
 
 On every node
 
+    $ vagrant ssh broker{1..3}
+
 <br/>
 
     # vi /etc/systemd/system/zookeeper.service
@@ -95,17 +97,15 @@ ExecStop=/opt/kafka/bin/kafka-server-stop.sh
 WantedBy=multi-user.target
 ```
 
-
-
 <br/>
 
 **server.properties**
 
-    $ rm /opt/kafka/config/server.properties
+    # mv /opt/kafka/config/server.properties /opt/kafka/config/server.properties.original
 
-broker.id and advertised.listeners different on hosts
+**broker.id and advertised.listeners different on hosts**
 
-    $ vi /opt/kafka/config/server.properties
+    # vi /opt/kafka/config/server.properties
 
 ```
 broker.id=1
@@ -138,9 +138,11 @@ auto.create.topics.enable=true
 
 <br/>
 
+### Zookeeper
+
 **server.properties**
 
-    $ vi /opt/zookeeper/conf/zoo.cfg
+    # vi /opt/zookeeper/conf/zoo.cfg
 
 ```
 dataDir=/zookeeper
@@ -157,20 +159,86 @@ server.3=zookeeper3:2888:3888
 
 <br/>
 
-    # systemctl enable zookeeper.service
-    # systemctl start  zookeeper.service
-    # systemctl status zookeeper.service
+    # {
+        systemctl enable zookeeper.service
+        systemctl start  zookeeper.service
+        systemctl status zookeeper.service
+    }
+
+<br/>
+
+    # {
+        systemctl enable kafka.service
+        systemctl start  kafka.service
+        systemctl status kafka.service
+    }
+
+<br/>
+
+    # reboot
+
+<br/>
+
+### Client
+
+I am working in ubuntu linux
+
+<br/>
+
+    $ sudo vi /etc/hosts
+
+```
+#---------------------------------------------------------------------
+# Kafka cluster
+#---------------------------------------------------------------------
+
+192.168.0.11 zookeeper1
+192.168.0.12 zookeeper2
+192.168.0.13 zookeeper3
+
+192.168.0.11 kafka1
+192.168.0.12 kafka2
+192.168.0.13 kafka3
+```
+
+<br/>
+
+    $ cd ~/tmp/
+    $ wget http://mirror.cogentco.com/pub/apache/kafka/2.2.0/kafka_2.12-2.2.0.tgz
+
+
+    $ ls kafka*
+    kafka_2.12-2.2.0.tgz
+
+    $ tar -xvzpf kafka_2.12-2.2.0.tgz
+    $ sudo mv kafka_2.12-2.2.0 /opt/
+
+    $ sudo ln -s /opt/kafka_2.12-2.2.0/ /opt/kafka
 
 
 <br/>
 
-    # systemctl enable kafka.service
-    # systemctl start  kafka.service
-    # systemctl status kafka.service
+    $ rm kafka_2.12-2.2.0.tgz 
 
 <br/>
 
-reboot
+    $ sudo vi /etc/profile.d/kafka.sh
+
+
+<br/>
+
+```
+#### KAFKA #######################
+
+export KAFKA_HOME=/opt/kafka
+export PATH=${KAFKA_HOME}/bin:$PATH
+
+#### KAFKA #######################
+```
+
+<br/>
+
+     $ source /etc/profile.d/kafka.sh
 
 <br/>
 
@@ -178,12 +246,13 @@ reboot
 
  <br/>
 
-    $ /opt/kafka/bin/kafka-topics.sh --zookeeper zookeeper1:2181/kafka --create --topic test --replication-factor 1 --partitions 3
+    $ kafka-topics.sh --zookeeper zookeeper1:2181/kafka --create --topic test --replication-factor 1 --partitions 3
 
  <br/>
     
-    # /opt/kafka/bin/kafka-topics.sh --zookeeper zookeeper1:2181/kafka --topic test --describe
+    $ kafka-topics.sh --zookeeper zookeeper1:2181/kafka --topic test --describe
     Topic:test	PartitionCount:3	ReplicationFactor:1	Configs:
-	Topic: test	Partition: 0	Leader: 2	Replicas: 2	Isr: 2
-	Topic: test	Partition: 1	Leader: 3	Replicas: 3	Isr: 3
+	Topic: test	Partition: 0	Leader: 1	Replicas: 1	Isr: 1
+	Topic: test	Partition: 1	Leader: 2	Replicas: 2	Isr: 2
 	Topic: test	Partition: 2	Leader: 1	Replicas: 1	Isr: 1
+
