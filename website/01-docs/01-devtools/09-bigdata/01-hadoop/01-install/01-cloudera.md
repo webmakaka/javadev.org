@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Apache Hadoop installation with Cloudera
-description: Apache Hadoop installation
-keywords: Apache. Hadoop, installation, virtualbox, vagrant
+description: Apache Hadoop installation with Cloudera
+keywords: Apache. Hadoop, installation, virtualbox, vagrant, cloudera
 permalink: /devtools/bigdata/hadoop/install/cloudera/
 ---
 

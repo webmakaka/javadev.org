@@ -152,11 +152,11 @@ remove
 <br/>
 
 
-Install JDK8
+### Install JDK8
 
-# scp ~/jdk-8u241-linux-x64.tar.gz node1.cloudera:/tmp
-# scp ~/jdk-8u241-linux-x64.tar.gz node2.cloudera:/tmp
-# scp ~/jdk-8u241-linux-x64.tar.gz node3.cloudera:/tmp
+    # scp ~/jdk-8u241-linux-x64.tar.gz node1.cloudera:/tmp
+    # scp ~/jdk-8u241-linux-x64.tar.gz node2.cloudera:/tmp
+    # scp ~/jdk-8u241-linux-x64.tar.gz node3.cloudera:/tmp
 
 
 
@@ -164,23 +164,20 @@ Install JDK8
 =======================
 
 
+    $ vagrant ssh master.cloudera
 
-
-
-$ vagrant ssh master.cloudera
-
-$ sudo su -
+    $ sudo su -
 
 
 https://docs.cloudera.com/documentation/enterprise/5-14-x/topics/cdh_ig_cdh5_install.html
 
 
-# yum install -y httpd
-# cp /etc/httpd/conf/httpd.conf /etc/httpd/conf/httpd.conf.orig
-# vi /etc/httpd/conf/httpd.conf
+    # yum install -y httpd
+    # cp /etc/httpd/conf/httpd.conf /etc/httpd/conf/httpd.conf.orig
+    # vi /etc/httpd/conf/httpd.conf
 
-Listen master.cloudera:80
-ServerName master.cloudera:80
+    Listen master.cloudera:80
+    ServerName master.cloudera:80
 
 NameVirtualHost master.cloudera:80
 
@@ -194,42 +191,42 @@ NameVirtualHost master.cloudera:80
 </VirtualHost>
 ```
 
-# mkdir -p /var/www/docs/master.cloudera
-# chkconfig httpd on
-# service httpd restart
+    # mkdir -p /var/www/docs/master.cloudera
+    # chkconfig httpd on
+    # service httpd restart
 
 <br/>
 
-# cd /etc/yum.repos.d/
-# wget https://archive.cloudera.com/cdh5/redhat/6/x86_64/cdh/cloudera-cdh5.repo
-# wget https://archive.cloudera.com/cm5/redhat/6/x86_64/cm/cloudera-manager.repo
+    # cd /etc/yum.repos.d/
+    # wget https://archive.cloudera.com/cdh5/redhat/6/x86_64/cdh/cloudera-cdh5.repo
+    # wget https://archive.cloudera.com/cm5/redhat/6/x86_64/cm/cloudera-manager.repo
 
-# yum clean all
+    # yum clean all
 
-# yum install -y yum-utils createrepo
+    # yum install -y yum-utils createrepo
 
-# cd /var/www/docs/master.cloudera
+    # cd /var/www/docs/master.cloudera
 
-# reposync -r cloudera-cdh5
-# reposync -r cloudera-manager
-
-
-# cd /var/www/docs/master.cloudera
-
-# mkdir -p cdh5/redhat/6/x86_64/cdh/5
-# mkdir -p cm5/redhat/6/x86_64/cm/5
+    # reposync -r cloudera-cdh5
+    # reposync -r cloudera-manager
 
 
-# mv -f cloudera-cdh5/RPMS cdh5/redhat/6/x86_64/cdh/5/
-# mv -f cloudera-manager/RPMS cm5/redhat/6/x86_64/cm/5/
+    # cd /var/www/docs/master.cloudera
+
+    # mkdir -p cdh5/redhat/6/x86_64/cdh/5
+    # mkdir -p cm5/redhat/6/x86_64/cm/5
 
 
-# cd cdh5/redhat/6/x86_64/cdh/5
-# createrepo .
+    # mv -f cloudera-cdh5/RPMS cdh5/redhat/6/x86_64/cdh/5/
+    # mv -f cloudera-manager/RPMS cm5/redhat/6/x86_64/cm/5/
 
 
-# cd /cm5/redhat/6/x86_64/cm/5
-# createrepo .
+    # cd cdh5/redhat/6/x86_64/cdh/5
+    # createrepo .
+
+
+    # cd /cm5/redhat/6/x86_64/cm/5
+    # createrepo .
 
 
 # vi /etc/yum.repos.d/cloudera-cdh5.repo 
@@ -241,7 +238,6 @@ baseurl=http://master.cloudera/cdh5/redhat/6/x86_64/cdh/5/
 gpgkey =http://master.cloudera/cdh5/redhat/6/x86_64/cdh/RPM-GPG-KEY-cloudera
 gpgcheck = 1
 ```
-
 
 
 # vi /etc/yum.repos.d/cloudera-manager.repo
@@ -256,24 +252,24 @@ gpgcheck = 0
 enabled = 1
 ```
 
-cd /var/www/docs/master.cloudera/cm5/redhat/6/x86_64/cm
+    cd /var/www/docs/master.cloudera/cm5/redhat/6/x86_64/cm
 
-wget https://archive.cloudera.com/cm5/redhat/6/x86_64/cm/RPM-GPG-KEY-cloudera
+    wget https://archive.cloudera.com/cm5/redhat/6/x86_64/cm/RPM-GPG-KEY-cloudera
 
 <!-- scp cloudera-manager.repo root@node1:/etc/yum.repos.d/
 scp cloudera-manager.repo root@node2:/etc/yum.repos.d/
 scp cloudera-manager.repo root@node3:/etc/yum.repos.d/ -->
 
 
-# yum repolist
+    # yum repolist
 
 
 https://github.com/livenson/parallel-ssh
 
 
-# cd /tmp
-# git clone https://github.com/livenson/parallel-ssh
-# mv parallel-ssh/ /opt
+    # cd /tmp
+    # git clone https://github.com/livenson/parallel-ssh
+    # mv parallel-ssh/ /opt
 
 
 <br/>
@@ -299,12 +295,12 @@ export PATH=${PARALLEL_SSH_HOME}/bin:$PATH
 
 <br/>
 
-# git clone https://github.com/dgadiraju/code
+    # git clone https://github.com/dgadiraju/code
 
-# cd code/hadoop/administration/cloudera/scripts/04setup_cluster/
+    # cd code/hadoop/administration/cloudera/scripts/04setup_cluster/
 
 
-# vi cluster-hosts-vm.txt
+    # vi cluster-hosts-vm.txt
 
 ```
 node1.cloudera
@@ -313,12 +309,12 @@ node3.cloudera
 master.cloudera
 ```
 
-# chmod +x setup_vm_centos.sh 
-# ./setup_vm_centos.sh
+    # chmod +x setup_vm_centos.sh 
+    # ./setup_vm_centos.sh
 
-ssh root@node1
+    ssh root@node1
 
-cat prepareNode.log
+    cat prepareNode.log
 
 ============
 
@@ -326,34 +322,34 @@ cat prepareNode.log
 
 ### Install Cloudera Manager
 
-# cd /tmp
+    # cd /tmp
 
-# wget https://archive.cloudera.com/cm5/installer/latest/cloudera-manager-installer.bin
+    # wget https://archive.cloudera.com/cm5/installer/latest/cloudera-manager-installer.bin
 
-# chmod +x cloudera-manager-installer.bin
+    # chmod +x cloudera-manager-installer.bin
 
-# ./cloudera-manager-installer.bin
+    # ./cloudera-manager-installer.bin
 
-// For local package installation
-# ./cloudera-manager-installer.bin --skip_repo_package=1
+    // For local package installation
+    # ./cloudera-manager-installer.bin --skip_repo_package=1
 
-// wait 2-3 minutes
+    // wait 2-3 minutes
 
-$ service cloudera-scm-server status
+    $ service cloudera-scm-server status
 
-$ netstat -nap |grep 71800
+    $ netstat -nap |grep 71800
 
-$ curl -i http://localhost:7180
+    $ curl -i http://localhost:7180
 
-$ curl -i -u 'admin:admin' http://localhost:7180/api/v1/tools/echo
+    $ curl -i -u 'admin:admin' http://localhost:7180/api/v1/tools/echo
 
 <br/>
 
-http://master.cloudera:7180/
+    http://master.cloudera:7180/
 
-admin/admin
+    admin/admin
 
-# telnet master.cloudera 7180
+    # telnet master.cloudera 7180
 
 
 
