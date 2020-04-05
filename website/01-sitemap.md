@@ -51,14 +51,6 @@ permalink: /sitemap/
 </ul>
 
 
-<br/>
-
-### Hadoop:
-
-<ul>
-    <li><strong><a href="/linux/distributed-systems/hadoop/">Hadoop Installation</a></strong></li>
-</ul>
-
 
 <br/>
 
