@@ -19,7 +19,7 @@ permalink: /devtools/bigdata/
 
 <br/>
 
-### Apache Spark
+### Apache Spark2
 
 <ul>
     <li><strong><a href="/devtools/bigdata/spark/install/linux/">Install in linux</a></strong></li>

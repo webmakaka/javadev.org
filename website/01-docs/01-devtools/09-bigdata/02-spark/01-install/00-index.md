@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Apache Spark installation in Linux
-description: Apache Spark installation in Linux
-keywords: linux, spark, pyspark, jupyter-notebook, installation
+title: Apache Spark2 installation in Linux
+description: Apache2 Spark installation in Linux
+keywords: linux, spark2, pyspark, jupyter-notebook, installation
 permalink: /devtools/bigdata/spark/install/linux/
 ---
 
-# Apache Spark installation in Linux
+# Apache Spark2 installation in Linux
 
     $ cd ${HOME}
     $ wget https://archive.apache.org/dist/spark/spark-2.4.3/spark-2.4.3-bin-hadoop2.7.tgz
@@ -16,9 +16,9 @@ permalink: /devtools/bigdata/spark/install/linux/
 
     $ tar xf spark-2.4.3-bin-hadoop2.7.tgz -C ./
 
-    $ sudo mkdir -p /opt/spark/2.4.3
-    $ sudo mv spark-2.4.3-bin-hadoop2.7/* /opt/spark/2.4.3
-    $ sudo ln -s /opt/spark/2.4.3/ /opt/spark/current
+    $ sudo mkdir -p /opt/spark-2.4.3
+    $ sudo mv spark-2.4.3-bin-hadoop2.7/* /opt/spark-2.4.3
+    $ sudo ln -s /opt/spark-2.4.3/ /opt/spark2
 
 <br/>
 
@@ -34,7 +34,7 @@ permalink: /devtools/bigdata/spark/install/linux/
 ```
 #### SPARK 2.4.3 #######################
 
-export SPARK_HOME=/opt/spark/current
+export SPARK_HOME=/opt/spark
 export PATH=${SPARK_HOME}/bin:$PATH
 
 #### SPARK 2.4.3 #######################
