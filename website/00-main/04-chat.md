@@ -10,6 +10,12 @@ permalink: /chat/
 
 <br/>
 
-### Telegram messenger group
+### Telegram messenger group (ENG)
 
 http://t.me/javadev_org
+
+<br/>
+
+### Telegram messenger group (RUS)
+
+http://t.me/javadev_ru
