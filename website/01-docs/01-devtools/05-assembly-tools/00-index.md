@@ -1,17 +1,28 @@
 ---
 layout: page
 title: Assembly Tools
+description: ssembly Tools
+keywords: java, assembly, maven, gradle
 permalink: /devtools/assembly-tools/
 ---
 
+<br/>
+
+# Assembly Tools
 
 <br/>
 
-### Maven, Gradle, ETC...:
+### Maven
 
 <ul>
+    <li><a href="/devtools/assembly-tools/maven/linux/centos/7/">Maven installation in Centos 7</a></li>
+</ul>
 
-    <li><a href="/devtools/assembly-tools/maven/linux/centos/7/">Maven installation on Centos 7.X x86_x64</a></li>
-    <li><a href="/devtools/assembly-tools/gradle/linux/centos/7/">Gradle installation on Centos 7.X x86_x64</a></li>
+<br/>
 
+### Gradle
+
+<ul>
+    <li><a href="/devtools/assembly-tools/gradle/linux/ubuntu/">Gradle installation in Ubuntu</a></li>
+    <li><a href="/devtools/assembly-tools/gradle/linux/centos/7/">Gradle installation in Centos 7</a></li>
 </ul>
