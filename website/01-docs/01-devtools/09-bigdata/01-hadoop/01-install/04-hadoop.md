@@ -8,8 +8,7 @@ permalink: /devtools/bigdata/hadoop/install/linux/
 
 # Apache Hadoop, Pig, Hive, Derby installation in Centos Linux
 
-
-<a href="/devtools/jdk/install/linux/">JDK should be installed</a>
+<a href="/devtools/jdk/setup/linux/">JDK should be installed</a>
 
 <br/>
 
@@ -37,6 +36,7 @@ export PATH=${HADOOP_HOME}/bin:$PATH
 
 #### HADOOP 2.8.5 #######################
 ```
+
 <!--
 export HADOOP_OPTS="-Djava.library.path=${HADOOP_HOME}/lib/native"
 
@@ -44,7 +44,6 @@ export HADOOP_OPTS="-Djava.library.path=${HADOOP_HOME}/lib/native"
 -->
 
     $ source /etc/profile.d/hadoop.sh
-
 
 <br/>
 
@@ -72,7 +71,7 @@ export HADOOP_OPTS="-Djava.library.path=${HADOOP_HOME}/lib/native"
     # mkdir -p /var/data/hadoop/hdfs/nn
     # mkdir -p /var/data/hadoop/hdfs/snn
     # mkdir -p /var/data/hadoop/hdfs/dn
-    # chown -R hdfs:hadoop /var/data/hadoop/hdfs 
+    # chown -R hdfs:hadoop /var/data/hadoop/hdfs
 
 <br/>
 
@@ -82,7 +81,6 @@ export HADOOP_OPTS="-Djava.library.path=${HADOOP_HOME}/lib/native"
     # mkdir logs
     # chmod g+w logs
     # chown -R yarn:hadoop ./
-
 
 <br/>
 
@@ -140,11 +138,11 @@ export HADOOP_OPTS="-Djava.library.path=${HADOOP_HOME}/lib/native"
 
 **Configure mapred-site.xml**
 
-  # cd /opt/hadoop/current/etc/hadoop/
- 
-  # cp mapred-site.xml.template mapred-site.xml
+# cd /opt/hadoop/current/etc/hadoop/
 
-  # vi /opt/hadoop/current/etc/hadoop/mapred-site.xml
+# cp mapred-site.xml.template mapred-site.xml
+
+# vi /opt/hadoop/current/etc/hadoop/mapred-site.xml
 
 <br/>
 
@@ -209,7 +207,7 @@ export HADOOP_JOB_HISTORYSERVER_HEAPSIZE=250
     # vi /opt/hadoop/current/etc/hadoop/yarn-env.sh
 
 ```
-JAVA_HEAP_MAX=-Xmx1000m 
+JAVA_HEAP_MAX=-Xmx1000m
 YARN_HEAPSIZE=1000
 ```
 
@@ -264,7 +262,6 @@ Issue a jps command to see that all the services are running. The actual PID val
     2701 NameNode
     2943 Jps
 
-
 All Hadoop services can be stopped using the hadoop-daemon.sh script.  
 For example, to stop the datanode service enter the following
 
@@ -296,11 +293,11 @@ The same can be done for the Namenode and SecondaryNameNode
 
 You can add them to /etc/rc.local file
 
- # cd /opt/hadoop/current/sbin 
+ # cd /opt/hadoop/current/sbin
 
-    # start-hdfs.sh   
-    # stop-hdfs.sh 
-    
+    # start-hdfs.sh
+    # stop-hdfs.sh
+
 -->
 
 <br/>
@@ -330,14 +327,14 @@ as user "yarn"
 <br/>
 
 Similar to HDFS, the services can be stopped by issuing a stop argument to the daemon script:
-  
-  ./yarn-daemon.sh stop nodemanager
+
+./yarn-daemon.sh stop nodemanager
 
 <!-- There are two convenience scripts in the scripts directory to start and stop YARN services (run as root)
 
 You can add them to /etc/rc.local file
 
-    # start-yarn.sh      
+    # start-yarn.sh
     # stop-yarn.sh -->
 
 <br/>
@@ -363,8 +360,7 @@ You can add them to /etc/rc.local file
     // To test your installation, run the sample "pi" application
     $ yarn jar $YARN_EXAMPLES/hadoop-mapreduce-examples-2.8.5.jar pi 8 100000
 
-If these tests worked, the Hadoop installation should be working correctly. 
-
+If these tests worked, the Hadoop installation should be working correctly.
 
 <br/>
 
@@ -412,13 +408,12 @@ export PIG_CLASSPATH=/opt/hadoop/current/etc/hadoop
 Pig is ready for use by users (they must re-login or "source /etc/profile.d/pig.sh")
 
     # pig --version
-    Apache Pig version 0.17.0 (r1797386) 
+    Apache Pig version 0.17.0 (r1797386)
     compiled Jun 02 2017, 15:41:58
-
 
 <br/>
 
-### Install Apache Hive 
+### Install Apache Hive
 
 **Install and Configure Hive**
 
@@ -466,8 +461,6 @@ export PATH=${HIVE_HOME}/bin:$PATH
 
 make needed directories in HDFS
 
-
-
 <!-- $ su - hdfs -c "hdfs dfs -mkdir -p /user/hive/warehouse"
     $ su - hdfs -c "hdfs dfs -chmod g+w /user/hive/warehouse" -->
 
@@ -476,7 +469,6 @@ make needed directories in HDFS
     $ hdfs dfs -mkdir -p /user/hive/warehouse
     $ hdfs dfs -chmod g+w /user/hive/warehouse
     $ hdfs dfs -ls /user/hive
-
 
 <br/>
 
@@ -490,7 +482,7 @@ make needed directories in HDFS
   <value>jdbc:derby://localhost:1527/metastore_db;create=true</value>
   <description>JDBC connect string for a JDBC metastore</description>
 </property>
- 
+
 <property>
   <name>javax.jdo.option.ConnectionDriverName</name>
   <value>org.apache.derby.jdbc.ClientDriver</value>
@@ -504,7 +496,7 @@ make needed directories in HDFS
 
 remove the extra log4j-slf4j library (included in Hadoop install)
 
-  $ mv /opt/hive/current/lib/log4j-slf4j-impl-2.6.2.jar /opt/hive/current/lib/log4j-slf4j-impl-2.6.2.jar.extra
+$ mv /opt/hive/current/lib/log4j-slf4j-impl-2.6.2.jar /opt/hive/current/lib/log4j-slf4j-impl-2.6.2.jar.extra
 
 <br/>
 
@@ -512,7 +504,6 @@ Create a Hive user and change ownership (do as root)
 
     # useradd -g hadoop hive
     # chown -R hive:hadoop /opt/hive/
-
 
 <br/>
 
@@ -556,7 +547,6 @@ Change derby to hive user
 
     # chown -R hive:hadoop /opt/derby/
 
-    
 copy these libraries to $HIVE_HOME
 
     # su - hive
@@ -577,8 +567,8 @@ configure Hive schema
 
 <!-- # There are two convenience scripts in the scripts directory to start and stop Derby (run as root)
 # You can add them to /etc/rc.local file
-  
-  start-derby.sh  
+
+  start-derby.sh
   stop-derby.sh -->
 
 <br/>
@@ -590,7 +580,7 @@ As user hdfs
 
      # su - hdfs
 
-Enter "hive" at prompt. Output as follows. Ignore "which: no hbase" warning 
+Enter "hive" at prompt. Output as follows. Ignore "which: no hbase" warning
 
     $ hive
     hive> show tables;

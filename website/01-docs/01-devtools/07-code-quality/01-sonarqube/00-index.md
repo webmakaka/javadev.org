@@ -21,7 +21,7 @@ DISABLE FIREWALL
 
 ### 1) JDK8 Installation
 
--   <a href="/devtools/jdk/install/linux/">here</a>
+-   <a href="/devtools/jdk/setup/linux/">here</a>
 
 ### 2) Maven Installation
 

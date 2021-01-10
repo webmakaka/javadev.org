@@ -6,11 +6,9 @@ keywords: kafka, docker
 permalink: /devtools/bigdata/kafka/docker/
 ---
 
-
 # Run kafka in docker container
 
-
-[JDK8 should be installed](/devtools/jdk/install/linux/)
+[JDK8 should be installed](/devtools/jdk/setup/linux/)
 
 [Scala should be installed](/devtools/bigdata/scala/install/linux/)
 
@@ -27,7 +25,6 @@ permalink: /devtools/bigdata/kafka/docker/
 <br/>
 
     $ docker-compose up -d --build
-
 
 (Docker script from video course Linux.Academy.Apache.Kafka.Deep.Dive-ViGOROUS)
 
@@ -49,11 +46,9 @@ permalink: /devtools/bigdata/kafka/docker/
 
     $ rm -rf kafka_2.12-2.2.0*
 
-
 <br/>
 
     $ sudo vi /etc/profile.d/kafka.sh
-
 
 <br/>
 
@@ -86,4 +81,3 @@ export PATH=${KAFKA_HOME}/bin:$PATH
 
     $ kafka-topics.sh --zookeeper localhost:2181 --list
     test
-

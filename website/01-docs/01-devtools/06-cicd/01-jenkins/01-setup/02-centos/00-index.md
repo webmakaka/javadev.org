@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Jenkins Installation on Centos 6.6
-permalink: /devtools/cicd/jenkins/install/centos/6/
+permalink: /devtools/cicd/jenkins/setup/centos/6/
 ---
 
 # Jenkins Installation on Centos 6.6

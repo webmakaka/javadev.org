@@ -3,14 +3,14 @@ layout: page
 title: Jenkins Installation in Ubuntu 20.04
 description: Jenkins Installation in Ubuntu 20.04
 keywords: ubuntu, jenkins, installation
-permalink: /devtools/cicd/jenkins/install/ubuntu/20.04/
+permalink: /devtools/cicd/jenkins/setup/ubuntu/20.04/
 ---
 
 # Jenkins Installation in Ubuntu 20.04
 
 <br/>
 
-<strong><a href="/devtools/jdk/install/linux/">JDK8 or OpenJDK8 should be installed.</a></strong>
+<strong><a href="/devtools/jdk/setup/linux/">JDK8 or OpenJDK8 should be installed.</a></strong>
 
 <br/>
 

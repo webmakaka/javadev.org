@@ -3,7 +3,7 @@ layout: page
 title: JDK8 installation in linux (Ubuntu, Centos)
 description: JDK8 installation in linux (Ubuntu, Centos)
 keywords: JDK8, installation, linux, ubuntu, centos
-permalink: /devtools/jdk/install/linux/
+permalink: /devtools/jdk/setup/linux/
 ---
 
 # JDK installation in linux (Ubuntu, Centos)

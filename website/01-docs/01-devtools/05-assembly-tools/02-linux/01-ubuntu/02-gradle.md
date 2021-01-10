@@ -10,7 +10,7 @@ permalink: /devtools/assembly-tools/gradle/linux/ubuntu/
 
 <br/>
 
-<a href="//javadev.org/devtools/jdk/install/linux/">JDK8 Should be installed</a>
+<a href="//javadev.org/devtools/jdk/setup/linux/">JDK8 Should be installed</a>
 
 <br/>
 

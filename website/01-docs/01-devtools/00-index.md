@@ -11,7 +11,7 @@ permalink: /devtools/
 ### Java Development Kit (JDK, Java) Installation:
 
 <ul>
-    <li><strong><a href="/devtools/jdk/install/">JDK Installation</a></strong></li>
+    <li><strong><a href="/devtools/jdk/setup/">JDK Installation</a></strong></li>
 </ul>
 
 <br/>
@@ -88,7 +88,6 @@ permalink: /devtools/
     <li><strong>Atlassin has something for this</strong></li>
 </ul>
 
-
 <br/>
 
 ### BigData
@@ -96,4 +95,3 @@ permalink: /devtools/
 <ul>
     <li><strong><a href="/devtools/bigdata/hadoop/install/linux/">Hadoop, Spark, Scala, Kafka, etc.</a></strong></li>
 </ul>
-
