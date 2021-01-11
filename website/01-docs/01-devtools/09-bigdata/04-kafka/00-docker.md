@@ -14,7 +14,7 @@ permalink: /devtools/bigdata/kafka/docker/
 
 <br/>
 
-[docker and docker-compose installation if needed](//sysadm.ru/devops/containers/docker/install/ubuntu/)
+[docker and docker-compose installation if needed](//sysadm.ru/devops/containers/docker/setup/ubuntu/)
 
 <br/>
 
