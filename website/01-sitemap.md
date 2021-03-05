@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Site Map
+description: Site Map
+keywords: sitemap, java
 permalink: /sitemap/
 ---
-
 
 # SITEMAP:
 
@@ -15,7 +16,6 @@ permalink: /sitemap/
     <li><strong><a href="/devtools/">Development Tools</a></strong></li>
 </ul>
 
-
 <br/>
 
 ### Application Servers
@@ -24,7 +24,6 @@ permalink: /sitemap/
     <li><strong><a href="/appserv/">Application Servers</a></strong></li>
 </ul>
 
-
 <br/>
 
 ### Java Messaging
@@ -32,7 +31,6 @@ permalink: /sitemap/
 <ul>
     <li><strong><a href="/java_basics/installation/activemq/centos/6/x86_x64/">ActiveMQ installation on Centos 6.X x86_x64</a></strong></li>
 </ul>
-
 
 <br/>
 
@@ -49,8 +47,6 @@ permalink: /sitemap/
 <ul>
     <li><strong><a href="/java_basics/android/installation/">Prepare Ubuntu Linux Environment for Development Android Apps with Android Studio</a></strong></li>
 </ul>
-
-
 
 <br/>
 
