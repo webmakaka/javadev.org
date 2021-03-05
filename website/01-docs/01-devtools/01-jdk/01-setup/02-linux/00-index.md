@@ -78,8 +78,10 @@ export PATH=${JAVA_HOME}/bin:$PATH
 
 <br/>
 
-     $ sudo chmod 755 /etc/profile.d/java8.sh
-     $ source /etc/profile.d/java8.sh
+```
+$ sudo chmod 755 /etc/profile.d/java8.sh
+$ source /etc/profile.d/java8.sh
+```
 
 <br/>
 

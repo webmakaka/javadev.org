@@ -46,8 +46,8 @@ export PATH=${GRADLE_HOME}/bin:$PATH
 
 <br/>
 
-     $ sudo chmod 755 /etc/profile.d/gradle-6.7.1.sh
-     $ source /etc/profile.d/gradle-6.7.1.sh
+    $ sudo chmod 755 /etc/profile.d/gradle-6.7.1.sh
+    $ source /etc/profile.d/gradle-6.7.1.sh
 
 <br/>
 
