@@ -51,15 +51,15 @@ https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
 <br/>
 
     $ ls jdk*
-    jdk-8u271-linux-x64.tar.gz
+    jdk-8u281-linux-x64.tar.gz
 
-    $ tar -xvzpf jdk-8u271-linux-x64.tar.gz
-    $ sudo mv jdk1.8.0_271/ /opt/
-    $ sudo ln -s /opt/jdk1.8.0_271/ /opt/jdk
+    $ tar -xvzpf jdk-8u281-linux-x64.tar.gz
+    $ sudo mv jdk1.8.0_281/ /opt/
+    $ sudo ln -s /opt/jdk1.8.0_281/ /opt/jdk
 
 <br/>
 
-    $ rm jdk-8u271-linux-x64.tar.gz
+    $ rm jdk-8u281-linux-x64.tar.gz
 
 <br/>
 
@@ -90,7 +90,7 @@ Let try to check result:
 <br/>
 
     $ java -version
-    java version "1.8.0_271"
+    java version "1.8.0_281"
 
 <br/>
 
