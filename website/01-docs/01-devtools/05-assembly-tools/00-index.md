@@ -15,6 +15,7 @@ permalink: /devtools/assembly-tools/
 ### Maven
 
 <ul>
+    <li><a href="/devtools/assembly-tools/maven/linux/ubuntu/">Maven installation in Ubuntu 20</a></li>
     <li><a href="/devtools/assembly-tools/maven/linux/centos/7/">Maven installation in Centos 7</a></li>
 </ul>
 

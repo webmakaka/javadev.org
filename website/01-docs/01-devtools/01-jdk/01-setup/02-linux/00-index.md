@@ -13,6 +13,9 @@ To download jdk for now, you need:
 1. go to java.sun.com (browser will redirect you to right path).
 2. create account if you do not have
 3. download latest JDK8 version
+
+https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
+
 4. copy jdk archive into ${HOME} directory.
 
 <br/>
@@ -47,6 +50,10 @@ To download jdk for now, you need:
 ## Installation JDK8 in linux
 
 https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
+
+<br/>
+
+Latest for now is: 8u301
 
 <br/>
 
@@ -95,6 +102,8 @@ Let try to check result:
 <br/>
 
 ### OpenJDK installation in linux (I recommend do not use OpenJdk without reasons)
+
+<br/>
 
     $ sudo apt-get update
     $ sudo apt-get install -yq openjdk-8-jdk
