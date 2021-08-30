@@ -3,7 +3,7 @@ layout: page
 title: Maven installation in Centos 7.X
 description: Maven installation in Centos 7.X
 keywords: java, assembly, maven
-permalink: /devtools/assembly-tools/maven/linux/centos/7/
+permalink: /devtools/assembly/maven/linux/centos/7/
 ---
 
 # Maven installation in Centos 7.X

@@ -3,7 +3,7 @@ layout: page
 title: Gradle installation in Ubuntu 20.04
 description: Gradle installation in Ubuntu 20.04
 keywords: java, assembly, maven, gradle, ubuntu
-permalink: /devtools/assembly-tools/gradle/linux/ubuntu/
+permalink: /devtools/assembly/gradle/linux/ubuntu/
 ---
 
 # Gradle installation in Ubuntu 20.04

@@ -3,7 +3,7 @@ layout: page
 title: Maven installation in Ubuntu 20
 description: Maven installation in Ubuntu 20
 keywords: java, assembly, maven, linux, ubuntu
-permalink: /devtools/assembly-tools/maven/linux/ubuntu/
+permalink: /devtools/assembly/maven/linux/ubuntu/
 ---
 
 # Maven installation in Ubuntu 20
@@ -25,27 +25,6 @@ http://maven.apache.org
     $ tar -xvzpf apache-maven-3.8.2-bin.tar.gz
     $ sudo mv apache-maven-3.8.2/ /opt/
     $ sudo ln -s /opt/apache-maven-3.8.2/ /opt/maven
-
-<!--
-
-    # tar -xvzpf apache-maven-3.8.2-bin.tar.gz
-    # mkdir -p /opt/maven/3.8.2
-    # mv apache-maven-3.8.2/* /opt/maven/3.8.2/
-    # ln -s /opt/maven/3.8.2/ /opt/maven/current
-
-<br/><br/>
-
-    $ su <username>
-
-    $ vi ~/.bash_profile
-
-<br/>
-
-    $ source ~/.bash_profile
-    $ mvn --version
-    Apache Maven 3.5.3 (3383c37e1f9e9b3bc3df5050c29c8aff9f295297; 2018-02-24T22:49:05+03:00)
-
--->
 
 <br/>
 
@@ -77,3 +56,9 @@ Let try to check result:
 
     $ mvn -version
     java version "1.8.0_281"
+
+<br/>
+
+### Some maven commands
+
+    $ mvn help:effective-pom
