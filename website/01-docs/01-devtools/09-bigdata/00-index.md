@@ -16,7 +16,6 @@ permalink: /devtools/bigdata/
     <li><strong><a href="/devtools/bigdata/hadoop/">Hadoop</a></strong></li>
 </ul>
 
-
 <br/>
 
 ### Apache Spark2
@@ -24,7 +23,6 @@ permalink: /devtools/bigdata/
 <ul>
     <li><strong><a href="/devtools/bigdata/spark/install/linux/">Install in linux</a></strong></li>
 </ul>
-
 
 <br/>
 
@@ -34,12 +32,11 @@ permalink: /devtools/bigdata/
     <li><strong><a href="/devtools/bigdata/scala/install/linux/">Install in linux</a></strong></li>
 </ul>
 
-
 <br/>
 
 ### Kafka
 
 <ul>
     <li><strong><a href="/devtools/bigdata/kafka/docker/">Run kafka in docker container</a></strong></li>
-    <li><strong><a href="/devtools/bigdata/kafka/install/linux/">Install in linux</a></strong></li>
+    <li><strong><a href="/devtools/bigdata/kafka/setup/linux/">Install in linux</a></strong></li>
 </ul>

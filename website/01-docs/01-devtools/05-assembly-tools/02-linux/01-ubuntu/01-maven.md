@@ -61,4 +61,8 @@ Let try to check result:
 
 ### Some maven commands
 
+    $ mvn help:effective-settings
+
     $ mvn help:effective-pom
+
+    $ mvn clean install

@@ -3,9 +3,8 @@ layout: page
 title: Installation kafka in linux
 description: Installation kafka in linux
 keywords: kafka, installation, linux, vagrant, ansible
-permalink: /devtools/bigdata/kafka/install/linux/
+permalink: /devtools/bigdata/kafka/setup/linux/
 ---
-
 
 # Installation kafka in linux
 
@@ -38,8 +37,6 @@ permalink: /devtools/bigdata/kafka/install/linux/
     broker2                   running (virtualbox)
     broker3                   running (virtualbox)
 
-
-
 ====================================
 
 On every node
@@ -50,7 +47,6 @@ On every node
 
     # vi /etc/systemd/system/zookeeper.service
 
-
 ```
 [Unit]
 Description=Zookeeper Daemon
@@ -58,7 +54,7 @@ Documentation=http://zookeeper.apache.org
 Requires=network.target
 After=network.target
 
-[Service]    
+[Service]
 Type=forking
 WorkingDirectory=/opt/zookeeper
 User=zookeeper
@@ -73,11 +69,11 @@ Restart=on-failure
 WantedBy=default.target
 ```
 
-
 <br/>
 
     # vi /etc/systemd/system/kafka.service
 
+<br/>
 
 ```
 [Unit]
@@ -107,6 +103,8 @@ WantedBy=multi-user.target
 
     # vi /opt/kafka/config/server.properties
 
+<br/>
+
 ```
 broker.id=1
 advertised.listeners=PLAINTEXT://kafka1:9092
@@ -123,7 +121,6 @@ zookeeper.connection.timeout.ms=6000
 auto.create.topics.enable=true
 
 ```
-
 
 <br/>
 
@@ -215,15 +212,13 @@ I am working in ubuntu linux
 
     $ sudo ln -s /opt/kafka_2.12-2.2.0/ /opt/kafka
 
-
 <br/>
 
-    $ rm kafka_2.12-2.2.0.tgz 
+    $ rm kafka_2.12-2.2.0.tgz
 
 <br/>
 
     $ sudo vi /etc/profile.d/kafka.sh
-
 
 <br/>
 
@@ -255,4 +250,3 @@ export PATH=${KAFKA_HOME}/bin:$PATH
 	Topic: test	Partition: 0	Leader: 1	Replicas: 1	Isr: 1
 	Topic: test	Partition: 1	Leader: 2	Replicas: 2	Isr: 2
 	Topic: test	Partition: 2	Leader: 1	Replicas: 1	Isr: 1
-
