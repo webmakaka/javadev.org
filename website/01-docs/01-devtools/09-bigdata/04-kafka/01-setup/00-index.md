@@ -41,11 +41,15 @@ permalink: /devtools/bigdata/kafka/setup/linux/
 
 On every node
 
+<br/>
+
     $ vagrant ssh broker{1..3}
 
 <br/>
 
     # vi /etc/systemd/system/zookeeper.service
+
+<br/>
 
 ```
 [Unit]
@@ -156,23 +160,29 @@ server.3=zookeeper3:2888:3888
 
 <br/>
 
-    # {
-        systemctl enable zookeeper.service
-        systemctl start  zookeeper.service
-        systemctl status zookeeper.service
-    }
+```
+# {
+    systemctl enable zookeeper.service
+    systemctl start  zookeeper.service
+    systemctl status zookeeper.service
+}
+```
 
 <br/>
 
-    # {
-        systemctl enable kafka.service
-        systemctl start  kafka.service
-        systemctl status kafka.service
-    }
+```
+# {
+    systemctl enable kafka.service
+    systemctl start  kafka.service
+    systemctl status kafka.service
+}
+```
 
 <br/>
 
+```
     # reboot
+```
 
 <br/>
 
@@ -183,6 +193,8 @@ I am working in ubuntu linux
 <br/>
 
     $ sudo vi /etc/hosts
+
+<br/>
 
 ```
 #---------------------------------------------------------------------

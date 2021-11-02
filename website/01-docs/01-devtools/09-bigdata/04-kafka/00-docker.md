@@ -14,7 +14,7 @@ permalink: /devtools/bigdata/kafka/docker/
 
 <br/>
 
-[docker and docker-compose installation if needed](//sysadm.ru/devops/containers/docker/setup/ubuntu/)
+[docker and docker-compose installation if needed](//gitops.ru/containers/docker/setup/ubuntu/)
 
 <br/>
 
@@ -25,6 +25,8 @@ permalink: /devtools/bigdata/kafka/docker/
 <br/>
 
     $ docker-compose up -d --build
+
+<br/>
 
 (Docker script from video course Linux.Academy.Apache.Kafka.Deep.Dive-ViGOROUS)
 
@@ -65,11 +67,11 @@ export PATH=${KAFKA_HOME}/bin:$PATH
 
      $ source /etc/profile.d/kafka.sh
 
- <br/>
+<br/>
 
     $ kafka-topics.sh --zookeeper localhost:2181 --create --topic test --partitions 3 --replication-factor 1
 
- <br/>
+<br/>
     
     $ kafka-topics.sh --zookeeper localhost:2181 --topic test --describe
     Topic:test	PartitionCount:3	ReplicationFactor:1	Configs:
@@ -79,5 +81,12 @@ export PATH=${KAFKA_HOME}/bin:$PATH
 
 <br/>
 
-    $ kafka-topics.sh --zookeeper localhost:2181 --list
-    test
+```
+$ kafka-topics.sh --zookeeper localhost:2181 --list
+```
+
+**returns:**
+
+```
+test
+```

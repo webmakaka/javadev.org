@@ -53,20 +53,20 @@ https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
 
 <br/>
 
-Latest for now is: 8u301
+Latest for now is: 8u311
 
 <br/>
 
     $ ls jdk*
-    jdk-8u281-linux-x64.tar.gz
+    jdk-8u311-linux-x64.tar.gz
 
-    $ tar -xvzpf jdk-8u281-linux-x64.tar.gz
+    $ tar -xvzpf jdk-8u311-linux-x64.tar.gz
     $ sudo mv jdk1.8.0_281/ /opt/
     $ sudo ln -s /opt/jdk1.8.0_281/ /opt/jdk
 
 <br/>
 
-    $ rm jdk-8u281-linux-x64.tar.gz
+    $ rm jdk-8u311-linux-x64.tar.gz
 
 <br/>
 
@@ -75,12 +75,12 @@ Latest for now is: 8u301
 <br/>
 
 ```
-#### JDK8 #######################
+#### JDK #######################
 
 export JAVA_HOME=/opt/jdk
 export PATH=${JAVA_HOME}/bin:$PATH
 
-#### JDK8 #######################
+#### JDK #######################
 ```
 
 <br/>
@@ -112,6 +112,7 @@ https://www.oracle.com/java/technologies/downloads/
 <br/>
 
 ```
+$ cd ~/tmp
 $ wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.tar.gz
 ```
 
@@ -119,7 +120,7 @@ $ wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.tar.gz
 
 ```
 //
-// $ sudo apt-get purge --auto-remove openjdk*
+// $ sudo apt-get purge -y --auto-remove openjdk*
 ```
 
 <br/>
@@ -142,12 +143,12 @@ $ wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.tar.gz
 <br/>
 
 ```
-#### JDK17 #######################
+#### JDK #######################
 
 export JAVA_HOME=/opt/jdk
 export PATH=${JAVA_HOME}/bin:$PATH
 
-#### JDK17 #######################
+#### JDK #######################
 ```
 
 <br/>
