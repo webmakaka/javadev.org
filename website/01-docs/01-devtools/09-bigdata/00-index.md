@@ -37,6 +37,6 @@ permalink: /devtools/bigdata/
 ### Kafka
 
 <ul>
-    <li><strong><a href="/devtools/bigdata/kafka/docker/">Run kafka in docker container</a></strong></li>
-    <li><strong><a href="/devtools/bigdata/kafka/setup/linux/">Install in linux</a></strong></li>
+    <li><strong><a href="/devtools/kafka/docker/">Run kafka in docker container</a></strong></li>
+    <li><strong><a href="/devtools/kafka/setup/linux/">Install in linux</a></strong></li>
 </ul>
