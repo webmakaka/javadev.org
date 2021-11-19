@@ -92,11 +92,19 @@ export PATH=${KAFKA_HOME}/bin:$PATH
 
 <br/>
 
-    $ kafka-topics.sh --zookeeper localhost:2181 --create --topic test --partitions 3 --replication-factor 1
+    $ kafka-topics.sh \
+        --zookeeper localhost:2181 \
+        --create \
+        --partitions 3 \
+        --replication-factor 1 \
+        --topic test
 
 <br/>
     
-    $ kafka-topics.sh --zookeeper localhost:2181 --topic test --describe
+    $ kafka-topics.sh \
+        --zookeeper localhost:2181 \ 
+        --describe \
+        --topic test 
     Topic:test	PartitionCount:3	ReplicationFactor:1	Configs:
       Topic: test	Partition: 0	Leader: 2	Replicas: 2	Isr: 2
       Topic: test	Partition: 1	Leader: 3	Replicas: 3	Isr: 3
@@ -105,11 +113,39 @@ export PATH=${KAFKA_HOME}/bin:$PATH
 <br/>
 
 ```
-$ kafka-topics.sh --zookeeper localhost:2181 --list
+$ kafka-topics.sh \
+    --zookeeper localhost:2181 \
+    --list
 ```
 
 **returns:**
 
 ```
 test
+```
+
+<br/>
+
+```
+// Create a Message
+$ kafka-console-producer.sh \
+    --broker-list localhost:9092 \
+    --topic test
+
+Test Message 1
+Test Message 2
+
+^D
+```
+
+<br/>
+
+```
+// Receive a Message
+$ kafka-console-consumer.sh \
+    --bootstrap-server localhost:9092 \
+    --topic test \
+    --from-beginning
+
+^D
 ```

@@ -1,14 +1,14 @@
 ---
 layout: page
 title: Eclipse (free)
+description: Eclipse (free)
+keywords: java, devtools, eclipse
 permalink: /devtools/ide/eclipse/
 ---
 
 # Eclipse (free):
 
-
 <strong><a href="http://www.eclipse.org/downloads/" rel="nofollow">Eclipse Download Link</a></strong>
-
 
 <br/>
 
@@ -17,7 +17,6 @@ permalink: /devtools/ide/eclipse/
 Widows -> Preferences --> Installed JREs
 
 Widows -> Preferences --> Server -> Runtime Environment
-
 
 <br/>
 
