@@ -47,6 +47,80 @@ https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
 
 <br/>
 
+## Installation JDK17 in linux
+
+<br/>
+
+https://www.oracle.com/java/technologies/downloads/
+
+<br/>
+
+```
+$ cd ~/tmp
+$ wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.tar.gz
+```
+
+<br/>
+
+```
+//
+// $ sudo apt-get purge -y --auto-remove openjdk*
+```
+
+<br/>
+
+```
+$ ls jdk*
+jdk-17_linux-x64_bin.tar.gz
+
+$ tar -xvzpf jdk-17_linux-x64_bin.tar.gz
+$ sudo mv jdk-17.0.1/ /opt/
+$ sudo ln -s /opt/jdk-17.0.1/ /opt/jdk
+```
+
+<br/>
+
+```
+$ rm jdk-17_linux-x64_bin.tar.gz
+```
+
+<br/>
+
+```
+$ sudo vi /etc/profile.d/java17.sh
+```
+
+<br/>
+
+```
+#### JDK #######################
+
+export JAVA_HOME=/opt/jdk
+export PATH=${JAVA_HOME}/bin:$PATH
+
+#### JDK #######################
+```
+
+<br/>
+
+```
+$ sudo chmod 755 /etc/profile.d/java17.sh
+$ source /etc/profile.d/java17.sh
+```
+
+<br/>
+
+Let try to check result:
+
+<br/>
+
+```
+$ java -version
+java version "17.0.1" 2021-10-19 LTS
+```
+
+<br/>
+
 ## Installation JDK8 in linux
 
 https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
@@ -103,74 +177,6 @@ java version "1.8.0_281"
 
 <br/>
 
-## Installation JDK17 in linux
-
-<br/>
-
-https://www.oracle.com/java/technologies/downloads/
-
-<br/>
-
-```
-$ cd ~/tmp
-$ wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.tar.gz
-```
-
-<br/>
-
-```
-//
-// $ sudo apt-get purge -y --auto-remove openjdk*
-```
-
-<br/>
-
-    $ ls jdk*
-    jdk-17_linux-x64_bin.tar.gz
-
-    $ tar -xvzpf jdk-17_linux-x64_bin.tar.gz
-    $ sudo mv jdk-17.0.1/ /opt/
-    $ sudo ln -s /opt/jdk-17.0.1/ /opt/jdk
-
-<br/>
-
-    $ rm jdk-17_linux-x64_bin.tar.gz
-
-<br/>
-
-    $ sudo vi /etc/profile.d/java17.sh
-
-<br/>
-
-```
-#### JDK #######################
-
-export JAVA_HOME=/opt/jdk
-export PATH=${JAVA_HOME}/bin:$PATH
-
-#### JDK #######################
-```
-
-<br/>
-
-```
-$ sudo chmod 755 /etc/profile.d/java17.sh
-$ source /etc/profile.d/java17.sh
-```
-
-<br/>
-
-Let try to check result:
-
-<br/>
-
-```
-$ java -version
-java version "17.0.1" 2021-10-19 LTS
-```
-
-<br/>
-
 ### OpenJDK installation in linux (I recommend do not use OpenJdk without reasons)
 
 <br/>
@@ -191,7 +197,3 @@ java version "17.0.1" 2021-10-19 LTS
 **also you can install maven from packages**
 
     $ sudo apt-get install -yq maven
-
-```
-
-```
