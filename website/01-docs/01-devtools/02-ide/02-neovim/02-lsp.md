@@ -65,6 +65,8 @@ path         ~/.local/share/nvim/lsp_servers/jdtls
 :TSInstallInfo
 ```
 
+<br/>
+
 ```
 // lsp_servers logs
 $ less ~/.cache/nvim/lsp.log

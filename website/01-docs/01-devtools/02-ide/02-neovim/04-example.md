@@ -19,7 +19,7 @@ https://www.developersoapbox.com/creating-a-rest-api-effortlessly-with-spring-re
 <br/>
 
 ```
-$ sudo apt install vim tmux curl unzip openjdk-11-jdk
+$ sudo apt install vim tmux curl unzip
 ```
 
 <br/>
