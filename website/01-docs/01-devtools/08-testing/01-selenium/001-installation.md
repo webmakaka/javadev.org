@@ -1,23 +1,23 @@
 ---
 layout: page
-title: Selenium installation on Centos 7.X
+title: Selenium installation in Centos 7.X
+description: Selenium installation in Centos 7.X
+keywords: Selenium, installation
 permalink: /devtools/testing/selenium/installation/centos/7/
 ---
 
+# Selenium installation in Centos 7.X:
 
-### Selenium installation on Centos 7.X:
-
+<br/>
 
     # mkdir -p /opt/selenium/2.53
     # chown -R <username> /opt/selenium/
-
 
     # su - <username>
     $ cd /opt/selenium/2.53
 
     $ wget http://selenium-release.storage.googleapis.com/2.53/selenium-server-standalone-2.53.0.jar
     $ ln -s /opt/selenium/2.53/selenium-server-standalone-2.53.0.jar /opt/selenium/selenium
-
 
 <br/>
 

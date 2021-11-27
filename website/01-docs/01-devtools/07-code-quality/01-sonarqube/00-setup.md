@@ -1,8 +1,14 @@
 ---
 layout: page
 title: SonarQube
-permalink: /devtools/code-quality/sonarqube/installation/
+description: SonarQube
+keywords: SonarQube, installation
+permalink: /devtools/code-quality/sonarqube/setup/
 ---
+
+<br/>
+
+# SonarQube
 
 ### Official website:
 
@@ -13,6 +19,8 @@ http://www.sonarqube.org/downloads/
 ### SonarQube Installation
 
 I'm working with centos 7.X
+
+<br/>
 
 DISABLE FIREWALL
 

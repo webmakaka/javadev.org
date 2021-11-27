@@ -1,17 +1,16 @@
 ---
 layout: page
 title: Selenium
+description: Selenium
+keywords: Selenium
 permalink: /devtools/testing/selenium/
 ---
 
-
-### Selenium:
-
+# Selenium:
 
 <ul>
-    <li><strong><a href="/devtools/testing/selenium/installation/centos/7/">Selenium installation on Centos 7.X</a></strong></li>
+    <li><strong><a href="/devtools/testing/selenium/installation/centos/7/">Selenium installation in Centos 7.X</a></strong></li>
 </ul>
-
 
 <br/>
 

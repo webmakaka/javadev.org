@@ -37,6 +37,8 @@ permalink: /devtools/kafka/setup/linux/
     broker2                   running (virtualbox)
     broker3                   running (virtualbox)
 
+<br/>
+
 ====================================
 
 On every node

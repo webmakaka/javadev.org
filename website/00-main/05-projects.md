@@ -1,6 +1,8 @@
 ---
 layout: page
 title: OpenSource projects on Java
+description: OpenSource projects on Java
+keywords: OpenSource projects on Java
 permalink: /projects/
 ---
 

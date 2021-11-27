@@ -1,8 +1,12 @@
 ---
 layout: page
 title: Contacts
+description: Contacts
+keywords: Contacts
 permalink: /contacts/
 ---
+
+# Contacts
 
 email:
 

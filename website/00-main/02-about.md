@@ -1,8 +1,12 @@
 ---
 layout: page
 title: About
+description: About
+keywords: About
 permalink: /about/
 ---
+
+# About
 
 We are software developers. And we are trying to find interesting topics about java development.
 
@@ -20,11 +24,10 @@ If you want to share your experience with us, next technologies would be helpful
 
 **Some videos about this technologies:**
 
-github: [Codeschool]  Mastering GitHub  
+github: [Codeschool] Mastering GitHub  
 jekyll: [TutsPlus] Jekyll Essentials [ENG, 2014]  
 markdown: [PluralSight] Writing Content With Markdown [ENG, 2014]  
 docker: [PluralSight] Docker Deep Dive [ENG, 2015]
-
 
 **How to create local copy of javadev.org:**
 
@@ -35,7 +38,6 @@ docker: [PluralSight] Docker Deep Dive [ENG, 2015]
 
 **If you want to add topic to us:**
 
-5\. Commit changes and send pull request to us.  
-
+5\. Commit changes and send pull request to us.
 
 More detail i'll write later.
