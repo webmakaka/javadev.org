@@ -8,13 +8,31 @@ permalink: /
 
 <br/>
 
-### [Java Brains] Spring Boot Microservices [ENG, 2019]
+### [Spring] [Udemy] Java Full Stack Spring Boot and Angular (Inc. JWT + Cloud) [ENG, 2021]
 
-https://www.youtube.com/c/JavaBrainsChannel/playlists?view=50&sort=dd&shelf_id=4
+https://www.udemy.com/course/java-full-stack-spring-boot-and-angular-inc-jwt-cloud/
 
 <br/>
 
-### [Java Brains] Spring Boot Quick Start
+### [Spring] [Udemy] Full Stack: Angular and Java Spring Boot [ENG, 2020]
+
+https://www.udemy.com/course/full-stack-angular-spring-boot-tutorial/
+
+<br/>
+
+### [Spring] [Udemy] Building An E-Commerce Store Using Java Spring Framework [ENG, 2016]
+
+<div align="center">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/BWgwWIbH3PI" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<br/>
+
+Need to update codes from this <a href="https://github.com/webmakaka/Building-an-e-commerce-store-using-java-spring-framework">course</a>.
+
+<br/>
+
+### [Java Brains] Spring Boot Quick Start [ENG, 2016]
 
 <div align="center">
     <iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x" frameborder="0" allowfullscreen></iframe>
@@ -22,11 +40,19 @@ https://www.youtube.com/c/JavaBrainsChannel/playlists?view=50&sort=dd&shelf_id=4
 
 <br/>
 
-### [Java Brains] Java 8 Lambda Basics
+### [Java Brains] Java 8 Lambda Basics [ENG, 2016]
 
 <div align="center">
     <iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLqq-6Pq4lTTa9YGfyhyW2CqdtW9RtY-I3" frameborder="0" allowfullscreen></iframe>
 </div>
+
+<br/>
+
+### [Java Brains] Spring Boot Microservices [ENG, 2019]
+
+3 courses
+
+https://www.youtube.com/c/JavaBrainsChannel/playlists?view=50&sort=dd&shelf_id=4
 
 <br/>
 
@@ -46,7 +72,7 @@ https://www.youtube.com/c/JavaBrainsChannel/playlists?view=50&sort=dd&shelf_id=4
 
 <br/>
 
-Also on channel:
+**Also on channel:**
 
 <br/>
 
