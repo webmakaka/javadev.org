@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Running simple java ee application on weblogic server by docker container
+description: Running simple java ee application on weblogic server by docker container
+keywords: Running simple java ee application on weblogic server by docker container
 permalink: /docker/weblogic/
 ---
 

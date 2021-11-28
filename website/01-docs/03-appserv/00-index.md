@@ -1,15 +1,17 @@
 ---
 layout: page
 title: Application Servers
+description: Application Servers
+keywords: Application Servers
 permalink: /appserv/
 ---
 
+# Application Servers
 
 <br/>
-
 ### TomCat:
 
-<strong><a href="/docs/appserv/tomcat/installation/windows/">TomCat Installation on Windows</a></strong>
+<strong><a href="/docs/appserv/tomcat/setup/windows/">TomCat Installation in Windows</a></strong>
 
 <br/>
 
@@ -25,10 +27,10 @@ permalink: /appserv/
 
 ### Glassfish:
 
-<strong><a href="/docs/appserv/centos/6.6/glassfish/4/installation/">Glassfish 4 Installation on Centos 6.6</a></strong>
+<strong><a href="/docs/appserv/centos/6.6/glassfish/4/installation/">Glassfish 4 Installation in Centos 6.6</a></strong>
 
 <br/>
 
 ### Weblogic:
 
-<strong><a href="/docs/appserv/weblogic/12c/installation/">Weblogic 12c Installation on Centos 6.6 x86_64</a></strong>
+<strong><a href="/docs/appserv/weblogic/12c/setup/">Weblogic 12c Installation on Centos 6.6 x86_64</a></strong>

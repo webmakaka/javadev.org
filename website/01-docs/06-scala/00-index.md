@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Scala basics
+description: Scala basics
+keywords: Scala basics
 permalink: /scala/
 ---
 
@@ -32,7 +34,6 @@ for (name <- names)) {
 
 <br/>
 
-
 ```scala
 
 for (item <- Array.range(0,5)) {
@@ -43,7 +44,6 @@ for (item <- Array.range(0,5)) {
 
 <br/>
 
-
 ```scala
 
 for (item <- Set(1,2,3)) {
@@ -52,9 +52,7 @@ for (item <- Set(1,2,3)) {
 
 ```
 
-
 <br/>
-
 
 ```scala
 
@@ -80,9 +78,7 @@ while(x < 5) {
 
 ```
 
-
 <br/>
-
 
 ```scala
 
@@ -139,7 +135,6 @@ println(fullgreet)
 
 ```
 
-
 <br/>
 
 ```scala
@@ -157,7 +152,6 @@ println(isPrime(10))
 println(isPrime(23))
 
 ```
-
 
 <br/>
 

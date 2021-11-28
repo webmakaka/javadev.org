@@ -1,10 +1,12 @@
 ---
 layout: page
 title: Source Code Quality Management
+description: Source Code Quality Management
+keywords: Source Code Quality Management
 permalink: /devtools/code-quality/
 ---
 
-### SonarQube:
+# SonarQube
 
 sonarqube.org
 

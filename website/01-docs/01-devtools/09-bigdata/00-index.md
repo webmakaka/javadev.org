@@ -21,7 +21,7 @@ permalink: /devtools/bigdata/
 ### Apache Spark2
 
 <ul>
-    <li><strong><a href="/devtools/bigdata/spark/install/linux/">Install in linux</a></strong></li>
+    <li><strong><a href="/devtools/bigdata/spark/setup/linux/">Install in linux</a></strong></li>
 </ul>
 
 <br/>
@@ -29,7 +29,7 @@ permalink: /devtools/bigdata/
 ### Scala
 
 <ul>
-    <li><strong><a href="/devtools/bigdata/scala/install/linux/">Install in linux</a></strong></li>
+    <li><strong><a href="/devtools/bigdata/scala/setup/linux/">Install in linux</a></strong></li>
 </ul>
 
 <br/>

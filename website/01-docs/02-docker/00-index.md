@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Docker
+description: Docker
+keywords: Docker
 permalink: /docker/
 ---
 

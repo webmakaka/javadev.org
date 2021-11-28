@@ -1,9 +1,12 @@
 ---
 layout: page
 title: Configuring a Resource Adapter for ActiveMQ on WildFly 8.2
+description: Configuring a Resource Adapter for ActiveMQ on WildFly 8.2
+keywords: Configuring a Resource Adapter for ActiveMQ on WildFly 8.2
 permalink: /docs/appserv/wildfly/8.2/active-mq/wildfly-activemq-integration-as-application/5.9.0/
 ---
 
+# Configuring a Resource Adapter for ActiveMQ on WildFly 8.2
 
     $ mkdir -p /opt/wildfly/8.2.0/modules/system/layers/base/org/apache/activemq/main/
 
@@ -58,11 +61,9 @@ permalink: /docs/appserv/wildfly/8.2/active-mq/wildfly-activemq-integration-as-a
 
 <br/>
 
-
     $ cd /tmp
     $ wget http://repo1.maven.org/maven2/org/apache/activemq/activemq-rar/5.9.0/activemq-rar-5.9.0.rar
     $ unzip ./activemq-rar-5.9.0.rar -d /opt/wildfly/8.2.0/modules/system/layers/base/org/apache/activemq/main/
-
 
 <br/>
 
@@ -74,9 +75,7 @@ permalink: /docs/appserv/wildfly/8.2/active-mq/wildfly-activemq-integration-as-a
 
     <subsystem xmlns="urn:jboss:domain:resource-adapters:2.0"/>
 
-
 replace on:
-
 
     <subsystem xmlns="urn:jboss:domain:resource-adapters:2.0">
         <resource-adapters>
@@ -99,7 +98,6 @@ replace on:
             </resource-adapter>
         </resource-adapters>
     </subsystem>
-
 
 restart wildfly server
 

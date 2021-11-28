@@ -1,16 +1,15 @@
 ---
 layout: page
 title: Nexus 2.X Installation in linux
+description: Nexus 2.X Installation in linux
+keywords: Nexus 2.X Installation in linux
 permalink: /devtools/repository-management/nexus/2/installation-on-linux/
 ---
 
-
-### Nexus 2.X Installation in linux
-
+# Nexus 2.X Installation in linux
 
     # cd /tmp/
     # wget http://www.sonatype.org/downloads/nexus-latest-bundle.tar.gz
-
 
 <br/>
 
@@ -18,7 +17,6 @@ permalink: /devtools/repository-management/nexus/2/installation-on-linux/
     # mkdir -p /opt/nexus/2.13.0
     # mv nexus-2.13.0-01/* /opt/nexus/2.13.0/
     # ln -s /opt/nexus/2.13.0/ /opt/nexus/current
-
 
 <br/>
 
@@ -49,12 +47,10 @@ permalink: /devtools/repository-management/nexus/2/installation-on-linux/
 
     $ nexus start
 
-
 <br/>
 
     $ nexus status
     Nexus OSS is running (150).
-
 
 <br/>
 
@@ -75,17 +71,13 @@ wait 2-3 minutes
     Cache-Control: post-check=0, pre-check=0
     Expires: 0
 
-
 <br/>
 
 http://localhost:8081/nexus/
 
-
-
 <br/><br/>
 
-
-### Using the Oracle Maven Repository with Nexus:  
+### Using the Oracle Maven Repository with Nexus:
 
 https://www.youtube.com/watch?v=ose6oXq7g7E
 
@@ -108,24 +100,21 @@ add in the bottom:
 
     $ nexus restart
 
-
-
 <br/>
 
-http://localhost:8081/nexus/  
-
+http://localhost:8081/nexus/
 
 Repositories -> Add --> Proxy Repository
 
 Repository ID: maven-oracle  
-Repository Name: Maven Oracle  
+Repository Name: Maven Oracle
 
 Remote Storage Location: http://maven.oracle.com
 
 Authentication.
 
 Your Username:  
-Your Password:  
+Your Password:
 
 SAVE
 
@@ -135,8 +124,6 @@ Public Repositories (group) --> configuration
 
 Move Maven Oracle to left
 
-
-
 <br/>
 
     $ mkdir -p /home/developer/.m2/
@@ -145,11 +132,11 @@ Move Maven Oracle to left
 
     $ vi /home/developer/.m2/settings.xml
 
-<br/>  
+<br/>
 
 My config. I will update it later (i hope).
 
-<br/>  
+<br/>
 
     <settings>
         <profiles>

@@ -8,6 +8,22 @@ permalink: /
 
 <br/>
 
+### [Java Brains] Spring Boot Microservices [ENG, 2019]
+
+https://www.youtube.com/c/JavaBrainsChannel/playlists?view=50&sort=dd&shelf_id=4
+
+<br/>
+
+### Spring Boot Quick Start
+
+<div align="center">
+
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x" frameborder="0" allowfullscreen></iframe>
+
+</div>
+
+<br/>
+
 ### [Derek Banas] Java Tutorial
 
 <div align="center">
@@ -75,16 +91,6 @@ Released: June 2016
 
 <br/>
 
-### Spring Boot Quick Start
-
-<div align="center">
-
-    <iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x" frameborder="0" allowfullscreen></iframe>
-
-</div>
-
-<br/>
-
 ### Docker and Kubernetes Recipes for Java Developers by Arun Gupta
 
 <div align="center">
@@ -114,16 +120,6 @@ Released: June 2016
 </div>
 
 <a href="//labs.javadev.org/labs/lab-07/">I'm trying to study this course</a>
-
-<br/>
-
-### JavaOne 2016
-
-<div align="center">
-
-    <iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLPIzp-E1msrYicmovyeuOABO4HxVPlhEA" frameborder="0" allowfullscreen></iframe>
-
-</div>
 
 <br/>
 
@@ -187,6 +183,8 @@ Released: June 2016
     <iframe width="853" height="480" src="https://www.youtube.com/embed/o_TH-Y78tt4" frameborder="0" allowfullscreen></iframe>
 </div>
 
+<br/>
+
 https://www.youtube.com/watch?v=lZq8Jlq18Ec  
 https://www.youtube.com/watch?v=yIf3EQmHmyw
 
@@ -239,8 +237,8 @@ https://bitbucket.org/marley-spring/building-an-e-commerce-store-using-java-spri
 
 My contact: <br/>
 
-![Marley](/img/a3333333mail.gif "Marley"){: .center-image }
+![Marley](/img/a3333333mail.gif 'Marley'){: .center-image }
 
 <br/><br/>
 
-![WTF in Minutes](/img/java_wtf.jpg "WTF in Minutes"){: .center-image }
+![WTF in Minutes](/img/java_wtf.jpg 'WTF in Minutes'){: .center-image }

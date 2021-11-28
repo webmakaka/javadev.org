@@ -1,10 +1,14 @@
 ---
 layout: page
 title: Archiva Maven Repository Manager Installation on Centos 7.X
+description: Archiva Maven Repository Manager Installation on Centos 7.X
+keywords: Archiva Maven Repository Manager Installation on Centos 7.X
 permalink: /devtools/repository-management/archiva/installation/
 ---
 
-### Archiva Maven Repository Manager
+# Archiva Maven Repository Manager
+
+<br/>
 
     # cd /tmp/
     # wget http://mirror.symnds.com/software/Apache/archiva/2.2.0/binaries/apache-archiva-2.2.0-bin.tar.gz

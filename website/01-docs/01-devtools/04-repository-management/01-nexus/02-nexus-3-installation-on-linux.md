@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Nexus 3.X Installation in linux
+description: Nexus 3.X Installation in linux
+keywords: Nexus 3.X Installation in linux
 permalink: /devtools/repository-management/nexus/3/installation-on-linux/
 ---
 
-<br/>
-
-### Nexus 3.X Installation in linux
+# Nexus 3.X Installation in linux
 
     # cd /tmp/
     # wget http://download.sonatype.com/nexus/3/nexus-3.0.0-03-unix.tar.gz

@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Version Control
+description: Version Control
+keywords: Version Control
 permalink: /devtools/version-controls/
 ---
 

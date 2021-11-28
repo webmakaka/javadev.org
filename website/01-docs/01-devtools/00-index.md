@@ -1,10 +1,12 @@
 ---
 layout: page
 title: Java Development Tools
+description: Java Development Tools
+keywords: Java Development Tools
 permalink: /devtools/
 ---
 
-# Java Development Tools:
+# Java Development Tools
 
 <br/>
 
@@ -59,7 +61,7 @@ permalink: /devtools/
 ### Continuous integration:
 
 <ul>
-    <li><strong><a href="/devtools/cicd/jenkins/">Jenkins Installation on Centos 6.6 x86_64</a></strong></li>
+    <li><strong><a href="/devtools/cicd/jenkins/">Jenkins Installation in Centos 6.6 x86_64</a></strong></li>
 </ul>
 
 <br/>

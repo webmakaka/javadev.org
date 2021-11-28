@@ -3,7 +3,7 @@ layout: page
 title: Apache Spark2 installation in Linux
 description: Apache2 Spark installation in Linux
 keywords: linux, spark2, pyspark, jupyter-notebook, installation
-permalink: /devtools/bigdata/spark/install/linux/
+permalink: /devtools/bigdata/spark/setup/linux/
 ---
 
 # Apache Spark2 installation in Linux
@@ -56,7 +56,7 @@ export PATH=${SPARK_HOME}/bin:$PATH
     _\ \/ _ \/ _ `/ __/  '_/
    /___/ .__/\_,_/_/ /_/\_\   version 2.4.3
       /_/
-         
+
 ```
 
 <br/>
@@ -64,12 +64,9 @@ export PATH=${SPARK_HOME}/bin:$PATH
     $ cd ${SPARK_HOME}/bin
     $ ./run-example SparkPi 10
 
-
 <br/>
 
     $ pyspark --master local[2]
-
-
 
 <br/>
 
@@ -79,7 +76,6 @@ export PATH=${SPARK_HOME}/bin:$PATH
     $ sudo apt install -y openjdk-8-jdk
     $ sudo update-alternatives --config java
     $ java -version
-
 
 <br/>
 
@@ -95,11 +91,9 @@ export PATH=${SPARK_HOME}/bin:$PATH
     $ pip3 install py4j
     $ pip3 install jupyter
 
-
 <br/>
 
     $ sudo vi /etc/profile.d/pyspark.sh
-
 
 <br/>
 
@@ -141,5 +135,3 @@ import findspark
 findspark.init('/opt/spark/current')
 import pyspark
 ```
-
-

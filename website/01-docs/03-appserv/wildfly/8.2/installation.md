@@ -1,8 +1,12 @@
 ---
 layout: page
 title: Wildfly 8.2 Installation on Centos 6.6 x86_64
+description: Wildfly 8.2 Installation on Centos 6.6 x86_64
+keywords: Wildfly 8.2 Installation on Centos 6.6 x86_64
 permalink: /docs/appserv/wildfly/8.2/installation/
 ---
+
+# Wildfly 8.2 Installation on Centos 6.6 x86_64
 
 Distributives:
 

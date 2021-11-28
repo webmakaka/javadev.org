@@ -10,7 +10,7 @@ permalink: /devtools/kafka/docker/
 
 [JDK8 should be installed](/devtools/jdk/setup/linux/)
 
-[Scala should be installed](/devtools/bigdata/scala/install/linux/)
+[Scala should be installed](/devtools/bigdata/scala/setup/linux/)
 
 <br/>
 

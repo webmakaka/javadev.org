@@ -3,15 +3,12 @@ layout: page
 title: Installation SCALA in linux
 description: Installation SCALA in linux
 keywords: linux, scala, installation
-permalink: /devtools/bigdata/scala/install/linux/
+permalink: /devtools/bigdata/scala/setup/linux/
 ---
-
 
 # Installation SCALA in linux
 
-
 https://www.scala-sbt.org/download.html
-
 
 ```
 echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
@@ -26,11 +23,9 @@ sudo apt-get install sbt
 
 <br/>
 
-
 ### Manually installation
 
 https://www.scala-lang.org/download/
-
 
     $ cd ${HOME}
     $ wget https://downloads.lightbend.com/scala/2.13.0/scala-2.13.0.tgz
@@ -74,7 +69,6 @@ export PATH=${SCALA_HOME}/bin:$PATH
 
     $ scala -version
     Scala code runner version 2.13.0 -- Copyright 2002-2018, LAMP/EPFL and Lightbend, Inc.
-
 
 <br/>
 

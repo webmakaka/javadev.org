@@ -1,8 +1,12 @@
 ---
 layout: page
 title: Configuring a Resource Adapter for ActiveMQ on WildFly 8.2
+description: Configuring a Resource Adapter for ActiveMQ on WildFly 8.2
+keywords: Configuring a Resource Adapter for ActiveMQ on WildFly 8.2
 permalink: /docs/appserv/wildfly/8.2/active-mq//wildfly-activemq-integration-as-module/
 ---
+
+# Configuring a Resource Adapter for ActiveMQ on WildFly 8.2
 
 <strong><a href="/docs/appserv/wildfly/8.2/active-mq/wildfly-activemq-integration-as-application/5.9.0/">For active mq version 5.9.0</a></strong>
 
@@ -118,7 +122,7 @@ restart wildfly server
 
     $ standalone.sh -c standalone-full.xml -b=0.0.0.0 -bmanagement=0.0.0.0
 
-![WildFly ActiveMQ as Module](/img/appserv/wildfly/8.2/active-mq/resource_adapters.png "WildFly ActiveMQ as Module"){: .center-image }
+![WildFly ActiveMQ as Module](/img/appserv/wildfly/8.2/active-mq/resource_adapters.png 'WildFly ActiveMQ as Module'){: .center-image }
 
 <br/><br/>
 

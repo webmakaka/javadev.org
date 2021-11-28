@@ -1,9 +1,12 @@
 ---
 layout: page
 title: Hadoop
+description: Hadoop
+keywords: Hadoop
 permalink: /linux/distributed-systems/hadoop/example-1/
 ---
 
+# Hadoop
 
     $ cd /tmp
 
@@ -126,7 +129,6 @@ permalink: /linux/distributed-systems/hadoop/example-1/
     		Bytes Read=529
     	File Output Format Counters
     		Bytes Written=29
-
 
 <br/>
 

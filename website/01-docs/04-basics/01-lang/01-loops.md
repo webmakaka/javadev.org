@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Java Basics Language Loops
+description: Java Basics Language Loops
+keywords: Java Basics Language Loops
 permalink: /lang/basics/loops/
 ---
 

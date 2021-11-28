@@ -4,7 +4,7 @@ title: Prepare Ubuntu Linux Environment for Development Android Apps with Androi
 permalink: /java_basics/android/installation/
 ---
 
-### Enabling hardware acceleration for Android SDK emulator in linux
+# Enabling hardware acceleration for Android SDK emulator in linux
 
 I'm really don't know Hardware Acceleration works or not.
 

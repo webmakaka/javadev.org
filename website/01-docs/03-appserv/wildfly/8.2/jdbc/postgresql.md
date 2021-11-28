@@ -1,27 +1,26 @@
 ---
 layout: page
 title: Wildfly 8.2 setup jdbc connection with PostgreSQL
+description: Wildfly 8.2 setup jdbc connection with PostgreSQL
+keywords: Wildfly 8.2 setup jdbc connection with PostgreSQL
 permalink: /appservers/wildfly/8.2/jdbc/postgresql/
 ---
 
+# Wildfly 8.2 setup jdbc connection with PostgreSQL
 
 **Download source:**  
 https://jdbc.postgresql.org/download.html
 
-
 **Driver:**
-postgresql-9.4-1201.jdbc41.jar  
+postgresql-9.4-1201.jdbc41.jar
 
     $ mkdir -p mkdir -p /opt/wildfly/8.2.0/modules/org/postgresql/main
     $ cd /opt/wildfly/8.2.0/modules/org/postgresql/main
     $ wget  https://jdbc.postgresql.org/download/postgresql-9.4-1201.jdbc41.jar
 
-
-
 ### Connect JDBC driver as Wildfly module
 
 $ vi /opt/wildfly/8.2.0/modules/org/postgresql/main/module.xml
-
 
 {% highlight xml %}
 
@@ -35,21 +34,18 @@ $ vi /opt/wildfly/8.2.0/modules/org/postgresql/main/module.xml
         <module name="javax.api"/>
         <module name="javax.transaction.api"/>
     </dependencies>
+
 </module>
 
 {% endhighlight %}
 
-
-
 ### PostgreSQL Datasource
-
 
     $ cp /opt/wildfly/8.2.0//standalone/configuration/standalone.xml /opt/wildfly/8.2.0//standalone/configuration/standalone.xml.orig
 
 <br/>
 
     $ vi /opt/wildfly/8.2.0/standalone/configuration/standalone.xml
-
 
 Replase datasource description:
 
@@ -110,10 +106,10 @@ on
                        </driver>
                    </drivers>
     </datasources>
+
 </subsystem>
 
 {% endhighlight %}
-
 
 And in default-bindings block i replaced datasource
 
@@ -123,17 +119,13 @@ And in default-bindings block i replaced datasource
 
 {% endhighlight %}
 
-
 {% highlight xml %}
 
 <default-bindings context-service="java:jboss/ee/concurrency/context/default" datasource="java:jboss/postgresDS" jms-connection-factory="java:jboss/DefaultJMSConnectionFactory" managed-executor-service="java:jboss/ee/concurrency/executor/default" managed-scheduled-executor-service="java:jboss/ee/concurrency/scheduler/default" managed-thread-factory="java:jboss/ee/concurrency/factory/default"/>
 
 {% endhighlight %}
 
-
-
 ### PostgreSQL XA Datasource
-
 
 $ vi /opt/jboss/7.1.1/standalone/configuration/standalone.xml
 
@@ -174,8 +166,7 @@ $ vi /opt/jboss/7.1.1/standalone/configuration/standalone.xml
       </statement>
   </xa-datasource>
 
-
-  ***
+---
 
   <drivers>
 
@@ -189,16 +180,11 @@ $ vi /opt/jboss/7.1.1/standalone/configuration/standalone.xml
 
 </datasources>
 
-
 {% endhighlight %}
 
+---
 
-
-___
-
-
-
-Error:  
+Error:
 
     Caused by: org.postgresql.util.PSQLException: FATAL: Ident authentication failed for user "scott" ...
 
@@ -207,10 +193,8 @@ The reason was, because not right properties has been written in the config file
 
 On my test environment i changed all ident on trust. And all start working.
 
-local   all             all                                     peer
+local all all peer
 
-
-___
-
+---
 
 https://access.redhat.com/documentation/en-US/JBoss_Enterprise_Application_Platform/6/html/Administration_and_Configuration_Guide/Example_PostgreSQL_XA_Datasource.html

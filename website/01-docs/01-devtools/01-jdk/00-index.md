@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Java (JDK) Installation
+description: Java (JDK) Installation
+keywords: JDK, installation
 permalink: /devtools/jdk/setup/
 ---
 

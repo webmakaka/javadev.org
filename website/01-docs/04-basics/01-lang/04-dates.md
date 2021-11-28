@@ -1,15 +1,14 @@
 ---
 layout: page
-title: Java Basics Language Loops
+title: Java Basics Convert Dates
+description: Java Basics Convert Dates
+keywords: Java Basics Convert Dates
 permalink: /lang/basics/dates/
 ---
 
 # [Java Basics] Convert Dates
 
-
 string format YYYY-MM-DD // 2017-12-31
-
-
 
     private java.sql.Date stringToSQLDate(String date){
         java.util.Date dateRes =  stringToDate(date);
@@ -33,7 +32,6 @@ string format YYYY-MM-DD // 2017-12-31
 
         return dateRes;
     }
-
 
 <br/>
 <hr/>

@@ -1,10 +1,12 @@
 ---
 layout: page
-title: JDK Installation on Windows XP
+title: JDK Installation in Windows XP
+description: JDK Installation in Windows XP
+keywords: JDK8, installation, windows, xp
 permalink: /devtools/jdk/setup/windows/xp/
 ---
 
-# JDK Installation on Windows XP
+# JDK Installation in Windows XP
 
 <br/>
 

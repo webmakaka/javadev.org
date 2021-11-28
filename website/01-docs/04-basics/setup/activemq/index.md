@@ -1,8 +1,12 @@
 ---
 layout: page
-title: ActiveMQ installation on Centos 6.X
-permalink: /java_basics/installation/activemq/centos/6/x86_x64/
+title: ActiveMQ installation in Centos 6.X
+description: ActiveMQ installation in Centos 6.X
+keywords: ActiveMQ installation in Centos 6.X
+permalink: /java_basics/setup/activemq/centos/6/x86_x64/
 ---
+
+# ActiveMQ installation in Centos 6.X
 
 1.  java should be installed. (I had problem when i worked with jdk 1.8.X)
 
@@ -11,16 +15,17 @@ permalink: /java_basics/installation/activemq/centos/6/x86_x64/
 
 <br/>
 
-2)
+2.  # su - root
 
-    # su - root
     # cd /tmp
+
     # wget http://mirrors.sonic.net/apache/activemq/5.11.1/apache-activemq-5.11.1-bin.tar.gz
+
     # tar -xvzpf apache-activemq-5.11.1-bin.tar.gz
 
-
     # mkdir -p /opt/activemq/5.11.1/
-    # mv apache-activemq-5.11.1/* /opt/activemq/5.11.1/
+
+    # mv apache-activemq-5.11.1/\* /opt/activemq/5.11.1/
 
     # ln -s /opt/activemq/5.11.1 /opt/activemq/current
 
@@ -130,7 +135,7 @@ http://192.168.1.11:8161/hawtio/
 
 <br/>
 
-![hawtio](/img/activemq/hawtio-1.3.png "hawtio"){: .center-image }
+![hawtio](/img/activemq/hawtio-1.3.png 'hawtio'){: .center-image }
 
 Path: /api/jolokia
 
