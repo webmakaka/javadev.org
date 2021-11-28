@@ -2,7 +2,7 @@
 layout: page
 title: Java Basics Convert Typess
 description: Java Basics Convert Typess
-keywords: Java BasicsConvert Typess
+keywords: Java Basics Convert Typess
 permalink: /lang/basics/convert-types/
 ---
 

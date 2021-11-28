@@ -14,12 +14,18 @@ https://www.youtube.com/c/JavaBrainsChannel/playlists?view=50&sort=dd&shelf_id=4
 
 <br/>
 
-### Spring Boot Quick Start
+### [Java Brains] Spring Boot Quick Start
 
 <div align="center">
-
     <iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLqq-6Pq4lTTbx8p2oCgcAQGQyqN8XeA1x" frameborder="0" allowfullscreen></iframe>
+</div>
 
+<br/>
+
+### [Java Brains] Java 8 Lambda Basics
+
+<div align="center">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLqq-6Pq4lTTa9YGfyhyW2CqdtW9RtY-I3" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <br/>
@@ -106,16 +112,6 @@ Released: June 2016
 <div align="center">
 
     <iframe width="853" height="480" src="https://www.youtube.com/embed/iJVW7v8O9BU" frameborder="0" allowfullscreen></iframe>
-
-</div>
-
-<br/>
-
-### Java 8 Lambda Basics
-
-<div align="center">
-
-    <iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLqq-6Pq4lTTa9YGfyhyW2CqdtW9RtY-I3" frameborder="0" allowfullscreen></iframe>
 
 </div>
 
