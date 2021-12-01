@@ -20,8 +20,22 @@ permalink: /devtools/ide/neovim/
 
 <br/>
 
-// Config Example on Lua to start  
+### Config Example on Lua to start
+
 https://github.com/nvim-lua/kickstart.nvim
+
+<br/>
+
+```
+$ cd .config/nvim
+$ git clone https://github.com/nvim-lua/kickstart.nvim .
+```
+
+<br/>
+
+```
+:PackerInstall
+```
 
 <br/>
 
