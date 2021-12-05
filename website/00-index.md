@@ -40,6 +40,10 @@ Need to update codes from this <a href="https://github.com/webmakaka/Building-an
 
 <br/>
 
+**[Github](https://github.com/webmak1/Spring-Boot-Quick-Start)**
+
+<br/>
+
 ### [Java Brains] Java 8 Lambda Basics [ENG, 2016]
 
 <div align="center">
@@ -62,7 +66,7 @@ https://www.youtube.com/c/JavaBrainsChannel/playlists?view=50&sort=dd&shelf_id=4
 
 <br/>
 
-**[GithubRepo](https://github.com/webmakaka/spring-boot-microservices-workshop)**
+**[Github](https://github.com/webmak1/spring-boot-microservices-workshop)**
 
 <br/>
 
