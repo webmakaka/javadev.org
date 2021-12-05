@@ -48,11 +48,21 @@ Need to update codes from this <a href="https://github.com/webmakaka/Building-an
 
 <br/>
 
+```
+$ youtube-dl -i -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/bestvideo+bestaudio' --merge-output-format mp4 https://www.youtube.com/watch?list=PLqq-6Pq4lTTa9YGfyhyW2CqdtW9RtY-I3 --output "%(title)s.%(ext)s"
+```
+
+<br/>
+
 ### [Java Brains] Spring Boot Microservices [ENG, 2019]
 
-3 courses
+**3 courses**
 
 https://www.youtube.com/c/JavaBrainsChannel/playlists?view=50&sort=dd&shelf_id=4
+
+<br/>
+
+**[GithubRepo](https://github.com/webmakaka/spring-boot-microservices-workshop)**
 
 <br/>
 

@@ -25,8 +25,8 @@ $ sudo apt install vim tmux curl unzip
 <br/>
 
 ```
-$ mkdir -p ~/projects/dev/java && cd ~/projects/dev/java
-$ curl https://start.spring.io/starter.zip -d dependencies=h2,data-jpa,data-rest -d javaVersion=11 -o demo.zip
+$ mkdir -p ~/projects/dev/java/spring && cd ~/projects/dev/java/spring
+$ curl https://start.spring.io/starter.zip -d dependencies=h2,data-jpa,data-rest,lombok -d javaVersion=11 -o demo.zip
 
 $ unzip demo.zip
 ```
@@ -42,8 +42,6 @@ $ ./mvnw spring-boot:run
 ```
 $ vi src/main/java/com/example/demo/Beer.java
 ```
-
-<!--
 
 <br/>
 
@@ -65,55 +63,6 @@ public class Beer {
     private Long id;
     private String name;
     private Double abv;
-}
-``` -->
-
-<br/>
-
-```java
-package com.example.demo;
-
-import javax.annotation.Generated;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.GenerationType;
-
-@Entity
-public class Beer {
-
-    @Id
-    @GeneratedValue(strategy=GenerationType.IDENTITY)
-    private Long id;
-    private String name;
-    private Double abv;
-
-    public Beer() {
-    }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public Double getAbv() {
-        return abv;
-    }
-
-    public void setAbv(Double abv) {
-        this.abv = abv;
-    }
 }
 ```
 
@@ -145,6 +94,7 @@ $ vi src/main/resources/application.properties
 <br/>
 
 ```java
+spring.jpa.defer-datasource-initialization=true
 spring.datasource.url=jdbc:h2:mem:test
 spring.jpa.hibernate.ddl-auto=create-drop
 spring.datasource.driverClassName=org.h2.Driver
@@ -154,18 +104,20 @@ spring.jpa.show-sql=true
 
 <br/>
 
-<!-- ```
+```
 $ vi src/main/resources/data.sql
 ```
 
 <br/>
 
 ```java
-INSERT INTO beer(name,abv) VALUES('Jai Alai', 7.5);
-INSERT INTO beer(name,abv) VALUES('Stella Artois', 5.0);
-INSERT INTO beer(name,abv) VALUES('Lagunitas IPA', 6.2);
+INSERT INTO beer(name,abv) VALUES('Kozel', 9.0);
+INSERT INTO beer(name,abv) VALUES('Carlsberg', 9.0);
+INSERT INTO beer(name,abv) VALUES('Heineken', 7.5);
+INSERT INTO beer(name,abv) VALUES('Tuborg', 5.0);
+INSERT INTO beer(name,abv) VALUES('Bochka', 6.2);
 COMMIT;
-``` -->
+```
 
 <br/>
 
@@ -178,9 +130,9 @@ $ ./mvnw spring-boot:run
 ```
 $ curl http://localhost:8080/beers
 
-$ curl -X POST -H "Content-Type:application/json" -d '{"name": "Jai Alai", "abv": 7.5}' http://localhost:8080/beers
+$ curl -X POST -H "Content-Type:application/json" -d '{"name": "Klinskoe", "abv": 7.5}' http://localhost:8080/beers
 
-$ curl http://localhost:8080/beers/1
+$ curl http://localhost:8080/beers/
 ```
 
 <br/>
