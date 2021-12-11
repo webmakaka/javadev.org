@@ -8,6 +8,17 @@ permalink: /
 
 <br/>
 
+### [Java Brains] Build a messaging app (Spring Boot + Cassandra) [ENG, 2021]
+
+<div align="center">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/saSzMKeN6oI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+**src:**  
+https://github.com/koushikkothagal/inbox-app
+
+<br/>
+
 ### [Spring] [Udemy] Java Full Stack Spring Boot and Angular (Inc. JWT + Cloud) [ENG, 2021]
 
 https://www.udemy.com/course/java-full-stack-spring-boot-and-angular-inc-jwt-cloud/

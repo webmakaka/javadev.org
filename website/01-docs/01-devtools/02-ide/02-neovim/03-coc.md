@@ -246,6 +246,7 @@ noremap <Down> <Nop>
 noremap <Left> <Nop>
 noremap <Right> <Nop>
 
+
 "block mouse coursor
 set mouse=
 
@@ -270,6 +271,8 @@ noremap <F3> :set invnumber<CR>
 inoremap <F3> <C-O>:set invnumber<CR>
 
 nmap <silent> gd <Plug>(coc-definition)
+
+inoremap jk <esc>
 
 " Use `:Prettier` command for coc
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
