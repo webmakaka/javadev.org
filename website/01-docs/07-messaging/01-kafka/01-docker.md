@@ -57,19 +57,21 @@ Connection closed by foreign host.
 
 ### Client installation if needed
 
+<br/>
+
     $ cd ~/tmp
-    $ wget http://mirror.cogentco.com/pub/apache/kafka/2.2.0/kafka_2.12-2.2.0.tgz
-    $ tar -xvf kafka_2.12-2.2.0.tgz
+    $ wget https://archive.apache.org/dist/kafka/2.8.1/kafka_2.12-2.8.1.tgz
+    $ tar -xvf kafka_2.12-2.8.1.tgz
 
 <br/>
 
-    $ sudo mkdir -p /opt/kafka/2.12-2.2.0
-    $ sudo mv kafka_2.12-2.2.0/* /opt/kafka/2.12-2.2.0/
-    $ sudo ln -s /opt/kafka/2.12-2.2.0/ /opt/kafka/current
+    $ sudo mkdir -p /opt/kafka/2.12-2.8.1
+    $ sudo mv kafka_2.12-2.8.1/* /opt/kafka/2.12-2.8.1/
+    $ sudo ln -s /opt/kafka/2.12-2.8.1/ /opt/kafka/current
 
 <br/>
 
-    $ rm -rf kafka_2.12-2.2.0*
+    $ rm -rf kafka_2.12-2.8.1*
 
 <br/>
 
@@ -78,112 +80,16 @@ Connection closed by foreign host.
 <br/>
 
 ```
-#### KAFKA 2.12-2.2.0 #######################
+#### KAFKA 2.12-2.8.1 #######################
 
 export KAFKA_HOME=/opt/kafka/current
 export PATH=${KAFKA_HOME}/bin:$PATH
 
-#### KAFKA 2.12-2.2.0 #######################
+#### KAFKA 2.12-2.8.1 #######################
 ```
 
 <br/>
 
 ```
 $ source /etc/profile.d/kafka.sh
-```
-
-<br/>
-
-```
-$ kafka-topics.sh \
-    --zookeeper localhost:2181 \
-    --create \
-    --partitions 3 \
-    --replication-factor 1 \
-    --topic test
-```
-
-<br/>
-    
-```
-$ kafka-topics.sh \
-    --zookeeper localhost:2181 \ 
-    --describe \
-    --topic test 
-Topic:test	PartitionCount:3	ReplicationFactor:1	Configs:
-    Topic: test	Partition: 0	Leader: 2	Replicas: 2	Isr: 2
-    Topic: test	Partition: 1	Leader: 3	Replicas: 3	Isr: 3
-    Topic: test	Partition: 2	Leader: 1	Replicas: 1	Isr: 1
-```
-
-<br/>
-
-```
-$ kafka-topics.sh \
-    --zookeeper localhost:2181 \
-    --list
-```
-
-**returns:**
-
-```
-test
-```
-
-<br/>
-
-```
-// Create a Message
-$ kafka-console-producer.sh \
-    --broker-list localhost:9092 \
-    --topic test
-
-Test Message 1
-Test Message 2
-
-^D
-```
-
-<br/>
-
-```
-// Receive a Message
-$ kafka-console-consumer.sh \
-    --bootstrap-server localhost:9092 \
-    --topic test \
-    --from-beginning
-
-^D
-```
-
-<br/>
-
-```
-$ vi message.json
-```
-
-<br/>
-
-```
-{
-   "distributionID":"TB-AARTool-30",
-   "senderID":"TB-AARTool",
-   "dateTimeSent":1635405698193,
-   "dateTimeExpires":1635405698193,
-   "distributionStatus":"System",
-   "distributionKind":"Request"
-}
-```
-
-<br/>
-
-```
-$ kafka-console-producer.sh --broker-list localhost:9092 --topic test < ./message.json
-```
-
-<br/>
-
-```
-// https://stackoverflow.com/questions/69753326/how-can-i-send-key-value-to-kafka-with-kafkaconsoleproducer-without-it-beind-e
-$ kafka-console-producer.sh --broker-list localhost:9092 --topic test --property "parse.key=true" --property "key.separator=;" < ./message.json
 ```

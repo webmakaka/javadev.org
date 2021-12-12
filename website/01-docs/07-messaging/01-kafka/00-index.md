@@ -11,3 +11,7 @@ permalink: /messaging/kafka/
 [Run kafka in docker container](/devtools/jdk/setup/linux/)
 
 [Installation kafka in linux](/messaging/kafka/setup/linux/)
+
+[Installation kafka client](/messaging/kafka/client/)
+
+[Working with kafka](/messaging/kafka/working-with-kafka/)
