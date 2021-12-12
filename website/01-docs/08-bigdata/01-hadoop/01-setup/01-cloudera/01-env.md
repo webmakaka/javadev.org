@@ -3,15 +3,13 @@ layout: page
 title: Environment for installation Cloudera
 description: Environment for installation Cloudera
 keywords: Apache. Hadoop, installation, virtualbox, vagrant, cloudera
-permalink: /devtools/bigdata/hadoop/install/cloudera/env/
+permalink: /bigdata/hadoop/setup/cloudera/env/
 ---
-
 
 # Environment for installation Cloudera
 
 Working on doc:  
 18.03.2020
-
 
 <br/>
 
@@ -23,8 +21,6 @@ Working on doc:
 
 **Configuring Big Data Cluster using Cloudera Manager**  
 https://www.youtube.com/watch?v=jKyJmPPmm1A
-
-
 
 <br/>
 
@@ -76,7 +72,6 @@ With 4 GB RAM for master node there were errors on installation.
     node2.cloudera              running (virtualbox)
     node3.cloudera              running (virtualbox)
 
-
 <br/>
 
     $ vagrant ssh master.cloudera
@@ -116,11 +111,10 @@ also possible
     // cm5
     # wget https://archive.cloudera.com/cm5/installer/latest/cloudera-manager-installer.bin
 
-or 
+or
 
     // cm7
     # wget https://archive.cloudera.com/cm7/7.0.3/cloudera-manager-installer.bin
-    
 
 <br/>
 
@@ -168,7 +162,6 @@ Server: Jetty(6.1.26.cloudera.4)
   "message" : "Hello, World!"
 }
 ```
-
 
 <br/>
 

@@ -17,7 +17,7 @@ permalink: /
 **src:**  
 https://github.com/koushikkothagal/inbox-app
 
-<br/>
+<!-- <br/>
 
 ### [Spring] [Udemy] Java Full Stack Spring Boot and Angular (Inc. JWT + Cloud) [ENG, 2021]
 
@@ -27,7 +27,7 @@ https://www.udemy.com/course/java-full-stack-spring-boot-and-angular-inc-jwt-clo
 
 ### [Spring] [Udemy] Full Stack: Angular and Java Spring Boot [ENG, 2020]
 
-https://www.udemy.com/course/full-stack-angular-spring-boot-tutorial/
+https://www.udemy.com/course/full-stack-angular-spring-boot-tutorial/ -->
 
 <br/>
 

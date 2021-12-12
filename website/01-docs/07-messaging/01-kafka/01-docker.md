@@ -3,14 +3,14 @@ layout: page
 title: Run kafka in docker container
 description: Run kafka in docker container
 keywords: kafka, docker
-permalink: /devtools/kafka/docker/
+permalink: /messaging/kafka/docker/
 ---
 
 # Run kafka in docker container
 
 [JDK8 should be installed](/devtools/jdk/setup/linux/)
 
-[Scala should be installed](/devtools/bigdata/scala/setup/linux/)
+<!-- [Scala should be installed (I am not sure that this is needed)](/devtools/scala/setup/linux/) -->
 
 <br/>
 
@@ -21,9 +21,9 @@ permalink: /devtools/kafka/docker/
 ```
 $ cd ~/tmp
 
-// Docker script from video course Linux.Academy.Apache.Kafka.Deep.Dive-ViGOROUS
-$ git clone https://github.com/matematika-org/docker-kafka
-$ cd docker-kafka/
+// Docker script from video course Linux Academy Apache Kafka Deep Dive
+$ git clone https://github.com/webmak1/kafka-docker
+$ cd kafka-docker/
 ```
 
 <br/>

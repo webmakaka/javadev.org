@@ -3,18 +3,16 @@ layout: page
 title: Hadoop installation
 description: Apache Hadoop installation
 keywords: Apache. Hadoop, installation
-permalink: /devtools/bigdata/hadoop/install/
+permalink: /bigdata/hadoop/setup/
 ---
 
 # Apache Hadoop installation
 
-<a href="/devtools/bigdata/hadoop/install/cloudera/">Cloudera packages</a> (Recommend for newbie, like me)
-<a href="/devtools/bigdata/hadoop/install/ambari/">Ambari packages</a> (Recommend for newbie, like me)
-<a href="/devtools/bigdata/hadoop/install/linux/">Hadoop</a>
-
+<a href="/bigdata/hadoop/setup/cloudera/">Cloudera packages</a> (Recommend for newbie, like me)
+<a href="/bigdata/hadoop/setup/ambari/">Ambari packages</a> (Recommend for newbie, like me)
+<a href="/bigdata/hadoop/setup/linux/">Hadoop</a>
 
 <br/>
-
 
 ### [Installing Apache Hadoop by book Tom White - Hadoop: The Definitive Guide, 4th Edition [ENG, 2015]](/docs/hadoop/centos/6/installation/by-book/)
 
@@ -31,7 +29,6 @@ I have static IP, domain name for tests, virtual maсhines: virtualbox, docker.
 
 <br/><br/>
 <br/><br/>
-
 
     How to download 'weather data' for your analysis
 

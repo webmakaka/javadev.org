@@ -95,5 +95,5 @@ permalink: /devtools/
 ### BigData
 
 <ul>
-    <li><strong><a href="/devtools/bigdata/hadoop/install/linux/">Hadoop, Spark, Scala, Kafka, etc.</a></strong></li>
+    <li><strong><a href="/bigdata/hadoop/setup/linux/">Hadoop, Spark, Scala, Kafka, etc.</a></strong></li>
 </ul>

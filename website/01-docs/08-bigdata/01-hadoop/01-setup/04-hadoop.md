@@ -3,7 +3,7 @@ layout: page
 title: Apache Hadoop, Pig, Hive, Derby installation in Centos Linux
 description: Apache Hadoop, Pig, Hive, Derby installation in Centos Linux
 keywords: Apache. Hadoop, installation, pig, hive, derby, centos, linux
-permalink: /devtools/bigdata/hadoop/install/linux/
+permalink: /bigdata/hadoop/setup/linux/
 ---
 
 # Apache Hadoop, Pig, Hive, Derby installation in Centos Linux

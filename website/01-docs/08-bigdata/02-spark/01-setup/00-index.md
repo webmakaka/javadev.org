@@ -3,7 +3,7 @@ layout: page
 title: Apache Spark2 installation in Linux
 description: Apache2 Spark installation in Linux
 keywords: linux, spark2, pyspark, jupyter-notebook, installation
-permalink: /devtools/bigdata/spark/setup/linux/
+permalink: /bigdata/spark/setup/linux/
 ---
 
 # Apache Spark2 installation in Linux
