@@ -3,7 +3,7 @@ layout: page
 title: Gradle installation in Ubuntu 20.04
 description: Gradle installation in Ubuntu 20.04
 keywords: java, assembly, maven, gradle, ubuntu
-permalink: /devtools/assembly/gradle/linux/ubuntu/
+permalink: /devtools/build/gradle/linux/ubuntu/
 ---
 
 # Gradle installation in Ubuntu 20.04
@@ -56,3 +56,9 @@ Let try to check result:
 <br/>
 
     $ gradle --version
+
+<br/>
+
+### Gradle compatibility with JDK
+
+https://docs.gradle.org/current/userguide/compatibility.html

@@ -3,7 +3,7 @@ layout: page
 title: Maven installation in Ubuntu 20
 description: Maven installation in Ubuntu 20
 keywords: java, assembly, maven, linux, ubuntu
-permalink: /devtools/assembly/maven/linux/ubuntu/
+permalink: /devtools/build/maven/linux/ubuntu/
 ---
 
 # Maven installation in Ubuntu 20

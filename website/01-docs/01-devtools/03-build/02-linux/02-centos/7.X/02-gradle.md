@@ -3,7 +3,7 @@ layout: page
 title: Gradle installation in Centos 7.X
 description: Gradle installation in Centos 7.X
 keywords: java, assembly, maven, gradle
-permalink: /devtools/assembly/gradle/linux/centos/7/
+permalink: /devtools/build/gradle/linux/centos/7/
 ---
 
 # Gradle installation in Centos 7.X

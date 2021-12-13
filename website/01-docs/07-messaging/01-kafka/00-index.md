@@ -15,3 +15,5 @@ permalink: /messaging/kafka/
 [Installation kafka client](/messaging/kafka/client/)
 
 [Working with kafka](/messaging/kafka/working-with-kafka/)
+
+[The Kafka Java APIs](/messaging/kafka/kafka-java-apis/)

@@ -33,7 +33,7 @@ DISABLE FIREWALL
 
 ### 2) Maven Installation
 
--   http://javadev.org/devtools/assembly/maven/linux/centos/7/
+-   http://javadev.org/devtools/build/maven/linux/centos/7/
 
 ### 3) MySQL Installation (>=5.6)
 

@@ -53,7 +53,7 @@ permalink: /devtools/
 ### Assembly Tools:
 
 <ul>
-    <li><strong><a href="/devtools/assembly/">Assembly Tools</a></strong></li>
+    <li><strong><a href="/devtools/build/">Assembly Tools</a></strong></li>
 </ul>
 
 <br/>

@@ -15,7 +15,7 @@ $ kafka-topics.sh \
     --zookeeper localhost:2181 \
     --create \
     --partitions 3 \
-    --replication-factor 1 \
+    --replication-factor 2 \
     --topic test
 ```
 
@@ -26,10 +26,6 @@ $ kafka-topics.sh \
     --zookeeper localhost:2181 \ 
     --describe \
     --topic test 
-Topic:test	PartitionCount:3	ReplicationFactor:1	Configs:
-    Topic: test	Partition: 0	Leader: 2	Replicas: 2	Isr: 2
-    Topic: test	Partition: 1	Leader: 3	Replicas: 3	Isr: 3
-    Topic: test	Partition: 2	Leader: 1	Replicas: 1	Isr: 1
 ```
 
 <br/>
@@ -57,7 +53,7 @@ $ kafka-console-producer.sh \
 Test Message 1
 Test Message 2
 
-^D
+^C
 ```
 
 <br/>
@@ -69,7 +65,7 @@ $ kafka-console-consumer.sh \
     --topic test \
     --from-beginning
 
-^D
+^C
 ```
 
 <br/>
