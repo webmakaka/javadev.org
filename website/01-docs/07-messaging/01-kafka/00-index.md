@@ -17,3 +17,5 @@ permalink: /messaging/kafka/
 [Working with kafka](/messaging/kafka/working-with-kafka/)
 
 [The Kafka Java APIs](/messaging/kafka/kafka-java-apis/)
+
+[The Kafka Java APIs](/messaging/kafka/kafka-java-apis/)

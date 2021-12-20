@@ -17,6 +17,18 @@ $ cd kafka-java-connect/
 <br/>
 
 ```
+$ vi gradle/wrapper/gradle-wrapper.properties
+```
+
+<br/>
+
+```
+distributionUrl=https\://services.gradle.org/distributions/gradle-7.3.1-bin.zip
+```
+
+<br/>
+
+```
 $ ./gradlew --version
 ```
 
