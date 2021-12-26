@@ -116,7 +116,15 @@ public class StreamsMain {
 $ kafka-console-producer.sh \
     --broker-list localhost:9092 \
     --topic streams-input-topic
+
+[Enter]
 ^C
+```
+
+<br/>
+
+```
+$ kafka-topics.sh --list --bootstrap-server localhost:9092
 ```
 
 <br/>
@@ -275,5 +283,97 @@ public class StatelessTransformationsMain {
 $ kafka-console-producer.sh \
     --broker-list localhost:9092 \
     --topic stateless-transformations-input-topic
+
+[Enter]
 ^C
 ```
+
+<br/>
+
+```
+// Need to create a topic from the beginning
+$ kafka-console-producer.sh \
+    --broker-list localhost:9092 \
+    --topic stateless-transformations-output-topic
+
+[Enter]
+^C
+```
+
+<br/>
+
+```
+$ kafka-topics.sh --list --bootstrap-server localhost:9092
+```
+
+<br/>
+
+```
+// Termanal 2
+// Send Messages
+$ kafka-console-producer.sh \
+    --broker-list localhost:9092 \
+    --topic stateless-transformations-input-topic1 \
+    --property parse.key=true \
+    --property key.separator=:
+
+>akey:avalue
+>akey:avalue
+>akey:bvalue
+>bkey:bvalue
+
+^C
+```
+
+<br/>
+
+```
+$ ./gradlew runStatelessTransformations
+```
+
+```
+***
+key=AKEY, value=AVALUE
+key=AKEY, value=avalue
+key=AKEY, value=AVALUE
+key=AKEY, value=avalue
+key=AKEY, value=AVALUE
+key=AKEY, value=avalue
+key=bkey, value=bvalue
+```
+
+<br/>
+
+```
+// Termanal 1
+// Receive Messages
+$ kafka-console-consumer.sh \
+    --bootstrap-server localhost:9092 \
+    --topic stateless-transformations-output-topic1 \
+    --property print.key=true
+```
+
+<br/>
+
+```
+// Terminal 2
+>akey:avalue
+>akey:avalue
+>akey:bvalue
+>bkey:bvalue
+```
+
+<br/>
+
+```
+// Termanal 1
+AKEY	AVALUE
+AKEY	avalue
+AKEY	AVALUE
+AKEY	avalue
+bkey	bvalue
+```
+
+<br/>
+
+### Kafka Streams Aggregations

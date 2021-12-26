@@ -31,16 +31,14 @@ http://maven.apache.org
 
 <br/>
 
-{% highlight bash %}
-
-#### MAVEN 3.5.3
+```
+#### MAVEN 3.5.3 #########################
 
     export MAVEN_HOME=/opt/maven/current
     export PATH=$PATH:$MAVEN_HOME/bin
 
-#### MAVEN 3.5.3
-
-{% endhighlight %}
+#### MAVEN 3.5.3 #########################
+```
 
 <br/>
 
@@ -73,8 +71,8 @@ http://maven.apache.org
 ```
 #### MAVEN 2.2.1 #########################
 
-	export MAVEN_HOME=/opt/maven/current
-	export PATH=$PATH:$MAVEN_HOME/bin
+    export MAVEN_HOME=/opt/maven/current
+    export PATH=$PATH:$MAVEN_HOME/bin
 
 #### MAVEN 2.2.1 #########################
 ```
