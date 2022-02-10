@@ -127,20 +127,20 @@ https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
 
 <br/>
 
-Latest for now is: 8u311
+Latest for now is: 8u321
 
 <br/>
 
     $ ls jdk*
-    jdk-8u311-linux-x64.tar.gz
+    jdk-8u321-linux-x64.tar.gz
 
-    $ tar -xvzpf jdk-8u311-linux-x64.tar.gz
-    $ sudo mv jdk1.8.0_281/ /opt/
-    $ sudo ln -s /opt/jdk1.8.0_281/ /opt/jdk
+    $ tar -xvzpf jdk-8u321-linux-x64.tar.gz
+    $ sudo mv jdk1.8.0_321/ /opt/
+    $ sudo ln -s /opt/jdk1.8.0_321/ /opt/jdk
 
 <br/>
 
-    $ rm jdk-8u311-linux-x64.tar.gz
+    $ rm jdk-8u321-linux-x64.tar.gz
 
 <br/>
 
