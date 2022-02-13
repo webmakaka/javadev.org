@@ -19,70 +19,78 @@ permalink: /docs/appserv/wildfly/8.2/active-mq/wildfly-activemq-integration-as-a
     $ cp standalone-full.xml standalone-full.xml.backup
     $ vi standalone-full.xml
 
-replace block
+<br/>
 
-    <subsystem xmlns="urn:jboss:domain:resource-adapters:2.0">
+**replace block**
+
+<br/>
+
+```xml
+<subsystem xmlns="urn:jboss:domain:resource-adapters:2.0">
+```
 
 on
 
-    <subsystem xmlns="urn:jboss:domain:resource-adapters:2.0">
-        <resource-adapters>
-            <resource-adapter id="activemq">
-                <archive>
-                    activemq-rar-5.11.1.rar
-                </archive>
+```xml
+<subsystem xmlns="urn:jboss:domain:resource-adapters:2.0">
+    <resource-adapters>
+        <resource-adapter id="activemq">
+            <archive>
+                activemq-rar-5.11.1.rar
+            </archive>
 
-                <transaction-support>XATransaction</transaction-support>
+            <transaction-support>XATransaction</transaction-support>
 
-                <config-property name="UseInboundSession">
-                    false
-                </config-property>
+            <config-property name="UseInboundSession">
+                false
+            </config-property>
 
-                <config-property name="UserName">
-                    defaultUser
-                </config-property>
+            <config-property name="UserName">
+                defaultUser
+            </config-property>
 
-                <config-property name="Password">
-                    defaultPassword
-                </config-property>
+            <config-property name="Password">
+                defaultPassword
+            </config-property>
 
-                <config-property name="ServerUrl">
-                    tcp://localhost:61616
-                </config-property>
+            <config-property name="ServerUrl">
+                tcp://localhost:61616
+            </config-property>
 
-                <connection-definitions>
-                    <connection-definition class-name="org.apache.activemq.ra.ActiveMQManagedConnectionFactory" jndi-name="java:/ConnectionFactory" enabled="true" pool-name="ConnectionFactory">
+            <connection-definitions>
+                <connection-definition class-name="org.apache.activemq.ra.ActiveMQManagedConnectionFactory" jndi-name="java:/ConnectionFactory" enabled="true" pool-name="ConnectionFactory">
 
-                        <xa-pool>
-                            <min-pool-size>1</min-pool-size>
-                            <max-pool-size>20</max-pool-size>
-                            <prefill>false</prefill>
-                            <is-same-rm-override>false</is-same-rm-override>
-                        </xa-pool>
+                    <xa-pool>
+                        <min-pool-size>1</min-pool-size>
+                        <max-pool-size>20</max-pool-size>
+                        <prefill>false</prefill>
+                        <is-same-rm-override>false</is-same-rm-override>
+                    </xa-pool>
 
-                    </connection-definition>
-                </connection-definitions>
+                </connection-definition>
+            </connection-definitions>
 
-                <admin-objects>
-                    <admin-object class-name="org.apache.activemq.command.ActiveMQQueue" jndi-name="java:jboss/activemq/queue/TestQueue" use-java-context="true" pool-name="TestQueue">
+            <admin-objects>
+                <admin-object class-name="org.apache.activemq.command.ActiveMQQueue" jndi-name="java:jboss/activemq/queue/TestQueue" use-java-context="true" pool-name="TestQueue">
 
-                        <config-property name="PhysicalName">
-                            activemq/queue/TestQueue
-                        </config-property>
+                    <config-property name="PhysicalName">
+                        activemq/queue/TestQueue
+                    </config-property>
 
-                    </admin-object>
+                </admin-object>
 
-                    <admin-object class-name="org.apache.activemq.command.ActiveMQTopic" jndi-name="java:jboss/activemq/topic/TestTopic" use-java-context="true" pool-name="TestTopic">
+                <admin-object class-name="org.apache.activemq.command.ActiveMQTopic" jndi-name="java:jboss/activemq/topic/TestTopic" use-java-context="true" pool-name="TestTopic">
 
-                        <config-property name="PhysicalName">
-                            activemq/topic/TestTopic
-                        </config-property>
+                    <config-property name="PhysicalName">
+                        activemq/topic/TestTopic
+                    </config-property>
 
-                    </admin-object>
-                </admin-objects>
-            </resource-adapter>
-        </resource-adapters>
-    </subsystem>
+                </admin-object>
+            </admin-objects>
+        </resource-adapter>
+    </resource-adapters>
+</subsystem>
+```
 
 <br/>
 
@@ -103,6 +111,8 @@ http://www.ironjacamar.org
     $ unzip ironjacamar-1.2.4.Final.zip
     $ cd ironjacamar-1.2.4.Final/doc/as/
 
+<br/>
+
 You need to manually edit the rar-info.sh file and add to the classpath.
 
 /opt/wildfly/8.2.0/modules/system/layers/base/javax/jms/api/main/jboss-jms-api_2.0_spec-1.0.0.Final.jar
@@ -122,10 +132,11 @@ And i added -Dlog4j.ignoreTCL=true in the beginning
 
     $ ./rar-info.sh /tmp/activemq-rar-5.11.1.rar -o result.txt
 
-
-
+<br/>
 
     2015-05-15 09:43:49,512 [ActiveMQ Task-1] INFO  FailoverTransport - Successfully connected to tcp://localhost:61616
     Done.
+
+<br/>
 
 Remove the opening <resource-adapters> and <resource-adapter> tags and replace with an <ironjacamar> opening tag in the standalone-full.xml.

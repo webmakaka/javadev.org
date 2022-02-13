@@ -3,7 +3,7 @@ layout: page
 title: Wildfly 8.2 Installation on Centos 6.6 x86_64
 description: Wildfly 8.2 Installation on Centos 6.6 x86_64
 keywords: Wildfly 8.2 Installation on Centos 6.6 x86_64
-permalink: /docs/appserv/wildfly/8.2/installation/
+permalink: /docs/appserv/wildfly/8.2/setup/
 ---
 
 # Wildfly 8.2 Installation on Centos 6.6 x86_64
@@ -76,8 +76,7 @@ If you need to add user to group wildfly_admins, you can do it with the next com
 
     $ vi ~/.bash_profile
 
-{% highlight bash %}
-
+```
 # User specific environment and startup programs
 
 #### WildFly 8.2.0
@@ -86,19 +85,19 @@ export WILDFLY_HOME=/opt/wildfly/8.2.0
 export PATH=$PATH:$HOME/bin:$WILDFLY_HOME/bin
 
 #### WildFly 8.2.0
-
-{% endhighlight %}
+```
 
 Apply new parameters to current environment:
 
     $ source ~/.bash_profile
 
+<br/>
+
 ### Create user for access to the wildfly web console
 
     $ add-user.sh
 
-{% highlight bash %}
-
+```
 What type of user do you wish to add?
 a) Management User (mgmt-users.properties)
 b) Application User (application-users.properties)
@@ -132,8 +131,7 @@ Added user 'admin' with groups to file '/opt/wildfly/8.2.0/domain/configuration/
 Is this new user going to be used for one AS process to connect to another AS process?
 e.g. for a slave host controller connecting to the master or for a Remoting connection for server to server EJB calls.
 yes/no?
-
-{% endhighlight %}
+```
 
 ### To start WildFly
 

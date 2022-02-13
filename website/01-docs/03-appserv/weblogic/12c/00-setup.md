@@ -73,7 +73,7 @@ I think i should correct this packages list what needs to be install.
 
 Before # User specific environment and startup programs:
 
-{% highlight bash %}
+```
 ########################
 
 # Weblogic Parameters
@@ -86,9 +86,13 @@ export MW_HOME=/u01/app/oracle/weblogic/12.1
 export WL_HOME=\${MW_HOME}/wlserver_12.1
 
 ########################
-{% endhighlight %}
+```
+
+<br/>
 
     $ source $HOME/.bash_profile
+
+<br/>
 
 ### Weblogic Server Installation
 
@@ -169,7 +173,7 @@ We can connect to the server console <host>:7001/console/
 
 <img src="/files/appserv/weblogic/12c/installation/image20.png" alt="Weblogic Installation on Centos">
 
-<br/><br/>
+<br/>
 
 ### JEE App deployment on Weblgic Server
 

@@ -8,6 +8,8 @@ permalink: /docs/appserv/wildfly/8.2/active-mq//wildfly-activemq-integration-as-
 
 # Configuring a Resource Adapter for ActiveMQ on WildFly 8.2
 
+<br/>
+
 <strong><a href="/docs/appserv/wildfly/8.2/active-mq/wildfly-activemq-integration-as-application/5.9.0/">For active mq version 5.9.0</a></strong>
 
 ### Here we will work with active mq version 5.11.1
@@ -26,12 +28,13 @@ permalink: /docs/appserv/wildfly/8.2/active-mq//wildfly-activemq-integration-as-
 
 <br/>
 
-\$ vi module.xml
+```
+$ vi module.xml
+```
 
 <br/>
 
-{% highlight xml %}
-
+```xml
 <module xmlns="urn:jboss:module:1.3" name="org.apache.activemq" slot="main" >
     <resources>
         <resource-root path="."/>
@@ -70,8 +73,7 @@ permalink: /docs/appserv/wildfly/8.2/active-mq//wildfly-activemq-integration-as-
         <module name="javax.management.j2ee.api"/>
     </dependencies>
 </module>
-
-{% endhighlight %}
+```
 
 <br/>
 
@@ -84,16 +86,13 @@ permalink: /docs/appserv/wildfly/8.2/active-mq//wildfly-activemq-integration-as-
 
 <br/>
 
-{% highlight xml %}
-
+```xml
 <subsystem xmlns="urn:jboss:domain:resource-adapters:2.0"/>
-
-{% endhighlight %}
+```
 
 replace on:
 
-{% highlight xml %}
-
+```xml
 <subsystem xmlns="urn:jboss:domain:resource-adapters:2.0">
     <resource-adapters>
         <resource-adapter id="activemq-5.11.1">
@@ -115,8 +114,7 @@ replace on:
         </resource-adapter>
     </resource-adapters>
 </subsystem>
-
-{% endhighlight %}
+```
 
 restart wildfly server
 
@@ -133,7 +131,9 @@ restart wildfly server
         ("resource-adapter" => "activemq-5.11.1")
     ]) - failure description: "JBAS010473: Failed to load module for RA [org.apache.activemq]"
 
-I solwed this error by replace parameters slot in standalone-full.xml and module.xml on main
+<br/>
+
+I solved this error by replace parameters slot in standalone-full.xml and module.xml on main
 
 <!--
 
@@ -178,5 +178,3 @@ I solwed this error by replace parameters slot in standalone-full.xml and module
         <module name="javax.management.j2ee.api"/>
     </dependencies>
 </module>
-
--->

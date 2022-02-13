@@ -17,7 +17,7 @@ permalink: /appserv/
 
 ### jBoss / WildFly:
 
-<strong><a href="/docs/appserv/wildfly/8.2/installation/">Wildfly 8.2 Installation on Centos 6.6 x86_64</a></strong>
+<strong><a href="/docs/appserv/wildfly/8.2/setup/">Wildfly 8.2 Installation on Centos 6.6 x86_64</a></strong>
 
 <strong><a href="/appservers/wildfly/8.2/jdbc/postgresql/">Wildfly 8.2 setup jdbc connection with PostgreSQL</a></strong>
 
