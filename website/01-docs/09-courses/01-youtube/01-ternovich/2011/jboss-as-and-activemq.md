@@ -106,8 +106,9 @@ http://192.168.56.3:8161/admin/
 
 Eclipse -> Project Explorer -> Right Click -> Import -> Import -> Git
 
-Project source codes:  
-https://github.com/javalabs-org/JBoss-AS-and-ActiveMQ
+[Project source codes](https://github.com/webmak1/JBoss-AS-and-ActiveMQ)
+
+<br/>
 
 To work with remote server, you should change url:
 
@@ -236,12 +237,20 @@ I found in JBoss log:
 
 <br/>
 
-Project from video:  
+**Project from video:**  
 https://www.youtube.com/watch?v=85Zw-Z_GDpQ
 
-Result my source code:  
-(If project will not work, change java:/ on java: in the QueueConnectionFactory)<br/>
-https://github.com/javalabs-org/Integrate-ActiveMQ-with-JBoss
+<br/>
+
+**Result my source code:**
+
+(If project will not work, change java:/ on java: in the QueueConnectionFactory)
+
+<br/>
+
+[repo](https://github.com/webmak1/Integrate-ActiveMQ-with-JBoss-master)
+
+<br/>
 
 I compiled this project with jdk 1.6 and copied project to deploy folder.
 
@@ -257,32 +266,35 @@ I compiled this project with jdk 1.6 and copied project to deploy folder.
 
 ### Next Step. I want to repeat this lesson with wildfly 8.2.
 
-I installed wildfly 8.2, and attached activemq as a module.<br/>
-http://javadev.org/docs/appserv/wildfly/8.2/active-mq/wildfly-activemq-integration-as-application/5.9.0/
+[I installed wildfly 8.2, and attached activemq as a module](//javadev.org/docs/appserv/wildfly/8.2/active-mq/wildfly-activemq-integration-as-application/5.9.0/)
 
-standalone-full.xml
+<br/>
 
-    <subsystem xmlns="urn:jboss:domain:resource-adapters:2.0">
-        <resource-adapters>
-            <resource-adapter id="activemq-rar.rar">
-                <module slot="main" id="org.apache.activemq"/>
-                <transaction-support>NoTransaction</transaction-support>
-                <config-property name="ServerUrl">
-                    tcp://localhost:61616
-                </config-property>
-                <connection-definitions>
-                    <connection-definition class-name="org.apache.activemq.ra.ActiveMQManagedConnectionFactory" jndi-name="java:/activemq/QueueConnectionFactory" enabled="true" use-java-context="true" pool-name="QueueConnectionFactory"/>
-                </connection-definitions>
-                <admin-objects>
-                    <admin-object class-name="org.apache.activemq.command.ActiveMQQueue" jndi-name="activemq/queue/outbound" use-java-context="true" pool-name="test_queue">
-                        <config-property name="PhysicalName">
-                            queue.outbound
-                        </config-property>
-                    </admin-object>
-                </admin-objects>
-            </resource-adapter>
-        </resource-adapters>
-    </subsystem>
+**standalone-full.xml**
+
+```xml
+<subsystem xmlns="urn:jboss:domain:resource-adapters:2.0">
+    <resource-adapters>
+        <resource-adapter id="activemq-rar.rar">
+            <module slot="main" id="org.apache.activemq"/>
+            <transaction-support>NoTransaction</transaction-support>
+            <config-property name="ServerUrl">
+                tcp://localhost:61616
+            </config-property>
+            <connection-definitions>
+                <connection-definition class-name="org.apache.activemq.ra.ActiveMQManagedConnectionFactory" jndi-name="java:/activemq/QueueConnectionFactory" enabled="true" use-java-context="true" pool-name="QueueConnectionFactory"/>
+            </connection-definitions>
+            <admin-objects>
+                <admin-object class-name="org.apache.activemq.command.ActiveMQQueue" jndi-name="activemq/queue/outbound" use-java-context="true" pool-name="test_queue">
+                    <config-property name="PhysicalName">
+                        queue.outbound
+                    </config-property>
+                </admin-object>
+            </admin-objects>
+        </resource-adapter>
+    </resource-adapters>
+</subsystem>
+```
 
 <br/>
 

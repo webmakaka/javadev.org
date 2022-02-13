@@ -27,13 +27,9 @@ DISABLE FIREWALL
     # systemctl disable firewalld
     # systemctl stop firewalld
 
-### 1) JDK8 Installation
+### 1) [JDK8 Installation](/devtools/jdk/setup/linux/)
 
--   <a href="/devtools/jdk/setup/linux/">here</a>
-
-### 2) Maven Installation
-
--   http://javadev.org/devtools/build/maven/linux/centos/7/
+### 2) [Maven Installation](/devtools/build/maven/linux/centos/7/
 
 ### 3) MySQL Installation (>=5.6)
 
@@ -80,12 +76,14 @@ after
 
 <br/>
 
-    #### SonarQube 5.6 #######################
+```
+#### SonarQube 5.6 #######################
 
-    	export SONAR_QUBE_HOME=/opt/sonarqube/current
-    	export PATH=${SONAR_QUBE_HOME}/bin:$PATH
+    export SONAR_QUBE_HOME=/opt/sonarqube/current
+    export PATH=${SONAR_QUBE_HOME}/bin:$PATH
 
-    #### SonarQube 5.6 #######################
+#### SonarQube 5.6 #######################
+```
 
 <br/>
 

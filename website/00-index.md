@@ -87,83 +87,6 @@ https://www.youtube.com/c/JavaBrainsChannel/playlists?view=50&sort=dd&shelf_id=4
 
 <br/>
 
-### [Douglas Schmidt] CS 891 (2017) Introduction to Concurrent and Parallel Java
-
-<div align="center">
-    <iframe width="853" height="480" src="https://www.youtube.com/embed/NVcbxQEoseE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div>
-
-<br/>
-
-**Also on channel:**
-
-<br/>
-
--   Pattern-Oriented Software Architectures for Concurrent and Networked Software
--   CS 892 (2017) Concurrent Java Programming with Android
--   CS 891 (Spring 2018) Advanced Concurrent Java Programming in Android
--   etc
-
-<br/>
-
-### Projects in Enterprise Java | Creating a Voting System (I think not full video course)
-
-<div align="center">
-    <iframe width="853" height="480" src="https://www.youtube.com/embed/aCOdp3hdy0c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</div>
-
-<br/>
-
-### Docker for JAVA DEVELOPERS
-
-<div align="center">
-    <iframe width="853" height="480" src="https://www.youtube.com/embed/IgJXYU3GOM4" frameborder="0" allowfullscreen></iframe>
-</div>
-
-<br/>
-
-So difficult, because Arun use Mac and IntelliJ for containers.
-
-Some Examples:  
-https://github.com/docker/labs/tree/master/developer-tools/java
-
-If you know any interesting examples with docker and java, please send links. Especially if you have some examples with Weblogic.
-
-I have java ee application what i can run on weblogic, but i didn't prepare containers for it.
-
-### Free Book
-
-By: Arun Gupta  
-Released: June 2016
-
--   http://shop.oreilly.com/product/0636920050872.do
-
-<!-- <br/><br/>
-
-<div align="center">
-    <img src="http://storage4.static.itmages.ru/i/16/0719/h_1468924764_4874600_196541fb75.png" border="0" alt="I can't open the jar">
-</div> -->
-
-<br/>
-
-### Docker and Kubernetes Recipes for Java Developers by Arun Gupta
-
-<div align="center">
-    <iframe width="853" height="480" src="https://www.youtube.com/embed/aSATsLG59Zs" frameborder="0" allowfullscreen></iframe>
-</div>
-
-<br/>
-
-### Refactor your Java EE application using Microservices and Containers by Arun Gupta
-
-<div align="center">
-    <iframe width="853" height="480" src="https://www.youtube.com/embed/iJVW7v8O9BU" frameborder="0" allowfullscreen></iframe>
-</div>
-
-<a href="//labs.javadev.org/labs/lab-07/">I'm trying to study this course</a>
-
-<br/>
-
 ### Java Memory Management
 
 <div align="center">
@@ -227,45 +150,23 @@ https://www.youtube.com/watch?v=yIf3EQmHmyw
 
 <br/><br/>
 
--   DevExpress CTO Messages for the SOLID object oriented development Principles  
-    https://www.youtube.com/playlist?list=PL4CE9F710017EA77A
-
-<br/><br/>
-
-### Java tutorialspoint:
-
-http://www.tutorialspoint.com/java/java_tutorial.pdf
-
-<br/><br/>
-
-### Please share interesting code samples on java with us:
-
-If you find interesting project on github, bitbucket, book, video course etc. on java, please send a link to us.
-
-<br/><br/>
-
-<strong>For example, next repositories is very interesting i think:</strong>
-
-<br/><br/>
-
-<a href="https://bitbucket.org/javadev-org/java-design-patterns/src/master/">Design Patterns</a><br/>
+-   [DevExpress CTO Messages for the SOLID object oriented development Principles](https://www.youtube.com/playlist?list=PL4CE9F710017EA77A)
 
 <br/>
+
 ### [YouTube][arun gupta] Developing Web Applications with WildFly 8
 
 <br/>
 
 <div align="center">
-
     <iframe width="853" height="480" src="https://www.youtube.com/embed/5MhqcVFVJ2s" frameborder="0" allowfullscreen></iframe>
-
 </div>
 
 <br/>
 
-### [YouTube] JBoss AS and ActiveMQ (Completed):
+### [YouTube] JBoss AS and ActiveMQ
 
-<a href="/labs/youtube/ternovich/2011/jboss-as-and-activemq/">[Ternovich] JBoss AS and ActiveMQ</a>
+<a href="/courses/youtube/ternovich/2011/jboss-as-and-activemq/">[Ternovich] JBoss AS and ActiveMQ</a>
 
 <br/><br/>
 
