@@ -8,26 +8,24 @@ permalink: /
 
 <br/>
 
-### [Java Brains] Build a messaging app (Spring Boot + Cassandra) [ENG, 2021]
+### Please share your java codes
 
-<div align="center">
-    <iframe width="853" height="480" src="https://www.youtube.com/embed/saSzMKeN6oI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+If you study or work as java developer and agree to share interesting materials (possible your codes), please write about it in the chat.
 
-**src:**  
-https://github.com/koushikkothagal/inbox-app
-
-<!-- <br/>
-
-### [Spring] [Udemy] Java Full Stack Spring Boot and Angular (Inc. JWT + Cloud) [ENG, 2021]
-
-https://www.udemy.com/course/java-full-stack-spring-boot-and-angular-inc-jwt-cloud/
+Thanks!
 
 <br/>
 
-### [Spring] [Udemy] Full Stack: Angular and Java Spring Boot [ENG, 2020]
+### [Nelson] Microservices and Distributed Systems [ENG, 2022]
 
-https://www.udemy.com/course/full-stack-angular-spring-boot-tutorial/ -->
+<br/>
+
+[Course Description]  
+https://amigoscode.com/p/microservices
+
+<br/>
+
+[My Src](https://github.com/webmakaka/Microservices-and-Distributed-Systems)
 
 <br/>
 
@@ -151,9 +149,7 @@ Released: June 2016
 ### Docker and Kubernetes Recipes for Java Developers by Arun Gupta
 
 <div align="center">
-
     <iframe width="853" height="480" src="https://www.youtube.com/embed/aSATsLG59Zs" frameborder="0" allowfullscreen></iframe>
-
 </div>
 
 <br/>
@@ -161,9 +157,7 @@ Released: June 2016
 ### Refactor your Java EE application using Microservices and Containers by Arun Gupta
 
 <div align="center">
-
     <iframe width="853" height="480" src="https://www.youtube.com/embed/iJVW7v8O9BU" frameborder="0" allowfullscreen></iframe>
-
 </div>
 
 <a href="//labs.javadev.org/labs/lab-07/">I'm trying to study this course</a>
@@ -173,9 +167,7 @@ Released: June 2016
 ### Java Memory Management
 
 <div align="center">
-
     <iframe width="853" height="480" src="https://www.youtube.com/embed/ckYwv4_Qtmo" frameborder="0" allowfullscreen></iframe>
-
 </div>
 
 <br/>
@@ -183,9 +175,7 @@ Released: June 2016
 ### JVM ( java virtual machine) architecture - tutorial
 
 <div align="center">
-
     <iframe width="853" height="480" src="https://www.youtube.com/embed/ZBJ0u9MaKtM" frameborder="0" allowfullscreen></iframe>
-
 </div>
 
 <br/>
@@ -260,29 +250,30 @@ If you find interesting project on github, bitbucket, book, video course etc. on
 
 <a href="https://bitbucket.org/javadev-org/java-design-patterns/src/master/">Design Patterns</a><br/>
 
+<br/>
+### [YouTube][arun gupta] Developing Web Applications with WildFly 8
+
+<br/>
+
+<div align="center">
+
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/5MhqcVFVJ2s" frameborder="0" allowfullscreen></iframe>
+
+</div>
+
+<br/>
+
+### [YouTube] JBoss AS and ActiveMQ (Completed):
+
+<a href="/labs/youtube/ternovich/2011/jboss-as-and-activemq/">[Ternovich] JBoss AS and ActiveMQ</a>
+
 <br/><br/>
 
 ![I can't open the jar](/img/jars.jpg "I can't open the jar"){: .center-image }
 
-<br/><br/>
-
-### LABS
-
-**I decided to move list of books and video courses about java development on <a href="//labs.javadev.org/">labs.javadev.org</a>**
-
-### If you planning to watch any Video Course or read any book about Java Development and want to discuss it, we can create discussion board on javalabs.org
-
-GitHub can help to us. We can create issue, discuss, send pull request to improve code and etc.
-If it would be interesting to you, send link on course what you planning to study and link to your github || bitbucket repo.
-
-For example github on video course:
-
 <br/>
 
-[Udemy] Building An E-Commerce Store Using Java Spring Framework [ENG, 2016] <br/>
-https://bitbucket.org/marley-spring/building-an-e-commerce-store-using-java-spring-framework/src/master/
-
-My contact: <br/>
+**My contact:** <br/>
 
 ![Marley](/img/a3333333mail.gif 'Marley'){: .center-image }
 
