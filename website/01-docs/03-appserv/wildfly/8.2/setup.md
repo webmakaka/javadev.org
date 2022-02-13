@@ -76,6 +76,8 @@ If you need to add user to group wildfly_admins, you can do it with the next com
 
     $ vi ~/.bash_profile
 
+<br/>
+
 ```
 # User specific environment and startup programs
 
@@ -88,6 +90,8 @@ export PATH=$PATH:$HOME/bin:$WILDFLY_HOME/bin
 ```
 
 Apply new parameters to current environment:
+
+<br/>
 
     $ source ~/.bash_profile
 

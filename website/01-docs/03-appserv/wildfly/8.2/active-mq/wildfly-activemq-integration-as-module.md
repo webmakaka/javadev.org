@@ -35,7 +35,7 @@ $ vi module.xml
 <br/>
 
 ```xml
-<module xmlns="urn:jboss:module:1.3" name="org.apache.activemq" slot="main" >
+<module xmlns="urn:jboss:module:1.3" name="org.apache.activemq" slot="main">
     <resources>
         <resource-root path="."/>
         <resource-root path="activemq-broker-5.11.1.jar"/>
@@ -116,9 +116,15 @@ replace on:
 </subsystem>
 ```
 
-restart wildfly server
+<br/>
 
-    $ standalone.sh -c standalone-full.xml -b=0.0.0.0 -bmanagement=0.0.0.0
+**restart wildfly server**
+
+```
+$ standalone.sh -c standalone-full.xml -b=0.0.0.0 -bmanagement=0.0.0.0
+```
+
+<br/>
 
 ![WildFly ActiveMQ as Module](/img/appserv/wildfly/8.2/active-mq/resource_adapters.png 'WildFly ActiveMQ as Module'){: .center-image }
 
@@ -126,10 +132,12 @@ restart wildfly server
 
 ### Error
 
-    14:43:38,202 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 49) JBAS014613: Operation ("add") failed - address: ([
-        ("subsystem" => "resource-adapters"),
-        ("resource-adapter" => "activemq-5.11.1")
-    ]) - failure description: "JBAS010473: Failed to load module for RA [org.apache.activemq]"
+```
+14:43:38,202 ERROR [org.jboss.as.controller.management-operation] (ServerService Thread Pool -- 49) JBAS014613: Operation ("add") failed - address: ([
+    ("subsystem" => "resource-adapters"),
+    ("resource-adapter" => "activemq-5.11.1")
+]) - failure description: "JBAS010473: Failed to load module for RA [org.apache.activemq]"
+```
 
 <br/>
 
@@ -178,3 +186,5 @@ I solved this error by replace parameters slot in standalone-full.xml and module
         <module name="javax.management.j2ee.api"/>
     </dependencies>
 </module>
+
+-->
