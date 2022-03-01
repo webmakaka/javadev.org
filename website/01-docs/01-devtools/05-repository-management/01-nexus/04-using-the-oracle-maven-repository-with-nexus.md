@@ -91,29 +91,31 @@ My config. I will update it later (i hope).
 
 <br/>
 
-    <settings>
-        <profiles>
-            <profile>
-              <id>main</id>
-              <activation>
-                <activeByDefault>true</activeByDefault>
-              </activation>
-              <repositories>
-                <repository>
-                  <id>Public Repositories</id>
-                  <url>http://localhost:8081/nexus/content/groups/public/</url>
-                  <layout>default</layout>
-                  <releases>
-                    <enabled>true</enabled>
-                  </releases>
-                </repository>
-              </repositories>
-              <pluginRepositories>
-                <pluginRepository>
-                  <id>Public Repositories</id>
-                  <url>http://localhost:8081/nexus/content/groups/public/</url>
-                </pluginRepository>
-              </pluginRepositories>
-            </profile>
-          </profiles>
-    </settings>
+```
+<settings>
+    <profiles>
+        <profile>
+          <id>main</id>
+          <activation>
+            <activeByDefault>true</activeByDefault>
+          </activation>
+          <repositories>
+            <repository>
+              <id>Public Repositories</id>
+              <url>http://localhost:8081/nexus/content/groups/public/</url>
+              <layout>default</layout>
+              <releases>
+                <enabled>true</enabled>
+              </releases>
+            </repository>
+          </repositories>
+          <pluginRepositories>
+            <pluginRepository>
+              <id>Public Repositories</id>
+              <url>http://localhost:8081/nexus/content/groups/public/</url>
+            </pluginRepository>
+          </pluginRepositories>
+        </profile>
+      </profiles>
+</settings>
+```

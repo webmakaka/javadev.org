@@ -3,10 +3,10 @@ layout: page
 title: Nexus 2.X Installation in linux
 description: Nexus 2.X Installation in linux
 keywords: Nexus 2.X Installation in linux
-permalink: /devtools/repository-management/nexus/2/installation-on-linux/
+permalink: /devtools/repository-management/nexus/2/installation-in-linux/
 ---
 
-# Nexus 2.X Installation in linux
+# Nexus 2.X Installation in linux (Deprecated)
 
     # cd /tmp/
     # wget http://www.sonatype.org/downloads/nexus-latest-bundle.tar.gz
@@ -126,11 +126,11 @@ Move Maven Oracle to left
 
 <br/>
 
-    $ mkdir -p /home/developer/.m2/
+    $ mkdir -p /${USER}/.m2/
 
 <br/>
 
-    $ vi /home/developer/.m2/settings.xml
+    $ vi /${USER}/.m2/settings.xml
 
 <br/>
 
@@ -138,29 +138,31 @@ My config. I will update it later (i hope).
 
 <br/>
 
-    <settings>
-        <profiles>
-            <profile>
-              <id>main</id>
-              <activation>
-                <activeByDefault>true</activeByDefault>
-              </activation>
-              <repositories>
-                <repository>
-                  <id>Public Repositories</id>
-                  <url>http://localhost:8081/nexus/content/groups/public/</url>
-                  <layout>default</layout>
-                  <releases>
-                    <enabled>true</enabled>
-                  </releases>
-                </repository>
-              </repositories>
-              <pluginRepositories>
-                <pluginRepository>
-                  <id>Public Repositories</id>
-                  <url>http://localhost:8081/nexus/content/groups/public/</url>
-                </pluginRepository>
-              </pluginRepositories>
-            </profile>
-          </profiles>
-    </settings>
+```
+<settings>
+    <profiles>
+        <profile>
+            <id>main</id>
+            <activation>
+            <activeByDefault>true</activeByDefault>
+            </activation>
+            <repositories>
+            <repository>
+                <id>Public Repositories</id>
+                <url>http://localhost:8081/nexus/content/groups/public/</url>
+                <layout>default</layout>
+                <releases>
+                <enabled>true</enabled>
+                </releases>
+            </repository>
+            </repositories>
+            <pluginRepositories>
+            <pluginRepository>
+                <id>Public Repositories</id>
+                <url>http://localhost:8081/nexus/content/groups/public/</url>
+            </pluginRepository>
+            </pluginRepositories>
+        </profile>
+        </profiles>
+</settings>
+```
