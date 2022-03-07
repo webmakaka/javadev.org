@@ -63,7 +63,7 @@ $ wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.tar.gz
 <br/>
 
 ```
-//
+// If you want to remove openjdk
 // $ sudo apt-get purge -y --auto-remove openjdk*
 ```
 
@@ -74,8 +74,8 @@ $ ls jdk*
 jdk-17_linux-x64_bin.tar.gz
 
 $ tar -xvzpf jdk-17_linux-x64_bin.tar.gz
-$ sudo mv jdk-17.0.1/ /opt/
-$ sudo ln -s /opt/jdk-17.0.1/ /opt/jdk
+$ sudo mv jdk-17.0.2/ /opt/
+$ sudo ln -s /opt/jdk-17.0.2/ /opt/jdk
 ```
 
 <br/>
@@ -116,7 +116,7 @@ Let try to check result:
 
 ```
 $ java -version
-java version "17.0.1" 2021-10-19 LTS
+java version "17.0.2" 2022-01-18 LTS
 ```
 
 <br/>
