@@ -18,13 +18,13 @@ http://maven.apache.org
 <br/>
 
     $ mkdir -p ~/tmp && cd ~/tmp
-    $ wget https://apache-mirror.rbc.ru/pub/apache/maven/maven-3/3.8.2/binaries/apache-maven-3.8.2-bin.tar.gz
+    $ wget https://apache-mirror.rbc.ru/pub/apache/maven/maven-3/3.8.4/binaries/apache-maven-3.8.4-bin.tar.gz
 
 <br/>
 
-    $ tar -xvzpf apache-maven-3.8.2-bin.tar.gz
-    $ sudo mv apache-maven-3.8.2/ /opt/
-    $ sudo ln -s /opt/apache-maven-3.8.2/ /opt/maven
+    $ tar -xvzpf apache-maven-3.8.4-bin.tar.gz
+    $ sudo mv apache-maven-3.8.4/ /opt/
+    $ sudo ln -s /opt/apache-maven-3.8.4/ /opt/maven
 
 <br/>
 
@@ -33,12 +33,12 @@ http://maven.apache.org
 <br/>
 
 ```
-#### MAVEN 3.8.2
+#### MAVEN 3.8.4
 
 export MAVEN_HOME=/opt/maven
 export PATH=$PATH:$MAVEN_HOME/bin
 
-#### MAVEN 3.8.2
+#### MAVEN 3.8.4
 ```
 
 <br/>
@@ -55,7 +55,8 @@ Let try to check result:
 <br/>
 
     $ mvn -version
-    java version "1.8.0_281"
+    Apache Maven 3.8.4
+
 
 <br/>
 
@@ -65,4 +66,8 @@ Let try to check result:
 
     $ mvn help:effective-pom
 
+<!--
+
     $ mvn clean install
+
+-->
