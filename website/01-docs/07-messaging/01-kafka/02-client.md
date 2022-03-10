@@ -8,6 +8,11 @@ permalink: /messaging/kafka/client/
 
 # Client installation
 
+
+[JDK should be installed](/devtools/jdk/setup/linux/)
+
+<!-- [Scala2 should be installed (I am not sure that this is needed)](/devtools/scala/setup/linux/) -->
+
 <br/>
 
     $ cd ~/tmp
@@ -16,13 +21,8 @@ permalink: /messaging/kafka/client/
 
 <br/>
 
-    $ sudo mkdir -p /opt/kafka/2.12-2.8.1
-    $ sudo mv kafka_2.12-2.8.1/* /opt/kafka/2.12-2.8.1/
-    $ sudo ln -s /opt/kafka/2.12-2.8.1/ /opt/kafka/current
-
-<br/>
-
-    $ rm -rf kafka_2.12-2.8.1*
+    $ sudo mv kafka_2.12-2.8.1 /opt/
+    $ sudo ln -s /opt/kafka_2.12-2.8.1/ /opt/kafka
 
 <br/>
 
@@ -33,7 +33,7 @@ permalink: /messaging/kafka/client/
 ```
 #### KAFKA 2.12-2.8.1 #######################
 
-export KAFKA_HOME=/opt/kafka/current
+export KAFKA_HOME=/opt/kafka
 export PATH=${KAFKA_HOME}/bin:$PATH
 
 #### KAFKA 2.12-2.8.1 #######################

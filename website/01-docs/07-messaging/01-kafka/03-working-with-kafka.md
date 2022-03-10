@@ -23,9 +23,9 @@ $ kafka-topics.sh \
     
 ```
 $ kafka-topics.sh \
-    --zookeeper localhost:2181 \ 
-    --describe \
-    --topic test 
+    --zookeeper localhost:2181 \
+    --topic test \
+    --describe
 ```
 
 <br/>
@@ -49,7 +49,11 @@ test
 $ kafka-console-producer.sh \
     --broker-list localhost:9092 \
     --topic test
+```
 
+<br/>
+
+```
 Test Message 1
 Test Message 2
 

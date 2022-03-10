@@ -8,9 +8,6 @@ permalink: /messaging/kafka/docker/
 
 # Run kafka in docker container
 
-[JDK8 should be installed](/devtools/jdk/setup/linux/)
-
-[Scala2 should be installed (I am not sure that this is needed)](/devtools/scala/setup/linux/)
 
 <br/>
 
@@ -28,10 +25,12 @@ $ cd kafka-docker/
 
 <br/>
 
-    $ docker-compose up
+```
+$ docker-compose up
 
-    // or
-    $ docker-compose up -d --build
+// or
+$ docker-compose up -d --build
+```
 
 <br/>
 
