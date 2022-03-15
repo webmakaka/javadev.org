@@ -20,12 +20,11 @@ Thanks!
 
 <br/>
 
-[Course Description]  
-https://amigoscode.com/p/microservices
+It was a very interesting course for me!
 
 <br/>
 
-[My Src](https://github.com/webmakaka/Microservices-and-Distributed-Systems)
+[Course Description, Source Codes, etc.](https://github.com/webmakaka/Microservices-and-Distributed-Systems)
 
 <br/>
 
