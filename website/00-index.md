@@ -16,6 +16,22 @@ Thanks!
 
 <br/>
 
+### [Book and Videos] [John Carnell, Illary Huaylupo] Spring Microservices in Action, Second Edition, Video Edition [ENG, 2021]
+
+<br/>
+
+![Spring Microservices in Action, Second Edition, Video Edition](/img/Spring-Microservices-in-Action.jpg 'Spring Microservices in Action, Second Edition, Video Edition'){: .center-image }
+
+<br/>
+
+Let's start study!
+
+<br/>
+
+[GitHub](https://github.com/webmakaka/Spring-Microservices-in-Action-Second-Edition)
+
+<br/>
+
 ### [Nelson] Microservices and Distributed Systems [ENG, 2022]
 
 <br/>
