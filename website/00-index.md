@@ -32,7 +32,9 @@ Thanks!
 
 <br/>
 
-Let's start study!
+Let's start study!<br/>
+
+Actually in "Video Edition", robot just reading book and not shows development process, examples, etc.
 
 <br/>
 
@@ -60,7 +62,11 @@ It was a very interesting course for me!
 
 <br/>
 
-Need to update codes from this <a href="https://github.com/webmakaka/Building-an-e-commerce-store-using-java-spring-framework">course</a>.
+Let study spring boot and update code from old, but interesting java project.
+
+<br/>
+
+<a href="https://github.com/webmakaka/Building-an-e-commerce-store-using-java-spring-framework">Project Sources</a>.
 
 <br/>
 

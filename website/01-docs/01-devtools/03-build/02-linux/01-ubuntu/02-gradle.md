@@ -10,13 +10,54 @@ permalink: /devtools/build/gradle/linux/ubuntu/
 
 <br/>
 
-<a href="/devtools/jdk/setup/linux/">JDK8 Should be installed</a>
+<a href="/devtools/jdk/setup/linux/">JDK Should be installed</a>
 
 <br/>
 
 <strong>Distrib:</strong><br/>
 
 http://www.gradle.org/downloads
+
+<br/>
+
+### Gradle 7.4.1 Installation
+
+    $ cd /tmp
+    $ wget https://services.gradle.org/distributions/gradle-7.4.1-all.zip
+
+<br/>
+
+    $ unzip gradle-7.4.1-all.zip
+    $ sudo mv gradle-7.4.1 /opt/
+    $ sudo ln -s /opt/gradle-7.4.1/ /opt/gradle
+
+<br/>
+
+    $ sudo vi /etc/profile.d/gradle-7.4.1.sh
+
+<br/>
+
+```
+#### GRADLE 7.4.1 ###########################
+
+export GRADLE_HOME=/opt/gradle
+export PATH=${GRADLE_HOME}/bin:$PATH
+
+#### GRADLE 7.4.1 ###########################
+```
+
+<br/>
+
+    $ sudo chmod 755 /etc/profile.d/gradle-7.4.1.sh
+    $ source /etc/profile.d/gradle-7.4.1.sh
+
+<br/>
+
+    $ gradle --version
+
+<br/>
+
+### Gradle 6.7.1 Installation
 
 <br/>
 
