@@ -8,7 +8,7 @@ permalink: /messaging/kafka/
 
 # Apache Kafka / Confluent
 
-[Run kafka in docker container](/devtools/jdk/setup/linux/)
+[Run kafka in docker container](/messaging/kafka/docker/)
 
 [Installation kafka in linux](/messaging/kafka/setup/linux/)
 

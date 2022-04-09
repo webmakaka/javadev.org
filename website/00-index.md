@@ -38,7 +38,26 @@ https://github.com/Hiberbee/jetbrains-ide-theme
 
 <br/>
 
-[GitHub](https://github.com/webmakaka/Microservices-Masterclass-with-Spring-Boot-and-Spring-Cloud)
+**Spring Boot and Spring Security with JWT including Access and Refresh Tokens**  
+https://www.youtube.com/watch?v=VVn9OG9nfH0
+
+<br/>
+
+### [Amigoscode, Nelson] Kafka Tutorial - Spring Boot Microservices [ENG, 2022]
+
+<br/>
+
+<div align="center">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/SqVfCyfCJqw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<br/>
+
+[GitHub](https://github.com/webmak1/Kafka-Tutorial)
+
+<br/>
+
+This is the last part from paid course [Amigoscode, Nelson] Microservices and Distributed Systems [ENG, 2022]
 
 <br/>
 
@@ -229,12 +248,12 @@ https://www.youtube.com/watch?v=yIf3EQmHmyw
 
 ![I can't open the jar](/img/jars.jpg "I can't open the jar"){: .center-image }
 
-<br/>
-
-**My contact:** <br/>
-
-![Marley](/img/a3333333mail.gif 'Marley'){: .center-image }
-
 <br/><br/>
 
 ![WTF in Minutes](/img/java_wtf.jpg 'WTF in Minutes'){: .center-image }
+
+<br/>
+
+**Admin contacts:** <br/>
+
+![Marley](/img/a3333333mail.gif 'Marley'){: .center-image }

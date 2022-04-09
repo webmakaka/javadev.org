@@ -8,7 +8,6 @@ permalink: /messaging/kafka/docker/
 
 # Run kafka in docker container
 
-
 <br/>
 
 [docker and docker-compose installation if needed](//gitops.ru/containers/docker/setup/ubuntu/)
@@ -50,4 +49,13 @@ Zxid: 0x200000039
 Mode: follower
 Node count: 37
 Connection closed by foreign host.
+```
+
+<br/>
+
+```
+$ telnet localhost 9092
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
 ```
