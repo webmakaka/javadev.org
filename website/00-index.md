@@ -16,6 +16,18 @@ Thanks!
 
 <br/>
 
+### [Jetbrains IDE Theme]
+
+<br/>
+
+![Jetbrains IDE Theme](/img/Jetbrains-IDE-Theme.png 'Jetbrains IDE Theme'){: .center-image }
+
+<br/>
+
+https://github.com/Hiberbee/jetbrains-ide-theme
+
+<br/>
+
 ### [Amigoscode, Nelson] Spring Security | FULL COURSE [ENG, 2019]
 
 <br/>
