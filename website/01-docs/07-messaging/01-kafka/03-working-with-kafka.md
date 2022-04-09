@@ -104,8 +104,28 @@ $ kafka-console-producer.sh --broker-list localhost:9092 --topic test < ./messag
 $ kafka-console-producer.sh --broker-list localhost:9092 --topic test --property "parse.key=true" --property "key.separator=;" < ./message.json
 ```
 
-
-
 ```
 $ ./kafka-console-producer.sh --broker-list localhost:9092 --topic test < ./message.json
 ```
+
+<br/>
+
+<!--
+
+```
+{
+KAFKA_HOST=http://host
+KAFKA_TOPIC=topic-name
+
+kafkacat \
+  -C \
+  -b ${KAFKA_HOST}:9092 \
+  -t ${KAFKA_TOPIC} \
+  -o -3 \
+  -e \
+ | sed "s/'/\"/g" \
+ | jq
+}
+```
+
+-->
