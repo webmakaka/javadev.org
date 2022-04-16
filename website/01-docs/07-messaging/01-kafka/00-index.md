@@ -18,4 +18,6 @@ permalink: /messaging/kafka/
 
 [The Kafka Java APIs](/messaging/kafka/kafka-java-apis/)
 
-[The Kafka Java APIs](/messaging/kafka/kafka-java-apis/)
+[Kafka Streams](/messaging/kafka/kafka-streams/)
+
+[Kafka Spring Boot Example](https://github.com/webmak1/Kafka-Tutorial)

@@ -46,6 +46,8 @@ https://github.com/Hiberbee/jetbrains-ide-theme
     <iframe width="853" height="480" src="https://www.youtube.com/embed/her_7pa0vrg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+[GitHub](https://github.com/webmak1/spring-boot-security-course)
+
 <br/>
 
 **Spring Boot and Spring Security with JWT including Access and Refresh Tokens**  
@@ -85,7 +87,7 @@ This is the last part from paid course [Amigoscode, Nelson] Microservices and Di
 
 <br/>
 
-It was a very interesting course for me!
+**It was a very interesting course for me!**
 
 <br/>
 
