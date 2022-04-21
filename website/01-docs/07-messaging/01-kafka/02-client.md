@@ -8,7 +8,6 @@ permalink: /messaging/kafka/client/
 
 # Client installation
 
-
 [JDK should be installed](/devtools/jdk/setup/linux/)
 
 <!-- [Scala2 should be installed (I am not sure that this is needed)](/devtools/scala/setup/linux/) -->
@@ -44,3 +43,26 @@ export PATH=${KAFKA_HOME}/bin:$PATH
 ```
 $ source /etc/profile.d/kafka.sh
 ```
+
+<!--
+
+<br/>
+
+### Who read
+
+```
+// OK!
+
+{
+    KAFKA_HOST=kafka.ru
+
+    kafka-consumer-groups.sh    \
+    --bootstrap-server ${KAFKA_HOST}:9092   \
+    --describe \
+    --group diabot
+}
+
+```
+
+
+-->

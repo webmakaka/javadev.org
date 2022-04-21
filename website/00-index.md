@@ -28,6 +28,16 @@ https://github.com/Hiberbee/jetbrains-ide-theme
 
 <br/>
 
+### [Amigoscode, Nelson] Learn SOLID Principles with CLEAN CODE Examples [ENG, 2022]
+
+<br/>
+
+<div align="center">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/_jDNAf3CzeY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<br/>
+
 ### [Amigoscode, Nelson] Spring Boot Roadmap - How To Master Spring Boot [ENG, 2021]
 
 <br/>
