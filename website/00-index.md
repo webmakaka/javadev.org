@@ -16,7 +16,13 @@ Thanks!
 
 <br/>
 
-### [Jetbrains IDE Theme]
+### [Code Example] Spring Microservices
+
+https://github.com/sqshq/PiggyMetrics
+
+<br/>
+
+### [Jetbrains] Idea
 
 <br/>
 
@@ -24,7 +30,18 @@ Thanks!
 
 <br/>
 
+**IDE Theme**  
 https://github.com/Hiberbee/jetbrains-ide-theme
+
+<br/>
+
+**CheckStyle Plugin**  
+https://github.com/google/styleguide
+
+<br/>
+
+**Sonarlint**  
+https://www.sonarlint.org/intellij
 
 <br/>
 
@@ -195,6 +212,16 @@ https://www.youtube.com/c/JavaBrainsChannel/playlists?view=50&sort=dd&shelf_id=4
 
 <br/>
 
+### [Robert Martin] SOLID Principles of Object Oriented and Agile Design
+
+<br/>
+
+<div align="center">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/TMuno5RZNeE" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<br/>
+
 ### Java Memory Management
 
 <div align="center">
@@ -208,57 +235,6 @@ https://www.youtube.com/c/JavaBrainsChannel/playlists?view=50&sort=dd&shelf_id=4
 <div align="center">
     <iframe width="853" height="480" src="https://www.youtube.com/embed/ZBJ0u9MaKtM" frameborder="0" allowfullscreen></iframe>
 </div>
-
-<br/>
-
-### Robert Martin
-
-**SOLID Principles of Object Oriented and Agile Design**
-
-<br/>
-
-<div align="center">
-    <iframe width="853" height="480" src="https://www.youtube.com/embed/TMuno5RZNeE" frameborder="0" allowfullscreen></iframe>
-</div>
-
-<br/>
-
-**The S.O.L.I.D. Principles of OO and Agile Design - by Uncle Bob Martin**
-
-<br/>
-
-<div align="center">
-    <iframe width="853" height="480" src="https://www.youtube.com/embed/t86v3N4OshQ" frameborder="0" allowfullscreen></iframe>
-</div>
-
-<br/>
-
-**Solid Principles by Uncle Bob Martin**
-
-<br/>
-
-<div align="center">
-    <iframe width="853" height="480" src="https://www.youtube.com/embed/oar-T2KovwE" frameborder="0" allowfullscreen></iframe>
-</div>
-
-<br/>
-
-**The Principles of Clean Architecture by Uncle Bob Martin**
-
-<br/>
-
-<div align="center">
-    <iframe width="853" height="480" src="https://www.youtube.com/embed/o_TH-Y78tt4" frameborder="0" allowfullscreen></iframe>
-</div>
-
-<br/>
-
-https://www.youtube.com/watch?v=lZq8Jlq18Ec  
-https://www.youtube.com/watch?v=yIf3EQmHmyw
-
-<br/><br/>
-
--   [DevExpress CTO Messages for the SOLID object oriented development Principles](https://www.youtube.com/playlist?list=PL4CE9F710017EA77A)
 
 <br/>
 
