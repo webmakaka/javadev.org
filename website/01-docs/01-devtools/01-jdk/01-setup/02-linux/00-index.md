@@ -74,8 +74,8 @@ $ ls jdk*
 jdk-17_linux-x64_bin.tar.gz
 
 $ tar -xvzpf jdk-17_linux-x64_bin.tar.gz
-$ sudo mv jdk-17.0.2/ /opt/
-$ sudo ln -s /opt/jdk-17.0.2/ /opt/jdk
+$ sudo mv jdk-17.0.3.1 /opt/
+$ sudo ln -s /opt/jdk-17.0.3.1 /opt/jdk
 ```
 
 <br/>
@@ -149,12 +149,12 @@ Latest for now is: 8u321
 <br/>
 
 ```
-#### JDK #######################
+#### JDK 1.8 #######################
 
 export JAVA_HOME=/opt/jdk
 export PATH=${JAVA_HOME}/bin:$PATH
 
-#### JDK #######################
+#### JDK 1.8 #######################
 ```
 
 <br/>

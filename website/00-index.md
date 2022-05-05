@@ -180,6 +180,8 @@ Let study spring boot and update code from old, but interesting java project.
 
 ### [Java Brains] Java 8 Lambda Basics [ENG, 2016]
 
+<br/>
+
 <div align="center">
     <iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLqq-6Pq4lTTa9YGfyhyW2CqdtW9RtY-I3" frameborder="0" allowfullscreen></iframe>
 </div>

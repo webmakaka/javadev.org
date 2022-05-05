@@ -33,12 +33,13 @@ http://maven.apache.org
 <br/>
 
 ```
-#### MAVEN 3.8.4
+#### MAVEN 3.8.4 #######################
+
 
 export MAVEN_HOME=/opt/maven
 export PATH=$PATH:$MAVEN_HOME/bin
 
-#### MAVEN 3.8.4
+#### MAVEN 3.8.4 #######################
 ```
 
 <br/>
@@ -56,7 +57,6 @@ Let try to check result:
 
     $ mvn -version
     Apache Maven 3.8.4
-
 
 <br/>
 
