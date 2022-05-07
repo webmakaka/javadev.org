@@ -16,6 +16,19 @@ Thanks!
 
 <br/>
 
+### [Book] [Juha Hinkula] Full Stack Development with Spring Boot and React: Build modern and scalable full stack applications using the power of Spring Boot and React, 3rd Edition 3rd ed. Edition [ENG, 2022]
+
+<br/>
+
+![Full Stack Development with Spring Boot and React](/img/Full-Stack-Development-with-Spring-Boot.png 'Full Stack Development with Spring Boot and React'){: .center-image }
+
+<br/>
+
+[GitHub](https://github.com/PacktPublishing/Full-Stack-Development-with-Spring-
+Boot-and-React)
+
+<br/>
+
 ### [Code Example] Spring Microservices
 
 https://github.com/sqshq/PiggyMetrics
@@ -72,6 +85,8 @@ https://www.sonarlint.org/intellij
 <div align="center">
     <iframe width="853" height="480" src="https://www.youtube.com/embed/her_7pa0vrg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
+<br/>
 
 [GitHub](https://github.com/webmak1/spring-boot-security-course)
 
