@@ -16,7 +16,7 @@ Thanks!
 
 <br/>
 
-### [Book] [Juha Hinkula] Full Stack Development with Spring Boot and React: Build modern and scalable full stack applications using the power of Spring Boot and React, 3rd Edition 3rd ed. Edition [ENG, 2022]
+### [Book] [Juha Hinkula] Full Stack Development with Spring Boot and React: Build modern and scalable full stack applications using the power of Spring Boot and React, 3rd Edition [ENG, 2022]
 
 <br/>
 
@@ -24,8 +24,7 @@ Thanks!
 
 <br/>
 
-[GitHub](https://github.com/PacktPublishing/Full-Stack-Development-with-Spring-
-Boot-and-React)
+[GitHub](https://github.com/webmakaka/Full-Stack-Development-with-Spring-Boot-and-React)
 
 <br/>
 
