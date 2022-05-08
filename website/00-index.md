@@ -29,7 +29,19 @@ Boot-and-React)
 
 <br/>
 
-### [Code Example] Spring Microservices
+### [Book] [Juha Hinkula] Microservices with Spring Boot and Spring Cloud [ENG, 2021]
+
+<br/>
+
+![Microservices with Spring Boot and Spring Cloud](/img/Microservices-with-Spring-Boot-and-Spring-Cloud.png 'Microservices with Spring Boot and Spring Cloud'){: .center-image }
+
+<br/>
+
+[GitHub](https://github.com/PacktPublishing/Microservices-with-Spring-Boot-and-Spring-Cloud-2E)
+
+<br/>
+
+### [Code Examples] Spring Microservices
 
 https://github.com/sqshq/PiggyMetrics
 
