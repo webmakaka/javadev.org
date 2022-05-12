@@ -36,7 +36,7 @@ Thanks!
 
 <br/>
 
-[GitHub](https://github.com/PacktPublishing/Microservices-with-Spring-Boot-and-Spring-Cloud-2E)
+[GitHub](https://github.com/webmakaka/Microservices-with-Spring-Boot-and-Spring-Cloud)
 
 <br/>
 
