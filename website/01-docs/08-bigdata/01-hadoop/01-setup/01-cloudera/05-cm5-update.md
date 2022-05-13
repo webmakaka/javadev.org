@@ -1,12 +1,14 @@
 ---
 layout: page
-title: Apache Hadoop installation with Cloudera Update
-description: Apache Hadoop installation with Cloudera Update
+title: Apache Hadoop installation with Cloudera 5 Update
+description: Apache Hadoop installation with Cloudera 5 Update
 keywords: Apache. Hadoop, installation, virtualbox, vagrant, cloudera
 permalink: /bigdata/hadoop/setup/cloudera/cm5/update/
 ---
 
 # Apache Hadoop installation with Cloudera 5 Update
+
+<br/>
 
 Cloudera Manager --> Support --> About
 

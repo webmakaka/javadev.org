@@ -1,12 +1,16 @@
 ---
 layout: page
 title: Apache Hadoop, Pig, Hive, Derby installation in Centos Linux
+description: Apache Hadoop, Pig, Hive, Derby installation in Centos Linux
+keywords: Apache Hadoop, Pig, Hive, Derby installation in Centos Linux
 permalink: /bigdata/hadoop/setup/cloudera/more-difficult/
 ---
 
 # Apache Hadoop installation with Cloudera (IN DEVELOPMENTS)
 
-Watch video before:
+<br/>
+
+**Watch video before:**
 https://www.youtube.com/watch?v=bB-qM_OTCsE
 
 <br/>

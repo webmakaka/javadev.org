@@ -1,10 +1,14 @@
 ---
 layout: page
 title: Hadoop Multi Node Installation on Centos 6.X (Non-Secure Mode)
+description: Hadoop Multi Node Installation on Centos 6.X (Non-Secure Mode)
+keywords: Hadoop Multi Node Installation on Centos 6.X (Non-Secure Mode)
 permalink: /docs/hadoop/centos/6/installation/multi-node-installation-on-centos-6-non-sucure-mode/
 ---
 
 # Hadoop Multi Node Installation on Centos 6.X (Non-Secure Mode)
+
+<br/>
 
 > Java should be installed  
 > <a href="/devtools/jdk/setup/linux/">here</a>

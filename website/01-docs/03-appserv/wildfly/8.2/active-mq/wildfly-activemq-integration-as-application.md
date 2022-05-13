@@ -8,6 +8,8 @@ permalink: /docs/appserv/wildfly/8.2/active-mq/wildfly-activemq-integration-as-a
 
 # WildFly Integration with apache activemq
 
+<br/>
+
     $ cd /tmp/
     $ wget http://repo1.maven.org/maven2/org/apache/activemq/activemq-rar/5.11.1/activemq-rar-5.11.1.rar
     $ unzip activemq-rar-5.11.1.rar -d /opt/wildfly/8.2.0/standalone/deployments/activemq-rar-5.11.1.rar

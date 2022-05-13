@@ -1,12 +1,14 @@
 ---
 layout: page
-title: Installation kafka in linux
-description: Installation kafka in linux
+title: Setup Kafka in linux
+description: Setup Kafka in linux
 keywords: kafka, installation, linux, vagrant, ansible
 permalink: /messaging/kafka/setup/linux/
 ---
 
-# Installation kafka in linux
+# Setup Kafka in linux
+
+<br/>
 
 **3 virtual machines with 2 CPU and 4 GB memory**
 

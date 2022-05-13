@@ -1,6 +1,8 @@
 ---
 layout: page
-title: Jenkins Installation in Centos 6.6
+title: Jenkins Installation
+description: Jenkins Installation
+keywords: Jenkins Installation
 permalink: /devtools/cicd/jenkins/
 ---
 

@@ -8,6 +8,8 @@ permalink: /bigdata/hadoop/setup/cloudera/env/
 
 # Environment for installation Cloudera
 
+<br/>
+
 Working on doc:  
 18.03.2020
 

@@ -38,5 +38,5 @@ permalink: /bigdata/
 
 <ul>
     <li><strong><a href="/messaging/kafka/docker/">Run kafka in docker container</a></strong></li>
-    <li><strong><a href="/messaging/kafka/setup/linux/">Install in linux</a></strong></li>
+    <li><strong><a href="/messaging/kafka/setup/linux/">Setup Kafka in linux</a></strong></li>
 </ul>

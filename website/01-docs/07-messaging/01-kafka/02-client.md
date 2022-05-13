@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Run kafka in docker container
+title: Client installation
 description: Run kafka in docker container
 keywords: kafka, client
 permalink: /messaging/kafka/client/

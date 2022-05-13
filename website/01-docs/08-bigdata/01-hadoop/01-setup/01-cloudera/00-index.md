@@ -8,6 +8,8 @@ permalink: /bigdata/hadoop/setup/cloudera/
 
 # Apache Hadoop installation with Cloudera
 
+<br/>
+
 <a href="/bigdata/hadoop/setup/cloudera/env/">Environment for installation Cloudera</a>
 
 <a href="/bigdata/hadoop/setup/cloudera/cm7/">Cloudera 7</a>

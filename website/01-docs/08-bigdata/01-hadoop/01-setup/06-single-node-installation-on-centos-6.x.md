@@ -1,10 +1,12 @@
 ---
 layout: page
-title: Hadoop Single Node Installation on Centos 6.X
+title: Hadoop Single Node Installation in Centos 6.X
+description: Hadoop Single Node Installation in Centos 6.X
+keywords: Hadoop Single Node Installation in Centos 6.X
 permalink: /docs/hadoop/centos/6/installation/single-node-installation-on-centos-6/
 ---
 
-# Hadoop Single Node Installation on Centos 6.X
+# Hadoop Single Node Installation in Centos 6.X
 
 We have virtual machine with Centos IP 192.168.1.11
 

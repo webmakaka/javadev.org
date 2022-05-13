@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Eclipse Helios and Jboss6
+description: Eclipse Helios and Jboss6
+keywords: Eclipse Helios and Jboss6
 permalink: /examples/eclipse_helios_and_jboss6/
 ---
 

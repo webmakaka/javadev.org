@@ -1,11 +1,14 @@
 ---
 layout: page
 title: Installing Apache Hadoop by book Tom White
+description: Installing Apache Hadoop by book Tom White
+keywords: Installing Apache Hadoop by book Tom White
 permalink: /docs/hadoop/centos/6/installation/by-book/
 ---
 
 # Installing Apache Hadoop by book Tom White
 
+<br/>
 
 Hadoop can be run in one of three modes:
 
@@ -18,21 +21,18 @@ Hadoop can be run in one of three modes:
     <li><strong>Fully distributed mode</strong> - The Hadoop daemons run on a cluster of machines.</li>
 </ul>
 
-
 To run Hadoop in a particular mode, you need to do two things: set the appropriate
 properties, and start the Hadoop daemons. Table A-1 shows the minimal set of prop‐
 erties to configure each mode. In standalone mode, the local filesystem and the local
 MapReduce job runner are used. In the distributed modes, the HDFS and YARN daemons are started, and MapReduce is configured to use YARN.
 
-
-|  Component | Property  |  Standalone | Pseudodistributed  | Fully distributed  |
-|---|---|---|---|---|
-| Common  | fs.defaultFS  | file:/// (default)  | hdfs://localhost/  | hdfs://namenode/  |
-|  HDFS | dfs.replication  | N/A  | 1  | 3 (default)  |
-|  MapReduce | mapreduce.frame work.name  | local (default)  | yarn  | yarn |
-|  YARN | yarn.resourcemanager.hostname  |  N/A | localhost  | resourcemanager  |
-|   | yarn.nodemanager.aux-services |  N/A | mapreduce_shuffle | mapreduce_shuffle  |
-
+| Component | Property                      | Standalone         | Pseudodistributed | Fully distributed |
+| --------- | ----------------------------- | ------------------ | ----------------- | ----------------- |
+| Common    | fs.defaultFS                  | file:/// (default) | hdfs://localhost/ | hdfs://namenode/  |
+| HDFS      | dfs.replication               | N/A                | 1                 | 3 (default)       |
+| MapReduce | mapreduce.frame work.name     | local (default)    | yarn              | yarn              |
+| YARN      | yarn.resourcemanager.hostname | N/A                | localhost         | resourcemanager   |
+|           | yarn.nodemanager.aux-services | N/A                | mapreduce_shuffle | mapreduce_shuffle |
 
 <br/>
 
@@ -46,12 +46,11 @@ In standalone mode, there is no further action to take, since the default proper
 
 In pseudodistributed mode, the configuration files should be created with the following
 contents and placed in the etc/hadoop directory. Alternatively, you can copy the etc/
-hadoop directory to another location, and then place the *-site.xml configuration files
+hadoop directory to another location, and then place the \*-site.xml configuration files
 there. The advantage of this approach is that it separates configuration settings from
 the installation files. If you do this, you need to set the HADOOP_CONF_DIR environment
 variable to the alternative location, or make sure you start the daemons with the
 --config option:
-
 
     <?xml version="1.0"?>
     <!-- core-site.xml -->
@@ -99,12 +98,9 @@ variable to the alternative location, or make sure you start the daemons with th
         </property>
     </configuration>
 
-
-
 <br/>
 
 ### Configuring SSH
-
 
 In pseudodistributed mode, we have to start daemons, and to do that using the supplied scripts we need to have SSH installed. Hadoop doesn’t actually distinguish between pseudodistributed and fully distributed modes; it merely starts daemons on the set of
 hosts in the cluster (defined by the slaves file) by SSHing to each host and starting a daemon process. Pseudodistributed mode is just a special case of fully distributed mode in which the (single) host is localhost, so we need to make sure that we can SSH to localhost and log in without having to enter a password.
@@ -142,13 +138,11 @@ To start the HDFS, YARN, and MapReduce daemons, type:
     % start-yarn.sh
     % mr-jobhistory-daemon.sh start historyserver
 
-
 If you have placed configuration files outside the default conf directory, either export the HADOOP_CONF_DIR environment variable before running the scripts, or start the daemons with the --config option, which takes an absolute path to the configuration directory:
 
     % start-dfs.sh --config path-to-config-directory
     % start-yarn.sh --config path-to-config-directory
     % mr-jobhistory-daemon.sh --config path-to-config-directory start historyserver
-
 
 The following daemons will be started on your local machine: a namenode, a secondary
 namenode, a datanode (HDFS), a resource manager, a node manager (YARN), and a
@@ -175,6 +169,5 @@ Create a home directory for yourself by running the following:
 ## Fully Distributed Mode
 
 Setting up a cluster of machines brings many additional considerations, so this mode is covered in Chapter 10.
-
 
 > Tom White - Hadoop: The Definitive Guide, 4th Edition [ENG, 2015]

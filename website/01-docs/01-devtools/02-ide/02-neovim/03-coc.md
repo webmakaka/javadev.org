@@ -1,7 +1,7 @@
 ---
 layout: page
-title: NeoVim for Java Development
-description: NeoVim for Java Development
+title: NeoVim for Java Development (COC)
+description: NeoVim for Java Development (COC)
 keywords: java, devtools, neovim, coc, spring
 permalink: /devtools/ide/neovim/coc/
 ---

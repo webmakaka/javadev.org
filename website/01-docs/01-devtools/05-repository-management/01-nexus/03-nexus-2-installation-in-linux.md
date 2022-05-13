@@ -8,6 +8,8 @@ permalink: /devtools/repository-management/nexus/2/installation-in-linux/
 
 # Nexus 2.X Installation in linux (Deprecated)
 
+<br/>
+
     # cd /tmp/
     # wget http://www.sonatype.org/downloads/nexus-latest-bundle.tar.gz
 
@@ -32,12 +34,14 @@ permalink: /devtools/repository-management/nexus/2/installation-in-linux/
 
 <br/>
 
-    #### NEXUS 2.13.0 #########################
+```
+#### NEXUS 2.13.0 #########################
 
-        export NEXUS_HOME=/opt/nexus/current
-        export PATH=$PATH:$NEXUS_HOME/bin
+export NEXUS_HOME=/opt/nexus/current
+export PATH=$PATH:$NEXUS_HOME/bin
 
-    #### NEXUS 2.13.0 #########################
+#### NEXUS 2.13.0 #########################
+```
 
 <br/>
 
@@ -138,7 +142,7 @@ My config. I will update it later (i hope).
 
 <br/>
 
-```
+```xml
 <settings>
     <profiles>
         <profile>

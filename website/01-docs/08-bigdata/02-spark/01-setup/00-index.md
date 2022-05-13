@@ -8,6 +8,8 @@ permalink: /bigdata/spark/setup/linux/
 
 # Apache Spark2 installation in Linux
 
+<br/>
+
     $ cd ${HOME}
     $ wget https://archive.apache.org/dist/spark/spark-2.4.3/spark-2.4.3-bin-hadoop2.7.tgz
 
@@ -56,7 +58,6 @@ export PATH=${SPARK_HOME}/bin:$PATH
     _\ \/ _ \/ _ `/ __/  '_/
    /___/ .__/\_,_/_/ /_/\_\   version 2.4.3
       /_/
-
 ```
 
 <br/>

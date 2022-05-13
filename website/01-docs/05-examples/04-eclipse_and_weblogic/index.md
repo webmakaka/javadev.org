@@ -1,10 +1,14 @@
 ---
 layout: page
 title: Eclipse Helios and Oracle Weblogic
+description: Eclipse Helios and Oracle Weblogic
+keywords: Eclipse Helios and Oracle Weblogic
 permalink: /examples/eclipse_helios_and_weblogic/
 ---
 
-<strong>Eclipse Helios and Oracle Weblogic:</strong>
+# Eclipse Helios and Oracle Weblogic
+
+<br/>
 
 <strong>Installation Oracle Weblogic for development java web applications:</strong>
 

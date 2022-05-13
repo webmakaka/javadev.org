@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Simple java project with jsf and facelets
+description: Simple java project with jsf and facelets
+keywords: Simple java project with jsf and facelets
 permalink: /examples/simple_java_project_with_jsf_and_facelets/
 ---
 
-
 <strong>Simple java project with jsf and facelets:</strong>
-
 
 <br/><br/>
 
@@ -28,8 +28,6 @@ permalink: /examples/simple_java_project_with_jsf_and_facelets/
 <img src="http://prev.javadev.ru/pictures/simple_java_project_with_jsf_and_facelets/simple_java_project_with_jsf_and_facelets_15.png" border="0" alt="Создание очень простого приложения с помощью Elipse Helios и Jboss 6 в Windows"><br/><br/>
 <img src="http://prev.javadev.ru/pictures/simple_java_project_with_jsf_and_facelets/simple_java_project_with_jsf_and_facelets_16.png" border="0" alt="Создание очень простого приложения с помощью Elipse Helios и Jboss 6 в Windows"><br/><br/>
 <img src="http://prev.javadev.ru/pictures/simple_java_project_with_jsf_and_facelets/simple_java_project_with_jsf_and_facelets_17.png" border="0" alt="Создание очень простого приложения с помощью Elipse Helios и Jboss 6 в Windows"><br/><br/>
-
-
 
 <br/>
 <br/>
@@ -63,7 +61,7 @@ index.xhtml
          SQL (Structured Query Language) – язык запросов, с помощью которых можно создавать, считывать, изменять и удалять данные в базах данных.
     		<br/><br/>PL/SQL (Procedure Language) – расширяет стандартный SQL и добавляет возможность работать с переменными, константами, процедурами, функциями, модулями, условными операторами, циклами, обрабатывать исключени и т.д. Язык PL/SQL разработан корпорацией Oracle для своих баз данных. Приложения, написанные на этом языке хранятся и выполняются внутри базы данных.
 
-       </p>  
+       </p>
     <br/>
      <p>
          Начиная с версии Oracle 8i, для реализации логики в базе данных, можно использовать язык Java.
@@ -144,7 +142,6 @@ index.xhtml
 
     </html>
 
-
 <br/><br/>
 
 default.css
@@ -170,7 +167,6 @@ default.css
     a:active {
     	color : #336699;
     }
-
 
 <br/><br/>
 
@@ -254,7 +250,6 @@ defaultTemplate.xhtml
 
     </html>
 
-
 <br/><br/>
 
 web.xml
@@ -284,7 +279,6 @@ web.xml
       </servlet-mapping>
     </web-app>
 
-
 <br/>
 <br/>
 
@@ -292,8 +286,6 @@ web.xml
 
 <br/>
 <br/>
-
-
 
 <img src="http://prev.javadev.ru/pictures/simple_java_project_with_jsf_and_facelets/simple_java_project_with_jsf_and_facelets_18.png" border="0" alt="Создание очень простого приложения с помощью Elipse Helios и Jboss 6 в Windows"><br/><br/>
 <img src="http://prev.javadev.ru/pictures/simple_java_project_with_jsf_and_facelets/simple_java_project_with_jsf_and_facelets_19.png" border="0" alt="Создание очень простого приложения с помощью Elipse Helios и Jboss 6 в Windows"><br/><br/>

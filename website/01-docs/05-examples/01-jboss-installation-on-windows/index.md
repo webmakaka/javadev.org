@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Jboss6 Installation in Windows
-permalink: /examples/jboss-installation-on-windows/
+description: Jboss6 Installation in Windows
+keywords: Jboss6 Installation in Windows
+permalink: /examples/jboss-installation-in-windows/
 ---
 
 # Jboss6 Installation in Windows:
