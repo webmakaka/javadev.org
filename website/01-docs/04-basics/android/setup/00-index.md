@@ -1,10 +1,14 @@
 ---
 layout: page
 title: Prepare Ubuntu Linux Environment for Development Android Apps with Android Studio
-permalink: /java_basics/android/installation/
+description: Prepare Ubuntu Linux Environment for Development Android Apps with Android Studio
+keywords: Prepare Ubuntu Linux Environment for Development Android Apps with Android Studio
+permalink: /javabasics/android/setup/
 ---
 
-# Enabling hardware acceleration for Android SDK emulator in linux
+# Enable hardware acceleration for Android SDK emulator in linux
+
+<br/>
 
 I'm really don't know Hardware Acceleration works or not.
 

@@ -45,7 +45,7 @@ permalink: /sitemap/
 ### Android
 
 <ul>
-    <li><strong><a href="/java_basics/android/installation/">Prepare Ubuntu Linux Environment for Development Android Apps with Android Studio</a></strong></li>
+    <li><strong><a href="/javabasics/android/setup/">Prepare Ubuntu Linux Environment for Development Android Apps with Android Studio</a></strong></li>
 </ul>
 
 <br/>

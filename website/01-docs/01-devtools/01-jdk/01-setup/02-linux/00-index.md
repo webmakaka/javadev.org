@@ -8,16 +8,6 @@ permalink: /devtools/jdk/setup/linux/
 
 # JDK installation in linux (Ubuntu, Centos)
 
-To download jdk for now, you need:
-
-1. go to java.sun.com (browser will redirect you to right path).
-2. create account if you do not have
-3. download latest JDK8 version
-
-https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
-
-4. copy jdk archive into ${HOME} directory.
-
 <br/>
 
 ## Install packages for installation
@@ -124,6 +114,20 @@ java version "17.0.2" 2022-01-18 LTS
 ## Installation JDK8 in linux
 
 https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
+
+<br/>
+
+To download jdk for now, you need:
+
+<br/>
+
+1. go to java.sun.com (browser will redirect you to right path).
+2. create account if you do not have
+3. download latest JDK8 version
+
+https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
+
+4. copy jdk archive into ${HOME} directory.
 
 <br/>
 

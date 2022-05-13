@@ -8,6 +8,8 @@ permalink: /about/
 
 # About
 
+<br/>
+
 We are software developers. And we are trying to find interesting topics about java development.
 
 If you want to share your experience with us, next technologies would be helpful:

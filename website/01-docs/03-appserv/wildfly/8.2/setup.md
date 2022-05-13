@@ -8,7 +8,9 @@ permalink: /docs/appserv/wildfly/8.2/setup/
 
 # Wildfly 8.2 Installation on Centos 6.6 x86_64
 
-Distributives:
+<br/>
+
+**Distributives:**
 
 -   Centos - 6.6 (http://centos.org/modules/tinycontent/index.php?id=15)
 -   WildFly - 8.2 (http://wildfly.org/downloads/)
