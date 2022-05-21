@@ -16,6 +16,22 @@ Thanks!
 
 <br/>
 
+### [Book] [Magnus Larsson] Microservices with Spring Boot and Spring Cloud [ENG, 2021]
+
+<br/>
+
+Very interesting for me book!
+
+<br/>
+
+![Microservices with Spring Boot and Spring Cloud](/img/Microservices-with-Spring-Boot-and-Spring-Cloud.png 'Microservices with Spring Boot and Spring Cloud'){: .center-image }
+
+<br/>
+
+[GitHub](https://github.com/webmakaka/Microservices-with-Spring-Boot-and-Spring-Cloud)
+
+<br/>
+
 ### [Book] [Juha Hinkula] Full Stack Development with Spring Boot and React: Build modern and scalable full stack applications using the power of Spring Boot and React, 3rd Edition [ENG, 2022]
 
 <br/>
@@ -25,18 +41,6 @@ Thanks!
 <br/>
 
 [GitHub](https://github.com/webmakaka/Full-Stack-Development-with-Spring-Boot-and-React)
-
-<br/>
-
-### [Book] [Juha Hinkula] Microservices with Spring Boot and Spring Cloud [ENG, 2021]
-
-<br/>
-
-![Microservices with Spring Boot and Spring Cloud](/img/Microservices-with-Spring-Boot-and-Spring-Cloud.png 'Microservices with Spring Boot and Spring Cloud'){: .center-image }
-
-<br/>
-
-[GitHub](https://github.com/webmakaka/Microservices-with-Spring-Boot-and-Spring-Cloud)
 
 <br/>
 
