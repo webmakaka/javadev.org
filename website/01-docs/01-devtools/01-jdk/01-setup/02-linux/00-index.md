@@ -83,12 +83,12 @@ $ sudo vi /etc/profile.d/java17.sh
 <br/>
 
 ```
-#### JDK #######################
+#### JDK 1.17 #######################
 
 export JAVA_HOME=/opt/jdk
 export PATH=${JAVA_HOME}/bin:$PATH
 
-#### JDK #######################
+#### JDK 1.17 #######################
 ```
 
 <br/>
@@ -106,7 +106,7 @@ Let try to check result:
 
 ```
 $ java -version
-java version "17.0.2" 2022-01-18 LTS
+java version "17.0.3.1" 2022-04-22 LTS
 ```
 
 <br/>
