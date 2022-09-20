@@ -121,7 +121,7 @@ To download jdk for now, you need:
 
 <br/>
 
-1. go to java.sun.com (browser will redirect you to right path).
+1. go to link above.
 2. create account if you do not have
 3. download latest JDK8 version
 

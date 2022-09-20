@@ -11,6 +11,7 @@ permalink: /messaging/kafka/working-with-kafka/
 <br/>
 
 ```
+// CREATE TOPIC
 $ kafka-topics.sh \
     --zookeeper localhost:2181 \
     --create \
@@ -22,6 +23,7 @@ $ kafka-topics.sh \
 <br/>
     
 ```
+// DESCRIBE TOPIC
 $ kafka-topics.sh \
     --zookeeper localhost:2181 \
     --topic test \
@@ -31,6 +33,7 @@ $ kafka-topics.sh \
 <br/>
 
 ```
+// LIST TOPICS
 $ kafka-topics.sh \
     --zookeeper localhost:2181 \
     --list
@@ -74,6 +77,10 @@ $ kafka-console-consumer.sh \
 
 <br/>
 
+### Send a message in a json format
+
+<br/>
+
 ```
 $ vi message.json
 ```
@@ -102,10 +109,6 @@ $ kafka-console-producer.sh --broker-list localhost:9092 --topic test < ./messag
 ```
 // https://stackoverflow.com/questions/69753326/how-can-i-send-key-value-to-kafka-with-kafkaconsoleproducer-without-it-beind-e
 $ kafka-console-producer.sh --broker-list localhost:9092 --topic test --property "parse.key=true" --property "key.separator=;" < ./message.json
-```
-
-```
-$ ./kafka-console-producer.sh --broker-list localhost:9092 --topic test < ./message.json
 ```
 
 <br/>

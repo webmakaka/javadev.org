@@ -21,3 +21,45 @@ permalink: /messaging/kafka/
 [Kafka Streams](/messaging/kafka/kafka-streams/)
 
 [Kafka Spring Boot Example](https://github.com/webmak1/Kafka-Tutorial)
+
+[[YouTube] Production Grade Kafka on K8s by Anand Iyer](https://www.youtube.com/watch?v=TDpOM7SNF1k)
+
+<br/>
+
+### Send message in topic from python script
+
+<br/>
+
+```python
+import json
+import uuid
+
+from kafka import KafkaProducer
+
+BOOTSTRAP_SERVERS = ['kafkahost:9092']
+TOPIC = "topic-name"
+
+
+def main():
+    msg = {
+        "key1": "valu1",
+        "key2": "valu2",
+        "key3": "valu3"
+    }
+
+    headers = [
+        ("dqMessageGuid", bytes(str(uuid.uuid4()), "utf-8")),
+        ("dqCommandName", bytes("create", "utf-8"))
+    ]
+
+    producer = KafkaProducer(bootstrap_servers=BOOTSTRAP_SERVERS)
+    producer.send(
+        TOPIC,
+        bytes(json.dumps(msg), "utf-8"),
+        headers=headers
+    )
+
+
+if __name__ == "__main__":
+    main()
+```
