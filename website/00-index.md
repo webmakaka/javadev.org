@@ -14,74 +14,16 @@ If you study or work as java developer and agree to share interesting materials 
 
 Thanks!
 
-<br/>
-
-### [Java Brains] Reactive programming with Java [ENG, 2022]
 
 <br/>
 
-<div align="center">
-    <iframe width="853" height="480" src="https://www.youtube.com/embed/EExlnnq5Grs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-https://github.com/koushikkothagal/reactive-java-workshop
+### [YouTube][JAmigoscode] Spring Boot 3 [ENG, 2022, 2023]
 
 <br/>
 
-### [Book] [Magnus Larsson] Microservices with Spring Boot and Spring Cloud [ENG, 2021]
+* [Spring Boot 3 + Spring Security 6 - JWT Authentication and Authorisation](https://www.youtube.com/watch?v=KxqlJblhzfI)
+* [Spring Boot - Learn Spring Boot 3](https://www.youtube.com/watch?v=-mwpoE0x0JQ)
 
-<br/>
-
-Very interesting book (for me)!
-
-<br/>
-
-![Microservices with Spring Boot and Spring Cloud](/img/Microservices-with-Spring-Boot-and-Spring-Cloud.png 'Microservices with Spring Boot and Spring Cloud'){: .center-image }
-
-<br/>
-
-[GitHub](https://github.com/webmakaka/Microservices-with-Spring-Boot-and-Spring-Cloud)
-
-<br/>
-
-### [Book] [Juha Hinkula] Full Stack Development with Spring Boot and React: Build modern and scalable full stack applications using the power of Spring Boot and React, 3rd Edition [ENG, 2022]
-
-<br/>
-
-![Full Stack Development with Spring Boot and React](/img/Full-Stack-Development-with-Spring-Boot.png 'Full Stack Development with Spring Boot and React'){: .center-image }
-
-<br/>
-
-[GitHub](https://github.com/webmakaka/Full-Stack-Development-with-Spring-Boot-and-React)
-
-<br/>
-
-### [Code Examples] Spring Microservices
-
-https://github.com/sqshq/PiggyMetrics
-
-<br/>
-
-### [Jetbrains] Idea
-
-<br/>
-
-![Jetbrains IDE Theme](/img/Jetbrains-IDE-Theme.png 'Jetbrains IDE Theme'){: .center-image }
-
-<br/>
-
-**IDE Theme**  
-https://github.com/Hiberbee/jetbrains-ide-theme
-
-<br/>
-
-**CheckStyle Plugin**  
-https://github.com/google/styleguide
-
-<br/>
-
-**Sonarlint**  
-https://www.sonarlint.org/intellij
 
 <br/>
 
@@ -161,6 +103,78 @@ This is the last part from paid course [Amigoscode, Nelson] Microservices and Di
 <br/>
 
 [Course Description, Source Codes, etc.](https://github.com/webmakaka/Microservices-and-Distributed-Systems)
+
+
+<br/>
+
+### [Java Brains] Reactive programming with Java [ENG, 2022]
+
+<br/>
+
+<div align="center">
+    <iframe width="853" height="480" src="https://www.youtube.com/embed/EExlnnq5Grs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+https://github.com/koushikkothagal/reactive-java-workshop
+
+<br/>
+
+### [Book] [Magnus Larsson] Microservices with Spring Boot and Spring Cloud [ENG, 2021]
+
+<br/>
+
+Very interesting book (for me)!
+
+<br/>
+
+![Microservices with Spring Boot and Spring Cloud](/img/Microservices-with-Spring-Boot-and-Spring-Cloud.png 'Microservices with Spring Boot and Spring Cloud'){: .center-image }
+
+<br/>
+
+[GitHub](https://github.com/webmakaka/Microservices-with-Spring-Boot-and-Spring-Cloud)
+
+<br/>
+
+### [Book] [Juha Hinkula] Full Stack Development with Spring Boot and React: Build modern and scalable full stack applications using the power of Spring Boot and React, 3rd Edition [ENG, 2022]
+
+<br/>
+
+![Full Stack Development with Spring Boot and React](/img/Full-Stack-Development-with-Spring-Boot.png 'Full Stack Development with Spring Boot and React'){: .center-image }
+
+<br/>
+
+[GitHub](https://github.com/webmakaka/Full-Stack-Development-with-Spring-Boot-and-React)
+
+<br/>
+
+### [Code Examples] Spring Microservices
+
+https://github.com/sqshq/PiggyMetrics
+
+<br/>
+
+### [Jetbrains] Idea
+
+<br/>
+
+![Jetbrains IDE Theme](/img/Jetbrains-IDE-Theme.png 'Jetbrains IDE Theme'){: .center-image }
+
+<br/>
+
+**IDE Theme**  
+https://github.com/Hiberbee/jetbrains-ide-theme
+
+<br/>
+
+**CheckStyle Plugin**  
+https://github.com/google/styleguide
+
+<br/>
+
+**Sonarlint**  
+https://www.sonarlint.org/intellij
+
+
 
 <br/>
 
