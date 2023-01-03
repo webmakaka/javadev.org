@@ -17,7 +17,7 @@ Thanks!
 
 <br/>
 
-### [YouTube][JAmigoscode] Spring Boot 3 [ENG, 2022, 2023]
+### [YouTube][Amigoscode, Nelson] Spring Boot 3 [ENG, 2022, 2023]
 
 <br/>
 
@@ -27,7 +27,7 @@ Thanks!
 
 <br/>
 
-### [Amigoscode, Nelson] Learn SOLID Principles with CLEAN CODE Examples [ENG, 2022]
+### [YouTube][Amigoscode, Nelson] Learn SOLID Principles with CLEAN CODE Examples [ENG, 2022]
 
 <br/>
 
@@ -37,7 +37,7 @@ Thanks!
 
 <br/>
 
-### [Amigoscode, Nelson] Spring Boot Roadmap - How To Master Spring Boot [ENG, 2021]
+### [YouTube][Amigoscode, Nelson] Spring Boot Roadmap - How To Master Spring Boot [ENG, 2021]
 
 <br/>
 
@@ -47,7 +47,7 @@ Thanks!
 
 <br/>
 
-### [Amigoscode, Nelson] Spring Security | FULL COURSE [ENG, 2019]
+### [YouTube][Amigoscode, Nelson] Spring Security | FULL COURSE [ENG, 2019]
 
 <br/>
 
@@ -61,12 +61,12 @@ Thanks!
 
 <br/>
 
-**Spring Boot and Spring Security with JWT including Access and Refresh Tokens**  
+**[YouTube][Amigoscode, Nelson] Spring Boot and Spring Security with JWT including Access and Refresh Tokens**  
 https://www.youtube.com/watch?v=VVn9OG9nfH0
 
 <br/>
 
-### [Amigoscode, Nelson] Kafka Tutorial - Spring Boot Microservices [ENG, 2022]
+### [YouTube][Amigoscode, Nelson] Kafka Tutorial - Spring Boot Microservices [ENG, 2022]
 
 <br/>
 
@@ -84,7 +84,7 @@ This is the last part from paid course [Amigoscode, Nelson] Microservices and Di
 
 <br/>
 
-### [Amigoscode, Nelson] Microservices and Distributed Systems [ENG, 2022]
+### [YouTube][Amigoscode, Nelson] Microservices and Distributed Systems [ENG, 2022]
 
 <br/>
 
@@ -107,7 +107,7 @@ This is the last part from paid course [Amigoscode, Nelson] Microservices and Di
 
 <br/>
 
-### [Java Brains] Reactive programming with Java [ENG, 2022]
+### [YouTube][Java Brains] Reactive programming with Java [ENG, 2022]
 
 <br/>
 
