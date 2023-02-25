@@ -14,20 +14,18 @@ If you study or work as java developer and agree to share interesting materials 
 
 Thanks!
 
+<br/>
+
+### [YouTube][amigoscode, nelson] Spring Boot 3 [ENG, 2022, 2023]
 
 <br/>
 
-### [YouTube][Amigoscode, Nelson] Spring Boot 3 [ENG, 2022, 2023]
+-   [Spring Boot 3 + Spring Security 6 - JWT Authentication and Authorisation](https://www.youtube.com/watch?v=KxqlJblhzfI)
+-   [Spring Boot - Learn Spring Boot 3](https://www.youtube.com/watch?v=-mwpoE0x0JQ)
 
 <br/>
 
-* [Spring Boot 3 + Spring Security 6 - JWT Authentication and Authorisation](https://www.youtube.com/watch?v=KxqlJblhzfI)
-* [Spring Boot - Learn Spring Boot 3](https://www.youtube.com/watch?v=-mwpoE0x0JQ)
-
-
-<br/>
-
-### [YouTube][Amigoscode, Nelson] Learn SOLID Principles with CLEAN CODE Examples [ENG, 2022]
+### [YouTube][amigoscode, nelson] Learn SOLID Principles with CLEAN CODE Examples [ENG, 2022]
 
 <br/>
 
@@ -37,7 +35,7 @@ Thanks!
 
 <br/>
 
-### [YouTube][Amigoscode, Nelson] Spring Boot Roadmap - How To Master Spring Boot [ENG, 2021]
+### [YouTube][amigoscode, nelson] Spring Boot Roadmap - How To Master Spring Boot [ENG, 2021]
 
 <br/>
 
@@ -47,7 +45,7 @@ Thanks!
 
 <br/>
 
-### [YouTube][Amigoscode, Nelson] Spring Security | FULL COURSE [ENG, 2019]
+### [YouTube][amigoscode, nelson] Spring Security | FULL COURSE [ENG, 2019]
 
 <br/>
 
@@ -57,16 +55,16 @@ Thanks!
 
 <br/>
 
-[GitHub](https://github.com/webmak1/spring-boot-security-course)
+[GitHub](https://github.com/wildmakaka/spring-boot-security-course)
 
 <br/>
 
-**[YouTube][Amigoscode, Nelson] Spring Boot and Spring Security with JWT including Access and Refresh Tokens**  
+**[YouTube][amigoscode, nelson] Spring Boot and Spring Security with JWT including Access and Refresh Tokens**  
 https://www.youtube.com/watch?v=VVn9OG9nfH0
 
 <br/>
 
-### [YouTube][Amigoscode, Nelson] Kafka Tutorial - Spring Boot Microservices [ENG, 2022]
+### [YouTube][amigoscode, nelson] Kafka Tutorial - Spring Boot Microservices [ENG, 2022]
 
 <br/>
 
@@ -76,7 +74,7 @@ https://www.youtube.com/watch?v=VVn9OG9nfH0
 
 <br/>
 
-[GitHub](https://github.com/webmak1/Kafka-Tutorial)
+[GitHub](https://github.com/wildmakaka/Kafka-Tutorial)
 
 <br/>
 
@@ -84,7 +82,7 @@ This is the last part from paid course [Amigoscode, Nelson] Microservices and Di
 
 <br/>
 
-### [YouTube][Amigoscode, Nelson] Microservices and Distributed Systems [ENG, 2022]
+### [YouTube][amigoscode, nelson] Microservices and Distributed Systems [ENG, 2022]
 
 <br/>
 
@@ -104,10 +102,9 @@ This is the last part from paid course [Amigoscode, Nelson] Microservices and Di
 
 [Course Description, Source Codes, etc.](https://github.com/webmakaka/Microservices-and-Distributed-Systems)
 
-
 <br/>
 
-### [YouTube][Java Brains] Reactive programming with Java [ENG, 2022]
+### [YouTube][java brains] Reactive programming with Java [ENG, 2022]
 
 <br/>
 
@@ -174,8 +171,6 @@ https://github.com/google/styleguide
 **Sonarlint**  
 https://www.sonarlint.org/intellij
 
-
-
 <br/>
 
 ### [Karthikeya T] Microservices Masterclass with Spring Boot and Spring Cloud [ENG, 2020...2022]
@@ -230,7 +225,7 @@ Let study spring boot and update code from old, but interesting java project.
 
 <br/>
 
-**[Github](https://github.com/webmak1/Spring-Boot-Quick-Start)**
+**[Github](https://github.com/wildmakaka/Spring-Boot-Quick-Start)**
 
 <br/>
 
@@ -258,7 +253,7 @@ https://www.youtube.com/c/JavaBrainsChannel/playlists?view=50&sort=dd&shelf_id=4
 
 <br/>
 
-**[Github](https://github.com/webmak1/spring-boot-microservices-workshop)**
+**[Github](https://github.com/wildmakaka/spring-boot-microservices-workshop)**
 
 <br/>
 

@@ -10,7 +10,7 @@ permalink: /messaging/kafka/kafka-streams/
 
 ```
 $ cd ~/tmp
-$ git clone https://github.com/webmak1/kafka-streams
+$ git clone https://github.com/wildmakaka/kafka-streams
 $ cd kafka-streams/
 $ git checkout end-state
 ```

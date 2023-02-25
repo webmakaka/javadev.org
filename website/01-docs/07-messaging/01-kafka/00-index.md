@@ -20,7 +20,7 @@ permalink: /messaging/kafka/
 
 [Kafka Streams](/messaging/kafka/kafka-streams/)
 
-[Kafka Spring Boot Example](https://github.com/webmak1/Kafka-Tutorial)
+[Kafka Spring Boot Example](https://github.com/wildmakaka/Kafka-Tutorial)
 
 [[YouTube] Production Grade Kafka on K8s by Anand Iyer](https://www.youtube.com/watch?v=TDpOM7SNF1k)
 

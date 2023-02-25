@@ -106,7 +106,7 @@ http://192.168.56.3:8161/admin/
 
 Eclipse -> Project Explorer -> Right Click -> Import -> Import -> Git
 
-[Project source codes](https://github.com/webmak1/JBoss-AS-and-ActiveMQ)
+[Project source codes](https://github.com/wildmakaka/JBoss-AS-and-ActiveMQ)
 
 <br/>
 
@@ -248,7 +248,7 @@ https://www.youtube.com/watch?v=85Zw-Z_GDpQ
 
 <br/>
 
-[repo](https://github.com/webmak1/Integrate-ActiveMQ-with-JBoss-master)
+[repo](https://github.com/wildmakaka/Integrate-ActiveMQ-with-JBoss-master)
 
 <br/>
 

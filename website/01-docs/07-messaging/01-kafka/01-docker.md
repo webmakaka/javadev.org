@@ -18,7 +18,7 @@ permalink: /messaging/kafka/docker/
 $ cd ~/tmp
 
 // Docker script from video course Linux Academy Apache Kafka Deep Dive
-$ git clone https://github.com/webmak1/kafka-docker
+$ git clone https://github.com/wildmakaka/kafka-docker
 $ cd kafka-docker/
 ```
 

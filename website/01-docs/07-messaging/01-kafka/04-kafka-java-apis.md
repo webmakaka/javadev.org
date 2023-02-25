@@ -10,7 +10,7 @@ permalink: /messaging/kafka/kafka-java-apis/
 
 ```
 $ cd ~/tmp
-$ git clone https://github.com/webmak1/kafka-java-connect
+$ git clone https://github.com/wildmakaka/kafka-java-connect
 $ cd kafka-java-connect/
 ```
 
