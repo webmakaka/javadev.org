@@ -35,7 +35,7 @@ permalink: /devtools/jdk/setup/linux/
     tar \
     wget
 
-<br/>
+<!-- <br/>
 
 ## Installation JDK17 in linux
 
@@ -107,7 +107,7 @@ Let try to check result:
 ```
 $ java -version
 java version "17.0.3.1" 2022-04-22 LTS
-```
+``` -->
 
 <br/>
 
@@ -135,20 +135,26 @@ Latest for now is: 8u321
 
 <br/>
 
-    $ ls jdk*
-    jdk-8u321-linux-x64.tar.gz
+```
+$ ls jdk*
+jdk-8u321-linux-x64.tar.gz
 
-    $ tar -xvzpf jdk-8u321-linux-x64.tar.gz
-    $ sudo mv jdk1.8.0_321/ /opt/
-    $ sudo ln -s /opt/jdk1.8.0_321/ /opt/jdk
-
-<br/>
-
-    $ rm jdk-8u321-linux-x64.tar.gz
+$ tar -xvzpf jdk-8u321-linux-x64.tar.gz
+$ sudo mv jdk1.8.0_321/ /opt/
+$ sudo ln -s /opt/jdk1.8.0_321/ /opt/jdk
+```
 
 <br/>
 
-    $ sudo vi /etc/profile.d/java8.sh
+```
+$ rm jdk-8u321-linux-x64.tar.gz
+```
+
+<br/>
+
+```
+$ sudo vi /etc/profile.d/java8.sh
+```
 
 <br/>
 
@@ -185,19 +191,23 @@ java version "1.8.0_281"
 
 <br/>
 
-    $ sudo apt-get update
-    $ sudo apt-get install -yq openjdk-8-jdk
+```
+$ sudo apt-get update
+$ sudo apt-get install -yq openjdk-8-jdk
 
-    // get possible jdk locations
-    $ sudo update-alternatives --config java
+// get possible jdk locations
+$ sudo update-alternatives --config java
 
-    // specify jdk location
-    $ sudo update-alternatives --set java /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+// specify jdk location
+$ sudo update-alternatives --set java /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
 
-    $ java -version
+$ java -version
+```
 
 <br/>
 
 **also you can install maven from packages**
 
-    $ sudo apt-get install -yq maven
+```
+$ sudo apt-get install -yq maven
+```
