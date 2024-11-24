@@ -62,7 +62,11 @@ Escape character is '^]'.
 
 <br/>
 
+https://github.com/redpanda-data/console
+
+<br/>
+
 ```
-// RedPanda - Web UI clent for Kafka
+// RedPanda - Web UI client for Kafka
 $ docker run --network=host -p 8080:8080 -e KAFKA_BROKERS=localhost:9092 docker.redpanda.com/redpandadata/console:latest
 ```

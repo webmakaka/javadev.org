@@ -10,22 +10,26 @@ permalink: /messaging/kafka/client/
 
 [JDK should be installed](/devtools/jdk/setup/linux/)
 
-<!-- [Scala2 should be installed (I am not sure that this is needed)](/devtools/scala/setup/linux/) -->
+<br/>
+
+```
+$ cd ~/tmp
+$ wget https://archive.apache.org/dist/kafka/2.8.1/kafka_2.12-2.8.1.tgz
+$ tar -xvf kafka_2.12-2.8.1.tgz
+```
 
 <br/>
 
-    $ cd ~/tmp
-    $ wget https://archive.apache.org/dist/kafka/2.8.1/kafka_2.12-2.8.1.tgz
-    $ tar -xvf kafka_2.12-2.8.1.tgz
+```
+$ sudo mv kafka_2.12-2.8.1 /opt/
+$ sudo ln -s /opt/kafka_2.12-2.8.1/ /opt/kafka
+```
 
 <br/>
 
-    $ sudo mv kafka_2.12-2.8.1 /opt/
-    $ sudo ln -s /opt/kafka_2.12-2.8.1/ /opt/kafka
-
-<br/>
-
-    $ sudo vi /etc/profile.d/kafka.sh
+```
+$ sudo vi /etc/profile.d/kafka.sh
+```
 
 <br/>
 
