@@ -59,3 +59,10 @@ Trying 127.0.0.1...
 Connected to localhost.
 Escape character is '^]'.
 ```
+
+<br/>
+
+```
+// RedPanda - Web UI clent for Kafka
+$ docker run --network=host -p 8080:8080 -e KAFKA_BROKERS=localhost:9092 docker.redpanda.com/redpandadata/console:latest
+```
