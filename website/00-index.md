@@ -16,7 +16,7 @@ Thanks!
 
 <br/>
 
-### [YouTube][amigoscode, nelson] The Ultimate Spring Boot Roadmap for Java Developers [ENG, 2025]
+### [YouTube][AmigosCode, Nelson] The Ultimate Spring Boot Roadmap for Java Developers [ENG, 2025]
 
 <br/>
 
@@ -26,7 +26,7 @@ Thanks!
 
 <br/>
 
-### [YouTube][amigoscode, nelson] Spring Boot 3 [ENG, 2022, 2023]
+### [YouTube][AmigosCode, Nelson] Spring Boot 3 [ENG, 2022, 2023]
 
 <br/>
 
@@ -35,7 +35,7 @@ Thanks!
 
 <br/>
 
-### [YouTube][amigoscode, nelson] Learn SOLID Principles with CLEAN CODE Examples [ENG, 2022]
+### [YouTube][AmigosCode, Nelson] Learn SOLID Principles with CLEAN CODE Examples [ENG, 2022]
 
 <br/>
 
@@ -45,17 +45,7 @@ Thanks!
 
 <br/>
 
-### [YouTube][amigoscode, nelson] Spring Boot Roadmap - How To Master Spring Boot [ENG, 2021]
-
-<br/>
-
-<div align="center">
-    <iframe width="853" height="480" src="https://www.youtube.com/embed/cehTm_oSrqA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-<br/>
-
-### [YouTube][amigoscode, nelson] Spring Security | FULL COURSE [ENG, 2019]
+### [YouTube][AmigosCode, Nelson] Spring Security | FULL COURSE [ENG, 2019]
 
 <br/>
 
@@ -69,12 +59,12 @@ Thanks!
 
 <br/>
 
-**[YouTube][amigoscode, nelson] Spring Boot and Spring Security with JWT including Access and Refresh Tokens**  
+**[YouTube][AmigosCode, Nelson] Spring Boot and Spring Security with JWT including Access and Refresh Tokens**  
 https://www.youtube.com/watch?v=VVn9OG9nfH0
 
 <br/>
 
-### [YouTube][amigoscode, nelson] Kafka Tutorial - Spring Boot Microservices [ENG, 2022]
+### [YouTube][AmigosCode, Nelson] Kafka Tutorial - Spring Boot Microservices [ENG, 2022]
 
 <br/>
 
@@ -88,11 +78,11 @@ https://www.youtube.com/watch?v=VVn9OG9nfH0
 
 <br/>
 
-This is the last part from paid course [Amigoscode, Nelson] Microservices and Distributed Systems [ENG, 2022]
+This is the last part from paid course [AmigosCode, Nelson] Microservices and Distributed Systems [ENG, 2022]
 
 <br/>
 
-### [YouTube][amigoscode, nelson] Microservices and Distributed Systems [ENG, 2022]
+### [YouTube][AmigosCode, Nelson] Microservices and Distributed Systems [ENG, 2022]
 
 <br/>
 
@@ -301,7 +291,7 @@ https://www.youtube.com/c/JavaBrainsChannel/playlists?view=50&sort=dd&shelf_id=4
 
 <br/>
 
-### [YouTube][arun gupta] Developing Web Applications with WildFly 8
+### [YouTube][Arun Gupta] Developing Web Applications with WildFly 8
 
 <br/>
 
