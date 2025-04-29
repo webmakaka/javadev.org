@@ -69,4 +69,6 @@ https://github.com/redpanda-data/console
 ```
 // RedPanda - Web UI client for Kafka
 $ docker run --network=host -p 8080:8080 -e KAFKA_BROKERS=localhost:9092 docker.redpanda.com/redpandadata/console:latest
+
+http://localhost:8080
 ```
