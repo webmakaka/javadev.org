@@ -216,17 +216,19 @@ I am working in ubuntu linux
 
 <br/>
 
-    $ cd ~/tmp/
-    $ wget http://mirror.cogentco.com/pub/apache/kafka/2.2.0/kafka_2.12-2.2.0.tgz
+```
+$ cd ~/tmp/
+$ wget http://mirror.cogentco.com/pub/apache/kafka/3.7.2/kafka_2.12-3.7.2.tgz
 
 
-    $ ls kafka*
-    kafka_2.12-2.2.0.tgz
+$ ls kafka*
+kafka_2.12-3.7.2.tgz
 
-    $ tar -xvzpf kafka_2.12-2.2.0.tgz
-    $ sudo mv kafka_2.12-2.2.0 /opt/
+$ tar -xvzpf kafka_2.12-3.7.2.tgz kafka_2.12-3.7.2/
+$ sudo mv kafka_2.12-3.7.2 /opt/
 
-    $ sudo ln -s /opt/kafka_2.12-2.2.0/ /opt/kafka
+$ sudo ln -s /opt/kafka_2.12-3.7.2/ /opt/kafka
+```
 
 <br/>
 
